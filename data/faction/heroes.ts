@@ -5,7 +5,7 @@ export const heroes: Character[] = [
     id: "E1B80610-8599-44CA-88EF-859A5A4D7697",
     name: "Diāo Chán 貂蝉",
     faction: "heroes",
-    imageUrl: "/public/characters/qundiaochan.jpg",
+    imageUrl: "qundiaochan.jpg",
     abilities: [
       {
         name: "Seed of Animosity 离间 (lí jiān)",
