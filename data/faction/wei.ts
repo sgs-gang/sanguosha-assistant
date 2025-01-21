@@ -99,8 +99,26 @@ export const wei: Character[] = [
       name: "Sudden Strike 突击 (tū jī)",
       description: "In your drawing phase, you can choose to forgo drawing cards from the deck and, instead, draw 1 on-hand card from other players. Maximum 2 players (2 cards nett intake), minimum 1 player (1 card nett intake).",
       explanation: "Note that Zhang Liao cannot mix \"Sudden Raid\" with drawing from the deck (ie: he cannot draw one card from the deck and one card from a player). Also note that since this ability is effective in the drawing phase, this ability cannot be used if he falls victim to RATIONS DEPLETED 兵粮寸断."
- }
+  }
   ],
   description: "General of the Front 前将军 (qián jiāng jūn)"
+},
+{
+  id: "52537D8C-EFB2-460B-80C9-B1A83CA0635E",
+  name: "Zhēn Jī 甄姬",
+  faction: "wei",
+  imageUrl: "weizhenji.jpg",
+  abilities: [
+    {
+      name: "Impetus for War 倾国 (qīng guó)",
+      description: "Every one of your on-hand card that is a \"club\" or a \"spade\" suit can be used as DODGE 闪."
+    },
+    {
+      name: "Goddess Luo 洛神 (luò shén)",
+      description: "At the beginning of your turn, you can flip a judgement card. If the judgement card is a black-suited card (\"clubs\" or \"spades\"), you can keep the card as an on-hand card and can continue to flip over another judgement card. Once the judgement card is red-suited card, the ability ends and you cannot keep that red-suited card.",
+      explanation: "Important note: This ability takes precedence BEFORE the judgement of time-delay tool cards (such as LIGHTNING).\n\nIt is perfectly possible for Zhen Ji to amass over 10 cards in a row using this ability, provided it is a string of consecutive black-suited cards. It is also perfectly possible to amass none at all if the very first card is red-suited.\n\nNote that after the ability ends, Zhen Ji can still draw 2 more cards from the deck as per normal."
+    }
+  ],
+  description: "The ill-fated Beauty 薄幸的美人 (bō xìng dè měi rén)"
 }
 ]
