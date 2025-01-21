@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "activate-python": "source ./scripts/scraper/bin/activate"
+    "scrape": "ts-node scripts/scraper/main.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -57,6 +57,7 @@
     "sonner": "^1.7.1",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
     "vaul": "^0.9.6",
     "zod": "^3.24.1"
   },
