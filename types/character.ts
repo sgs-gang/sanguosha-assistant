@@ -6,12 +6,9 @@ export interface Character {
   abilities: {
     name: string;
     description: string;
+    explanation?: string;
     ruler?: true;
     enforced?: true;
   }[];
   description?: string;
-  explanation?: {
-    name?: string
-    description?: string
-  }[];
 }
