@@ -73,6 +73,20 @@ export const wei: Character[] = [
       }
     ],
     description: "One-eyed Demon 独眼的罗刹 (dú yǎn dè luó chà)"
+  },
+  {
+    id: "81ED479-E63D-4742-AE6B-DFA017508047",
+    name: "Xú Chǔ 许褚",
+    faction: "wei",
+    imageUrl: "weixuzhu.jpg",
+    abilities: [
+      {
+        name: "Bare-Chested 裸衣 (luǒ yī)",
+        description: "You can choose to draw 1 card less in your drawing phase. If you to do so, any ATTACK 杀 and DUEL 决斗 that you use in the action phase results in 1 additional unit of damage to your opponent.",
+        explanation: 'Note that if Xu Chu loses the DUEL, he only needs lose 1 unit. But if he wins, the victim loses 2 units.'
+      }
+    ],
+    description: "Insane Tiger 虎痴 (hǔ chī)"
   }
 ]
 ;
