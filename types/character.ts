@@ -10,5 +10,8 @@ export interface Character {
     enforced?: true;
   }[];
   description?: string;
-  explanation?: string;
+  explanation?: {
+    name?: string
+    description?: string
+  }[];
 }
