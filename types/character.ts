@@ -10,4 +10,5 @@ export interface Character {
     enforced?: true;
   }[];
   description?: string;
+  explanation?: string;
 }
