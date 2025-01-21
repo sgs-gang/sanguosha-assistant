@@ -15,7 +15,7 @@ interface CharacterCardWrapperProps {
 export default function CharacterCardWrapper({
   id,
 }: CharacterCardWrapperProps) {
-  const character = characters.find((c) => c.id === Number.parseInt(id));
+  const character = characters.find((c) => c.id === id);
   const { favorites, toggleFavorite } = useFavorites();
 
   if (!character) {
