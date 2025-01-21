@@ -6,5 +6,5 @@ export async function generateStaticParams() {
 }
 
 export default function CharacterPage({ params }: { params: { id: string } }) {
-  <CharacterCardWrapper id={params.id} />;
+  return <CharacterCardWrapper id={params.id} />
 }
