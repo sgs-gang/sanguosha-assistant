@@ -7,7 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/sanguosha-assistant",
+  basePath: "/",
   output: "export",
   eslint: {
     ignoreDuringBuilds: true,
