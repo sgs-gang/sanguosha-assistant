@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import CharacterGallery from "../components/character-gallery";
 
 export default function Home({
@@ -5,5 +6,9 @@ export default function Home({
 }: {
   searchParams: { faction?: string; favoritesOnly?: string };
 }) {
-  return <CharacterGallery />;
+  return (
+    <Suspense fallback={<p>Loading feed...</p>}>
+      <CharacterGallery />
+    </Suspense>
+  );
 }
