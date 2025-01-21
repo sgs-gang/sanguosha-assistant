@@ -1,6 +1,6 @@
 import { Character } from "@/types/character";
 
-export const shu: Character[] = [
+export const heroes: Character[] = [
   {
     id: "E1B80610-8599-44CA-88EF-859A5A4D7697",
     name: "Diāo Chán 貂蝉",
