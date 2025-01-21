@@ -2,12 +2,13 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrape": "ts-node scripts/scraper/main.ts"
+    "scrape": "ts-node --esm scripts/scraper/main.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
