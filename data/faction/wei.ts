@@ -31,7 +31,8 @@ export const wei: Character[] = [
     abilities: [
       {
         name: "Envy of Heaven 天妒 (tiān dù)",
-        description: "You can obtain any judgement card that you flip over. \n "
+        description: "You can obtain any judgement card that you flip over.",
+        explanation: "(For example, every time he undergoes judgement for LIGHTNING 闪电 during his turn, he can keep the judgement card that he flipped over. However if he uses ATTACK 杀 on a player that equipped EIGHT TRIGRAMS 八卦阵, Guo Jia cannot keep the judgement card for judgement of EIGHT TRIGRAMS because that card would be flipped over by the target player and not himself.)"
       },
       {
         name: "Bequeathed Strategy 遗计 (yí jì)",
