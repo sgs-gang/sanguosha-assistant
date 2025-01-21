@@ -58,7 +58,21 @@ export const wei: Character[] = [
         explanation: "Note that Si Ma Yi cannot take back the original judgement card. Net effect is Si Ma Yi loses one on-hand card to change the judgement card."
 
       }
-    ]
+    ],
+    description: "The Devil with eyes behind his head 狼顾之鬼 (láng gù zhī gǔi)"
+  },
+  {
+    id: "5FD9D7DA-5731-4720-A362-8F8F31447E50",
+    name: "Xià Hóu Dūn 夏侯惇",
+    faction: "wei",
+    imageUrl: "weixiahoudun.jpg",
+    abilities: [
+      {
+        name: "An Eye for an Eye 刚烈 (gāng liè)",
+        description: "Every instance you suffer damage, you can flip a judgement card. If the judgement is not the suit of \"hearts\", the source player that caused the damage can choose 1 of 2 options.\n\nOption 1: Lose 1 unit of health\n\nOption 2: Discard any 2 on-hand cards."
+      }
+    ],
+    description: "One-eyed Demon 独眼的罗刹 (dú yǎn dè luó chà)"
   }
 ]
 ;
