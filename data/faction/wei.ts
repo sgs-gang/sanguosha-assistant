@@ -32,7 +32,7 @@ export const wei: Character[] = [
       {
         name: "Envy of Heaven 天妒 (tiān dù)",
         description: "You can obtain any judgement card that you flip over.",
-        explanation: "(For example, every time he undergoes judgement for LIGHTNING 闪电 during his turn, he can keep the judgement card that he flipped over. However if he uses ATTACK 杀 on a player that equipped EIGHT TRIGRAMS 八卦阵, Guo Jia cannot keep the judgement card for judgement of EIGHT TRIGRAMS because that card would be flipped over by the target player and not himself.)"
+        explanation: "For example, every time he undergoes judgement for LIGHTNING 闪电 during his turn, he can keep the judgement card that he flipped over. However if he uses ATTACK 杀 on a player that equipped EIGHT TRIGRAMS 八卦阵, Guo Jia cannot keep the judgement card for judgement of EIGHT TRIGRAMS because that card would be flipped over by the target player and not himself."
       },
       {
         name: "Bequeathed Strategy 遗计 (yí jì)",
@@ -49,7 +49,14 @@ export const wei: Character[] = [
     abilities: [
       {
         name:"Retaliation 反馈 (fǎn kuì)",
-        description: "When you receive any damage, you can obtain 1 card (whether on-hand or equipped) from the player who is the source of the damage."
+        description: "When you receive any damage, you can obtain 1 card (whether on-hand or equipped) from the player who is the source of the damage.",
+        explanation: "In most cases, source of damage is the player who is currently in the action phase (that player's turn) that played an offensive move. This is true even if the damage was transmitted through IRON SHACKLES 铁索连环, or deflected of another character such as Xiao Qiao 小乔's \"Heavenly Scent 天香\" ability."
+      },
+      {
+        name: "Demonic Talent 鬼才 (guǐ cái)",
+        description: "After any judgement card has been flipped over, you can immediately play one of your on-hand cards to replace the judgement card.",
+        explanation: "Note that Si Ma Yi cannot take back the original judgement card. Net effect is Si Ma Yi loses one on-hand card to change the judgement card."
+
       }
     ]
   }
