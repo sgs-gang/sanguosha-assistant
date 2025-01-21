@@ -1,4 +1,4 @@
-import type { Character } from "../types/character"
+import { Character } from "@/types/character";
 
 export const characters: Character[] = [
   {
@@ -16,7 +16,7 @@ export const characters: Character[] = [
     description: "The God of War, sworn brother of Liu Bei",
   },
   // Add more characters...
-]
+];
 
 export const factions = [
   { value: "all", label: "All Factions" },
@@ -24,5 +24,4 @@ export const factions = [
   { value: "wei", label: "Wei Kingdom" },
   { value: "wu", label: "Wu Kingdom" },
   { value: "qun", label: "Qun (Others)" },
-]
-
+];
