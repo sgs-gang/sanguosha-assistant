@@ -2,7 +2,7 @@ import { Character } from "@/types/character";
 
 export const shu: Character[] = [
   {
-    id: 1,
+    id: "5A5046AE-FCB1-471B-8C16-D575359A75A0",
     name: "Liú Bèi 刘备",
     faction: "shu",
     imageUrl: "/sanguosha-assistant/characters/shualiubei.jpg",
@@ -23,7 +23,7 @@ export const shu: Character[] = [
       "The ambitious leader in tumultuous times 乱世的枭雄 (luàn shì dè xiāo xióng)",
   },
   {
-    id: 2,
+    id: "5591521C-AF88-47C0-A2B7-644AF465D8C5",
     name: "Elder Zhūgě Liàng 暮年诸葛亮",
     faction: "shu",
     imageUrl: "/sanguosha-assistant/characters/shualaozhuge.jpg",

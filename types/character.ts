@@ -1,5 +1,5 @@
 export interface Character {
-  id: number;
+  id: string;
   name: string;
   faction: "shu" | "wei" | "wu" | "heroes" | "demi-gods";
   imageUrl: string;
