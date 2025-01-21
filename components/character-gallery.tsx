@@ -12,7 +12,7 @@ import { CharacterCard } from "./character-card";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
-import { characters } from "@/data/characters";
+import { characters, factions } from "@/data/characters";
 import { useFavorites } from "@/hooks/useFavorites";
 
 export default function CharacterGallery() {
