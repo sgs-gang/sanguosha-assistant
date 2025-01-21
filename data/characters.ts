@@ -6,6 +6,7 @@ export const characters: Character[] = [
     name: "Liu Bei",
     faction: "shu",
     imageUrl: "placeholder.svg?height=400&width=280",
+    abilities: [],
     description: "The warlord and founding emperor of Shu Han",
   },
   {
@@ -13,6 +14,7 @@ export const characters: Character[] = [
     name: "Guan Yu",
     faction: "shu",
     imageUrl: "placeholder.svg?height=400&width=280",
+    abilities: [],
     description: "The God of War, sworn brother of Liu Bei",
   },
   // Add more characters...
@@ -20,8 +22,9 @@ export const characters: Character[] = [
 
 export const factions = [
   { value: "all", label: "All Factions" },
-  { value: "shu", label: "Shu Kingdom" },
-  { value: "wei", label: "Wei Kingdom" },
-  { value: "wu", label: "Wu Kingdom" },
-  { value: "qun", label: "Qun (Others)" },
+  { value: "shu", label: "Shu Kingdom (Red)" },
+  { value: "wei", label: "Wei Kingdom (Blue)" },
+  { value: "wu", label: "Wu Kingdom (Green)" },
+  { value: "heroes", label: "Heros (Grey)" },
+  { value: "demi-gods", label: "Demi Gods (Gold)" },
 ];
