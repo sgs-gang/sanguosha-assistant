@@ -9,7 +9,7 @@ import { useFavorites } from "@/hooks/useFavorites";
 import { characters } from "@/data/characters";
 
 interface CharacterCardWrapperProps {
-  id: Id;
+  id: string;
 }
 
 export default function CharacterCardWrapper({
