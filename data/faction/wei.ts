@@ -87,6 +87,20 @@ export const wei: Character[] = [
       }
     ],
     description: "Insane Tiger 虎痴 (hǔ chī)"
-  }
+ ,
+ },
+ {
+  id: "B9345CFB-54F7-4CAA-B17D-F03D81FE392F",
+  name: "Zhāng Liáo 张辽",
+  faction: "wei",
+  imageUrl: "weizhangliao.jpg",
+  abilities: [
+    {
+      name: "Sudden Strike 突击 (tū jī)",
+      description: "In your drawing phase, you can choose to forgo drawing cards from the deck and, instead, draw 1 on-hand card from other players. Maximum 2 players (2 cards nett intake), minimum 1 player (1 card nett intake).",
+      explanation: "Note that Zhang Liao cannot mix \"Sudden Raid\" with drawing from the deck (ie: he cannot draw one card from the deck and one card from a player). Also note that since this ability is effective in the drawing phase, this ability cannot be used if he falls victim to RATIONS DEPLETED 兵粮寸断."
+ }
+  ],
+  description: "General of the Front 前将军 (qián jiāng jūn)"
+}
 ]
-;
