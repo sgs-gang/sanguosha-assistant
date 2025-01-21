@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrape": "ts-node --esm scripts/scraper/main.ts"
+    "scrape": "ts-node scripts/scraper/main"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
