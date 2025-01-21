@@ -8,12 +8,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { characters, factions } from "../data/characters";
 import { CharacterCard } from "./character-card";
-import { useFavorites } from "../hooks/useFavorites";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
+import { characters } from "@/data/characters";
+import { useFavorites } from "@/hooks/useFavorites";
 
 export default function CharacterGallery() {
   const [selectedFaction, setSelectedFaction] = useState("all");

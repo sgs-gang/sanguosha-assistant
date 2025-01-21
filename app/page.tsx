@@ -1,5 +1,5 @@
+import CharacterGallery from "@/components/character-gallery";
 import { Suspense } from "react";
-import CharacterGallery from "../components/character-gallery";
 
 export default function Home({
   searchParams,
