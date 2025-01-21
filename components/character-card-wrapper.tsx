@@ -47,7 +47,11 @@ export default function CharacterCardWrapper({
         <CardContent>
           <div className="aspect-[7/10] relative mb-4">
             <img
-              src={character.imageUrl || "/placeholder.svg"}
+              src={
+                character.imageUrl
+                  ? `/sanguosha-assistant/characters/${character.imageUrl}`
+                  : "/placeholder.svg"
+              }
               alt={character.name}
               className="object-cover rounded-md w-full h-full"
             />

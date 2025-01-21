@@ -8,7 +8,7 @@ import { Character } from "@/types/character";
 interface CharacterCardProps {
   character: Character;
   isFavorite: boolean;
-  onToggleFavorite: (id: number) => void;
+  onToggleFavorite: (id: string) => void;
 }
 
 export function CharacterCard({
@@ -36,7 +36,11 @@ export function CharacterCard({
         <CardHeader className="p-0">
           <div className="aspect-[7/10] relative">
             <img
-              src={character.imageUrl || "/placeholder.svg"}
+              src={
+                character.imageUrl
+                  ? `/sanguosha-assistant/characters/${character.imageUrl}`
+                  : "/placeholder.svg"
+              }
               alt={character.name}
               className="object-cover w-full h-full"
             />

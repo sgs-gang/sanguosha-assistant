@@ -5,7 +5,7 @@ export const shu: Character[] = [
     id: "5A5046AE-FCB1-471B-8C16-D575359A75A0",
     name: "Liú Bèi 刘备",
     faction: "shu",
-    imageUrl: "/sanguosha-assistant/characters/shualiubei.jpg",
+    imageUrl: "shualiubei.jpg",
     abilities: [
       {
         name: "Benevolence 仁德 (rén dé)",
@@ -26,7 +26,7 @@ export const shu: Character[] = [
     id: "5591521C-AF88-47C0-A2B7-644AF465D8C5",
     name: "Elder Zhūgě Liàng 暮年诸葛亮",
     faction: "shu",
-    imageUrl: "/sanguosha-assistant/characters/shualaozhuge.jpg",
+    imageUrl: "shualaozhuge.jpg",
     abilities: [
       {
         name: "Star Gazing 观星 (guān xīng)",
