@@ -1,60 +1,66 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { characters, factions } from "./data/characters"
-import { CharacterCard } from "./components/character-card"
-import { useFavorites } from "./hooks/useFavorites"
-import { useSearchParams, useRouter } from "next/navigation"
-import { Switch } from "@/components/ui/switch"
-import { Label } from "@/components/ui/label"
+import { useState, useEffect } from "react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { characters, factions } from "../data/characters";
+import { CharacterCard } from "./character-card";
+import { useFavorites } from "../hooks/useFavorites";
+import { useSearchParams, useRouter } from "next/navigation";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
 
 export default function CharacterGallery() {
-  const [selectedFaction, setSelectedFaction] = useState("all")
-  const [showOnlyFavorites, setShowOnlyFavorites] = useState(false)
-  const { favorites, toggleFavorite } = useFavorites()
-  const searchParams = useSearchParams()
-  const router = useRouter()
+  const [selectedFaction, setSelectedFaction] = useState("all");
+  const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
+  const { favorites, toggleFavorite } = useFavorites();
+  const searchParams = useSearchParams();
+  const router = useRouter();
 
   useEffect(() => {
-    const faction = searchParams.get("faction")
-    const favoritesOnly = searchParams.get("favoritesOnly")
+    const faction = searchParams.get("faction");
+    const favoritesOnly = searchParams.get("favoritesOnly");
     if (faction) {
-      setSelectedFaction(faction)
+      setSelectedFaction(faction);
     }
     if (favoritesOnly) {
-      setShowOnlyFavorites(favoritesOnly === "true")
+      setShowOnlyFavorites(favoritesOnly === "true");
     }
-  }, [searchParams])
+  }, [searchParams]);
 
   const filteredCharacters = characters.filter(
     (character) =>
       (selectedFaction === "all" || character.faction === selectedFaction) &&
-      (!showOnlyFavorites || favorites.includes(character.id)),
-  )
+      (!showOnlyFavorites || favorites.includes(character.id))
+  );
 
   const sortedCharacters = [...filteredCharacters].sort((a, b) => {
-    if (favorites.includes(a.id) && !favorites.includes(b.id)) return -1
-    if (!favorites.includes(a.id) && favorites.includes(b.id)) return 1
-    return 0
-  })
+    if (favorites.includes(a.id) && !favorites.includes(b.id)) return -1;
+    if (!favorites.includes(a.id) && favorites.includes(b.id)) return 1;
+    return 0;
+  });
 
   const handleFactionChange = (value: string) => {
-    setSelectedFaction(value)
-    updateURL(value, showOnlyFavorites)
-  }
+    setSelectedFaction(value);
+    updateURL(value, showOnlyFavorites);
+  };
 
   const handleFavoritesToggle = (checked: boolean) => {
-    setShowOnlyFavorites(checked)
-    updateURL(selectedFaction, checked)
-  }
+    setShowOnlyFavorites(checked);
+    updateURL(selectedFaction, checked);
+  };
 
   const updateURL = (faction: string, favoritesOnly: boolean) => {
-    const params = new URLSearchParams()
-    if (faction !== "all") params.set("faction", faction)
-    if (favoritesOnly) params.set("favoritesOnly", "true")
-    router.push(`/?${params.toString()}`)
-  }
+    const params = new URLSearchParams();
+    if (faction !== "all") params.set("faction", faction);
+    if (favoritesOnly) params.set("favoritesOnly", "true");
+    router.push(`/?${params.toString()}`);
+  };
 
   return (
     <div className="container mx-auto p-4">
@@ -76,7 +82,11 @@ export default function CharacterGallery() {
           </Select>
 
           <div className="flex items-center space-x-2">
-            <Switch id="favorites-mode" checked={showOnlyFavorites} onCheckedChange={handleFavoritesToggle} />
+            <Switch
+              id="favorites-mode"
+              checked={showOnlyFavorites}
+              onCheckedChange={handleFavoritesToggle}
+            />
             <Label htmlFor="favorites-mode">Show only favorites</Label>
           </div>
         </div>
@@ -101,6 +111,5 @@ export default function CharacterGallery() {
         </p>
       )}
     </div>
-  )
+  );
 }
-
