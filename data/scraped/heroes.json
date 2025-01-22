@@ -2,6 +2,7 @@
   {
     "id": "diao-chan",
     "name": "Diāo Chán 貂蝉",
+    "description": "The Dancer with Unrivaled Beauty 绝世的舞姬 (jué shì dè wǔ jì)",
     "faction": "heroes",
     "imageUrl": "diao-chan.jpg",
     "abilities": [
@@ -23,6 +24,7 @@
   {
     "id": "hua-tuo",
     "name": "Huà Tuó 华佗",
+    "description": "Miracle Physician 神医 (shén yī)",
     "faction": "heroes",
     "imageUrl": "hua-tuo.jpg",
     "abilities": [
@@ -44,6 +46,7 @@
   {
     "id": "lu-bu",
     "name": "Lǚ Bù 吕布",
+    "description": "Ultimate Combat Skills - Personified 武的化身 (wǔ dè huà shēn)",
     "faction": "heroes",
     "imageUrl": "lu-bu.jpg",
     "abilities": [
@@ -59,6 +62,7 @@
   {
     "id": "yuan-shao",
     "name": "Yuán Shào 袁绍",
+    "description": "Aristocratic Ancestry 高贵的名门 (gāo guì dè míng mén)",
     "faction": "heroes",
     "imageUrl": "yuan-shao.jpg",
     "abilities": [
@@ -80,6 +84,7 @@
   {
     "id": "pang-de",
     "name": "Páng Dé 庞德",
+    "description": "Ride and Rider as One 人马一体 (rén mǎ yì tǐ)",
     "faction": "heroes",
     "imageUrl": "pang-de.jpg",
     "abilities": [
@@ -101,6 +106,7 @@
   {
     "id": "yan-liang-wen-chou",
     "name": "Yán Liáng & Wén Chǒu 颜良文丑",
+    "description": "Tiger & Wolf Brothers 虎狼兄弟 (hǔ láng xiōng dì)",
     "faction": "heroes",
     "imageUrl": "yan-liang-wen-chou.jpg",
     "abilities": [
@@ -117,6 +123,7 @@
   {
     "id": "zhang-jiao",
     "name": "Zhāng Jiǎo 张角",
+    "description": "General of Heaven 天公将军 (tiān gōng jiāng jūn)",
     "faction": "heroes",
     "imageUrl": "zhang-jiao.jpg",
     "abilities": [
@@ -144,6 +151,7 @@
   {
     "id": "yu-ji",
     "name": "Yú Jí 于吉",
+    "description": "Priest of Supreme Peace 太平道人 (tài píng dào rén)",
     "faction": "heroes",
     "imageUrl": "yu-ji.jpg",
     "abilities": [
@@ -160,6 +168,7 @@
   {
     "id": "dong-zhuo",
     "name": "Dǒng Zhuó 董卓",
+    "description": "Demon King 魔王 (mó wáng)",
     "faction": "heroes",
     "imageUrl": "dong-zhuo.jpg",
     "abilities": [
@@ -197,6 +206,7 @@
   {
     "id": "jia-xu",
     "name": "Jiǎ Xǔ 贾诩",
+    "description": "Cold-blooded Advocate for Murder 冷酷的毒士 (lěng kù dè dú shì)",
     "faction": "heroes",
     "imageUrl": "jia-xu.jpg",
     "abilities": [
@@ -227,6 +237,7 @@
   {
     "id": "gao-shun",
     "name": "Gāo Shùn 高顺",
+    "description": "No Siege is Unsuccessful 攻无不克 (gōng wú bù kè)",
     "faction": "heroes",
     "imageUrl": "gao-shun.jpg",
     "abilities": [
@@ -250,6 +261,7 @@
   {
     "id": "chen-gong",
     "name": "Chén Gōng 陈宫",
+    "description": "Upright and Heroic 刚直壮烈 (gāng zhí zhuàng liè)",
     "faction": "heroes",
     "imageUrl": "chen-gong.jpg",
     "abilities": [
@@ -273,6 +285,7 @@
   {
     "id": "cai-wen-ji-lady-cai",
     "name": "Cài Wén Jī (Lady Cai) 蔡文姬",
+    "description": "The Lone Dame in Foreign Lands 异乡的孤女 (yì xiāng dè gū nǚ)",
     "faction": "heroes",
     "imageUrl": "cai-wen-ji-lady-cai.jpg",
     "abilities": [
@@ -296,6 +309,7 @@
   {
     "id": "zuo-ci",
     "name": "Zuǒ Cí 左慈",
+    "description": "The Mystical Immortal 迷之仙人 (mí zhī xiān rén)",
     "faction": "heroes",
     "imageUrl": "zuo-ci.jpg",
     "abilities": [
@@ -319,6 +333,7 @@
   {
     "id": "diao-chan-sp",
     "name": "Diāo Chán 貂蝉 (SP002)",
+    "description": "The Dancer with Unrivaled Beauty 绝世的舞姬 (jué shì dè wǔ jì)",
     "faction": "heroes",
     "imageUrl": "diao-chan-sp.jpg",
     "abilities": [
@@ -342,6 +357,7 @@
   {
     "id": "gongsun-zan",
     "name": "Gōngsūn Zàn 公孙瓒 (SP003)",
+    "description": "The Whitehorse General 白馬將軍 (bái mǎ jiāng jūn)",
     "faction": "heroes",
     "imageUrl": "gongsun-zan.jpg",
     "abilities": [
@@ -358,6 +374,7 @@
   {
     "id": "yuan-shu",
     "name": "Yuán Shù 袁术 (SP004)",
+    "description": "The Emperor of Zhong Dynasty 仲家帝 (zhòng jiā dì)",
     "faction": "heroes",
     "imageUrl": "yuan-shu.jpg",
     "abilities": [
@@ -381,6 +398,7 @@
   {
     "id": "ma-chao-sp011",
     "name": "Mǎ Chāo 马超 (SP011)",
+    "description": "The Lion of the West 西凉的猛狮",
     "faction": "heroes",
     "imageUrl": "ma-chao-sp011.jpg",
     "abilities": [
@@ -404,6 +422,7 @@
   {
     "id": "hua-xiong",
     "name": "Huá Xióng 华雄",
+    "description": "Demon General 魔将 (mó jiàng)",
     "faction": "heroes",
     "imageUrl": "hua-xiong.jpg",
     "abilities": [],
@@ -412,6 +431,7 @@
   {
     "id": "liu-biao",
     "name": "Liú Biǎo 刘表",
+    "description": "Lord of Southern Han 跨蹈汉南 (kuā dǎo hàn nán)",
     "faction": "heroes",
     "imageUrl": "liu-biao.jpg",
     "abilities": [],
@@ -420,6 +440,7 @@
   {
     "id": "zhao-yun-sp001",
     "name": "Zhao Yun 赵云 (*SP001)",
+    "description": "The Vanguard on a White Horse 白马先锋 (bái mǎ xiān fēng)",
     "faction": "heroes",
     "imageUrl": "zhao-yun-sp001.jpg",
     "abilities": [
@@ -443,6 +464,7 @@
   {
     "id": "diao-chan-sp002",
     "name": "Diao Chan 貂蝉 (*SP002)",
+    "description": "The Malevolent Puppeteer 暗黑的傀儡师 (àn hēi dè kuǐ lěi shī)",
     "faction": "heroes",
     "imageUrl": "diao-chan-sp002.jpg",
     "abilities": [
@@ -459,6 +481,7 @@
   {
     "id": "pang-tong-sp004",
     "name": "Pang Tong 庞统 (*SP004)",
+    "description": "Genius of Jing Chu 荆楚之高俊 (jīng chǔ zhī gāo jùn)",
     "faction": "heroes",
     "imageUrl": "pang-tong-sp004.jpg",
     "abilities": [
@@ -482,6 +505,7 @@
   {
     "id": "gan-ning-sp009",
     "name": "Gān Níng 甘宁 (*SP009)",
+    "description": "The Crow with Bells 怀铃的乌羽 (huái líng dè wū yǔ)",
     "faction": "heroes",
     "imageUrl": "gan-ning-sp009.jpg",
     "abilities": [

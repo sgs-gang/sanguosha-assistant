@@ -2,6 +2,7 @@
   {
     "id": "sun-quan",
     "name": "Sūn Quán 孙权",
+    "description": "Young and Virtuous Ruler 年轻的贤君 (nián qīng dè xián jūn)",
     "faction": "wu",
     "imageUrl": "sun-quan.jpg",
     "abilities": [
@@ -23,6 +24,7 @@
   {
     "id": "da-qiao",
     "name": "Dà Qiáo 大乔",
+    "description": "The Flower of few words 矜持之花 (jīn chí zhī huā)",
     "faction": "wu",
     "imageUrl": "da-qiao.jpg",
     "abilities": [
@@ -44,6 +46,7 @@
   {
     "id": "gan-ning",
     "name": "Gān Níng 甘宁",
+    "description": "The Pirate with Silk Sails 锦帆游侠 (jǐn fān yóu xiá)",
     "faction": "wu",
     "imageUrl": "gan-ning.jpg",
     "abilities": [
@@ -59,6 +62,7 @@
   {
     "id": "huang-gai",
     "name": "Huáng Gài 黄盖",
+    "description": "Sacrificing the Flesh for the Country 轻身为国 (qīng shēn wèi guó)",
     "faction": "wu",
     "imageUrl": "huang-gai.jpg",
     "abilities": [
@@ -74,6 +78,7 @@
   {
     "id": "lu-meng",
     "name": "Lǚ Méng 吕蒙",
+    "description": "Crossing the river in White Robes 白衣渡江 (bái yī dù jiāng)",
     "faction": "wu",
     "imageUrl": "lu-meng.jpg",
     "abilities": [
@@ -89,6 +94,7 @@
   {
     "id": "lu-xun",
     "name": "Lù Xùn 陆逊",
+    "description": "The meek scholar with Valiant talents 儒生雄才 (rú shēng xióng cái)",
     "faction": "wu",
     "imageUrl": "lu-xun.jpg",
     "abilities": [
@@ -110,6 +116,7 @@
   {
     "id": "sun-shang-xiang",
     "name": "Sūn Shàng Xiāng 孙尚香",
+    "description": "The lady with bow and arrows 弓腰姬 (gōng yāo jī)",
     "faction": "wu",
     "imageUrl": "sun-shang-xiang.jpg",
     "abilities": [
@@ -131,6 +138,7 @@
   {
     "id": "zhou-yu",
     "name": "Zhōu Yú 周瑜",
+    "description": "Supreme Commander-in-Chief 大都督 (dà dū dū)",
     "faction": "wu",
     "imageUrl": "zhou-yu.jpg",
     "abilities": [
@@ -152,6 +160,7 @@
   {
     "id": "tai-shi-ci",
     "name": "Tài Shǐ Cí 太史慈",
+    "description": "Ardent and Loyal Warrior 笃烈之士 (dǔ liè zhī shì)",
     "faction": "wu",
     "imageUrl": "tai-shi-ci.jpg",
     "abilities": [
@@ -167,6 +176,7 @@
   {
     "id": "xiao-qiao",
     "name": "Xiǎo Qiáo 小乔",
+    "description": "The Unconventional Flower 矫情之花 (jiǎo qíng zhī huā)",
     "faction": "wu",
     "imageUrl": "xiao-qiao.jpg",
     "abilities": [
@@ -188,6 +198,7 @@
   {
     "id": "zhou-tai",
     "name": "Zhōu Tài 周泰",
+    "description": "Body scarred like a Battle record 历战之躯 (lì zhàn zhī qū)",
     "faction": "wu",
     "imageUrl": "zhou-tai.jpg",
     "abilities": [
@@ -203,6 +214,7 @@
   {
     "id": "sun-jian",
     "name": "Sūn Jiān 孙坚",
+    "description": "Emperor of Vigorous Combat 武烈帝 (wǔ liè dì)",
     "faction": "wu",
     "imageUrl": "sun-jian.jpg",
     "abilities": [
@@ -219,6 +231,7 @@
   {
     "id": "lu-su",
     "name": "Lǔ Sù 鲁肃",
+    "description": "The Maverick Diplomat 独断的外交家 (dú duàn dè wài jiāo jiā)",
     "faction": "wu",
     "imageUrl": "lu-su.jpg",
     "abilities": [
@@ -242,6 +255,7 @@
   {
     "id": "ling-tong",
     "name": "Líng Tǒng 凌统",
+    "description": "Forthright and Courageous 豪情烈胆 (háo qíng liè dǎn)",
     "faction": "wu",
     "imageUrl": "ling-tong.jpg",
     "abilities": [
@@ -265,6 +279,7 @@
   {
     "id": "wu-guo-tai-lady-wu",
     "name": "Wú Guó Tài (Lady Wu) 吴国太",
+    "description": "Fearsome Militant Empress 武烈皇后 (wǔ liè huáng hoù)",
     "faction": "wu",
     "imageUrl": "wu-guo-tai-lady-wu.jpg",
     "abilities": [
@@ -288,6 +303,7 @@
   {
     "id": "xu-sheng",
     "name": "Xú Shèng 徐盛",
+    "description": "The Steel Barricade of Jiang Dong 江东的铁壁 (jiāng dōng dè tiě bì)",
     "faction": "wu",
     "imageUrl": "xu-sheng.jpg",
     "abilities": [
@@ -304,6 +320,7 @@
   {
     "id": "zhang-zhao-zhang-hong",
     "name": "Zhāng Zhāo & Zhāng Hóng 张昭&张纮",
+    "description": "Talents to administrate Heaven and Earth 经天纬地 (jīng tiān wěi dì)",
     "faction": "wu",
     "imageUrl": "zhang-zhao-zhang-hong.jpg",
     "abilities": [
@@ -327,6 +344,7 @@
   {
     "id": "sun-ce",
     "name": "Sūn Cè 孙策",
+    "description": "The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)",
     "faction": "wu",
     "imageUrl": "sun-ce.jpg",
     "abilities": [
@@ -357,6 +375,7 @@
   {
     "id": "bu-lianshi",
     "name": "Bù Liànshī 步练师",
+    "description": "The Uncrowned Empress 无冕之后 (wú miǎn zhī hoù)",
     "faction": "wu",
     "imageUrl": "bu-lianshi.jpg",
     "abilities": [
@@ -380,6 +399,7 @@
   {
     "id": "han-dang",
     "name": "Hàn Dāng 韩当",
+    "description": "Marquis of Shi Cheng 石城侯 (shí chéng hoù)",
     "faction": "wu",
     "imageUrl": "han-dang.jpg",
     "abilities": [],
@@ -388,6 +408,7 @@
   {
     "id": "cheng-pu",
     "name": "Chéng Pǔ 程普",
+    "description": "Minister spanning 3 Generations 三朝之臣 (sān cháo zhī chén)",
     "faction": "wu",
     "imageUrl": "cheng-pu.jpg",
     "abilities": [],
@@ -396,6 +417,7 @@
   {
     "id": "lu-meng-sp006_6",
     "name": "Lǖ Méng 吕蒙 (*SP006)",
+    "description": "The Charisma of Ministers 国士之风 (guó shì zhī fēng)",
     "faction": "wu",
     "imageUrl": "lu-meng-sp006_6.jpg",
     "abilities": [
@@ -419,6 +441,7 @@
   {
     "id": "da-qiao-sp008_6",
     "name": "Dà Qiáo 大乔 (*SP008)",
+    "description": "Transient but Joyous Happiness 韶光易逝 (sháo guāng yì shì)",
     "faction": "wu",
     "imageUrl": "da-qiao-sp008_6.jpg",
     "abilities": [

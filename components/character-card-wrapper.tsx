@@ -25,8 +25,6 @@ export default function CharacterCardWrapper({
 
   const isFavorite = favorites.includes(character.id)
 
-  console.log('character', character)
-
   return (
     <div className="container mx-auto p-4">
       <Card className="max-w-2xl mx-auto">
@@ -59,13 +57,6 @@ export default function CharacterCardWrapper({
               alt={character.name}
               className="object-cover rounded-md w-full h-full"
             />
-          </div>
-          <div className="mb-4">
-            <span
-              className={`inline-block py-1 text-sm rounded-full capitalize bg-${character.faction}-100 text-${character.faction}-800`}
-            >
-              {character.faction}
-            </span>
           </div>
           {character.description && (
             <p className="text-lg mb-4">{character.description}</p>

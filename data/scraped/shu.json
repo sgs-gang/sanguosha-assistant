@@ -2,6 +2,7 @@
   {
     "id": "liu-bei",
     "name": "Liú Bèi 刘备",
+    "description": "The ambitious leader in tumultuous times 乱世的枭雄 (luàn shì dè xiāo xióng)",
     "faction": "shu",
     "imageUrl": "liu-bei.jpg",
     "abilities": [
@@ -24,6 +25,7 @@
   {
     "id": "elder-zhu-ge-liang",
     "name": "Elder Zhūgě Liàng 暮年诸葛亮",
+    "description": "Prime minister who has passed his prime 迟暮的丞相 (chí mù dè chéng xiàng)",
     "faction": "shu",
     "imageUrl": "elder-zhu-ge-liang.jpg",
     "abilities": [
@@ -47,6 +49,7 @@
   {
     "id": "zhao-yun",
     "name": "Zhào Yún 赵云",
+    "description": "The young general 少年将军 (shào nián jiāng jūn)",
     "faction": "shu",
     "imageUrl": "zhao-yun.jpg",
     "abilities": [
@@ -63,6 +66,7 @@
   {
     "id": "guan-yu",
     "name": "Guān Yǔ 关羽",
+    "description": "Bearded Gentleman 美髯公 (měi rán gōng)",
     "faction": "shu",
     "imageUrl": "guan-yu.jpg",
     "abilities": [
@@ -79,6 +83,7 @@
   {
     "id": "huang-yue-ying",
     "name": "Huáng Yuè Yīng 黄月英",
+    "description": "Veiled heroine 归隐的侠女 (guī yǐn dè xiá nǚ)",
     "faction": "shu",
     "imageUrl": "huang-yue-ying.jpg",
     "abilities": [
@@ -100,6 +105,7 @@
   {
     "id": "ma-chao",
     "name": "Mǎ Chāo 马超",
+    "description": "Lone horseman that can outmatch a thousand troops 一骑当千 (yì qí dāng qiān)",
     "faction": "shu",
     "imageUrl": "ma-chao.jpg",
     "abilities": [
@@ -121,6 +127,7 @@
   {
     "id": "zhang-fei",
     "name": "Zhāng Fēi 张飞",
+    "description": "A thousand men can't stop him 万夫不挡 (wàn fū bù dǎng)",
     "faction": "shu",
     "imageUrl": "zhang-fei.jpg",
     "abilities": [
@@ -136,6 +143,7 @@
   {
     "id": "younger-zhu-ge-liang",
     "name": "Younger Zhū Gě Liàng 卧龙诸葛亮",
+    "description": "Hidden dragon 卧龙 (wò lóng)",
     "faction": "shu",
     "imageUrl": "younger-zhu-ge-liang.jpg",
     "abilities": [
@@ -163,6 +171,7 @@
   {
     "id": "pang-tong",
     "name": "Páng Tǒng 庞统",
+    "description": "Rising Phoenix 凤雏 (fèng chú)",
     "faction": "shu",
     "imageUrl": "pang-tong.jpg",
     "abilities": [
@@ -184,6 +193,7 @@
   {
     "id": "huang-zhong",
     "name": "Huáng Zhōng 黄忠",
+    "description": "Old but vigorous 老当益壮 (lǎo dāng yì zhuàng)",
     "faction": "shu",
     "imageUrl": "huang-zhong.jpg",
     "abilities": [
@@ -199,6 +209,7 @@
   {
     "id": "wei-yan",
     "name": "Wèi Yán 魏延",
+    "description": "The blood-thirsty lone-wolf 嗜血的独狼 (shì xuě dè dú láng)",
     "faction": "shu",
     "imageUrl": "wei-yan.jpg",
     "abilities": [
@@ -214,6 +225,7 @@
   {
     "id": "meng-huo",
     "name": "Mèng Huò 孟获",
+    "description": "King of the Southern Barbarians 南蛮王 (nán mán wáng)",
     "faction": "shu",
     "imageUrl": "meng-huo.jpg",
     "abilities": [
@@ -237,6 +249,7 @@
   {
     "id": "zhu-rong",
     "name": "Zhù Róng 祝融",
+    "description": "The Savage Queen 野性的女王 (yě xìng dè nǚ wáng)",
     "faction": "shu",
     "imageUrl": "zhu-rong.jpg",
     "abilities": [
@@ -260,6 +273,7 @@
   {
     "id": "fa-zheng",
     "name": "Fǎ Zhèng 法正",
+    "description": "The Wind beneath Shu Kingdom's Wings 蜀汉的辅翼 (shǔ hàn dè fǔ yì)",
     "faction": "shu",
     "imageUrl": "fa-zheng.jpg",
     "abilities": [
@@ -297,6 +311,7 @@
   {
     "id": "ma-su",
     "name": "Mǎ Sù 马谡",
+    "description": "The Conceited Talent 怀才自负(huái cái zì fù)",
     "faction": "shu",
     "imageUrl": "ma-su.jpg",
     "abilities": [
@@ -320,6 +335,7 @@
   {
     "id": "xu-shu",
     "name": "Xú Shù 徐庶",
+    "description": "The Loyal Gallant 忠孝的侠士 (zhōng xiào dè xiá shì)",
     "faction": "shu",
     "imageUrl": "xu-shu.jpg",
     "abilities": [
@@ -357,6 +373,7 @@
   {
     "id": "liu-shan",
     "name": "Liú Shàn 刘禅",
+    "description": "The King with a Laissez-faire Destiny 无为的真命主 (wú wéi dè zhēn mìng zhǔ)",
     "faction": "shu",
     "imageUrl": "liu-shan.jpg",
     "abilities": [
@@ -387,6 +404,7 @@
   {
     "id": "jiang-wei",
     "name": "Jiāng Wéi 姜维",
+    "description": "The Protégé of the Dragon 龙的衣钵 (lóng dè yī bō)",
     "faction": "shu",
     "imageUrl": "jiang-wei.jpg",
     "abilities": [
@@ -410,6 +428,7 @@
   {
     "id": "sun-shang-xiang-sp",
     "name": "Sūn Shàng Xiáng 孙尚香 (SP005)",
+    "description": "Exceptional Marriage 梦醉良缘(mèng zuì liáng yuán)",
     "faction": "shu",
     "imageUrl": "sun-shang-xiang-sp.jpg",
     "abilities": [
@@ -433,6 +452,7 @@
   {
     "id": "ma-dai",
     "name": "Mǎ Dài 马岱",
+    "description": "Entrusted during the crisis 临危受命 (lín wēi shòu mìng)",
     "faction": "shu",
     "imageUrl": "ma-dai.jpg",
     "abilities": [
@@ -456,6 +476,7 @@
   {
     "id": "liao-hua",
     "name": "Liào Huà 廖化",
+    "description": "Put through the Mill of Time 历经沧桑 (jīng lì cāng sāng)",
     "faction": "shu",
     "imageUrl": "liao-hua.jpg",
     "abilities": [],
@@ -464,6 +485,7 @@
   {
     "id": "guan-xing-zhang-bao",
     "name": "Guān Xìng & Zhāng Bāo 关兴 & 张苞",
+    "description": "Cubs of the Generals 将门虎子 (jiàng mén hǔ zǐ)",
     "faction": "shu",
     "imageUrl": "guan-xing-zhang-bao.jpg",
     "abilities": [],
@@ -472,6 +494,7 @@
   {
     "id": "zhang-fei-sp005",
     "name": "Zhang Fei 张飞 (*SP005)",
+    "description": "Spear-Ready, Horse-Mounted 横矛立马 (héng máo lì mǎ)",
     "faction": "shu",
     "imageUrl": "zhang-fei-sp005.jpg",
     "abilities": [
@@ -495,6 +518,7 @@
   {
     "id": "liu-bei-sp007",
     "name": "Liú Beì 刘备 (*SP007)",
+    "description": "The Shining Martyr Emperor of Han Dynasty 汉昭烈帝 (hàn zhāo liè dì)",
     "faction": "shu",
     "imageUrl": "liu-bei-sp007.jpg",
     "abilities": [

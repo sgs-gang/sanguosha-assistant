@@ -104,6 +104,17 @@ async function addCharacter(
   const slug = url.match(/\/([^/]*)\.html$/)?.[1]
   if (slug == null) throw new Error('Slug not found')
 
+  const description = $('div.post-body')
+    .text()
+    .trim()
+    .replace(/\n+/g, '\n')
+    .match(/Translated [Dd]escription:?\s*\n[“"]?(?<description>[^"”\n]*)["”]?/)
+    ?.groups?.description
+  if (description == null) {
+    console.log(` ${url} `)
+    throw new Error('Description not found', { cause: url })
+  }
+
   const abilities: Character['abilities'] = $('b')
     .filter(function () {
       return $(this).text().trim().startsWith('Character ability')
@@ -146,6 +157,7 @@ async function addCharacter(
   return {
     id: slug,
     name,
+    description,
     faction,
     imageUrl: filename,
     abilities,

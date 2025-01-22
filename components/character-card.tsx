@@ -47,19 +47,7 @@ export function CharacterCard({
           </div>
         </CardHeader>
         <CardContent className="p-4">
-          <h3 className="font-bold">{character.name}</h3>
-          {character.description && (
-            <p className="text-sm text-muted-foreground mt-1">
-              {character.description}
-            </p>
-          )}
-          <div className="mt-2">
-            <span
-              className={`inline-block px-2 py-1 text-xs rounded-full capitalize bg-${character.faction}-100 text-${character.faction}-800`}
-            >
-              {character.faction}
-            </span>
-          </div>
+          <h4>{character.name}</h4>
         </CardContent>
       </Link>
     </Card>

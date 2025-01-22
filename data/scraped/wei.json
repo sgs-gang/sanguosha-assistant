@@ -2,6 +2,7 @@
   {
     "id": "cao-cao",
     "name": "Cáo Cāo 曹操",
+    "description": "Warrior Emperor of the Kingdom of Wei 魏武帝 (wèi wǔ dì)",
     "faction": "wei",
     "imageUrl": "cao-cao.jpg",
     "abilities": [
@@ -23,6 +24,7 @@
   {
     "id": "guo-jia",
     "name": "Guō Jiā 郭嘉",
+    "description": "The oracle who died young 早终的先知 (zao zhong de xian zhi)",
     "faction": "wei",
     "imageUrl": "guo-jia.jpg",
     "abilities": [
@@ -44,6 +46,7 @@
   {
     "id": "si-ma-yi",
     "name": "Sī Mǎ Yì 司马懿",
+    "description": "The Devil with eyes behind his head 狼顾之鬼 (láng gù zhī gǔi)",
     "faction": "wei",
     "imageUrl": "si-ma-yi.jpg",
     "abilities": [
@@ -65,6 +68,7 @@
   {
     "id": "xia-hou-dun",
     "name": "Xià Hóu Dūn 夏侯惇",
+    "description": "One-eyed Demon 独眼的罗刹 (dú yǎn dè luó chà)",
     "faction": "wei",
     "imageUrl": "xia-hou-dun.jpg",
     "abilities": [
@@ -80,6 +84,7 @@
   {
     "id": "xu-chu",
     "name": "Xǔ Chǔ 许褚",
+    "description": "Insane Tiger 虎痴 (hǔ chī)",
     "faction": "wei",
     "imageUrl": "xu-chu.jpg",
     "abilities": [
@@ -95,6 +100,7 @@
   {
     "id": "zhang-liao",
     "name": "Zhāng Liáo 张辽",
+    "description": "General of the Front 前将军 (qián jiāng jūn)",
     "faction": "wei",
     "imageUrl": "zhang-liao.jpg",
     "abilities": [
@@ -110,6 +116,7 @@
   {
     "id": "zhen-ji",
     "name": "Zhēn Jī 甄姬",
+    "description": "The ill-fated Beauty 薄幸的美人 (bō xìng dè měi rén)",
     "faction": "wei",
     "imageUrl": "zhen-ji.jpg",
     "abilities": [
@@ -131,6 +138,7 @@
   {
     "id": "dian-wei",
     "name": "Diǎn Wěi 典韦",
+    "description": "The E-Lai of ancient times 古之恶来 (gǔ zhī è lái)",
     "faction": "wei",
     "imageUrl": "dian-wei.jpg",
     "abilities": [
@@ -146,6 +154,7 @@
   {
     "id": "xun-yu",
     "name": "Xún Yù 荀彧",
+    "description": "Advisor of Kings 王佐之才 (wáng zuǒ zhī cái)",
     "faction": "wei",
     "imageUrl": "xun-yu.jpg",
     "abilities": [
@@ -167,6 +176,7 @@
   {
     "id": "cao-ren",
     "name": "Cáo Rén 曹仁",
+    "description": "The Great General 大将军 (dà jiāng jūn)",
     "faction": "wei",
     "imageUrl": "cao-ren.jpg",
     "abilities": [
@@ -182,6 +192,7 @@
   {
     "id": "xia-hou-yuan",
     "name": "Xià Hóu Yuān 夏侯渊",
+    "description": "Lightning-fast Cheetah 疾行的猎豹 (jí xíng dè liè bào)",
     "faction": "wei",
     "imageUrl": "xia-hou-yuan.jpg",
     "abilities": [
@@ -197,6 +208,7 @@
   {
     "id": "cao-pi",
     "name": "Cáo Pī 曹丕",
+    "description": "The Dominating Successor 霸业的继承者 (bà yè dè jì chéng zhě)",
     "faction": "wei",
     "imageUrl": "cao-pi.jpg",
     "abilities": [
@@ -227,6 +239,7 @@
   {
     "id": "xu-huang",
     "name": "Xú Huǎng 徐晃",
+    "description": "Reminiscence of Zhou Ya Fu 周亚夫之风 (zhōu yǎ fū zhī fēng)",
     "faction": "wei",
     "imageUrl": "xu-huang.jpg",
     "abilities": [
@@ -243,6 +256,7 @@
   {
     "id": "cao-zhi",
     "name": "Cáo Zhí 曹植",
+    "description": "Eight-Tenths of the world's Talent 八斗之才 (bā doù zhī cái)",
     "faction": "wei",
     "imageUrl": "cao-zhi.jpg",
     "abilities": [
@@ -266,6 +280,7 @@
   {
     "id": "yu-jin",
     "name": "Yú Jìn 于禁",
+    "description": "Mainstay of the Wei Military 魏武之刚 (wèi wǔ zhī gāng)",
     "faction": "wei",
     "imageUrl": "yu-jin.jpg",
     "abilities": [
@@ -282,6 +297,7 @@
   {
     "id": "zhang-chun-hua",
     "name": "Zhāng Chūn Huá 张春华",
+    "description": "Cold-blooded Empress 冷血皇后 (lěng xuè huáng hoù)",
     "faction": "wei",
     "imageUrl": "zhang-chun-hua.jpg",
     "abilities": [
@@ -319,6 +335,7 @@
   {
     "id": "deng-ai",
     "name": "Dèng Ài 邓艾",
+    "description": "The Staunch Warrior 矫然的壮士 (jiǎo rán dè zhuàng shì)",
     "faction": "wei",
     "imageUrl": "deng-ai.jpg",
     "abilities": [
@@ -342,6 +359,7 @@
   {
     "id": "zhang-he",
     "name": "Zhāng Hé 张郃",
+    "description": "The Military Clairvoyant 料敌机先 (liào dí jī xiān)",
     "faction": "wei",
     "imageUrl": "zhang-he.jpg",
     "abilities": [
@@ -358,6 +376,7 @@
   {
     "id": "translated-description-genius",
     "name": "Yáng Xiū 杨修 (SP001)",
+    "description": "Genius Unrestrained 恃才放旷 (shì cái fàng kuàng)",
     "faction": "wei",
     "imageUrl": "translated-description-genius.jpg",
     "abilities": [
@@ -381,6 +400,7 @@
   {
     "id": "guan-yu-sp",
     "name": "Guān Yǔ 关羽 (SP007)",
+    "description": "Marquis of HanShou 汉寿亭侯(hàn shòu tíng hóu)",
     "faction": "wei",
     "imageUrl": "guan-yu-sp.jpg",
     "abilities": [
@@ -404,6 +424,7 @@
   {
     "id": "pang-de-sp006",
     "name": "Páng Dé 庞德 (SP006)",
+    "description": "Carrying The Coffin 抬榇之悟(tái chèn zhī wù)",
     "faction": "wei",
     "imageUrl": "pang-de-sp006.jpg",
     "abilities": [
@@ -427,6 +448,7 @@
   {
     "id": "cai-wen-ji-lady-cai-sp009",
     "name": "Cài Wén Jī (Lady Cai) 蔡文姬 (SP009)",
+    "description": "Extraordinary Talent 金璧之才(jīn bì zhī cái)",
     "faction": "wei",
     "imageUrl": "cai-wen-ji-lady-cai-sp009.jpg",
     "abilities": [
@@ -450,6 +472,7 @@
   {
     "id": "jia-xu-sp012",
     "name": "Jia Xu 贾诩 (SP012)",
+    "description": "Never a strategy miscalculated 算无遗策(suàn wú yí cè)",
     "faction": "wei",
     "imageUrl": "jia-xu-sp012.jpg",
     "abilities": [
@@ -480,6 +503,7 @@
   {
     "id": "xun-you",
     "name": "Xún Yoū 荀攸",
+    "description": "Master Strategist of Cao Wei 曹魏的谋主 (cáo wèi dè moú shì)",
     "faction": "wei",
     "imageUrl": "xun-you.jpg",
     "abilities": [
@@ -503,6 +527,7 @@
   {
     "id": "cao-zhang",
     "name": "Cáo Zhāng 曹彰",
+    "description": "The Yellow Bearded Son 黄须儿 (huáng xū ér)",
     "faction": "wei",
     "imageUrl": "cao-zhang.jpg",
     "abilities": [
@@ -519,6 +544,7 @@
   {
     "id": "wang-yi",
     "name": "Wáng Yì 王异",
+    "description": "The Elated Damsel 快意的巾帼 (kuài yì dè jīn guò)",
     "faction": "wei",
     "imageUrl": "wang-yi.jpg",
     "abilities": [
@@ -541,6 +567,7 @@
   {
     "id": "zhong-hui",
     "name": "Zhōng Huì 钟会",
+    "description": "The Audacious Schemer 桀骜的野心家 (jié ào dè yě xīn jiā)",
     "faction": "wei",
     "imageUrl": "zhong-hui.jpg",
     "abilities": [
@@ -564,6 +591,7 @@
   {
     "id": "cao-ren-sp003",
     "name": "Cao Ren 曹仁 (*SP003)",
+    "description": "Quitting is not an option 险不辞难 (xiǎn bù cí nán)",
     "faction": "wei",
     "imageUrl": "cao-ren-sp003.jpg",
     "abilities": [
@@ -587,6 +615,7 @@
   {
     "id": "wang-yuanji-sticker-add-on",
     "name": "Wáng Yuánjī 王元姬 (Sticker Add-on)",
+    "description": "Civil and Understanding Empress文明皇后 (wén míng huáng hòu)",
     "faction": "wei",
     "imageUrl": "wang-yuanji-sticker-add-on.jpg",
     "abilities": [
