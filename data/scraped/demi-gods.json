@@ -4,69 +4,327 @@
     "name": "Demi-God Zhū Gě Liàng 神诸葛亮",
     "faction": "demi-gods",
     "imageUrl": "demi-god-zhu-ge-liang.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "The Seven Stars 七星 (qī xīng)",
+        "description": "\"The Sorcerer at the Red Cliffs 赤壁的妖术师 (chì bì dè yāo shù shī)\"",
+        "explanation": "In an act of mischief, Zhu Ge Liang decides to fool  into thinking he has the ability to control the weather. At an elaborately set up altar, Zhu Ge Liang performs a mysterious rite that he says will help change the wind direction, which was necessary in order for their fire strategy to work against the ships of . True enough, by that night the wind directions turn 180 degrees, finally putting in place the final gear in the machine that would be Cao Cao's terrible defeat. Everyone is fooled by Zhu Ge Liang, who absolutely cannot control the weather at all. He simply knew how to read the stars to foretell the weather. Easy peasy! All those meteorologists with their high-tech doppler radars should be ashamed of themselves!",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Strong Gale 狂风 (kuáng fēng)",
+        "description": "\"The Sorcerer at the Red Cliffs 赤壁的妖术师 (chì bì dè yāo shù shī)\"",
+        "explanation": "In an act of mischief, Zhu Ge Liang decides to fool  into thinking he has the ability to control the weather. At an elaborately set up altar, Zhu Ge Liang performs a mysterious rite that he says will help change the wind direction, which was necessary in order for their fire strategy to work against the ships of . True enough, by that night the wind directions turn 180 degrees, finally putting in place the final gear in the machine that would be Cao Cao's terrible defeat. Everyone is fooled by Zhu Ge Liang, who absolutely cannot control the weather at all. He simply knew how to read the stars to foretell the weather. Easy peasy! All those meteorologists with their high-tech doppler radars should be ashamed of themselves!",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Heavy Shroud 大雾 (dà wù)",
+        "description": "\"The Sorcerer at the Red Cliffs 赤壁的妖术师 (chì bì dè yāo shù shī)\"",
+        "explanation": "In an act of mischief, Zhu Ge Liang decides to fool  into thinking he has the ability to control the weather. At an elaborately set up altar, Zhu Ge Liang performs a mysterious rite that he says will help change the wind direction, which was necessary in order for their fire strategy to work against the ships of . True enough, by that night the wind directions turn 180 degrees, finally putting in place the final gear in the machine that would be Cao Cao's terrible defeat. Everyone is fooled by Zhu Ge Liang, who absolutely cannot control the weather at all. He simply knew how to read the stars to foretell the weather. Easy peasy! All those meteorologists with their high-tech doppler radars should be ashamed of themselves!",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/demi-god-zhu-ge-liang.html"
   },
   {
     "id": "demi-god-zhou-yu",
     "name": "Demi-God Zhōu Yú 神周瑜",
     "faction": "demi-gods",
     "imageUrl": "demi-god-zhou-yu.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "The Sound of Music 琴音 (qín yīn)",
+        "description": "\"The God of Fire at Red Cliffs 赤壁的火神 (chì bì dè huǒ shén)\"",
+        "explanation": "People familiar with the Romance of the Three Kingdoms story would know that  and Zhou Yu were both instrumental in defeating  at the Red Cliffs. However the historians that distilled out the \"Romance\" from the story found that Zhou Yu was the main architect of the victory, while Zhu Ge Liang had far less involvement. Even then, we can already tell in the story that Zhou Yu did a lot of the dirty work in putting the pieces together. These include:",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Searing Heat 业炎 (yè yán)",
+        "description": "\"The God of Fire at Red Cliffs 赤壁的火神 (chì bì dè huǒ shén)\"",
+        "explanation": "People familiar with the Romance of the Three Kingdoms story would know that  and Zhou Yu were both instrumental in defeating  at the Red Cliffs. However the historians that distilled out the \"Romance\" from the story found that Zhou Yu was the main architect of the victory, while Zhu Ge Liang had far less involvement. Even then, we can already tell in the story that Zhou Yu did a lot of the dirty work in putting the pieces together. These include:",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/demi-god-zhou-yu.html"
   },
   {
     "id": "demi-god-guan-yu",
     "name": "Demi-God Guān Yǔ 神关羽",
     "faction": "demi-gods",
     "imageUrl": "demi-god-guan-yu.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "God of War 武神 (wǔ shén)",
+        "description": "\"The Return of the Ultimate Ghost 鬼神再临 (gǔi shén zài lín)\"",
+        "explanation": "There is no ghost quite like the ghost of Guan Yu in the Romance of Three Kingdoms story. No doubt he is not the only supernatural character to re-appear after death ( also came back to haunt Sun Ce 孙策), but the ghost of Guan Yu did more than spook the mortals. No, that would belittle him! The ghost of Guan Yu possessed his killer, , and took over control of his body. The possessed Lu Meng grabbed , and tossed him to the ground. Guan Yu even cursed Sun Quan through Lu Meng's mouth, then promptly killed Lu Meng from the inside, blood oozing out of the eyes, ears, nose and mouth. But the ghost of Guan Yu was not done yet! After Sun Quan sent Guan Yu's head to, Guan Yu's head awoke in its box and Cao Cao collapsed on the ground in fright. Cao Cao quickly gave Guan Yu a colossal burial fit for a prince and even posthumously named Guan Yu as Prince of Jing Zhou 荆州.",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Warrior Spirit 武魂 (wǔ hún)",
+        "description": "\"The Return of the Ultimate Ghost 鬼神再临 (gǔi shén zài lín)\"",
+        "explanation": "There is no ghost quite like the ghost of Guan Yu in the Romance of Three Kingdoms story. No doubt he is not the only supernatural character to re-appear after death ( also came back to haunt Sun Ce 孙策), but the ghost of Guan Yu did more than spook the mortals. No, that would belittle him! The ghost of Guan Yu possessed his killer, , and took over control of his body. The possessed Lu Meng grabbed , and tossed him to the ground. Guan Yu even cursed Sun Quan through Lu Meng's mouth, then promptly killed Lu Meng from the inside, blood oozing out of the eyes, ears, nose and mouth. But the ghost of Guan Yu was not done yet! After Sun Quan sent Guan Yu's head to, Guan Yu's head awoke in its box and Cao Cao collapsed on the ground in fright. Cao Cao quickly gave Guan Yu a colossal burial fit for a prince and even posthumously named Guan Yu as Prince of Jing Zhou 荆州.",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/demi-god-guan-yu.html"
   },
   {
     "id": "demi-god-lu-meng",
     "name": "Demi-God Lǚ Méng 神吕蒙",
     "faction": "demi-gods",
     "imageUrl": "demi-god-lu-meng.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Browse Through 涉猎 (shè liè)",
+        "description": "\"The Minister with Divine Enlightenment 圣光之国士 (shèng guāng zhī guó shì)\"",
+        "explanation": "I wish I had an answer to this question that I am whole-heartedly convinced with. Unfortunately, I do not. \"Divine Enlightenment\" is an exaggeration of Lu Meng's studious discipline, where he turns from a military brute into a learned minister. His remarkable improvements are due to his own hard work and there was nothing divine about his new found enlightenment. Perhaps by giving this character a tinge of divinity, he rises to join the immortal Demi-Gods? Of course, my aim is not to pick the minor faults of this game, given the huge amount of literature references in all the cards combined.",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Strike at the Heart 攻心 (gōng xīn)",
+        "description": "\"The Minister with Divine Enlightenment 圣光之国士 (shèng guāng zhī guó shì)\"",
+        "explanation": "I wish I had an answer to this question that I am whole-heartedly convinced with. Unfortunately, I do not. \"Divine Enlightenment\" is an exaggeration of Lu Meng's studious discipline, where he turns from a military brute into a learned minister. His remarkable improvements are due to his own hard work and there was nothing divine about his new found enlightenment. Perhaps by giving this character a tinge of divinity, he rises to join the immortal Demi-Gods? Of course, my aim is not to pick the minor faults of this game, given the huge amount of literature references in all the cards combined.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/demi-god-lu-meng.html"
   },
   {
     "id": "demi-god-cao-cao",
     "name": "Demi-God Cáo Cāo 神曹操",
     "faction": "demi-gods",
     "imageUrl": "demi-god-cao-cao.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Homage 归心 (guī xīn)",
+        "description": "\"A Hero that transcends time 超世之英杰 (chāo shì zhī yīng jié)\"",
+        "explanation": "Nearly every Chinese in the world would have heard of his name. It is not just his achievements that are spectacular, his use of military tactics and his overall leadership ability is legendary. The description is no exaggeration; Cao Cao truly is a hero that has transcended time.  That fact that we are playing a card game that is built-upon that the Three Kingdoms story is proof of this. You might ask, \"What about  or ? Are they not in the same league?\" Perhaps. Both of them were extraordinary in their own rights, but the drama that is Cao Cao is what makes him stand out from those two. It is well-known that the Romance of Three Kingdoms story down-played a lot of Cao Cao's achievements and his more humane side, thus what we know from the story is only a part of his full story. Cao Cao deserves to be a Demi-God, because he is arguably the most important person in the entire era.",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Flying Shadow 飞影 (fēi yǐng)",
+        "description": "\"A Hero that transcends time 超世之英杰 (chāo shì zhī yīng jié)\"",
+        "explanation": "Nearly every Chinese in the world would have heard of his name. It is not just his achievements that are spectacular, his use of military tactics and his overall leadership ability is legendary. The description is no exaggeration; Cao Cao truly is a hero that has transcended time.  That fact that we are playing a card game that is built-upon that the Three Kingdoms story is proof of this. You might ask, \"What about  or ? Are they not in the same league?\" Perhaps. Both of them were extraordinary in their own rights, but the drama that is Cao Cao is what makes him stand out from those two. It is well-known that the Romance of Three Kingdoms story down-played a lot of Cao Cao's achievements and his more humane side, thus what we know from the story is only a part of his full story. Cao Cao deserves to be a Demi-God, because he is arguably the most important person in the entire era.",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/demi-god-cao-cao.html"
   },
   {
     "id": "demi-god-lu-bu",
     "name": "Demi-God Lǚ Bù 神吕布",
     "faction": "demi-gods",
     "imageUrl": "demi-god-lu-bu.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Violent Rage 狂暴 (kuáng bào)",
+        "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
+        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Simpleton 无谋 (wú móu)",
+        "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
+        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Unprecedented 无前 (wú qián)",
+        "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
+        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Asura's Fury 神愤 (shén fèn)",
+        "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
+        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/demi-god-lu-bu.html"
   },
   {
     "id": "demi-god-sima-yi",
     "name": "Demi-God Sīmǎ Yì 神司马懿",
     "faction": "demi-gods",
     "imageUrl": "demi-god-sima-yi.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Restraint 忍戒 (rěn jiè)",
+        "description": "\"The Founder of Jin Empire 晋国之祖 (jìn guó zhī zhǔ)\"",
+        "explanation": "Why not?! You are talking about the overall winner of the entire era! This is the man who played the Cao family like a puppet-master, read Zhuge Liang 诸葛亮’s mind like nobody else could, had a sleeve full of tricks to deceive everyone, and eventually had his children and grandchildren conquer all of China.",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Promotion 拜印 (bài yìn)",
+        "description": "\"The Founder of Jin Empire 晋国之祖 (jìn guó zhī zhǔ)\"",
+        "explanation": "Why not?! You are talking about the overall winner of the entire era! This is the man who played the Cao family like a puppet-master, read Zhuge Liang 诸葛亮’s mind like nobody else could, had a sleeve full of tricks to deceive everyone, and eventually had his children and grandchildren conquer all of China.",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Domino Victory 连破 (lián pò)",
+        "description": "\"The Founder of Jin Empire 晋国之祖 (jìn guó zhī zhǔ)\"",
+        "explanation": "Why not?! You are talking about the overall winner of the entire era! This is the man who played the Cao family like a puppet-master, read Zhuge Liang 诸葛亮’s mind like nobody else could, had a sleeve full of tricks to deceive everyone, and eventually had his children and grandchildren conquer all of China.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/08/demi-god-sima-yi.html"
   },
   {
     "id": "demi-god-zhao-yun",
     "name": "Demi-God Zhào Yún 神赵云",
     "faction": "demi-gods",
     "imageUrl": "demi-god-zhao-yun.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Adversity 逆境 (nì jìng)",
+        "description": "\"Aura of the Dragon 神威如龙 (shén wēi rú lóng)\"",
+        "explanation": "There are over 1000 characters in the ROTK story, some more prominent than others, yet most of them had their flaws. Let's focus only on warriors and generals and see whom we can think of. Lu Bu 吕布 was the strongest, but a simpleton through and through. Guan Yu 关羽 was well-respected, but his arrogance cost him his life. Zhang Fei 张飞 was a brutal fighter, but a reckless goon. Dian Wei 典韦 was fearsome, but died early. The list can go on and on... but one hero really stands out amongst them. He is none other than Zhao Yun.",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Soul of the Dragon 龙魂",
+        "description": "\"Aura of the Dragon 神威如龙 (shén wēi rú lóng)\"",
+        "explanation": "There are over 1000 characters in the ROTK story, some more prominent than others, yet most of them had their flaws. Let's focus only on warriors and generals and see whom we can think of. Lu Bu 吕布 was the strongest, but a simpleton through and through. Guan Yu 关羽 was well-respected, but his arrogance cost him his life. Zhang Fei 张飞 was a brutal fighter, but a reckless goon. Dian Wei 典韦 was fearsome, but died early. The list can go on and on... but one hero really stands out amongst them. He is none other than Zhao Yun.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/08/demi-god-zhao-yun.html"
   },
   {
     "id": "lu-bu-sp008",
     "name": "Lǚ Bù 吕布 (SP008)",
     "faction": "demi-gods",
     "imageUrl": "lu-bu-sp008.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Without Equal 无双(wú shuāng)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Without Equal 无双(wú shuāng)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Asura 修罗(xiū luó)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Divine Aura 神威 (shén wēi)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Divine Halberd 神戟 (shén jǐ)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/12/lu-bu-sp008.html"
   },
   {
     "id": "lu-bu-sp008",
     "name": "Lǚ Bù 吕布 (SP008)",
     "faction": "demi-gods",
     "imageUrl": "lu-bu-sp008.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Without Equal 无双(wú shuāng)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Without Equal 无双(wú shuāng)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Asura 修罗(xiū luó)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Divine Aura 神威 (shén wēi)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Divine Halberd 神戟 (shén jǐ)",
+        "description": "“The Myth of the Formidable 最强神话 (zuì qiáng shén huà)” ",
+        "explanation": "You will always be at -1 distance in any range calculations. ",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/12/lu-bu-sp008.html"
   }
 ]

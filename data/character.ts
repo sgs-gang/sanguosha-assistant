@@ -27,6 +27,7 @@ const schema = z.array(
       }),
     ),
     description: z.string().optional(),
+    sourceUrl: z.string(),
   }),
 )
 

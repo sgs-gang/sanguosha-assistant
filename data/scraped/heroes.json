@@ -4,167 +4,502 @@
     "name": "Diāo Chán 貂蝉",
     "faction": "heroes",
     "imageUrl": "diao-chan.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Seed of Animosity 离间 (lí jiān)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Envious Moon 闭月 (bì yuè)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/diao-chan.html"
   },
   {
     "id": "hua-tuo",
     "name": "Huà Tuó 华佗",
     "faction": "heroes",
     "imageUrl": "hua-tuo.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Emergency Rescue 急救 (jí jiù)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Green Salve 青囊 (qīng náng)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/hua-tuo.html"
   },
   {
     "id": "lu-bu",
     "name": "Lǚ Bù 吕布",
     "faction": "heroes",
     "imageUrl": "lu-bu.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Without Equal 无双 (wú shuāng)",
+        "description": "",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/lu-bu.html"
   },
   {
     "id": "yuan-shao",
     "name": "Yuán Shào 袁绍",
     "faction": "heroes",
     "imageUrl": "yuan-shao.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Chaos Strike 乱击 (luàn jī)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Bloodline 血裔 (xuè yì)",
+        "description": "",
+        "enforced": true,
+        "ruler": true
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/yuan-shao.html"
   },
   {
     "id": "pang-de",
     "name": "Páng Dé 庞德",
     "faction": "heroes",
     "imageUrl": "pang-de.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Fearsome Advance 猛进 (měng jìn)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/pang-de.html"
   },
   {
     "id": "yan-liang-wen-chou",
     "name": "Yán Liáng & Wén Chǒu 颜良文丑",
     "faction": "heroes",
     "imageUrl": "yan-liang-wen-chou.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Dual Heroes 双雄 (shuāng xióng)",
+        "description": "\"Tiger & Wolf Brothers 虎狼兄弟 (hǔ láng xiōng dì)\"",
+        "explanation": "  & ",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/yan-liang-wen-chou.html"
   },
   {
     "id": "zhang-jiao",
     "name": "Zhāng Jiǎo 张角",
     "faction": "heroes",
     "imageUrl": "zhang-jiao.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Lightning Strike 雷击 (léi jī)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Dark Sorcery 鬼道 (gǔi dào)",
+        "description": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Amber Sky 黄天 (huáng tiān)",
+        "description": "",
+        "enforced": false,
+        "ruler": true
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/zhang-jiao.html"
   },
   {
     "id": "yu-ji",
     "name": "Yú Jí 于吉",
     "faction": "heroes",
     "imageUrl": "yu-ji.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Bewilder 盅惑 (zhōng huò)",
+        "description": "\"Priest of Supreme Peace 太平道人 (tài píng dào rén)\"",
+        "explanation": " ",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/08/yu-ji.html"
   },
   {
     "id": "dong-zhuo",
     "name": "Dǒng Zhuó 董卓",
     "faction": "heroes",
     "imageUrl": "dong-zhuo.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Drown in Wine 酒池 (jiǔ chí)",
+        "description": "\"Demon King 魔王 (mó wáng)\"",
+        "explanation": " ",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Garden of Lust 肉林 (ròu lín)",
+        "description": "\"Demon King 魔王 (mó wáng)\"",
+        "explanation": " ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Disintegrate 崩坏 (bēng huài)",
+        "description": "\"Demon King 魔王 (mó wáng)\"",
+        "explanation": " ",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "The Tyrant 暴虐 (bào nüè)",
+        "description": "\"Demon King 魔王 (mó wáng)\"",
+        "explanation": " ",
+        "enforced": false,
+        "ruler": true
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/dong-zhuo.html"
   },
   {
     "id": "jia-xu",
     "name": "Jiǎ Xǔ 贾诩",
     "faction": "heroes",
     "imageUrl": "jia-xu.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Unmitigated Murder 完杀 (wán shā)",
+        "description": "\"Cold-blooded Advocate for Murder 冷酷的毒士 (lěng kù dè dú shì)\"",
+        "explanation": "Jia Xu Wiki",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Descend into Chaos 乱武 (luàn wǔ)",
+        "description": "\"Cold-blooded Advocate for Murder 冷酷的毒士 (lěng kù dè dú shì)\"",
+        "explanation": "Jia Xu Wiki",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Behind the Curtain 帷幕 (wéi mù)",
+        "description": "\"Cold-blooded Advocate for Murder 冷酷的毒士 (lěng kù dè dú shì)\"",
+        "explanation": "Jia Xu Wiki",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2010/09/jia-xu.html"
   },
   {
     "id": "gao-shun",
     "name": "Gāo Shùn 高顺",
     "faction": "heroes",
     "imageUrl": "gao-shun.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Ambush 陷阵 (xiàn zhèn)",
+        "description": "No Siege is Unsuccessful 攻无不克 (gōng wú bù kè)",
+        "explanation": "His illustration looks scary enough. Is he some kind of ancient Chinese Ghost-rider on a horse? Maybe Vin Diesel behind a Slipknot mask, carrying a butcher knife as wide as a cow? What we know about Gao Shun is that he is a serious man of few words and strict discipline. Here is a military general in ancient China that abstains from alcohol, unheard of! He was one of the most respected generals serving under Lu Bu 吕布 and a man of integrity he was. Gao Shun took no bribes and put on no airs, but he had a fearsome presence that commanded immediate respect. The only thing he did less than talk (which he rarely did) was to drink wine. Gao Shun is also known to rebuke Lu Bu straight in the face when Lu Bu makes stupid decisions, but yet Lu Bu would not follow Gao Shun's advice. ",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Abnegation 禁酒 (jìn jiǔ) [Enfored ability]",
+        "description": "No Siege is Unsuccessful 攻无不克 (gōng wú bù kè)",
+        "explanation": "His illustration looks scary enough. Is he some kind of ancient Chinese Ghost-rider on a horse? Maybe Vin Diesel behind a Slipknot mask, carrying a butcher knife as wide as a cow? What we know about Gao Shun is that he is a serious man of few words and strict discipline. Here is a military general in ancient China that abstains from alcohol, unheard of! He was one of the most respected generals serving under Lu Bu 吕布 and a man of integrity he was. Gao Shun took no bribes and put on no airs, but he had a fearsome presence that commanded immediate respect. The only thing he did less than talk (which he rarely did) was to drink wine. Gao Shun is also known to rebuke Lu Bu straight in the face when Lu Bu makes stupid decisions, but yet Lu Bu would not follow Gao Shun's advice. ",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/07/gao-shun.html"
   },
   {
     "id": "chen-gong",
     "name": "Chén Gōng 陈宫",
     "faction": "heroes",
     "imageUrl": "chen-gong.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Brilliant Scheme 明策 (míng cè)",
+        "description": "Upright and Heroic 刚直壮烈 (gāng zhí zhuàng liè)",
+        "explanation": "Here is an intelligent advisor with great capability that, regrettably, served under a mediocre leader, Lu Bu 吕布. Chen Gong aided Lu Bu with sound and prudent advice, but it was Lu Bu who chose not to heed them. Chen Gong would have preferred to work under a stronger leader like Cao Cao. Possibly one of the first few people to see Cao Cao 曹操’s ruthless nature, Chen Gong was first introduced to the story as a magistrate of a county. One fateful day, a lone fugitive stumbled into his county and was recognized by the guards on duty. This fugitive was none other than Cao Cao, wanted throughout the land for the attempted murder of Dong Zhuo 董卓. The guards brought Cao Cao in front of Chen Gong, where Cao Cao lied about his identity and claimed to be a merchant. Chen Gong put Cao Cao in jail and proclaimed that he would bring Cao Cao to Dong Zhuo and receive his reward.",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Cerebral Delay 智迟 (zhī chí) [Enforced ability]",
+        "description": "Upright and Heroic 刚直壮烈 (gāng zhí zhuàng liè)",
+        "explanation": "Here is an intelligent advisor with great capability that, regrettably, served under a mediocre leader, Lu Bu 吕布. Chen Gong aided Lu Bu with sound and prudent advice, but it was Lu Bu who chose not to heed them. Chen Gong would have preferred to work under a stronger leader like Cao Cao. Possibly one of the first few people to see Cao Cao 曹操’s ruthless nature, Chen Gong was first introduced to the story as a magistrate of a county. One fateful day, a lone fugitive stumbled into his county and was recognized by the guards on duty. This fugitive was none other than Cao Cao, wanted throughout the land for the attempted murder of Dong Zhuo 董卓. The guards brought Cao Cao in front of Chen Gong, where Cao Cao lied about his identity and claimed to be a merchant. Chen Gong put Cao Cao in jail and proclaimed that he would bring Cao Cao to Dong Zhuo and receive his reward.",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/07/chen-gong.html"
   },
   {
     "id": "cai-wen-ji-lady-cai",
     "name": "Cài Wén Jī (Lady Cai) 蔡文姬",
     "faction": "heroes",
     "imageUrl": "cai-wen-ji-lady-cai.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Dirge 悲歌 (bēi gē)",
+        "description": "\"The Lone Dame in Foreign Lands 异乡的孤女 (yì xiāng dè gū nǚ)\"",
+        "explanation": "Like a scene out of a Chinese horror movie, a lone damsel sits in the night out in the woods, strumming an ancient Chinese string instrument. Her long straight hair gently swaying along with the willows, her sharp face pale, white and mournful. Who is Lady Cai? What is her role in the story? Truth be told, the name Cai Wen Ji was complete new to me when I heard about this character in the Hills Pack. As it turns out, she was a very minor character, a musician and poet, but with a sad life story. Married at the age of 15 but widowed soon after, she was then held captive by the Xiong Nu 匈奴 clan chieftain for many years. He then made her his wife and she bore him children, but her heart had always yearned for home. It would be 12 years later before a particular famous warlord ransomed her... but only to fulfill his own agenda. This warlord would go on to become one of the most famous person throughout Chinese history. Who was this warlord? Read on the find out!",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Sorrow 断肠 (duan chang)",
+        "description": "\"The Lone Dame in Foreign Lands 异乡的孤女 (yì xiāng dè gū nǚ)\"",
+        "explanation": "Like a scene out of a Chinese horror movie, a lone damsel sits in the night out in the woods, strumming an ancient Chinese string instrument. Her long straight hair gently swaying along with the willows, her sharp face pale, white and mournful. Who is Lady Cai? What is her role in the story? Truth be told, the name Cai Wen Ji was complete new to me when I heard about this character in the Hills Pack. As it turns out, she was a very minor character, a musician and poet, but with a sad life story. Married at the age of 15 but widowed soon after, she was then held captive by the Xiong Nu 匈奴 clan chieftain for many years. He then made her his wife and she bore him children, but her heart had always yearned for home. It would be 12 years later before a particular famous warlord ransomed her... but only to fulfill his own agenda. This warlord would go on to become one of the most famous person throughout Chinese history. Who was this warlord? Read on the find out!",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/08/cai-wen-ji-lady-cai.html"
   },
   {
     "id": "zuo-ci",
     "name": "Zuǒ Cí 左慈",
     "faction": "heroes",
     "imageUrl": "zuo-ci.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Shapeshift 化身 (huà shēn)",
+        "description": "\"The Mystical Immortal 迷之仙人 (mí zhī xiān rén)\"",
+        "explanation": "Ever watched \"X-Men\" the movie? Remember the villain femme fatale known as \"Mystique\"? Well, here's the SGS version of Mystique! Without doubt one of the most interesting but controversial characters in SGS, Zuo Ci is currently the most popular character in the Hills Expansion Pack. But who is the  Zuo Ci, and why does he have X-Men like abilities? Alas, that question is very difficult to answer!",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Germinate 新生 (xīn shēng)",
+        "description": "\"The Mystical Immortal 迷之仙人 (mí zhī xiān rén)\"",
+        "explanation": "Ever watched \"X-Men\" the movie? Remember the villain femme fatale known as \"Mystique\"? Well, here's the SGS version of Mystique! Without doubt one of the most interesting but controversial characters in SGS, Zuo Ci is currently the most popular character in the Hills Expansion Pack. But who is the  Zuo Ci, and why does he have X-Men like abilities? Alas, that question is very difficult to answer!",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/08/zuo-ci.html"
   },
   {
     "id": "diao-chan-sp",
     "name": "Diāo Chán 貂蝉 (SP002)",
     "faction": "heroes",
     "imageUrl": "diao-chan-sp.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Seed of Animosity 离间 (lí jiān)",
+        "description": "\"The Dancer with Unrivaled Beauty 绝世的舞姬 (jué shì dè wǔ jì)\"",
+        "explanation": "I would love to say that some sexually-charged up SGS fanatic demanded for a sexier Diao Chan from YOKA. I would also love to say that YOKA is giving SGS a complete erotica makeover and the next character is Zhen Ji 甄姬 in a bikini.",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Envious Moon 闭月 (bì yuè)",
+        "description": "\"The Dancer with Unrivaled Beauty 绝世的舞姬 (jué shì dè wǔ jì)\"",
+        "explanation": "I would love to say that some sexually-charged up SGS fanatic demanded for a sexier Diao Chan from YOKA. I would also love to say that YOKA is giving SGS a complete erotica makeover and the next character is Zhen Ji 甄姬 in a bikini.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/10/diao-chan-sp.html"
   },
   {
     "id": "gongsun-zan",
     "name": "Gōngsūn Zàn 公孙瓒 (SP003)",
     "faction": "heroes",
     "imageUrl": "gongsun-zan.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Righteous Cavalry 义从 (yì cóng)",
+        "description": "“The Whitehorse General 白馬將軍 (bái mǎ jiāng jūn)”",
+        "explanation": "Among the starry sky composed by the heroic legends during the period of the Three Kingdoms, the Whitehorse General Gongsun Zan was like a bright meteor, illuminating the darkness in the north part of China. However, coming in a hurry like a real meteor, he disappeared from history in a hurry as well. Between his",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/11/gongsun-zan.html"
   },
   {
     "id": "yuan-shu",
     "name": "Yuán Shù 袁术 (SP004)",
     "faction": "heroes",
     "imageUrl": "yuan-shu.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Mediocrity 庸肆 (yōng sì)",
+        "description": "“The Emperor of Zhong Dynasty 仲家帝 (zhòng jiā dì)”",
+        "explanation": "An overweening ambitious younger brother. A terrible general. An opportunist. An immature politician. Alas, a daydreamer without a happy ending. Born from a noble, rich, powerful and ancient family as the only son of the first wife, Yuán Shù seemed to have nothing to worry about in his life. But even with such little talent, he was arrogant enough. He considered himself as the only right person to conquer the world, that’s why he couldn’t even get along well with his half-brother, Yuan Shao 袁紹. He was always searching for the right opportunity, and he finally found it when Dong Zhuo 董卓  was defeated by Sun Jian 孫坚. The imperial seal (the symbol of the legitimate ruler in China) was in the Sun family’s hand, but Sun Jian was quickly killed and Yuan Shu put Lady Sun under house arrest to force the seal out of  Sun Ce 孫策's hands. After getting the seal, he declared himself emperor under his short-lived Zhong Dynasty in 197, which instantly made him everyone’s enemy.",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "The Pseudo-Emperor 偽帝 (wěi dì)",
+        "description": "“The Emperor of Zhong Dynasty 仲家帝 (zhòng jiā dì)”",
+        "explanation": "An overweening ambitious younger brother. A terrible general. An opportunist. An immature politician. Alas, a daydreamer without a happy ending. Born from a noble, rich, powerful and ancient family as the only son of the first wife, Yuán Shù seemed to have nothing to worry about in his life. But even with such little talent, he was arrogant enough. He considered himself as the only right person to conquer the world, that’s why he couldn’t even get along well with his half-brother, Yuan Shao 袁紹. He was always searching for the right opportunity, and he finally found it when Dong Zhuo 董卓  was defeated by Sun Jian 孫坚. The imperial seal (the symbol of the legitimate ruler in China) was in the Sun family’s hand, but Sun Jian was quickly killed and Yuan Shu put Lady Sun under house arrest to force the seal out of  Sun Ce 孫策's hands. After getting the seal, he declared himself emperor under his short-lived Zhong Dynasty in 197, which instantly made him everyone’s enemy.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2011/11/yuan-shu.html"
   },
   {
     "id": "ma-chao-sp011",
     "name": "Mǎ Chāo 马超 (SP011)",
     "faction": "heroes",
     "imageUrl": "ma-chao-sp011.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "\"The Lion of the West 西凉的猛狮\"",
+        "explanation": "Cao Cao 曹操 once said: “If Ma Chao does not die, I am going to meet a terrible end.” That gives you an idea of how strong Ma Chao was. He was one of the Five Tigers in Shu Kingdom in fiction, which was pretty close to factual history. Prior to that, Ma Chao was extremely aggressive fighting against his nemesis, the man who slew his entire family: Cao Cao. That explains why he eventually decided to join Liu Bei’s campaign.",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Iron Calvary 铁骑(tiě jì)",
+        "description": "\"The Lion of the West 西凉的猛狮\"",
+        "explanation": "Cao Cao 曹操 once said: “If Ma Chao does not die, I am going to meet a terrible end.” That gives you an idea of how strong Ma Chao was. He was one of the Five Tigers in Shu Kingdom in fiction, which was pretty close to factual history. Prior to that, Ma Chao was extremely aggressive fighting against his nemesis, the man who slew his entire family: Cao Cao. That explains why he eventually decided to join Liu Bei’s campaign.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/03/ma-chao-sp011.html"
   },
   {
     "id": "hua-xiong",
     "name": "Huá Xióng 华雄",
     "faction": "heroes",
     "imageUrl": "hua-xiong.jpg",
-    "abilities": []
+    "abilities": [],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/07/hua-xiong.html"
   },
   {
     "id": "liu-biao",
     "name": "Liú Biǎo 刘表",
     "faction": "heroes",
     "imageUrl": "liu-biao.jpg",
-    "abilities": []
+    "abilities": [],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/07/liu-biao.html"
   },
   {
     "id": "zhao-yun-sp001",
     "name": "Zhao Yun 赵云 (*SP001)",
     "faction": "heroes",
     "imageUrl": "zhao-yun-sp001.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Dragon Heart 龙胆 (lóng dǎn)",
+        "description": "“The Vanguard on a White Horse 白马先锋 (bái mǎ xiān fēng)”",
+        "explanation": "For goodness sake, this is Zhao Yun! I'm pretty sure you do not need me to describe who he is. But just in case you do, here's a one-sentence summary.",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Formation Piercer 冲阵 (chōng zhèn)",
+        "description": "“The Vanguard on a White Horse 白马先锋 (bái mǎ xiān fēng)”",
+        "explanation": "For goodness sake, this is Zhao Yun! I'm pretty sure you do not need me to describe who he is. But just in case you do, here's a one-sentence summary.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/02/zhao-yun-sp001.html"
   },
   {
     "id": "diao-chan-sp002",
     "name": "Diao Chan 貂蝉 (*SP002)",
     "faction": "heroes",
     "imageUrl": "diao-chan-sp002.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Envious Moon 闭月 (bì yuè)",
+        "description": "\"The Malevolent Puppeteer 暗黑的傀儡师 (àn hēi dè kuǐ lěi shī)\"",
+        "explanation": "There is only so much I need to say about Diao Chan. She's probably one of the top 10 most famous people in ROTK, as well as in SGS! In the previous version, the artwork is more kiddy, wide-eyed, bambi-like.",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/03/diao-chan-sp002.html"
   },
   {
     "id": "pang-tong-sp004",
     "name": "Pang Tong 庞统 (*SP004)",
     "faction": "heroes",
     "imageUrl": "pang-tong-sp004.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "To Hell with Work 漫卷 (màn juàn)",
+        "description": "\"Genius of Jing Chu 荆楚之高俊 (jīng chǔ zhī gāo jùn)",
+        "explanation": "(Note: Jing Chu is the ancient name for the area that is Hubei province today.)",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Plastered 醉乡(zuì xiāng)",
+        "description": "\"Genius of Jing Chu 荆楚之高俊 (jīng chǔ zhī gāo jùn)",
+        "explanation": "(Note: Jing Chu is the ancient name for the area that is Hubei province today.)",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/04/pang-tong-sp004.html"
   },
   {
     "id": "gan-ning-sp009",
     "name": "Gān Níng 甘宁 (*SP009)",
     "faction": "heroes",
     "imageUrl": "gan-ning-sp009.jpg",
-    "abilities": []
+    "abilities": [
+      {
+        "name": "Silver Bells 银铃 (yín líng)",
+        "description": "\"The Crow with Bells 怀铃的乌羽 (huái líng dè wū yǔ)\"",
+        "explanation": " ",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Militant's Might 军威 (jūn wēi)",
+        "description": "\"The Crow with Bells 怀铃的乌羽 (huái líng dè wū yǔ)\"",
+        "explanation": " ",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "http://sanguoshaenglish.blogspot.com/2012/09/gan-ning-sp009.html"
   }
 ]

@@ -6,6 +6,7 @@ import { finished } from 'node:stream/promises'
 import { ReadableStream } from 'node:stream/web'
 import colors from 'ansi-colors'
 import { MultiBar } from 'cli-progress'
+import Element from 'domhandler'
 
 async function saveImage(url: string, filename: string) {
   const path = `public/characters/${filename}`
@@ -100,9 +101,44 @@ async function addCharacter(
   const imageUrl = $('div.post-body img').first().attr('src')
   if (imageUrl == null) throw new Error('Image not found')
 
-  // const text = $('div.post-body').text()
   const slug = url.match(/\/([^/]*)\.html$/)?.[1]
   if (slug == null) throw new Error('Slug not found')
+
+  const abilities: Character['abilities'] = $('b')
+    .filter(function () {
+      return $(this).text().trim().startsWith('Character ability')
+    })
+    .map((_, element) => {
+      const heading = $(element).text()
+      const name =
+        heading.match(/[“"](?<name>.*)["”]/)?.groups?.name?.trim() ??
+        heading.split(/[“"]/)[1]?.trim() ??
+        heading.split(/:/)[1]?.trim()
+      if (name == null)
+        throw new Error('Ability name not found', { cause: heading })
+
+      const [description, explanation] = $(element)
+        .parent()
+        .clone() //clone the element
+        .children() //select all the children
+        .remove() //remove all the children
+        .end() //again go back to selected element
+        .text()
+        .trim()
+        .replace(/\n+/g, '\n')
+        .split('\n', 2)
+
+      const enforced = heading.includes('[Enforced ability]')
+      const ruler = heading.includes('Ruler')
+      return {
+        name,
+        description,
+        explanation,
+        enforced,
+        ruler,
+      }
+    })
+    .toArray()
 
   const filename = `${slug}.jpg`
   await saveImage(imageUrl, filename)
@@ -112,8 +148,8 @@ async function addCharacter(
     name,
     faction,
     imageUrl: filename,
-    // text,
-    abilities: [],
+    abilities,
+    sourceUrl: url,
   }
 }
 
