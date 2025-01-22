@@ -27,7 +27,7 @@ export const wu: Character[] = [
     id: "AFDCBF8E-6B81-496D-80BA-1A81172796EF",
     name: "Dà Qiáo 大乔",
     faction: "wu",
-    imageUrl: "wudaqio.jpg",
+    imageUrl: "wudaqiao.jpg",
     abilities: [
       {
         name: "National Colours 国色 (guó sè)",

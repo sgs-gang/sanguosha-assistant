@@ -2,8 +2,9 @@ import { Character } from "@/types/character";
 import { shu } from "./faction/shu";
 import { wei } from "./faction/wei";
 import { heroes } from "./faction/heroes";
+import { wu } from "./faction/wu";
 
-export const characters: Character[] = [...shu, ...wei, ...heroes];
+export const characters: Character[] = [...shu, ...wei, ...wu, ...heroes];
 
 export const factions = [
   { value: "all", label: "All Factions" },

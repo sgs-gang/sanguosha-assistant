@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 import { characters } from "@/data/characters";
+import CharacterAbility from "./character-ability";
 
 interface CharacterCardWrapperProps {
   id: string;
@@ -24,11 +25,14 @@ export default function CharacterCardWrapper({
 
   const isFavorite = favorites.includes(character.id);
 
+  console.log("character", character);
+
   return (
     <div className="container mx-auto p-4">
       <Card className="max-w-2xl mx-auto">
         <CardHeader className="flex flex-row items-center justify-between">
           <CardTitle className="text-3xl">{character.name}</CardTitle>
+          
           <Button
             variant="ghost"
             size="icon"
@@ -58,7 +62,7 @@ export default function CharacterCardWrapper({
           </div>
           <div className="mb-4">
             <span
-              className={`inline-block px-2 py-1 text-sm rounded-full capitalize bg-${character.faction}-100 text-${character.faction}-800`}
+              className={`inline-block py-1 text-sm rounded-full capitalize bg-${character.faction}-100 text-${character.faction}-800`}
             >
               {character.faction}
             </span>
@@ -66,7 +70,14 @@ export default function CharacterCardWrapper({
           {character.description && (
             <p className="text-lg mb-4">{character.description}</p>
           )}
-          <Button asChild>
+
+          {
+            character.abilities.map((ability) => (
+              <CharacterAbility ability={ability} />
+            ))
+          }
+          
+          <Button asChild className="mb-2">
             <Link href="/">Back to Gallery</Link>
           </Button>
         </CardContent>
