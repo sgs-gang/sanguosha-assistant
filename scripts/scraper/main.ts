@@ -1,172 +1,168 @@
-import axios from "axios";
-import * as cheerio from "cheerio";
-import * as fs from 'node:fs';
+import * as cheerio from 'cheerio'
+import { writeFile, createWriteStream, existsSync } from 'node:fs'
+import { Character } from '@/data/character'
+import { Readable } from 'node:stream'
+import { finished } from 'node:stream/promises'
+import { ReadableStream } from 'node:stream/web'
+import colors from 'ansi-colors'
+import { MultiBar } from 'cli-progress'
 
+async function saveImage(url: string, filename: string) {
+  const path = `public/characters/${filename}`
+  if (existsSync(path)) return
+  const stream = createWriteStream(path)
+  const { body } = await fetch(url)
+  if (body == null) throw new Error('Failed to fetch image')
+  await finished(Readable.fromWeb(body as ReadableStream<any>).pipe(stream))
+
+  return
+}
 async function performScraping(url: string) {
-  try {
-    const axiosResponse = await axios.request({
-      method: "GET",
-      url,
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-      },
-    });
-    return axiosResponse;
-  } catch (error) {
-    throw new Error(`Error fetching URL: ${url}, ${error}`);
-  }
+  return await (await fetch(url)).text()
 }
 
-function getCharacterUrls(data: string) {
+async function getCharacterUrls() {
+  const data = await performScraping(
+    'https://sanguoshaenglish.blogspot.com/p/all-characters.html',
+  )
+
   const characterLinks: Record<string, string[]> = {
     shu: [],
     wei: [],
     wu: [],
     heroes: [],
     demiGods: [],
-  };
-  const $ = cheerio.load(data);
-  const shu = $("div.separator")
+  }
+  const $ = cheerio.load(data)
+  $('div.separator')
     .eq(0)
     .children(
-      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
     )
     .each((_i, element) => {
       const href = $(element)
-        .attr("href")
-        ?.replace(/^http:\/\//, "https://");
-      if (href != null) characterLinks.shu.push(href);
-    });
+        .attr('href')
+        ?.replace(/^http:\/\//, 'https://')
+      if (href != null) characterLinks.shu.push(href)
+    })
 
-  const wei = $("div.separator")
+  $('div.separator')
     .eq(1)
     .children(
-      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
     )
     .each((_i, element) => {
-      const href = $(element).attr("href");
-      if (href != null) characterLinks.wei.push(href);
-    });
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.wei.push(href)
+    })
 
-  const wu = $("div.separator")
+  $('div.separator')
     .eq(2)
     .children(
-      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
     )
     .each((_i, element) => {
-      const href = $(element).attr("href");
-      if (href != null) characterLinks.wu.push(href);
-    });
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.wu.push(href)
+    })
 
-  const heroes = $("div.separator")
+  $('div.separator')
     .eq(3)
     .children(
-      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
     )
     .each((_i, element) => {
-      const href = $(element).attr("href");
-      if (href != null) characterLinks.heroes.push(href);
-    });
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.heroes.push(href)
+    })
 
-  const demiGods = $("div.separator")
+  $('div.separator')
     .eq(4)
     .children(
-      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
     )
     .each((_i, element) => {
-      const href = $(element).attr("href");
-      if (href != null) characterLinks.demiGods.push(href);
-    });
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.demiGods.push(href)
+    })
 
-  return characterLinks;
+  return characterLinks
 }
 
+async function addCharacter(
+  url: string,
+  faction: Character['faction'],
+): Promise<Character> {
+  const body = await performScraping(url)
+  const $ = cheerio.load(body)
+  const name = $('h2.post-title').text().replace(/\n+/g, '').trim()
 
+  const imageUrl = $('div.post-body img').first().attr('src')
+  if (imageUrl == null) throw new Error('Image not found')
 
-async function addCharacter(url: string, faction: string): Promise<{ id: string; name: string; faction: string; imageUrl: string | undefined; text: string; }> {
-  const characterData = await performScraping(url);
-  const $ = cheerio.load(characterData.data);
-  const name = $("h2.post-title").text().replace(/\n+/g, "").trim();
+  // const text = $('div.post-body').text()
+  const slug = url.match(/\/([^/]*)\.html$/)?.[1]
+  if (slug == null) throw new Error('Slug not found')
 
-  const imageUrl = $("div.post-body img").first().attr("src");
+  const filename = `${slug}.jpg`
+  await saveImage(imageUrl, filename)
 
-  const text = $("div.post-body")
-    .text()
-
-  const character = {
-    id: name.toLowerCase().replace(/\s+/g, "-"),
+  return {
+    id: slug,
     name,
     faction,
-    imageUrl,
-    text
-  };
+    imageUrl: filename,
+    // text,
+    abilities: [],
+  }
+}
 
-  return character
+async function pullCharacters(
+  urls: string[],
+  faction: Character['faction'],
+  multibar: MultiBar,
+) {
+  const progress = multibar.create(
+    urls.length,
+    0,
+    { name: faction },
+    { clearOnComplete: true },
+  )
+  const characters: Character[] = []
+  for (const url of urls) {
+    const character = await addCharacter(url, faction)
+    progress.increment()
+    characters.push(character)
+  }
+  writeFile(
+    `data/scraped/${faction}.json`,
+    JSON.stringify(characters, null, 2),
+    function (err) {
+      if (err) throw err
+    },
+  )
+  progress.stop()
 }
 
 async function main(): Promise<void> {
-  console.log("scraper starting");
-
-  const allCharactersPage = await performScraping(
-    "https://sanguoshaenglish.blogspot.com/p/all-characters.html"
-  );
-  const characterURLs = getCharacterUrls(allCharactersPage.data);
-
-
-  let shuCharacters: any[] = []
-  for (const url of characterURLs.shu) {
-    const character = await addCharacter(url, "shu");
-    shuCharacters.push(character)
-
-  }
-  fs.writeFile('data/scraped/shu.json', JSON.stringify(shuCharacters), function (err) {
-    if (err) throw err;
-    console.log('Shu Saved!');
-  });
-
-  let weiCharacters: any[] = []
-  for (const url of characterURLs.wei) {
-    const character = await addCharacter(url, "wei");
-    weiCharacters.push(character)
-
-  }
-  fs.writeFile('data/scraped/wei.json', JSON.stringify(weiCharacters), function (err) {
-    if (err) throw err;
-    console.log('Wei Saved!');
-  });
-
-  let wuCharacters: any[] = []
-  for (const url of characterURLs.wu) {
-    const character = await addCharacter(url, "wu");
-    wuCharacters.push(character)
-
-  }
-  fs.writeFile('data/scraped/wu.json', JSON.stringify(wuCharacters), function (err) {
-    if (err) throw err;
-    console.log('Wu Saved!');
-  });
-
-  let heroCharacters: any[] = []
-  for (const url of characterURLs.heroes) {
-    const character = await addCharacter(url, "heroes");
-    heroCharacters.push(character)
-  }
-  fs.writeFile('data/scraped/heroes.json', JSON.stringify(heroCharacters), function (err) {
-    if (err) throw err;
-    console.log('Heroes Saved!');
-  });
-
-  let demiGodCharacters: any[] = []
-  for (const url of characterURLs.demiGods) {
-   const character = await addCharacter(url, "demi-gods");
-   demiGodCharacters.push(character)
-
-  }
-  fs.writeFile('data/scraped/demi-gods.json', JSON.stringify(demiGodCharacters), function (err) {
-    if (err) throw err;
-    console.log('DemiGods Saved!');
-  });
+  const multibar = new MultiBar({
+    format: `${colors.cyan(
+      '{bar}',
+    )} {name} | {percentage}% | {value}/{total} | duration: {duration_formatted}`,
+    barCompleteChar: '\u2588',
+    barIncompleteChar: '\u2591',
+    hideCursor: true,
+    clearOnComplete: true,
+  })
+  const characterURLs = await getCharacterUrls()
+  await Promise.all([
+    pullCharacters(characterURLs.shu, 'shu', multibar),
+    pullCharacters(characterURLs.wei, 'wei', multibar),
+    pullCharacters(characterURLs.wu, 'wu', multibar),
+    pullCharacters(characterURLs.heroes, 'heroes', multibar),
+    pullCharacters(characterURLs.demiGods, 'demi-gods', multibar),
+  ])
+  multibar.stop()
 }
 
-main();
+main()

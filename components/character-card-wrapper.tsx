@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Star } from 'lucide-react'
 import { useFavorites } from '@/hooks/useFavorites'
-import { characters } from '@/data/characters'
+import { characters } from '@/data/character'
 import CharacterAbility from './character-ability'
 
 interface CharacterCardWrapperProps {
