@@ -107,28 +107,22 @@ async function addCharacter(url: string, faction: string): Promise<void> {
   const name = $("h2.post-title").text().replace(/\n+/g, "").trim();
 
   const imageUrl = $("div.post-body img").first().attr("src");
-  let abilities: { name: string; description: string }[] = [];
-  $('b:contains("Character ability")')
-    .parent()
-    .each((i, el) => {
-      abilities.push(parseCharacterAbilities($(el).text()));
-    });
+//   let abilities: { name: string; description: string }[] = [];
+//   $('b:contains("Character ability")')
+//     .parent()
+//     .each((i, el) => {
+//       abilities.push(parseCharacterAbilities($(el).text()));
+//     });
 
-  // Extract description
-  const description = $("div.post-body")
-    .children("b")
+  const text = $("div.post-body")
     .text()
-    .replace(/^Translated description:"/, "");
-  console.log(description);
 
-  // Create the character object
   const character = {
     id: name.toLowerCase().replace(/\s+/g, "-"),
     name,
     faction,
     imageUrl,
-    abilities,
-    description,
+    text
   };
 
   console.log(character);
