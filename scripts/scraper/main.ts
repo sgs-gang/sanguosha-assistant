@@ -84,16 +84,12 @@ function getCharacterUrls(data: string) {
 function parseCharacterAbilities(text: string) {
   let ability;
   const abilityRegex =
-    // /Character ability (\d+):(?: \[Ruler Ability\])? "([^"]+)"\s*([\s\S]+?)(?=Character ability \d+:|$)/g;
-    // /Character ability: "([^"]+)"\s*([\s\S]+?)(?=Character ability:|$)/g;
-    // /Character ability(?: \d+)?:\s?"([^"]+)"\s*([\s\S]+?)(?=\nCharacter ability(?: \d+)?:|$)/g;
-    /Character ability(?: \d+)?:\s*(?:\[[^\]]*\]\s*)?"([^"]+)"\s*([\s\S]+?)(?=\nCharacter ability(?: \d+)?:|$)/g;
-
+    /Character ability (\d+):(?: \[Ruler Ability\])? "([^"]+)"\s*([\s\S]+?)(?=Character ability \d+:|$)/g;
   let match;
 
   if ((match = abilityRegex.exec(text)) !== null) {
     const [_, id, name, description] = match;
-    ability = { name, description: description?.trim(), ruler: false };
+    ability = { name, description: description.trim(), ruler: false };
     if (text.includes("Ruler Ability")) {
       ability.ruler = true;
     }
