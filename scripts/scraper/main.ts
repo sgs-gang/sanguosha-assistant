@@ -1,5 +1,6 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
+import * as fs from 'node:fs';
 
 async function performScraping(url: string) {
   try {
@@ -81,38 +82,14 @@ function getCharacterUrls(data: string) {
   return characterLinks;
 }
 
-function parseCharacterAbilities(text: string) {
-  let ability;
-  const abilityRegex =
-    /Character ability (\d+):(?: \[Ruler Ability\])? "([^"]+)"\s*([\s\S]+?)(?=Character ability \d+:|$)/g;
-  let match;
 
-  if ((match = abilityRegex.exec(text)) !== null) {
-    const [_, id, name, description] = match;
-    ability = { name, description: description.trim(), ruler: false };
-    if (text.includes("Ruler Ability")) {
-      ability.ruler = true;
-    }
-  } else {
-    throw new Error(`did not match: ${text}`);
-    console.log(text);
-  }
 
-  return ability;
-}
-
-async function addCharacter(url: string, faction: string): Promise<void> {
+async function addCharacter(url: string, faction: string): Promise<{ id: string; name: string; faction: string; imageUrl: string | undefined; text: string; }> {
   const characterData = await performScraping(url);
   const $ = cheerio.load(characterData.data);
   const name = $("h2.post-title").text().replace(/\n+/g, "").trim();
 
   const imageUrl = $("div.post-body img").first().attr("src");
-//   let abilities: { name: string; description: string }[] = [];
-//   $('b:contains("Character ability")')
-//     .parent()
-//     .each((i, el) => {
-//       abilities.push(parseCharacterAbilities($(el).text()));
-//     });
 
   const text = $("div.post-body")
     .text()
@@ -125,7 +102,7 @@ async function addCharacter(url: string, faction: string): Promise<void> {
     text
   };
 
-  console.log(character);
+  return character
 }
 
 async function main(): Promise<void> {
@@ -136,26 +113,60 @@ async function main(): Promise<void> {
   );
   const characterURLs = getCharacterUrls(allCharactersPage.data);
 
-  console.log(characterURLs.shu);
 
+  let shuCharacters: any[] = []
   for (const url of characterURLs.shu) {
-    await addCharacter(url, "shu");
+    const character = await addCharacter(url, "shu");
+    shuCharacters.push(character)
+
   }
+  fs.writeFile('data/scraped/shu.json', JSON.stringify(shuCharacters), function (err) {
+    if (err) throw err;
+    console.log('Shu Saved!');
+  });
+
+  let weiCharacters: any[] = []
   for (const url of characterURLs.wei) {
-    await addCharacter(url, "wei");
-  }
+    const character = await addCharacter(url, "wei");
+    weiCharacters.push(character)
 
+  }
+  fs.writeFile('data/scraped/wei.json', JSON.stringify(weiCharacters), function (err) {
+    if (err) throw err;
+    console.log('Wei Saved!');
+  });
+
+  let wuCharacters: any[] = []
   for (const url of characterURLs.wu) {
-    await addCharacter(url, "wu");
-  }
+    const character = await addCharacter(url, "wu");
+    wuCharacters.push(character)
 
+  }
+  fs.writeFile('data/scraped/wu.json', JSON.stringify(wuCharacters), function (err) {
+    if (err) throw err;
+    console.log('Wu Saved!');
+  });
+
+  let heroCharacters: any[] = []
   for (const url of characterURLs.heroes) {
-    await addCharacter(url, "heroes");
+    const character = await addCharacter(url, "heroes");
+    heroCharacters.push(character)
   }
+  fs.writeFile('data/scraped/heroes.json', JSON.stringify(heroCharacters), function (err) {
+    if (err) throw err;
+    console.log('Heroes Saved!');
+  });
 
+  let demiGodCharacters: any[] = []
   for (const url of characterURLs.demiGods) {
-    await addCharacter(url, "demi-gods");
+   const character = await addCharacter(url, "demi-gods");
+   demiGodCharacters.push(character)
+
   }
+  fs.writeFile('data/scraped/demi-gods.json', JSON.stringify(demiGodCharacters), function (err) {
+    if (err) throw err;
+    console.log('DemiGods Saved!');
+  });
 }
 
 main();
