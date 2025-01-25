@@ -136,28 +136,28 @@
       {
         "name": "Violent Rage 狂暴 (kuáng bào)",
         "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
-        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "explanation": "Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .",
         "enforced": true,
         "ruler": false
       },
       {
         "name": "Simpleton 无谋 (wú móu)",
         "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
-        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "explanation": "Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .",
         "enforced": true,
         "ruler": false
       },
       {
         "name": "Unprecedented 无前 (wú qián)",
         "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
-        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "explanation": "Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Asura's Fury 神愤 (shén fèn)",
         "description": "\"The Way of the Asura 修罗之道 (xiū luó zhī dào)\"",
-        "explanation": "(Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .)",
+        "explanation": "Asuras are mythical Demi-Gods in Buddhist mythology that are wrathful, prideful, arrogant, and love to fight. .",
         "enforced": false,
         "ruler": false
       }

@@ -66,8 +66,13 @@ export default function CharacterCardWrapper({
             <CharacterAbility key={index} ability={ability} />
           ))}
 
-          <Button asChild className="mb-2">
+          <Button asChild>
             <Link href="/">Back to Gallery</Link>
+          </Button>
+          <Button asChild>
+            <Link href={character.sourceUrl} target="_blank">
+              Open Source
+            </Link>
           </Button>
         </CardContent>
       </Card>

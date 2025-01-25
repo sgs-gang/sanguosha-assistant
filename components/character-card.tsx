@@ -46,8 +46,10 @@ export function CharacterCard({
             />
           </div>
         </CardHeader>
-        <CardContent className="p-4">
-          <h4>{character.name}</h4>
+        <CardContent className="bg-white/50 p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg">
+          <h4 className="font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">
+            {character.name}
+          </h4>
         </CardContent>
       </Link>
     </Card>

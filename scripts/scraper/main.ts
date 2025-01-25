@@ -110,10 +110,8 @@ async function addCharacter(
     .replace(/\n+/g, '\n')
     .match(/Translated [Dd]escription:?\s*\n[“"]?(?<description>[^"”\n]*)["”]?/)
     ?.groups?.description
-  if (description == null) {
-    console.log(` ${url} `)
+  if (description == null)
     throw new Error('Description not found', { cause: url })
-  }
 
   const abilities: Character['abilities'] = $('b')
     .filter(function () {
@@ -128,23 +126,31 @@ async function addCharacter(
       if (name == null)
         throw new Error('Ability name not found', { cause: heading })
 
-      const [description, explanation] = $(element)
-        .parent()
-        .clone() //clone the element
-        .children() //select all the children
-        .remove() //remove all the children
-        .end() //again go back to selected element
+      // const [description, explanation] = $(element)
+      //   .parent()
+      //   .clone() //clone the element
+      //   .children() //select all the children
+      //   .remove() //remove all the children
+      //   .end() //again go back to selected element
+      //   .text()
+      //   .trim()
+      //   .replace(/\n+/g, '\n')
+      //   .split('\n', 2)
+
+      const [description, ...explanations] = $(element)
+        .nextUntil('b:not(:has(> *)):not(:empty)')
         .text()
         .trim()
         .replace(/\n+/g, '\n')
-        .split('\n', 2)
+        .split('\n')
 
       const enforced = heading.includes('[Enforced ability]')
-      const ruler = heading.includes('Ruler')
+      const ruler = heading.includes('[Ruler ability]')
+
       return {
         name,
         description,
-        explanation,
+        explanation: explanations.join('\n'),
         enforced,
         ruler,
       }
@@ -204,11 +210,11 @@ async function main(): Promise<void> {
   })
   const characterURLs = await getCharacterUrls()
   await Promise.all([
-    pullCharacters(characterURLs.shu, 'shu', multibar),
-    pullCharacters(characterURLs.wei, 'wei', multibar),
-    pullCharacters(characterURLs.wu, 'wu', multibar),
-    pullCharacters(characterURLs.heroes, 'heroes', multibar),
-    pullCharacters(characterURLs.demiGods, 'demi-gods', multibar),
+    pullCharacters([characterURLs.shu[1]], 'shu', multibar),
+    // pullCharacters(characterURLs.wei, 'wei', multibar),
+    // pullCharacters(characterURLs.wu, 'wu', multibar),
+    // pullCharacters(characterURLs.heroes, 'heroes', multibar),
+    // pullCharacters(characterURLs.demiGods, 'demi-gods', multibar),
   ])
   multibar.stop()
 }

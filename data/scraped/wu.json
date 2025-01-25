@@ -310,7 +310,7 @@
       {
         "name": "Annihilate 破军 (pò jūn)",
         "description": "The Steel Barricade of Jiang Dong 江东的铁壁 (jiāng dōng dè tiě bì)",
-        "explanation": "(Note: Jiang Dong is a region in the East of China. It literally translates to \"East of the river\")",
+        "explanation": "Note: Jiang Dong is a region in the East of China. It literally translates to \"East of the river\"",
         "enforced": false,
         "ruler": false
       }
@@ -351,21 +351,21 @@
       {
         "name": "Ardor 激昂 (jī áng)",
         "description": "\"The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)\"",
-        "explanation": "(Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.)",
+        "explanation": "Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Divine Aura 魂姿 (hún zī)",
         "description": "\"The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)\"",
-        "explanation": "(Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.)",
+        "explanation": "Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Hegemony 制霸 (zhì bà)",
         "description": "\"The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)\"",
-        "explanation": "(Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.)",
+        "explanation": "Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.",
         "enforced": false,
         "ruler": true
       }

@@ -246,7 +246,7 @@
       {
         "name": "Blockade 断粮 (duàn liáng)",
         "description": "\"Reminiscence of Zhou Ya Fu 周亚夫之风 (zhōu yǎ fū zhī fēng)\"",
-        "explanation": "(Zhou Ya Fu was a general during the Han Dynasty that died about 60 years before the start of the Three Kingdoms era. He is regarded as the epitome of military discipline and integrity.)",
+        "explanation": "Zhou Ya Fu was a general during the Han Dynasty that died about 60 years before the start of the Three Kingdoms era. He is regarded as the epitome of military discipline and integrity.",
         "enforced": false,
         "ruler": false
       }
