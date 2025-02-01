@@ -9,12 +9,14 @@
       {
         "name": "Villainous Hero 奸雄 (jiān xióng)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Royal Escort 护驾 (hù jià)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": true
       }
@@ -31,12 +33,14 @@
       {
         "name": "Envy of Heaven 天妒 (tiān dù)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Bequeathed Strategy 遗计 (yí jì)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -53,12 +57,14 @@
       {
         "name": "Retaliation 反馈 (fǎn kuì)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Demonic Talent 鬼才 (guǐ cái)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -75,6 +81,7 @@
       {
         "name": "An Eye for an Eye 刚烈 (gāng liè)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -91,6 +98,7 @@
       {
         "name": "Bare-Chested 裸衣 (luǒ yī)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -107,6 +115,7 @@
       {
         "name": "Sudden Strike 突击 (tū jī)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -123,12 +132,14 @@
       {
         "name": "Impetus for War 倾国 (qīng guó)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Goddess Luo 洛神 (luò shén)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -145,6 +156,7 @@
       {
         "name": "Ferocious Assault 强袭 (qiáng xí)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -161,12 +173,14 @@
       {
         "name": "Rouse the Tiger 驱虎 (qū hǔ)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Eternal Loyalty 节命 (jié mìng)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -182,7 +196,8 @@
     "abilities": [
       {
         "name": "Entrenched 据守 (jù shǒu)",
-        "description": "\"",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -199,6 +214,7 @@
       {
         "name": "Godspeed 神速 (shén sù)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -214,22 +230,22 @@
     "abilities": [
       {
         "name": "Unnatural Death 行殇 (xíng shāng)",
-        "description": "\"The Dominating Successor 霸业的继承者 (bà yè dè jì chéng zhě)\"",
-        "explanation": " ",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Banish into Exile 放逐 (fàng zhú)",
-        "description": "\"The Dominating Successor 霸业的继承者 (bà yè dè jì chéng zhě)\"",
-        "explanation": " ",
+        "description": "\"Flip Character Card\"",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Exalt the Powerful 颂威 (sǒng wēi)",
-        "description": "\"The Dominating Successor 霸业的继承者 (bà yè dè jì chéng zhě)\"",
-        "explanation": " ",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": true
       }
@@ -245,8 +261,8 @@
     "abilities": [
       {
         "name": "Blockade 断粮 (duàn liáng)",
-        "description": "\"Reminiscence of Zhou Ya Fu 周亚夫之风 (zhōu yǎ fū zhī fēng)\"",
-        "explanation": "Zhou Ya Fu was a general during the Han Dynasty that died about 60 years before the start of the Three Kingdoms era. He is regarded as the epitome of military discipline and integrity.",
+        "description": "RATIONS DEPLETED 兵粮寸断",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -262,15 +278,15 @@
     "abilities": [
       {
         "name": "Falling Bloom 落英 (luò yīng)",
-        "description": "Eight-Tenths of the world's Talent 八斗之才 (bā doù zhī cái)",
-        "explanation": "Brother, or adulterer? Feeble poet, or crouching usurper? Genius, or drunkard? Cao Zhi is a contradiction that has romanticized the entire Three Kingdoms era. Wikipedia would sing his praises for his famed poetic ability, while on the same page hark on his lack of sobriety as if it were tabloid news. Cao Zhi was never much of a military person, and is usually belittled in comparison to his elder brother, Cao Pi 曹丕. Yet Cao Zhi has left his mark in ways that Cao Pi could never equal. If you love the vagabond wanderer without a care in the world, or the merry-making hippie culture that spun off incredible lyrical literature, you would probably fall in love with Cao Zhi. Maybe you would even grin understandably when Cao Zhi flirted with his elder brother's wife. Merry-making, eh?",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Drunken Quatrain 酒诗 (jiǔ shī)",
-        "description": "Eight-Tenths of the world's Talent 八斗之才 (bā doù zhī cái)",
-        "explanation": "Brother, or adulterer? Feeble poet, or crouching usurper? Genius, or drunkard? Cao Zhi is a contradiction that has romanticized the entire Three Kingdoms era. Wikipedia would sing his praises for his famed poetic ability, while on the same page hark on his lack of sobriety as if it were tabloid news. Cao Zhi was never much of a military person, and is usually belittled in comparison to his elder brother, Cao Pi 曹丕. Yet Cao Zhi has left his mark in ways that Cao Pi could never equal. If you love the vagabond wanderer without a care in the world, or the merry-making hippie culture that spun off incredible lyrical literature, you would probably fall in love with Cao Zhi. Maybe you would even grin understandably when Cao Zhi flirted with his elder brother's wife. Merry-making, eh?",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -286,8 +302,8 @@
     "abilities": [
       {
         "name": "Resolute 毅重 (yì zhòng) [Enforced ability]",
-        "description": "Mainstay of the Wei Military 魏武之刚 (wèi wǔ zhī gāng)",
-        "explanation": "Loyalty transcends time and geography, or so Yu Jin thought. Yu Jin was thought to be one of five most important generals serving under Cao Cao 曹操. In his prime, Yu Jin was responsible for the battles that led to Yuan Shao 袁绍 being vanquished, and he was also known as a man of steely integrity. Yu Jin once defeated a rebel leader who happened to be an old friend. Despite this old friend surrendering to Yu Jin, Yu Jin knew that Cao Cao would execute this friend anyways because he only surrendered after being defeated. Yu Jin decided that he would order the execution himself, and he had a tearful final meeting with that friend before the execution.",
+        "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       }
@@ -303,29 +319,29 @@
     "abilities": [
       {
         "name": "Ruthless 绝情 (jué qíng)",
-        "description": "Cold-blooded Empress 冷血皇后 (lěng xuè huáng hoù)",
-        "explanation": "At first glance, you might probably think that this is one of Cao Cao 曹操's many wives who later became Empress of Wei Kingdom 魏国. Yet on closer scrutiny of history, her identity comes as a shock! Zhang Chun Hua is not wife of any within the Cao family. She is, in fact, the wife of Si Ma Yi 司马懿, the nemesis of Cao Cao! So why is she an Empress and given the colours of the Wei Kingdom in this character card? Since Zhang Chun Hua is the wife of Si Ma Yi, and Si Ma Yi was one of Cao Cao's most important advisors at the time, it is natural that her \"allegiance\" lies with the Wei Kingdom. However she never became Empress in her lifetime. It was only after her grandson, Si Ma Yan 司马炎, established the Jin Dynasty 晋朝 that she was posthumously honoured as Empress.",
+        "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       },
       {
         "name": "Bereavement 伤逝 (shāng shī)",
-        "description": "Cold-blooded Empress 冷血皇后 (lěng xuè huáng hoù)",
-        "explanation": "At first glance, you might probably think that this is one of Cao Cao 曹操's many wives who later became Empress of Wei Kingdom 魏国. Yet on closer scrutiny of history, her identity comes as a shock! Zhang Chun Hua is not wife of any within the Cao family. She is, in fact, the wife of Si Ma Yi 司马懿, the nemesis of Cao Cao! So why is she an Empress and given the colours of the Wei Kingdom in this character card? Since Zhang Chun Hua is the wife of Si Ma Yi, and Si Ma Yi was one of Cao Cao's most important advisors at the time, it is natural that her \"allegiance\" lies with the Wei Kingdom. However she never became Empress in her lifetime. It was only after her grandson, Si Ma Yan 司马炎, established the Jin Dynasty 晋朝 that she was posthumously honoured as Empress.",
+        "description": "[2012 New version]",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Ruthless 绝情 (jué qíng)",
-        "description": "Cold-blooded Empress 冷血皇后 (lěng xuè huáng hoù)",
-        "explanation": "At first glance, you might probably think that this is one of Cao Cao 曹操's many wives who later became Empress of Wei Kingdom 魏国. Yet on closer scrutiny of history, her identity comes as a shock! Zhang Chun Hua is not wife of any within the Cao family. She is, in fact, the wife of Si Ma Yi 司马懿, the nemesis of Cao Cao! So why is she an Empress and given the colours of the Wei Kingdom in this character card? Since Zhang Chun Hua is the wife of Si Ma Yi, and Si Ma Yi was one of Cao Cao's most important advisors at the time, it is natural that her \"allegiance\" lies with the Wei Kingdom. However she never became Empress in her lifetime. It was only after her grandson, Si Ma Yan 司马炎, established the Jin Dynasty 晋朝 that she was posthumously honoured as Empress.",
+        "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       },
       {
         "name": "Bereavement 伤逝 (shāng shī)",
-        "description": "Cold-blooded Empress 冷血皇后 (lěng xuè huáng hoù)",
-        "explanation": "At first glance, you might probably think that this is one of Cao Cao 曹操's many wives who later became Empress of Wei Kingdom 魏国. Yet on closer scrutiny of history, her identity comes as a shock! Zhang Chun Hua is not wife of any within the Cao family. She is, in fact, the wife of Si Ma Yi 司马懿, the nemesis of Cao Cao! So why is she an Empress and given the colours of the Wei Kingdom in this character card? Since Zhang Chun Hua is the wife of Si Ma Yi, and Si Ma Yi was one of Cao Cao's most important advisors at the time, it is natural that her \"allegiance\" lies with the Wei Kingdom. However she never became Empress in her lifetime. It was only after her grandson, Si Ma Yan 司马炎, established the Jin Dynasty 晋朝 that she was posthumously honoured as Empress.",
+        "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       }
@@ -341,15 +357,15 @@
     "abilities": [
       {
         "name": "Amassing Terrain 屯田 (tún tián)",
-        "description": "\"The Staunch Warrior 矫然的壮士 (jiǎo rán dè zhuàng shì)\"",
-        "explanation": "There were many pairs of arch-nemeses throughout the Three Kingdoms era between Wei and Shu Kingdoms. In the early days, there were the two most famous loggerheads, Cao Cao 曹操 and Liu Bei 刘备. In wit and cunning, there were Zhuge Liang 诸葛亮 and Sima Yi 司马懿. In the later days as the era was coming to an end, there were the final two, Jiang Wei 姜维 and Deng Ai 邓艾.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Conduit 凿险 (záo xiǎn)",
-        "description": "\"The Staunch Warrior 矫然的壮士 (jiǎo rán dè zhuàng shì)\"",
-        "explanation": "There were many pairs of arch-nemeses throughout the Three Kingdoms era between Wei and Shu Kingdoms. In the early days, there were the two most famous loggerheads, Cao Cao 曹操 and Liu Bei 刘备. In wit and cunning, there were Zhuge Liang 诸葛亮 and Sima Yi 司马懿. In the later days as the era was coming to an end, there were the final two, Jiang Wei 姜维 and Deng Ai 邓艾.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -365,8 +381,8 @@
     "abilities": [
       {
         "name": "Flexibility 巧变 (qiǎo biàn)",
-        "description": "The Military Clairvoyant 料敌机先 (liào dí jī xiān)",
-        "explanation": "There are those who analyze volumes of data before they can predict the future, and then there are those talents who only need to follow their gut instinct. Zhang He was one of those talents, and his predictions were sometimes more accurate than the scholarly military advisers. Widely regarded as one of the five most elite generals in the Wei Kingdom 魏国, Zhang He stood shoulder to shoulder with the likes of Xu Chu 许褚, Zhang Liao 张辽 and Xu Huang 徐晃 just to name three. But some say Zhang He was the most outstanding amongst all five elites. His military career spanned a staggering 47 years and his military predictions outdid even the infamous Sima Yi 司马懿.",
+        "description": "(e.g. relocating a weapon from Player A’s equipment area to Player B’s equipment area, or relocating the ACEDIA that is pending judgement from Player A’s pending area to Player B’s pending area).",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -382,15 +398,15 @@
     "abilities": [
       {
         "name": "Have your Cake (and eat it) 啖酪 (dàn lào)",
-        "description": "Genius Unrestrained 恃才放旷 (shì cái fàng kuàng)",
-        "explanation": "Famed to be one of the most brilliant advisers to Cao Cao 曹操, Yang Xiu was either a genius or a lunatic. Going by his track-record of excellent advice and superior logic, he was mostly trusted, even respected, by Cao Cao. On the other hand, Yang Xiu has a nasty habit of thinking way too far and conjuring up dramatic assumptions for harmless incidents. He was the ancient equivalent of a conspiracy-theorist, and that ultimately cost him his life. Learn from the ancients, don't be too smart for your own good.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "The Wishing Bone 鸡肋 (jī lèi)",
-        "description": "Genius Unrestrained 恃才放旷 (shì cái fàng kuàng)",
-        "explanation": "Famed to be one of the most brilliant advisers to Cao Cao 曹操, Yang Xiu was either a genius or a lunatic. Going by his track-record of excellent advice and superior logic, he was mostly trusted, even respected, by Cao Cao. On the other hand, Yang Xiu has a nasty habit of thinking way too far and conjuring up dramatic assumptions for harmless incidents. He was the ancient equivalent of a conspiracy-theorist, and that ultimately cost him his life. Learn from the ancients, don't be too smart for your own good.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -406,15 +422,15 @@
     "abilities": [
       {
         "name": "Warrior Saint 武圣 (wǔ shèng)",
-        "description": "“Marquis of HanShou 汉寿亭侯(hàn shòu tíng hóu)”",
-        "explanation": "Even if you cannot identify him through his new appearance, you should have noticed the Red Hare 赤兔 and the Green Dragon Crescent Blade 青龙偃月刀. Bingo! He’s our loyal “second brother”, the warrior saint in legend, the bearded gentleman in history, Guan Yu.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Single Calvary 单骑(dān qí)",
-        "description": "“Marquis of HanShou 汉寿亭侯(hàn shòu tíng hóu)”",
-        "explanation": "Even if you cannot identify him through his new appearance, you should have noticed the Red Hare 赤兔 and the Green Dragon Crescent Blade 青龙偃月刀. Bingo! He’s our loyal “second brother”, the warrior saint in legend, the bearded gentleman in history, Guan Yu.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -430,15 +446,15 @@
     "abilities": [
       {
         "name": "Horsemanship 马术 (mǎ shù)",
-        "description": "“Carrying The Coffin 抬榇之悟(tái chèn zhī wù)”",
-        "explanation": "An admirable man. He is Pang De,a brave fighter and an exceptional general living in the Three Kingdoms era. In his entire life, he changed rulers multiple times, but nobody questioned his loyalty. He proved his devotion with his own life: he fought against enemies valiantly, and he even carried his coffin into battle to show his courage (See Ricky’s write-up about him, the “Most famous achievement” part). Unlike Lu Bu 吕布, who also changed ruler quite often (because the idiot killed his own ruler before jumping ship), Pang De gains all the",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Fearsome Advance 猛进 (měng jìn)",
-        "description": "“Carrying The Coffin 抬榇之悟(tái chèn zhī wù)”",
-        "explanation": "An admirable man. He is Pang De,a brave fighter and an exceptional general living in the Three Kingdoms era. In his entire life, he changed rulers multiple times, but nobody questioned his loyalty. He proved his devotion with his own life: he fought against enemies valiantly, and he even carried his coffin into battle to show his courage (See Ricky’s write-up about him, the “Most famous achievement” part). Unlike Lu Bu 吕布, who also changed ruler quite often (because the idiot killed his own ruler before jumping ship), Pang De gains all the",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -454,15 +470,15 @@
     "abilities": [
       {
         "name": "Dirge 悲歌 (bēi gē)",
-        "description": "“Extraordinary Talent 金璧之才(jīn bì zhī cái)”",
-        "explanation": "If you ask me who was the most beautiful lady during the whole Three Kingdoms era, I really can't name one. The beautiful ladies always leave their names in history (just like Da Qiao 大乔, Xiao Qiao 小乔, Diao Chan 貂蝉). But if you ask me who was the most talented lady at the time, I am sure that must be Lady Cai, who is also called Cai Wen Ji 蔡文姬 in history. The proof is that she did not only leave her family name but also her first name (蔡琰Cài Yǎn) in the history books. In ancient China, that was a special honor reserved for only the smartest of ladies such as Zhen Ji 甄姬 (whose real name was 甄宓Zhen Mi), and Huang Yue Ying 黄月英. Lady Cai was a poet, a composer and was famous for her incredible memory in literature. Want to know more about her? ",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Sorrow 断肠(duàn cháng)",
-        "description": "“Extraordinary Talent 金璧之才(jīn bì zhī cái)”",
-        "explanation": "If you ask me who was the most beautiful lady during the whole Three Kingdoms era, I really can't name one. The beautiful ladies always leave their names in history (just like Da Qiao 大乔, Xiao Qiao 小乔, Diao Chan 貂蝉). But if you ask me who was the most talented lady at the time, I am sure that must be Lady Cai, who is also called Cai Wen Ji 蔡文姬 in history. The proof is that she did not only leave her family name but also her first name (蔡琰Cài Yǎn) in the history books. In ancient China, that was a special honor reserved for only the smartest of ladies such as Zhen Ji 甄姬 (whose real name was 甄宓Zhen Mi), and Huang Yue Ying 黄月英. Lady Cai was a poet, a composer and was famous for her incredible memory in literature. Want to know more about her? ",
+        "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       }
@@ -478,22 +494,22 @@
     "abilities": [
       {
         "name": "Unmitigated Murder 完杀 (wán shā)",
-        "description": "“Never a strategy miscalculated 算无遗策(suàn wú yí cè)”",
-        "explanation": "I remember it clearly when the celebrity Chinese scholar Yi Zhong Tian 易中天 (famed for his televised lectures of ROTK) said: “Jia Xu was probably the smartest character during the whole Three Kingdom era.” As an advisor, Jia Xu’s work experience seems to be a little complicated. He previously served Dong Zhuo 董卓, Li Jué 李傕 and Zhang Xiu 张秀 before finally joining Cao Cao 曹操. Then he served as an official in Wei Kingdom under Cao Cao's son, Cao Pi 曹丕. Despite his flip-flopping loyalties, Jia Xu was an  advisor. Not only did he know what his ruler was thinking, he also knew what his enemy was thinking. He always considered every detail and possibility, then predicted what would happen next with uncanny accuracy. According to historical records, he never made a single strategic mistake in his entire life. In the last few years of Cao Cao's rule when the irate ruler became extremely paranoid, many great advisors were slaughtered, but not Jia Xu. In my personal opinion, this man really is a legendary figure. If you want to know more details about him, just check out Ricky’s write-up about him and find out!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Descend into Chaos 乱武 (luàn wǔ)",
-        "description": "“Never a strategy miscalculated 算无遗策(suàn wú yí cè)”",
-        "explanation": "I remember it clearly when the celebrity Chinese scholar Yi Zhong Tian 易中天 (famed for his televised lectures of ROTK) said: “Jia Xu was probably the smartest character during the whole Three Kingdom era.” As an advisor, Jia Xu’s work experience seems to be a little complicated. He previously served Dong Zhuo 董卓, Li Jué 李傕 and Zhang Xiu 张秀 before finally joining Cao Cao 曹操. Then he served as an official in Wei Kingdom under Cao Cao's son, Cao Pi 曹丕. Despite his flip-flopping loyalties, Jia Xu was an  advisor. Not only did he know what his ruler was thinking, he also knew what his enemy was thinking. He always considered every detail and possibility, then predicted what would happen next with uncanny accuracy. According to historical records, he never made a single strategic mistake in his entire life. In the last few years of Cao Cao's rule when the irate ruler became extremely paranoid, many great advisors were slaughtered, but not Jia Xu. In my personal opinion, this man really is a legendary figure. If you want to know more details about him, just check out Ricky’s write-up about him and find out!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Behind the Curtain 帷幕 (wéi mù)",
-        "description": "“Never a strategy miscalculated 算无遗策(suàn wú yí cè)”",
-        "explanation": "I remember it clearly when the celebrity Chinese scholar Yi Zhong Tian 易中天 (famed for his televised lectures of ROTK) said: “Jia Xu was probably the smartest character during the whole Three Kingdom era.” As an advisor, Jia Xu’s work experience seems to be a little complicated. He previously served Dong Zhuo 董卓, Li Jué 李傕 and Zhang Xiu 张秀 before finally joining Cao Cao 曹操. Then he served as an official in Wei Kingdom under Cao Cao's son, Cao Pi 曹丕. Despite his flip-flopping loyalties, Jia Xu was an  advisor. Not only did he know what his ruler was thinking, he also knew what his enemy was thinking. He always considered every detail and possibility, then predicted what would happen next with uncanny accuracy. According to historical records, he never made a single strategic mistake in his entire life. In the last few years of Cao Cao's rule when the irate ruler became extremely paranoid, many great advisors were slaughtered, but not Jia Xu. In my personal opinion, this man really is a legendary figure. If you want to know more details about him, just check out Ricky’s write-up about him and find out!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -509,15 +525,15 @@
     "abilities": [
       {
         "name": "Contrivance 奇策 (qí cè)",
-        "description": "\"Master Strategist of Cao Wei 曹魏的谋主 (cáo wèi dè moú shì)\"",
-        "explanation": "In a time where heroes and talents sprouted like cow grass after a blaze, there were simply too many important people for all of them to have gained as much attention as they deserve. Xun You was one of these lesser known greats. Many of the big achievements behind Cao Cao 曹操's early conquests had Xun You's influence. He was on of Cao Cao's most brilliant and effective advisors, playing a key role in the eradication of Lu Bu 吕布 and Yuan Shao 袁绍. It also happens the Xun You is the nephew of another brilliant advisor to Cao Cao, Xun Yu 荀彧.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Playing Dumb 智愚 (zhì yú)",
-        "description": "\"Master Strategist of Cao Wei 曹魏的谋主 (cáo wèi dè moú shì)\"",
-        "explanation": "In a time where heroes and talents sprouted like cow grass after a blaze, there were simply too many important people for all of them to have gained as much attention as they deserve. Xun You was one of these lesser known greats. Many of the big achievements behind Cao Cao 曹操's early conquests had Xun You's influence. He was on of Cao Cao's most brilliant and effective advisors, playing a key role in the eradication of Lu Bu 吕布 and Yuan Shao 袁绍. It also happens the Xun You is the nephew of another brilliant advisor to Cao Cao, Xun Yu 荀彧.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -533,8 +549,8 @@
     "abilities": [
       {
         "name": "Versatile Fighter 将驰",
-        "description": "\"The Yellow Bearded Son 黄须儿 (huáng xū ér)\"",
-        "explanation": "We all have funny nicknames given by our parents, which is their way of personalizing that bond between child and parents. Thus to have Cao Zhang's father, Cao Cao 曹操, endearingly nickname him \"my yellow bearded son\" was a sign of his father's fondness. In his youth, Cao Zhang was said to have wrestled with live beasts using his bare hands. His ferocity and his courage would make him an excellent general.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -550,14 +566,15 @@
     "abilities": [
       {
         "name": "Death over Desecration 贞烈 (zhēn liè)",
-        "description": "\"The Elated Damsel 快意的巾帼 (kuài yì dè jīn guò)\"",
-        "explanation": "The more I studied up on this new female character, the more confused  I became. The confusion stems from the disparity between Wang Yi in literature/history, and Wang Yi as described in this card. The last adjective I would use to describe her is \"Elated\"! She attempted suicide twice, covered her body in mud and sh*t for a year, then eventually roused herself up to be a fearsome fighter and steely, ruthless loyalty. Put it this way: how could you call someone \"happy and blissful\" when this person rather let her sons die in the hands of the enemy than talk peace?",
+        "description": "Character ability 2: Hatch a Plan 秘计 (mì jì)",
+        "explanation": "If you are injured before the beginning (or ending) phase of your turn, you can flip a judgement card. If the judgement card is black-suited, you can view X cards from the top of the deck (X being units of health lost), then give these cards to a player. \nAbility's relation to story:\n\"Death over Desecration\" referred to Wang Yi's action to protect her daughter's and her own chastity. During her husband's leave, some rebellous troops sieged the city and killed her sons, she intended to commit suicide, but he did not so so because no one would protect her daughter after her death. Instead, she covered herself in clothes soaked in sewage of feces. When her husband returned, she intended to commit suicide because it was a responsibility to commit suicide to protect her chastity for her husband in dangerous situations, and she merely delayed this process to protect her daughter.\n\"Hatch a Plan\" referred to Wang Yi's ability to plot when falsely serving her enemies.\nTrivia:\nFor what ever reason, Wang Yi's failed suicides turned her resolve and loyalty to her country as hard as heat-treated steel. She once rode into battle beside her husband, using the bow and arrow as her weapon. She also gave the troops her jewellery, which did wonders for morale. Even after Ma Chao 马超 captured the heir to Zhao Ang (I suspect the heir is not her son, but son of another wife), she bluntly told her husband not to succumb to blackmail, but fight to the death and let the heir die. Die the heir did, but it just shows how merciless and cold Wang Yi became in her fight for her their sovereignty.\nComments by Authors:\nI am disappointed by both her illustration and her abilities. The illustration was too sexy, not suiting the fact that she forfeited her beauty to protect her daughter. Her abilities just did not fit the mechanisms. \"Death over Desecration\" did not show how Wang Yi protected herself. Instead, it showed that she did not surrender to fate. This is a judgment tinkering ability, which makes it complicated when multiple judgement tinkerers are present. Imagine what would happen if Sima Yi, Zhang Jiao and Wang Yi were present... Also, \"Hatch a Plan\" did not have any relationship to her plots!\nI noticed that \"Death over Desecration\" has been amended since first translation. Now the ability applies only to her own judgement cards, which would make more sense now since she was protecting herself in the story. However \"Hatch a Plan\" is an enigma to me. I didn't find much reference to her hatching any plans, or what those plans were. It seemed more like she was the trumpet-blower, rallying everyone to fight for their cause. And I still cannot understand why her description is \"快意的巾帼\"!! Can someone please enlighten us??\nHow to obtain this character?\nWang Yi is available in the 2012 release of OverKnight Fame, otherwise known as OKF2012 (一将成名2012). Click here to purchase now!\nEmail ThisBlogThis!Share to XShare to FacebookShare to Pinterest",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Hatch a Plan 秘计 (mì jì)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -573,15 +590,15 @@
     "abilities": [
       {
         "name": "Amassing Power 权计 (quán jì)",
-        "description": "\"The Audacious Schemer 桀骜的野心家 (jié ào dè yě xīn jiā)\"",
-        "explanation": "This is one of those guys who smiles at you and could seem to be the most reliable guy, except that he's been secretly plotting to take over the world! Unlike \"Brain\" from \"Pinky and the Brain\", Zhong Hui doesn't just talk about it, he has consistently taken action to carry out his audacious plans. In the final few chapters of ROTK, Deng Ai 邓艾 had led the Wei forces to successfully defeat Shu Kingdom. Although Jiang Wei 姜维 surrendered, Jiang Wei never lost hope in reviving Shu. It just so happened that Zhong Hui was jealous of Deng Ai's success, and plotted with Jiang Wei to rebel and take back the kingdom for themselves again.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Uprising 自立 (zì lì) [Awakening ability]",
-        "description": "\"The Audacious Schemer 桀骜的野心家 (jié ào dè yě xīn jiā)\"",
-        "explanation": "This is one of those guys who smiles at you and could seem to be the most reliable guy, except that he's been secretly plotting to take over the world! Unlike \"Brain\" from \"Pinky and the Brain\", Zhong Hui doesn't just talk about it, he has consistently taken action to carry out his audacious plans. In the final few chapters of ROTK, Deng Ai 邓艾 had led the Wei forces to successfully defeat Shu Kingdom. Although Jiang Wei 姜维 surrendered, Jiang Wei never lost hope in reviving Shu. It just so happened that Zhong Hui was jealous of Deng Ai's success, and plotted with Jiang Wei to rebel and take back the kingdom for themselves again.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -597,15 +614,15 @@
     "abilities": [
       {
         "name": "Break Out 溃围 (kuì wéi)",
-        "description": "\"Quitting is not an option 险不辞难 (xiǎn bù cí nán)\"",
-        "explanation": "You are probably familiar with him by now. Before this SP release, Cao Ren was considered one of the least popular characters. I especially did not look forward to skipping one full round of action despite having additional cards. I felt like a wealthy paraplegic whenever I used him.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Discipline 严整 (yán zhěng)",
-        "description": "\"Quitting is not an option 险不辞难 (xiǎn bù cí nán)\"",
-        "explanation": "You are probably familiar with him by now. Before this SP release, Cao Ren was considered one of the least popular characters. I especially did not look forward to skipping one full round of action despite having additional cards. I felt like a wealthy paraplegic whenever I used him.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -621,15 +638,15 @@
     "abilities": [
       {
         "name": "Smother 扶亂 (fú luàn)",
-        "description": "\"Civil and Understanding Empress文明皇后 (wén míng huáng hòu)\"",
-        "explanation": "It is fitting that Wang Yuanji is released together with Sima Zhao 司马昭, simply because these two were husband and wife. From a young age of 15, Wang Yuanji was married to Sima Zhao. Little is known about her except that she's incredibly scholarly from a very young age, is obviously very smart as you shall read about later on, and is very humble as the wife of the defacto leader of the kingdom. Sounds like the kind of wife most men would want: loyal, humble, and intelligent such that she is his most loyal advisor. Even by today's standards, such women are incredibly rare!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Virtuous 淑德 (shū dé)",
-        "description": "\"Civil and Understanding Empress文明皇后 (wén míng huáng hòu)\"",
-        "explanation": "It is fitting that Wang Yuanji is released together with Sima Zhao 司马昭, simply because these two were husband and wife. From a young age of 15, Wang Yuanji was married to Sima Zhao. Little is known about her except that she's incredibly scholarly from a very young age, is obviously very smart as you shall read about later on, and is very humble as the wife of the defacto leader of the kingdom. Sounds like the kind of wife most men would want: loyal, humble, and intelligent such that she is his most loyal advisor. Even by today's standards, such women are incredibly rare!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }

@@ -1,5 +1,29 @@
 [
   {
+    "id": "liu-bei",
+    "name": "Liú Bèi 刘备",
+    "description": "The ambitious leader in tumultuous times 乱世的枭雄 (luàn shì dè xiāo xióng)",
+    "faction": "shu",
+    "imageUrl": "liu-bei.jpg",
+    "abilities": [
+      {
+        "name": "Benevolence 仁德 (rén dé)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Rouse 激将 (jī jiàng)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/liu-bei.html"
+  },
+  {
     "id": "elder-zhu-ge-liang",
     "name": "Elder Zhūgě Liàng 暮年诸葛亮",
     "description": "Prime minister who has passed his prime 迟暮的丞相 (chí mù dè chéng xiàng)",
@@ -22,5 +46,510 @@
       }
     ],
     "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/elder-zhu-ge-liang.html"
+  },
+  {
+    "id": "zhao-yun",
+    "name": "Zhào Yún 赵云",
+    "description": "The young general 少年将军 (shào nián jiāng jūn)",
+    "faction": "shu",
+    "imageUrl": "zhao-yun.jpg",
+    "abilities": [
+      {
+        "name": "Dragon Heart 龙胆 (lóng dǎn)",
+        "description": "Ability's relation to story:",
+        "explanation": "Scant relation to the story, really. We all know Zhao Yun is a really good fighter, so I guess it was natural to make his ability skewed towards attack. But the cool thing about Zhao Yun's \"Dragon Heart\" ability is he has a much stronger evasive ability than most players. Compared to Guan Yu 关羽 and Zhang Fei 张飞 who can heap loads of attack damage, Zhao Yun has an abnormal amount of ATTACK cards at his disposal but also has an incredible amount of DODGE as well! You kind of get the impression that the game makers want us to think that Guan Yu and Zhang Fei are pure brute strength while Zhao Yun has more dexterity and flexibility.\nAdditional info based on story:\n1. Most famous achievement - Zhao Yun's rescue of Liu Shan 刘禅 at the Battle of Chang Ban 长板. This story is the stuff of legends. Zhao Yun is separate from Liu Bei 刘备 in the chaos after Cao Cao 曹操 attacks. Liu Bei's generals reported seeing Zhao Yun dash in the direction of the enemy alone, inferring that Zhao Yun has deserted Liu Bei and joined the enemy. Liu Bei would have none of it and believed Zhao Yun must have some plan up his sleeve. True enough, Zhao Yun ran into the enemy to search for Liu Bei's wife and son, Liu Shan, who was missing as well. After finding Liu Shan but not being able to rescue Liu Bei's wife, Zhao Yun dashes back towards Liu Bei, encountering literally thousands of enemy troops alone. One versus a few thousand, Zhao Yun manages to slay over 50 of Cao Cao's generals and hundreds of troops before successfully escaping. When Liu Shan was finally presented back to Liu Bei, Liu Bei tosses the baby on the ground, exclaiming that his son's life was not worth endangering his great general.\n2. Cause of death - Zhao Yun died of old age, which was a remarkable feat not to have died in battle in that era. He remained undefeated in battle till his death. Most of the other Shu Han generals were all killed in action.\nWikipedia link:\n* Zhao Yun Wiki",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/zhao-yun.html"
+  },
+  {
+    "id": "guan-yu",
+    "name": "Guān Yǔ 关羽",
+    "description": "Bearded Gentleman 美髯公 (měi rán gōng)",
+    "faction": "shu",
+    "imageUrl": "guan-yu.jpg",
+    "abilities": [
+      {
+        "name": "Warrior Saint 武圣 (wǔ shèng)",
+        "description": "Ability's relation to story:",
+        "explanation": "Like most of Shu Han 蜀汉's \"combat\" characters in the San Guo Sha 三国杀 card game, there is only a superficial link between their character ability and the story. In the case of Guan Yu, the game makers decided to make it easy for Guan Yu to attack other players. Unlike Zhao Yun 赵云 who has an advantage in dodging, Guan Yu's advantage only lies in attack. Perhaps its the game makers' way of paying tribute to Guan Yu's courage and raw power.\nAdditional info based on story:\n1. Most famous achievement - I'm putting my personal opinion into this one. Despite all the battles won by Guan Yu, I remember him best for his role in letting Cao Cao 曹操 escape. When nearly all hope was lost for Cao Cao after the huge loss at Battle of Red Cliffs 赤壁之战, he had the ill-fortune to be confronted by Guan Yu. Cao Cao knelt down before Guan Yu and said it was his fortune to die in the hands of the respected Guan Yu, rather than in the hands of some other unknown character. However Guan Yu let Cao Cao go because he was once indebted to Cao Cao, who spared his life in a reversal of fortunes many years before. The key thing to remember here is that Guan Yu is liable for punishment by death for this chivalrous act, yet he still let Cao Cao go. Now that is a classic example of chivalry indeed.\n2. Cause of death - Guan Yu was captured by troops from the Kingdom of Sun Wu 孙吴 after his own men deserted him. Guan Yu had severely underestimated his enemies and left the city of Jing Zhou 荆州 poorly guarded. While he was away attacking Cao Ren 曹仁 at Fan Cheng 樊城, the troops of Lu Meng 吕蒙 moved in and captured Jing Zhou. Guan Yu's men, who were mostly from Jing Zhou, deserted him to return to the safety of their family. Guan Yu was then captured at Mai Cheng 麦城. He was executed together with his son Guan Ping 关平 since they refused to surrender.\nWikipedia link:\n* Guan Yu Wiki",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/guan-yu.html"
+  },
+  {
+    "id": "huang-yue-ying",
+    "name": "Huáng Yuè Yīng 黄月英",
+    "description": "Veiled heroine 归隐的侠女 (guī yǐn dè xiá nǚ)",
+    "faction": "shu",
+    "imageUrl": "huang-yue-ying.jpg",
+    "abilities": [
+      {
+        "name": "Assembling Wisdom 集智 (jí zhì)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Genius 奇才 (qí cái)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/huang-yue-ying.html"
+  },
+  {
+    "id": "ma-chao",
+    "name": "Mǎ Chāo 马超",
+    "description": "Lone horseman that can outmatch a thousand troops 一骑当千 (yì qí dāng qiān)",
+    "faction": "shu",
+    "imageUrl": "ma-chao.jpg",
+    "abilities": [
+      {
+        "name": "Horsemanship 马术 (mǎ shù)",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Iron Calvary 铁骑 (tiě jì)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/ma-chao.html"
+  },
+  {
+    "id": "zhang-fei",
+    "name": "Zhāng Fēi 张飞",
+    "description": "A thousand men can't stop him 万夫不挡 (wàn fū bù dǎng)",
+    "faction": "shu",
+    "imageUrl": "zhang-fei.jpg",
+    "abilities": [
+      {
+        "name": "Berserk 咆哮 (páo xiāo)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/zhang-fei.html"
+  },
+  {
+    "id": "younger-zhu-ge-liang",
+    "name": "Younger Zhū Gě Liàng 卧龙诸葛亮",
+    "description": "Hidden dragon 卧龙 (wò lóng)",
+    "faction": "shu",
+    "imageUrl": "younger-zhu-ge-liang.jpg",
+    "abilities": [
+      {
+        "name": "Eight Trigrams Formation 八阵 (bā zhèn)",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Arson 火计 (huǒ jì)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Scient 看破 (kàn pò)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/08/younger-zhu-ge-liang.html"
+  },
+  {
+    "id": "pang-tong",
+    "name": "Páng Tǒng 庞统",
+    "description": "Rising Phoenix 凤雏 (fèng chú)",
+    "faction": "shu",
+    "imageUrl": "pang-tong.jpg",
+    "abilities": [
+      {
+        "name": "Shackle 连环 (lián huán)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Nirvana 涅盘 (niè pán)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/pang-tong.html"
+  },
+  {
+    "id": "huang-zhong",
+    "name": "Huáng Zhōng 黄忠",
+    "description": "Old but vigorous 老当益壮 (lǎo dāng yì zhuàng)",
+    "faction": "shu",
+    "imageUrl": "huang-zhong.jpg",
+    "abilities": [
+      {
+        "name": "Fearsome Archer 烈弓 (liè gōng)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/huang-zhong.html"
+  },
+  {
+    "id": "wei-yan",
+    "name": "Wèi Yán 魏延",
+    "description": "The blood-thirsty lone-wolf 嗜血的独狼 (shì xuě dè dú láng)",
+    "faction": "shu",
+    "imageUrl": "wei-yan.jpg",
+    "abilities": [
+      {
+        "name": "Insanity Streak 狂骨 (kuáng gǔ)",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/07/wei-yan.html"
+  },
+  {
+    "id": "meng-huo",
+    "name": "Mèng Huò 孟获",
+    "description": "King of the Southern Barbarians 南蛮王 (nán mán wáng)",
+    "faction": "shu",
+    "imageUrl": "meng-huo.jpg",
+    "abilities": [
+      {
+        "name": "The Smoking Gun 祸首 (huò shǒu)",
+        "description": "BARBARIANS 南蛮入侵",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Arise Again 再起 (zài qǐ)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/09/meng-huo.html"
+  },
+  {
+    "id": "zhu-rong",
+    "name": "Zhù Róng 祝融",
+    "description": "The Savage Queen 野性的女王 (yě xìng dè nǚ wáng)",
+    "faction": "shu",
+    "imageUrl": "zhu-rong.jpg",
+    "abilities": [
+      {
+        "name": "Giant Elephant 巨象 (jù xiàng)",
+        "description": "BARBARIANS 南蛮入侵",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Fearsome Blade 烈刃 (liè rèn)",
+        "description": "Points Duel",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2010/09/zhu-rong.html"
+  },
+  {
+    "id": "fa-zheng",
+    "name": "Fǎ Zhèng 法正",
+    "description": "The Wind beneath Shu Kingdom's Wings 蜀汉的辅翼 (shǔ hàn dè fǔ yì)",
+    "faction": "shu",
+    "imageUrl": "fa-zheng.jpg",
+    "abilities": [
+      {
+        "name": "Reciprocation 恩怨 (ēn yuàn) [Enforced ability]",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Artifice of the Masses 眩惑 (xuàn huò)",
+        "description": "[2012 New version]",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Reciprocation 恩怨 (ēn yuàn)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Artifice of the Masses 眩惑 (xuàn huò)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2011/07/fa-zheng.html"
+  },
+  {
+    "id": "ma-su",
+    "name": "Mǎ Sù 马谡",
+    "description": "The Conceited Talent 怀才自负(huái cái zì fù)",
+    "faction": "shu",
+    "imageUrl": "ma-su.jpg",
+    "abilities": [
+      {
+        "name": "Winning Hearts 心战 (xīn zhàn)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Tears of Reluctance 挥泪 (huī lèi) [Enforced ability]",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2011/06/ma-su.html"
+  },
+  {
+    "id": "xu-shu",
+    "name": "Xú Shù 徐庶",
+    "description": "The Loyal Gallant 忠孝的侠士 (zhōng xiào dè xiá shì)",
+    "faction": "shu",
+    "imageUrl": "xu-shu.jpg",
+    "abilities": [
+      {
+        "name": "Silence 无言 (wú yán) [Enforced ability]",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Dragon's Advocate 举荐 (jǔ jiàn)",
+        "description": "[2012 New version]",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Silence 无言 (wú yán) [Enforced ability]",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Dragon's Advocate 举荐 (jǔ jiàn)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2011/06/xu-shu.html"
+  },
+  {
+    "id": "liu-shan",
+    "name": "Liú Shàn 刘禅",
+    "description": "The King with a Laissez-faire Destiny 无为的真命主 (wú wéi dè zhēn mìng zhǔ)",
+    "faction": "shu",
+    "imageUrl": "liu-shan.jpg",
+    "abilities": [
+      {
+        "name": "Relish 享乐 (xiǎng lè)",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Devolution 放权 (fàng quán)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Eiron 若愚",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": true
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2011/08/liu-shan.html"
+  },
+  {
+    "id": "jiang-wei",
+    "name": "Jiāng Wéi 姜维",
+    "description": "The Protégé of the Dragon 龙的衣钵 (lóng dè yī bō)",
+    "faction": "shu",
+    "imageUrl": "jiang-wei.jpg",
+    "abilities": [
+      {
+        "name": "Taunt 挑衅 (tiǎo xìn)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Recommence the Legacy 志继 (zhì jì)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2011/08/jiang-wei.html"
+  },
+  {
+    "id": "sun-shang-xiang-sp",
+    "name": "Sūn Shàng Xiáng 孙尚香 (SP005)",
+    "description": "Exceptional Marriage 梦醉良缘(mèng zuì liáng yuán)",
+    "faction": "shu",
+    "imageUrl": "sun-shang-xiang-sp.jpg",
+    "abilities": [
+      {
+        "name": "Marriage 结姻 (jié yīn)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Warrior Lady 枭姬 (xiāo jī)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2011/11/sun-shang-xiang-sp.html"
+  },
+  {
+    "id": "ma-dai",
+    "name": "Mǎ Dài 马岱",
+    "description": "Entrusted during the crisis 临危受命 (lín wēi shòu mìng)",
+    "faction": "shu",
+    "imageUrl": "ma-dai.jpg",
+    "abilities": [
+      {
+        "name": "Horsemanship 马术 (mǎ shù) [Enforced Ability]",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Backstab 潜袭 (qián xí)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2012/06/ma-dai.html"
+  },
+  {
+    "id": "liao-hua",
+    "name": "Liào Huà 廖化",
+    "description": "Put through the Mill of Time 历经沧桑 (jīng lì cāng sāng)",
+    "faction": "shu",
+    "imageUrl": "liao-hua.jpg",
+    "abilities": [],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2012/06/liao-hua.html"
+  },
+  {
+    "id": "guan-xing-zhang-bao",
+    "name": "Guān Xìng & Zhāng Bāo 关兴 & 张苞",
+    "description": "Cubs of the Generals 将门虎子 (jiàng mén hǔ zǐ)",
+    "faction": "shu",
+    "imageUrl": "guan-xing-zhang-bao.jpg",
+    "abilities": [],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2012/06/guan-xing-zhang-bao.html"
+  },
+  {
+    "id": "zhang-fei-sp005",
+    "name": "Zhang Fei 张飞 (*SP005)",
+    "description": "Spear-Ready, Horse-Mounted 横矛立马 (héng máo lì mǎ)",
+    "faction": "shu",
+    "imageUrl": "zhang-fei-sp005.jpg",
+    "abilities": [
+      {
+        "name": "Indignation 嫉恶 (jí è)",
+        "description": "",
+        "explanation": "",
+        "enforced": true,
+        "ruler": false
+      },
+      {
+        "name": "Battle Cry 大喝 (dà hè)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2012/05/zhang-fei-sp005.html"
+  },
+  {
+    "id": "liu-bei-sp007",
+    "name": "Liú Beì 刘备 (*SP007)",
+    "description": "The Shining Martyr Emperor of Han Dynasty 汉昭烈帝 (hàn zhāo liè dì)",
+    "faction": "shu",
+    "imageUrl": "liu-bei-sp007.jpg",
+    "abilities": [
+      {
+        "name": "Shining Martyr 昭烈 (zhāo liè)",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      },
+      {
+        "name": "Oath of Vengeance 誓仇 (shì choú) [Ruler Ability] [Single-use Ability]",
+        "description": "",
+        "explanation": "",
+        "enforced": false,
+        "ruler": false
+      }
+    ],
+    "sourceUrl": "https://sanguoshaenglish.blogspot.com/2012/08/liu-bei-sp007.html"
   }
 ]

@@ -9,12 +9,14 @@
       {
         "name": "Balance of Power 制衡 (zhì héng)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Rescued 救援 (jiù yuán)",
         "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": true
       }
@@ -31,12 +33,14 @@
       {
         "name": "National Colours 国色 (guó sè)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Displacement 流离 (liú lí)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -53,6 +57,7 @@
       {
         "name": "Surprise Raid 奇袭 (qí xí)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -69,6 +74,7 @@
       {
         "name": "Trojan Flesh 苦肉 (kǔ ròu)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -85,6 +91,7 @@
       {
         "name": "Self-Mastery 克己 (kè jǐ)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -101,12 +108,14 @@
       {
         "name": "Humility 谦逊 (qiān xùn)",
         "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       },
       {
         "name": "One after another 连营 (lián yíng)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -123,12 +132,14 @@
       {
         "name": "Marriage 结姻 (jié yīn)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Warrior Lady 枭姬 (xiāo jī)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -145,12 +156,14 @@
       {
         "name": "Dashing Hero 英姿 (yīng zī)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Sow Dissension 反间 (fǎn jiàn)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -167,6 +180,7 @@
       {
         "name": "Justice of Heaven 天义 (tiān yì)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -183,12 +197,14 @@
       {
         "name": "Heavenly Scent 天香 (tiān xiāng)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Youthful Beauty 红颜 (hóng yán)",
         "description": "",
+        "explanation": "",
         "enforced": true,
         "ruler": false
       }
@@ -205,6 +221,7 @@
       {
         "name": "Refuting Death 不屈 (bù qū)",
         "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -220,8 +237,8 @@
     "abilities": [
       {
         "name": "Lingering Spirit 英魂 (yīng hún)",
-        "description": "\"Emperor of Vigorous Combat 武烈帝 (wǔ liè dì)\"",
-        "explanation": " ",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -237,15 +254,15 @@
     "abilities": [
       {
         "name": "Altruism 好施 (hào shī)",
-        "description": "\"The Maverick Diplomat 独断的外交家 (dú duàn dè wài jiāo jiā)\"",
-        "explanation": "The initiator of the Shu Han 蜀汉 Sun Wu 孙吴 alliance, Lu Su was the man who sought a merger with  to resist the marauding army of . Lu Su knew that the alliance was the only chance that both forces had of survival, and thankfully, so did . Lu Su initiated contact with Zhu Ge Liang and brought him back to Sun Wu to convince  to fight Cao Cao. However Zhu Ge Liang's cunning was beyond Lu Su's ability to manage, and Zhu Ge Liang insulted all of Sun Quan's advisors,  and even Sun Quan himself, while still succeeding to form the alliance. The minor ruckus caused Lu Su significant stress, but he was relieved nonetheless that his objective was met. An able and loyal talent, Lu Su took over Zhou Yu's post after the latters death, but Lu Su made a mess of things when he vouched for Shu Han returning Jing Zhou 荆州 to Sun Wu. Liu Bei repeatedly procrastinated returning the strategically important Jing Zhou and the this quickly built tensions between the two kingdoms. The struggle for Jing Zhou eventually led to the fall-out of the allegiance and open war between the these two superpowers.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Alliance 缔盟 (dì méng)",
-        "description": "\"The Maverick Diplomat 独断的外交家 (dú duàn dè wài jiāo jiā)\"",
-        "explanation": "The initiator of the Shu Han 蜀汉 Sun Wu 孙吴 alliance, Lu Su was the man who sought a merger with  to resist the marauding army of . Lu Su knew that the alliance was the only chance that both forces had of survival, and thankfully, so did . Lu Su initiated contact with Zhu Ge Liang and brought him back to Sun Wu to convince  to fight Cao Cao. However Zhu Ge Liang's cunning was beyond Lu Su's ability to manage, and Zhu Ge Liang insulted all of Sun Quan's advisors,  and even Sun Quan himself, while still succeeding to form the alliance. The minor ruckus caused Lu Su significant stress, but he was relieved nonetheless that his objective was met. An able and loyal talent, Lu Su took over Zhou Yu's post after the latters death, but Lu Su made a mess of things when he vouched for Shu Han returning Jing Zhou 荆州 to Sun Wu. Liu Bei repeatedly procrastinated returning the strategically important Jing Zhou and the this quickly built tensions between the two kingdoms. The struggle for Jing Zhou eventually led to the fall-out of the allegiance and open war between the these two superpowers.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -261,15 +278,15 @@
     "abilities": [
       {
         "name": "Tempest 旋风 (xuán fēng)",
-        "description": "Forthright and Courageous 豪情烈胆 (háo qíng liè dǎn)",
-        "explanation": "Historically, Ling Tong was one of the most important generals under Sun Quan 孙权's command. Yet in the semi-fictional ROTK story, Ling Tong was not given much airtime. Ling Tong was put in as high regard as Lu Meng 吕蒙 and Gan Ning 甘宁, and succeeded in numerous battles as well. He is also one of those that is well remembered for having saved Sun Quan's arse from certain defeat. In his latter days, Ling Tong not longer took to the frontlines, but instead became a successful strategist and advisor to Sun Quan.",
+        "description": "[2012 New version]",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Tempest 旋风 (xuán fēng)",
-        "description": "Forthright and Courageous 豪情烈胆 (háo qíng liè dǎn)",
-        "explanation": "Historically, Ling Tong was one of the most important generals under Sun Quan 孙权's command. Yet in the semi-fictional ROTK story, Ling Tong was not given much airtime. Ling Tong was put in as high regard as Lu Meng 吕蒙 and Gan Ning 甘宁, and succeeded in numerous battles as well. He is also one of those that is well remembered for having saved Sun Quan's arse from certain defeat. In his latter days, Ling Tong not longer took to the frontlines, but instead became a successful strategist and advisor to Sun Quan.",
+        "description": "one card at a time) from up to maximum of 2 players. ",
+        "explanation": "(Note: Total of 2 cards means either discard 2 cards from 1 player, or 1 card each from 2 players.)",
         "enforced": false,
         "ruler": false
       }
@@ -285,15 +302,15 @@
     "abilities": [
       {
         "name": "Heavenly Essence 甘露 (gān lù)",
-        "description": "Fearsome Militant Empress 武烈皇后 (wǔ liè huáng hoù)",
-        "explanation": "There are only a handful of elder women who are significant in the story (such as Xu Shu 徐庶's mum who hanged herself). Lady Wu is arguably the most notorious in the story because she turned the tables on her own son, Sun Quan 孙权, and gave this ruler of Wu Kingdom a massive headache! In the deadlock between the Kingdoms of Shu and Wu, one city was the epicenter of all the troubles: Jing Zhou 荆州.",
+        "description": "differencelost",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Ameliorate 补益 (bǔ yì)",
-        "description": "Fearsome Militant Empress 武烈皇后 (wǔ liè huáng hoù)",
-        "explanation": "There are only a handful of elder women who are significant in the story (such as Xu Shu 徐庶's mum who hanged herself). Lady Wu is arguably the most notorious in the story because she turned the tables on her own son, Sun Quan 孙权, and gave this ruler of Wu Kingdom a massive headache! In the deadlock between the Kingdoms of Shu and Wu, one city was the epicenter of all the troubles: Jing Zhou 荆州.",
+        "description": "not",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -309,8 +326,8 @@
     "abilities": [
       {
         "name": "Annihilate 破军 (pò jūn)",
-        "description": "The Steel Barricade of Jiang Dong 江东的铁壁 (jiāng dōng dè tiě bì)",
-        "explanation": "Note: Jiang Dong is a region in the East of China. It literally translates to \"East of the river\"",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -326,15 +343,15 @@
     "abilities": [
       {
         "name": "Blunt advice 直谏 (zhí jiàn)",
-        "description": "\"Talents to administrate Heaven and Earth 经天纬地 (jīng tiān wěi dì)\"",
-        "explanation": "Scrawny and wind-worn with age. This is the constant stereotypical image of Chinese military advisers, and these two aging old men fit that stereotype perfectly... well, sort of. Though the images and portraits show Zhang Zhao and Zhang Hong as old geezers, the pair were already advisers to the Wu kingdom since they were much much younger. Collectively known as \"Er Zhang 二张\" or \"The Two Zhang's\", Zhang Zhao and Zhang Hong were first recruited by the the warlord, Sun Jian 孙坚, who was Sun Quan 孙权's father. The two Zhang's were approximately the same age as Sun Jian and will stay loyal to the Wu Kingdom for decades till their death. Tragically, the two Zhang's went through the deaths of both Sun Jian, and his elder son, Sun Ce 孙策. It was on Sun Ce's deathbed that he famously said to his little brother Sun Quan, \"Should [you] have doubts upon internal affairs, [you] must turn to Zhang Zhao; for outer matters [you] must consult Zhou Yu 周瑜.\" Sun Quan wisely employed the two Zhang's for the entire duration of his reign, and saw the Wu Kingdom rise to become one of the three crucial kingdoms of the era.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Stabilization 固政 (gù zhèng)",
-        "description": "\"Talents to administrate Heaven and Earth 经天纬地 (jīng tiān wěi dì)\"",
-        "explanation": "Scrawny and wind-worn with age. This is the constant stereotypical image of Chinese military advisers, and these two aging old men fit that stereotype perfectly... well, sort of. Though the images and portraits show Zhang Zhao and Zhang Hong as old geezers, the pair were already advisers to the Wu kingdom since they were much much younger. Collectively known as \"Er Zhang 二张\" or \"The Two Zhang's\", Zhang Zhao and Zhang Hong were first recruited by the the warlord, Sun Jian 孙坚, who was Sun Quan 孙权's father. The two Zhang's were approximately the same age as Sun Jian and will stay loyal to the Wu Kingdom for decades till their death. Tragically, the two Zhang's went through the deaths of both Sun Jian, and his elder son, Sun Ce 孙策. It was on Sun Ce's deathbed that he famously said to his little brother Sun Quan, \"Should [you] have doubts upon internal affairs, [you] must turn to Zhang Zhao; for outer matters [you] must consult Zhou Yu 周瑜.\" Sun Quan wisely employed the two Zhang's for the entire duration of his reign, and saw the Wu Kingdom rise to become one of the three crucial kingdoms of the era.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -350,22 +367,22 @@
     "abilities": [
       {
         "name": "Ardor 激昂 (jī áng)",
-        "description": "\"The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)\"",
-        "explanation": "Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Divine Aura 魂姿 (hún zī)",
-        "description": "\"The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)\"",
-        "explanation": "Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Hegemony 制霸 (zhì bà)",
-        "description": "\"The Young Conqueror of Jiang Dong 江东的小霸王 (jiāng dōng dè xiǎo bà wáng)\"",
-        "explanation": "Note: 霸王 was the title of Xiang Yu 项羽, a military leader of the late-Qin dynasty known for his combat ability.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": true
       }
@@ -381,15 +398,15 @@
     "abilities": [
       {
         "name": "Pacify 安恤 (ān xù)",
-        "description": "\"The Uncrowned Empress 无冕之后 (wú miǎn zhī hoù)\"",
-        "explanation": "Never heard of her. Lady Bu, as she was known to her subjects, had practically no air-time in the story. However Lady Bu was immensely important to Sun Quan 孙权. Struck by her beauty, Sun Quan made her his concubine, and she quickly became his favorite. Thanks to her personality and respect for those around her, she quickly won the favour of the the palace. In fact they started addressing her obliquely as \"Empress\". Sun Quan himself wanted to make her his Empress when he declared himself Emperor of Wu, however he did not do so because his court and advisors preferred someone else as Empress for political reasons. Neither lady became Empress in their lifetimes, but Sun Quan posthumously made Lady Bu the Empress of Wu after her death. Perhaps that was the only way both factions could have been satisfied.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "In Loving Memory 追忆 (zhuī yì)",
-        "description": "\"The Uncrowned Empress 无冕之后 (wú miǎn zhī hoù)\"",
-        "explanation": "Never heard of her. Lady Bu, as she was known to her subjects, had practically no air-time in the story. However Lady Bu was immensely important to Sun Quan 孙权. Struck by her beauty, Sun Quan made her his concubine, and she quickly became his favorite. Thanks to her personality and respect for those around her, she quickly won the favour of the the palace. In fact they started addressing her obliquely as \"Empress\". Sun Quan himself wanted to make her his Empress when he declared himself Emperor of Wu, however he did not do so because his court and advisors preferred someone else as Empress for political reasons. Neither lady became Empress in their lifetimes, but Sun Quan posthumously made Lady Bu the Empress of Wu after her death. Perhaps that was the only way both factions could have been satisfied.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -423,15 +440,15 @@
     "abilities": [
       {
         "name": "Taunt the Tiger 探虎",
-        "description": "\"The Charisma of Ministers 国士之风 (guó shì zhī fēng)\"",
-        "explanation": "Admit it, you can't stand it when another player uses the original Lu Meng, especially when he is sitted right next to you. That hoard of cards is always a danger, and you can never really tell who's side he's on.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Strategic Judgement 谋断",
-        "description": "\"The Charisma of Ministers 国士之风 (guó shì zhī fēng)\"",
-        "explanation": "Admit it, you can't stand it when another player uses the original Lu Meng, especially when he is sitted right next to you. That hoard of cards is always a danger, and you can never really tell who's side he's on.",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }
@@ -447,15 +464,15 @@
     "abilities": [
       {
         "name": "Gentle Smile 言笑 (yán xiào)",
-        "description": "\"Transient but Joyous Happiness 韶光易逝 (sháo guāng yì shì)\"",
-        "explanation": "I don't know about you, but I absolutely hate seeing the original Da Qiao character. No no no, it's not because her ability wasn't good, but quite the contrary. Da Qiao had fantastic ability! Her ability to put everyone else to sleep with ACEDIA 乐不思蜀 was incredibly useful, and frustrating when she's not on your side. THAT is why I hate her, because I seldom ever choose her and she's seldom helping my side!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       },
       {
         "name": "Quiet Elegance 安娴 (ān xián)",
-        "description": "\"Transient but Joyous Happiness 韶光易逝 (sháo guāng yì shì)\"",
-        "explanation": "I don't know about you, but I absolutely hate seeing the original Da Qiao character. No no no, it's not because her ability wasn't good, but quite the contrary. Da Qiao had fantastic ability! Her ability to put everyone else to sleep with ACEDIA 乐不思蜀 was incredibly useful, and frustrating when she's not on your side. THAT is why I hate her, because I seldom ever choose her and she's seldom helping my side!",
+        "description": "",
+        "explanation": "",
         "enforced": false,
         "ruler": false
       }

@@ -210,11 +210,11 @@ async function main(): Promise<void> {
   })
   const characterURLs = await getCharacterUrls()
   await Promise.all([
-    pullCharacters([characterURLs.shu[1]], 'shu', multibar),
-    // pullCharacters(characterURLs.wei, 'wei', multibar),
-    // pullCharacters(characterURLs.wu, 'wu', multibar),
-    // pullCharacters(characterURLs.heroes, 'heroes', multibar),
-    // pullCharacters(characterURLs.demiGods, 'demi-gods', multibar),
+    pullCharacters(characterURLs.shu, 'shu', multibar),
+    pullCharacters(characterURLs.wei, 'wei', multibar),
+    pullCharacters(characterURLs.wu, 'wu', multibar),
+    pullCharacters(characterURLs.heroes, 'heroes', multibar),
+    pullCharacters(characterURLs.demiGods, 'demi-gods', multibar),
   ])
   multibar.stop()
 }
