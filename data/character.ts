@@ -28,6 +28,7 @@ const schema = z.array(
     ),
     description: z.string().optional(),
     sourceUrl: z.string(),
+    gender: z.union([z.literal('male'), z.literal('female')]),
   }),
 )
 
