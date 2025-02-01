@@ -1,19 +1,13 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
 import { CharacterCard } from './character-card'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import { characters, factions } from '@/data/character'
 import { useFavorites } from '@/hooks/useFavorites'
+import { ToggleGroup, ToggleGroupItem } from './ui/toggle-group'
 
 export default function CharacterGallery() {
   const [selectedFaction, setSelectedFaction] = useState('all')
@@ -63,25 +57,39 @@ export default function CharacterGallery() {
   }
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 ">
       <div className="flex flex-col items-center mb-8">
         <div className="w-64 pb-4">
           <img src="/sanguosha-assistant/logo.png" />
         </div>
-        <div className="flex items-center gap-4 mb-4">
-          <Select onValueChange={handleFactionChange} value={selectedFaction}>
-            <SelectTrigger className="w-[200px]">
-              <SelectValue placeholder="Select faction" />
-            </SelectTrigger>
-            <SelectContent>
-              {factions.map(faction => (
-                <SelectItem key={faction.value} value={faction.value}>
-                  {faction.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-
+        <div className="flex flex-col items-center gap-4 mb-4 ">
+          <ToggleGroup
+            type="single"
+            value={selectedFaction}
+            onValueChange={handleFactionChange}
+            className="flex gap-2 bg-white z-10 p-2"
+          >
+            {factions.map(faction => (
+              <ToggleGroupItem
+                key={faction.value}
+                value={faction.value}
+                style={{
+                  backgroundColor: faction.color,
+                  flex: 1,
+                  textAlign: 'center',
+                  borderRadius: '50%',
+                  width: '50px',
+                  height: '50px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+                className="text-white py-2"
+              >
+                {faction.label}
+              </ToggleGroupItem>
+            ))}
+          </ToggleGroup>
           <div className="flex items-center space-x-2">
             <Switch
               id="favorites-mode"

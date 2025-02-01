@@ -42,10 +42,10 @@ export const characters: Character[] = [
 ]
 
 export const factions = [
-  { value: 'all', label: 'All Factions' },
-  { value: 'shu', label: 'Shu Kingdom (Red)' },
-  { value: 'wei', label: 'Wei Kingdom (Blue)' },
-  { value: 'wu', label: 'Wu Kingdom (Green)' },
-  { value: 'heroes', label: 'Heros (Grey)' },
-  { value: 'demi-gods', label: 'Demi Gods (Gold)' },
+  { value: 'all', label: 'All', color: '#000000' },
+  { value: 'shu', label: 'Shu', color: '#A7614A' },
+  { value: 'wei', label: 'Wei', color: '#444F7F' },
+  { value: 'wu', label: 'Wu', color: '#789664' },
+  { value: 'heroes', label: 'Hero', color: '#7B767C' },
+  { value: 'demi-gods', label: 'Demi Gods', color: '#D0B260' },
 ]
