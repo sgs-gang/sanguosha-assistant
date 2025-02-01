@@ -18,7 +18,7 @@ async function saveImage(url: string, filename: string) {
   return
 }
 
-const sheetCharacterSchema = z.object({
+const schema = z.object({
   Link: z.string().url(),
   Name: z.string(),
   Expansion: z.string(),
@@ -36,9 +36,9 @@ const sheetCharacterSchema = z.object({
   Gender: z.union([z.literal('Male'), z.literal('Female')]),
 })
 
-type SheetCharacter = z.infer<typeof sheetCharacterSchema>
+export type SheetItem = z.infer<typeof schema>
 
-export async function getList(): Promise<SheetCharacter[]> {
+export async function getList(): Promise<SheetItem[]> {
   const res = await fetch(
     'https://docs.google.com/spreadsheets/d/1TpJgrXqAixnPKwR9oWuEgY3FnMNCtVImLQ5rDpYmRYY/export?format=csv',
     {
@@ -51,10 +51,10 @@ export async function getList(): Promise<SheetCharacter[]> {
 
   const data = await parse(await res.text())
 
-  return sheetCharacterSchema.array().parse(data)
+  return schema.array().parse(data)
 }
 
-export async function addItem(character: SheetCharacter): Promise<Character> {
+export async function addItem(character: SheetItem): Promise<Character> {
   const body = await (await fetch(character.Link)).text()
   const $ = cheerio.load(body)
   const name = $('h2.post-title').text().replace(/\n+/g, '').trim()
