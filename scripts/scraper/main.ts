@@ -49,9 +49,9 @@ async function pull<T>(
 }
 
 async function main(): Promise<void> {
-  await pull(CHARACTER_LIST_URL, characterSchema, addCharacter)
+  // await pull(CHARACTER_LIST_URL, characterSchema, addCharacter)
   await pull(EQUIPMENT_LIST_URL, equipmentSchema, addEquipment)
-  await pull(CARD_LIST_URL, cardSchema, addCards)
+  // await pull(CARD_LIST_URL, cardSchema, addCards)
 }
 
 main()

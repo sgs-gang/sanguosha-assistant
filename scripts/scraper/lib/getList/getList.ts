@@ -12,7 +12,7 @@ export async function getList<T>(
     },
   })
 
-  const data = await parse(await res.text())
+  const data = await parse(await res.text(), { columns: true })
 
   return schema.array().parse(data)
 }
