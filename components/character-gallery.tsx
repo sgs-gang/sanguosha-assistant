@@ -66,29 +66,31 @@ export default function CharacterGallery() {
           <ToggleGroup
             type="single"
             value={selectedFaction}
-            onValueChange={handleFactionChange}
+            onValueChange={value => handleFactionChange(value || 'all')}
             className="flex gap-2 bg-white z-10 p-2"
           >
-            {factions.map(faction => (
-              <ToggleGroupItem
-                key={faction.value}
-                value={faction.value}
-                style={{
-                  backgroundColor: faction.color,
-                  flex: 1,
-                  textAlign: 'center',
-                  borderRadius: '50%',
-                  width: '50px',
-                  height: '50px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-                className="text-white py-2"
-              >
-                {faction.label}
-              </ToggleGroupItem>
-            ))}
+            {factions.map(faction => {
+              const isSelected = selectedFaction === faction.value
+
+              return (
+                <ToggleGroupItem
+                  key={faction.value}
+                  value={faction.value}
+                  className={`
+             py-2 flex flex-1 items-center justify-center text-center
+              transition-transform duration-200 ease-in
+              rounded-full w-[50px] h-[50px]
+              ${isSelected ? 'scale-110' : 'scale-100'}
+            `}
+                  style={{
+                    backgroundColor: faction.color,
+                    color: isSelected ? 'white' : 'white',
+                  }}
+                >
+                  {faction.label}
+                </ToggleGroupItem>
+              )
+            })}
           </ToggleGroup>
           <div className="flex items-center space-x-2">
             <Switch
