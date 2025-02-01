@@ -1,14 +1,11 @@
 import * as cheerio from 'cheerio'
-import { createWriteStream, existsSync } from 'node:fs'
+import { writeFile, createWriteStream, existsSync } from 'node:fs'
 import { Character } from '@/data/character'
 import { Readable } from 'node:stream'
 import { finished } from 'node:stream/promises'
 import { ReadableStream } from 'node:stream/web'
 import colors from 'ansi-colors'
-import { SingleBar } from 'cli-progress'
-import { parse } from 'async-csv'
-import { z } from 'zod'
-import { chunk } from 'lodash'
+import { MultiBar } from 'cli-progress'
 
 async function saveImage(url: string, filename: string) {
   const path = `public/characters/${filename}`
@@ -20,56 +17,90 @@ async function saveImage(url: string, filename: string) {
 
   return
 }
-
-const characterSchema = z.object({
-  Link: z.string().url(),
-  Name: z.string(),
-  Expansion: z.string(),
-  Alignment: z.union([
-    z.literal('Shu'),
-    z.literal('Wei'),
-    z.literal('Wu'),
-    z.literal('Hero'),
-    z.literal('God'),
-    z.literal('Wraith'),
-    z.literal('Demon'),
-  ]),
-  Ruler: z.boolean(),
-  Health: z.number(),
-  Gender: z.union([z.literal('Male'), z.literal('Female')]),
-})
-
-async function getCharacters() {
-  const res = await fetch(
-    'https://docs.google.com/spreadsheets/d/1TpJgrXqAixnPKwR9oWuEgY3FnMNCtVImLQ5rDpYmRYY/export?format=csv',
-    {
-      method: 'get',
-      headers: {
-        'content-type': 'text/csv;charset=UTF-8',
-      },
-    },
-  )
-
-  const data = await parse(await res.text())
-
-  return characterSchema.array().parse(data)
-}
-
 async function performScraping(url: string) {
   return await (await fetch(url)).text()
 }
 
+async function getCharacterUrls() {
+  const data = await performScraping(
+    'https://sanguoshaenglish.blogspot.com/p/all-characters.html',
+  )
+
+  const characterLinks: Record<string, string[]> = {
+    shu: [],
+    wei: [],
+    wu: [],
+    heroes: [],
+    demiGods: [],
+  }
+  const $ = cheerio.load(data)
+  $('div.separator')
+    .eq(0)
+    .children(
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
+    )
+    .each((_i, element) => {
+      const href = $(element)
+        .attr('href')
+        ?.replace(/^http:\/\//, 'https://')
+      if (href != null) characterLinks.shu.push(href)
+    })
+
+  $('div.separator')
+    .eq(1)
+    .children(
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
+    )
+    .each((_i, element) => {
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.wei.push(href)
+    })
+
+  $('div.separator')
+    .eq(2)
+    .children(
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
+    )
+    .each((_i, element) => {
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.wu.push(href)
+    })
+
+  $('div.separator')
+    .eq(3)
+    .children(
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
+    )
+    .each((_i, element) => {
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.heroes.push(href)
+    })
+
+  $('div.separator')
+    .eq(4)
+    .children(
+      `a[imageanchor="1"][href*="http://sanguoshaenglish.blogspot.com/"]`,
+    )
+    .each((_i, element) => {
+      const href = $(element).attr('href')
+      if (href != null) characterLinks.demiGods.push(href)
+    })
+
+  return characterLinks
+}
+
 async function addCharacter(
-  character: z.infer<typeof characterSchema>,
+  url: string,
+  faction: Character['faction'],
 ): Promise<Character> {
-  const body = await performScraping(character.Link)
+  const body = await performScraping(url)
   const $ = cheerio.load(body)
   const name = $('h2.post-title').text().replace(/\n+/g, '').trim()
 
   const imageUrl = $('div.post-body img').first().attr('src')
   if (imageUrl == null) throw new Error('Image not found')
 
-  const slug = character.Link.match(/\/([^/]*)\.html$/)?.[1]
+  const slug = url.match(/\/([^/]*)\.html$/)?.[1]
   if (slug == null) throw new Error('Slug not found')
 
   const description = $('div.post-body')
@@ -135,12 +166,39 @@ async function addCharacter(
     faction,
     imageUrl: filename,
     abilities,
-    sourceUrl: character.Link,
+    sourceUrl: url,
   }
 }
 
+async function pullCharacters(
+  urls: string[],
+  faction: Character['faction'],
+  multibar: MultiBar,
+) {
+  const progress = multibar.create(
+    urls.length,
+    0,
+    { name: faction },
+    { clearOnComplete: true },
+  )
+  const characters: Character[] = []
+  for (const url of urls) {
+    const character = await addCharacter(url, faction)
+    progress.increment()
+    characters.push(character)
+  }
+  writeFile(
+    `data/scraped/${faction}.json`,
+    JSON.stringify(characters, null, 2),
+    function (err) {
+      if (err) throw err
+    },
+  )
+  progress.stop()
+}
+
 async function main(): Promise<void> {
-  const bar = new SingleBar({
+  const multibar = new MultiBar({
     format: `${colors.cyan(
       '{bar}',
     )} {name} | {percentage}% | {value}/{total} | duration: {duration_formatted}`,
@@ -149,17 +207,15 @@ async function main(): Promise<void> {
     hideCursor: true,
     clearOnComplete: true,
   })
-  const characters = await getCharacters()
-
-  bar.start(characters.length, 0)
-
-  const chunks = chunk(characters, 10)
-
-  for await (const chunk of chunks) {
-    await Promise.all(chunk.map(character => await addCharacter(character)))
-  }
-
-  bar.stop()
+  const characterURLs = await getCharacterUrls()
+  await Promise.all([
+    pullCharacters(characterURLs.shu, 'shu', multibar),
+    pullCharacters(characterURLs.wei, 'wei', multibar),
+    pullCharacters(characterURLs.wu, 'wu', multibar),
+    pullCharacters(characterURLs.heroes, 'heroes', multibar),
+    pullCharacters(characterURLs.demiGods, 'demi-gods', multibar),
+  ])
+  multibar.stop()
 }
 
 main()
