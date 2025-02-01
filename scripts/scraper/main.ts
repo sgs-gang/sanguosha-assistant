@@ -55,14 +55,10 @@ async function getCharacters() {
   return characterSchema.array().parse(data)
 }
 
-async function performScraping(url: string) {
-  return await (await fetch(url)).text()
-}
-
 async function addCharacter(
   character: z.infer<typeof characterSchema>,
 ): Promise<Character> {
-  const body = await performScraping(character.Link)
+  const body = await (await fetch(character.Link)).text()
   const $ = cheerio.load(body)
   const name = $('h2.post-title').text().replace(/\n+/g, '').trim()
 
