@@ -31,9 +31,13 @@ export const schema = z.object({
     z.literal('Wraith'),
     z.literal('Demon'),
   ]),
-  Ruler: z.boolean(),
-  Health: z.number(),
-  Gender: z.union([z.literal('Male'), z.literal('Female')]),
+  Ruler: z
+    .union([z.literal('FALSE'), z.literal('TRUE')])
+    .transform(value => (value === 'TRUE' ? true : false)),
+  Health: z.string().transform(value => value.replace(/,/g, '')),
+  Gender: z
+    .union([z.literal('Male'), z.literal('Female')])
+    .transform(value => value.toLowerCase()),
 })
 
 export const LIST_URL =
@@ -49,7 +53,6 @@ export async function add(
   const imageUrl = $('div.post-body img').first().attr('src')
   if (imageUrl == null) throw new Error('Image not found')
 
-  const slug = character.Link.match(/\/([^/]*)\.html$/)?.[1]
   if (slug == null) throw new Error('Slug not found')
 
   const description = $('div.post-body')
@@ -59,7 +62,7 @@ export async function add(
     .match(/Translated [Dd]escription:?\s*\n[“"]?(?<description>[^"”\n]*)["”]?/)
     ?.groups?.description
   if (description == null)
-    throw new Error('Description not found', { cause: url })
+    throw new Error('Description not found', { cause: character.Link })
 
   const abilities: Character['abilities'] = $('b')
     .filter(function () {
