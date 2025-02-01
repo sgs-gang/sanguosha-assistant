@@ -53,7 +53,7 @@ export async function add(
   const imageUrl = $('div.post-body img').first().attr('src')
   if (imageUrl == null) throw new Error('Image not found')
 
-  if (slug == null) throw new Error('Slug not found')
+  const slug = character.Name.toLowerCase().replace(/\s+/g, '-')
 
   const description = $('div.post-body')
     .text()
