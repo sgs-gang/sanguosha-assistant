@@ -37,7 +37,7 @@ export const schema = z.object({
 })
 
 export const LIST_URL =
-  'https://docs.google.com/spreadsheets/d/1TpJgrXqAixnPKwR9oWuEgY3FnMNCtVImLQ5rDpYmRYY/export?format=csv'
+  'https://docs.google.com/spreadsheets/d/15IrssRjwJQrH1GfrzLR0Q8fA0Q6vJqZgvU5Wpkc8FOE/export?format=csv'
 
 export async function add(
   character: z.infer<typeof schema>,
