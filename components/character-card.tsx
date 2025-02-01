@@ -46,7 +46,7 @@ export function CharacterCard({
             />
           </div>
         </CardHeader>
-        <CardContent className="bg-white/50 p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg">
+        <CardContent className="bg-white/50 p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg hidden md:flex">
           <h4 className="font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">
             {character.name}
           </h4>
