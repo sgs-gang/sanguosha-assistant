@@ -65,8 +65,9 @@ export default function CharacterGallery() {
   return (
     <div className="container mx-auto p-4">
       <div className="flex flex-col items-center mb-8">
-        <h1 className="text-3xl font-bold mb-6">San Guo Sha Characters</h1>
-
+        <div className="w-64 pb-4">
+          <img src="/sanguosha-assistant/logo.png" />
+        </div>
         <div className="flex items-center gap-4 mb-4">
           <Select onValueChange={handleFactionChange} value={selectedFaction}>
             <SelectTrigger className="w-[200px]">
