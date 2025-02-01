@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'San Guo Sha Assistant',
+  description: 'Helping you understand the game better',
 }
 
 export default function RootLayout({
