@@ -4,7 +4,6 @@ import { extractBulletList } from '../lib/extractBulletList'
 import { extractParagraphs } from '../lib/extractParagraphs'
 import { getImageUrl } from '../lib/getImageUrl'
 import { basicSchema, schema } from './schema'
-import { each } from 'lodash'
 
 export const LIST_URL =
   'https://docs.google.com/spreadsheets/d/1TpJgrXqAixnPKwR9oWuEgY3FnMNCtVImLQ5rDpYmRYY/export?format=csv'
@@ -30,12 +29,12 @@ export async function add(
   if (Description == null)
     throw new Error('Description not found', { cause: character.Link })
 
-  let Abilities: { Name: string; Description: string; King: boolean }[] = []
+  const Abilities: { Name: string; Description: string; King: boolean }[] = []
   $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
     .eq(3)
     .find('ul li')
-    .each((i, li) => {
-      let Ability: {
+    .each((_i, li) => {
+      const Ability: {
         Name: string
         Description: string
         King: boolean
@@ -60,6 +59,8 @@ export async function add(
     })
 
   const Clarifications: string[] = extractBulletList($, 'Clarification')
+  const Strengths: string[] = extractBulletList($, 'Strengths')
+  const Weaknesses: string[] = extractBulletList($, 'Weaknesses')
   const NotableCombinations: string[] = extractBulletList(
     $,
     'Notable Combinations',
@@ -67,7 +68,7 @@ export async function add(
   const FinalRemarks: string[] = extractParagraphs($, 'Final Remarks')
   const RelationToHistory: string[] = extractParagraphs(
     $,
-    'Relation To History',
+    'Relation to History',
   )
 
   return {
@@ -76,6 +77,8 @@ export async function add(
     Description,
     Slug,
     Clarifications,
+    Strengths,
+    Weaknesses,
     NotableCombinations,
     FinalRemarks,
     RelationToHistory,

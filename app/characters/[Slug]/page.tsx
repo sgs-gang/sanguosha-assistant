@@ -1,4 +1,4 @@
-import CharacterCardWrapper from '@/components/character-card-wrapper'
+import Character from '@/components/character'
 import { characters } from '@/data/character'
 
 export async function generateStaticParams() {
@@ -10,5 +10,5 @@ export default function CharacterPage({
 }: {
   params: { Slug: string }
 }) {
-  return <CharacterCardWrapper slug={params.Slug} />
+  return <Character slug={params.Slug} />
 }

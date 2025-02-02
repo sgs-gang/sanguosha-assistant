@@ -61,7 +61,7 @@ export default function CharacterGallery() {
   }
 
   return (
-    <div className="container p-4">
+    <div className="container mx-auto p-4 max-w-6xl">
       <div className="flex flex-col items-center mb-8">
         <div className="w-64 pb-4">
           <img src="/sanguosha-assistant/logo.png" />

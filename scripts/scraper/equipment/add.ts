@@ -40,7 +40,7 @@ export async function add(
   const FinalRemarks: string[] = extractParagraphs($, 'Final Remarks')
   const RelationToHistory: string[] = extractParagraphs(
     $,
-    'Relation To History',
+    'Relation to History',
   )
 
   return {
