@@ -1,14 +1,14 @@
 import * as cheerio from 'cheerio'
 import { createWriteStream, existsSync } from 'node:fs'
-import { Character } from '@/data/character'
 import { Readable } from 'node:stream'
 import { finished } from 'node:stream/promises'
 import { ReadableStream } from 'node:stream/web'
-import { parse } from 'async-csv'
 import { z } from 'zod'
+import { extractBulletList } from './lib/extractBulletList'
+import { extractParagraphs } from './lib/extractParagraphs'
 
 async function saveImage(url: string, filename: string) {
-  const path = `public/characters/${filename}`
+  const path = `public/equipments/${filename}`
   if (existsSync(path)) return
   const stream = createWriteStream(path)
   const { body } = await fetch(url)
@@ -22,99 +22,92 @@ export const schema = z.object({
   Link: z.string().url(),
   Name: z.string(),
   Expansion: z.string(),
-  Alignment: z.union([
-    z.literal('Shu'),
-    z.literal('Wei'),
-    z.literal('Wu'),
-    z.literal('Hero'),
-    z.literal('God'),
-    z.literal('Wraith'),
-    z.literal('Demon'),
+  Type: z.union([
+    z.literal('Weapon'),
+    z.literal('Armor'),
+    z.literal('Horse'),
+    z.literal('Treasure'),
   ]),
-  Ruler: z.boolean(),
-  Health: z.number(),
-  Gender: z.union([z.literal('Male'), z.literal('Female')]),
+  Range: z
+    .string()
+    .optional()
+    .transform(value => (value ? parseInt(value) : undefined)),
+  Direction: z.preprocess(
+    val => (val === '' ? undefined : val),
+    z.enum(['Minus', 'Plus']).optional(),
+  ),
+  Number: z.string().transform(value => parseInt(value)),
+  Spade: z.string().transform(value => (value != '' ? value.split(', ') : [])),
+  Club: z.string().transform(value => (value != '' ? value.split(', ') : [])),
+  Diamond: z
+    .string()
+    .transform(value => (value != '' ? value.split(', ') : [])),
+  Heart: z.string().transform(value => (value != '' ? value.split(', ') : [])),
+})
+
+export const extendedSchema = schema.extend({
+  Slug: z.string(),
+  ImageUrl: z.string(),
+  Description: z.string(),
+  Clarifications: z.array(z.string()),
+  NotableCombinations: z.array(z.string()),
+  FinalRemarks: z.array(z.string()),
+  RelationToHistory: z.array(z.string()),
 })
 
 export const LIST_URL =
   'https://docs.google.com/spreadsheets/d/15IrssRjwJQrH1GfrzLR0Q8fA0Q6vJqZgvU5Wpkc8FOE/export?format=csv'
 
 export async function add(
-  character: z.infer<typeof schema>,
-): Promise<Character> {
-  const body = await (await fetch(character.Link)).text()
+  equipment: z.infer<typeof schema>,
+): Promise<z.infer<typeof extendedSchema>> {
+  const body = await (await fetch(equipment.Link)).text()
   const $ = cheerio.load(body)
-  const name = $('h2.post-title').text().replace(/\n+/g, '').trim()
+  const Name = $('.zfr3Q.duRjpb.CDt4Ke')
+    .last()
+    .text()
+    .replace(/\n+/g, '')
+    .trim()
 
-  const imageUrl = $('div.post-body img').first().attr('src')
-  if (imageUrl == null) throw new Error('Image not found')
+  const RemoteImageUrl = $('img.CENy8b').attr('src')
+  if (RemoteImageUrl == null) throw new Error('Image not found')
 
-  const slug = character.Link.match(/\/([^/]*)\.html$/)?.[1]
-  if (slug == null) throw new Error('Slug not found')
+  const Slug = equipment.Link.split('/').slice(-1)[0]
+  if (Slug == null) throw new Error('Slug not found')
 
-  const description = $('div.post-body')
+  const Description = $(
+    '.hJDwNd-AhqUyc-OiUrBf.Ft7HRd-AhqUyc-OiUrBf.jXK9ad.D2fZ2.zu5uec.wHaque.g5GTcb',
+  )
+    .last()
     .text()
     .trim()
     .replace(/\n+/g, '\n')
-    .match(/Translated [Dd]escription:?\s*\n[“"]?(?<description>[^"”\n]*)["”]?/)
-    ?.groups?.description
-  if (description == null)
-    throw new Error('Description not found', { cause: url })
+  if (Description == null)
+    throw new Error('Description not found', { cause: equipment.Link })
 
-  const abilities: Character['abilities'] = $('b')
-    .filter(function () {
-      return $(this).text().trim().startsWith('Character ability')
-    })
-    .map((_, element) => {
-      const heading = $(element).text()
-      const name =
-        heading.match(/[“"](?<name>.*)["”]/)?.groups?.name?.trim() ??
-        heading.split(/[“"]/)[1]?.trim() ??
-        heading.split(/:/)[1]?.trim()
-      if (name == null)
-        throw new Error('Ability name not found', { cause: heading })
+  const Clarifications: string[] = extractBulletList($, 'Clarification')
+  const NotableCombinations: string[] = extractBulletList(
+    $,
+    'Notable Combinations',
+  )
+  const FinalRemarks: string[] = extractParagraphs($, 'Final Remarks')
+  const RelationToHistory: string[] = extractParagraphs(
+    $,
+    'Relation To History',
+  )
 
-      // const [description, explanation] = $(element)
-      //   .parent()
-      //   .clone() //clone the element
-      //   .children() //select all the children
-      //   .remove() //remove all the children
-      //   .end() //again go back to selected element
-      //   .text()
-      //   .trim()
-      //   .replace(/\n+/g, '\n')
-      //   .split('\n', 2)
-
-      const [description, ...explanations] = $(element)
-        .nextUntil('b:not(:has(> *)):not(:empty)')
-        .text()
-        .trim()
-        .replace(/\n+/g, '\n')
-        .split('\n')
-
-      const enforced = heading.includes('[Enforced ability]')
-      const ruler = heading.includes('[Ruler ability]')
-
-      return {
-        name,
-        description,
-        explanation: explanations.join('\n'),
-        enforced,
-        ruler,
-      }
-    })
-    .toArray()
-
-  const filename = `${slug}.jpg`
-  await saveImage(imageUrl, filename)
+  const Filename = `${Slug}.jpg`
+  await saveImage(RemoteImageUrl, Filename)
 
   return {
-    id: slug,
-    name,
-    description,
-    faction,
-    imageUrl: filename,
-    abilities,
-    sourceUrl: character.Link,
+    ...equipment,
+    Name,
+    Description,
+    Slug,
+    Clarifications,
+    NotableCombinations,
+    FinalRemarks,
+    RelationToHistory,
+    ImageUrl: `/equipments/${Filename}`,
   }
 }

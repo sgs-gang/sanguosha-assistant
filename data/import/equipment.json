@@ -1,0 +1,854 @@
+[
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/ancient-scimitar",
+    "Name": "Ancient Scimitar 古锭刀",
+    "Expansion": "Army",
+    "Type": "Weapon",
+    "Range": 2,
+    "Number": 1,
+    "Spade": ["A"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "When the target of an attack receives damage and does not have any hand cards, the damage is increased by one.",
+    "Slug": "ancient-scimitar",
+    "Clarifications": [
+      "The weapon’s ability is not optional—it is mandatory. If an ally is attacked and has no cards, they will suffer increased damage due to this weapon’s effect.",
+      "Any additional damage bonuses, such as those from Wine, are added on top of the weapon’s ability."
+    ],
+    "NotableCombinations": [
+      "Characters that Remove Hand Cards: Characters who can strip an opponent of all their cards can make the most of this weapon, as it punishes defenseless targets with increased damage. Ideal users include Sun Jian, Lu Su, Gan Ning, and Zhang Liao.",
+      "Zhuge Liang: Although Zhuge Liang often has no hand cards, he cannot be targeted when he is empty-handed due to his ability. While it is technically possible to hit him with this weapon, creating the necessary conditions is challenging.",
+      "Lu Xun: Lu Xun is immune to the Ancient Scimitar’s effect. His ability allows him to immediately draw a card after losing his last one, ensuring he is never without a hand at any point.",
+      "Generals That Willingly Lose Cards: Characters like Liu Bei, Xu Shu, Lu Su, and Yuan Shu, who often lose cards intentionally, need to be wary of the Ancient Scimitar. If they are caught without cards, their situation can deteriorate rapidly. Even if they manage to draw a few cards, they are vulnerable to having them taken away again, making recovery difficult."
+    ],
+    "FinalRemarks": [
+      "Affectionately known as 'The Punisher,' the Ancient Scimitar is best saved for the right moment. Keeping it in hand until an opponent is vulnerable allows you to catch them off guard and deal devastating damage. If you equip it too early, opponents will be cautious and make sure to hold onto cards. Without the element of surprise, it can be challenging to catch someone without cards. This weapon is most effective later in the game when players are running low on resources—this is when the Ancient Scimitar can put a definitive end to the game."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/ancient-scimitar.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/fire-fan",
+    "Name": "Fire Fan 朱雀羽扇",
+    "Expansion": "Army",
+    "Type": "Weapon",
+    "Range": 4,
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["A"],
+    "Heart": [],
+    "Description": "When a non-elemental attack is used, it can change to a fire attack.",
+    "Slug": "fire-fan",
+    "Clarifications": [
+      "If the Attack used is already an elemental attack, such as a Lightning Attack, the Fire Fan’s ability does not apply.",
+      "The weapon’s ability is optional, meaning the attacker can choose whether or not to turn their Attack into a Fire Attack.",
+      "While the Fire Fan converts an Attack into a Fire Attack, it does not alter the card’s color. For example, the Black Shield still blocks black-colored Attacks, even if they are converted into Fire Attacks."
+    ],
+    "NotableCombinations": [
+      "Characters that Ensure Hits: Characters who can force an Attack to land gain extra benefits from the Fire Fan. When targeting someone with Wood Armor, this weapon is invaluable. Normally, opponents save an Escape card for rare Fire Attacks, but these characters can ensure their Fire Attack connects, causing extra damage. Excellent users include Ma Chao, Huang Zhong, and Lu Bu.",
+      "Huang Zhong: Huang Zhong excels with the Fire Fan in any situation. The weapon’s large reach allows him to maximize his abilities. If his target is wearing Wood Armor, Huang Zhong becomes even more dangerous. With this weapon, he is a formidable force regardless of the circumstances."
+    ],
+    "FinalRemarks": [
+      "The Fire Fan is a nightmare for anyone equipped with Wood Armor. It is the perfect tool to bypass the strong defense that Wood Armor provides. However, its specialization is somewhat limited. Throughout most of the game, the Fire Fan simply offers a large attack range to its user. While it’s possible to pull off strategies involving Chains, most players won’t risk equipping Wood Armor if this weapon is in play. Therefore, when you draw the Fire Fan, you gain the upper hand in pursuing an opponent. The Fire Fan carries no drawbacks, so there’s no reason not to use it to deal fire damage instead of regular damage."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/fire-fan.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/hua-liu",
+    "Name": "Hua Liu 骅骝",
+    "Expansion": "Army",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Plus",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["K"],
+    "Heart": [],
+    "Description": "Hua Liu 骅骝",
+    "Slug": "hua-liu",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/hua-liu.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/silver-helmet",
+    "Name": "Silver Helmet 白银狮子",
+    "Expansion": "Army",
+    "Type": "Armor",
+    "Number": 1,
+    "Spade": [],
+    "Club": ["A"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "While equipped, the wearer can be damaged at most one health per instance. Also, when the wearer loses this card from their equipment area, they regain one health.",
+    "Slug": "silver-helmet",
+    "Clarifications": [
+      "The Silver Helmet protects its wearer on a \"per instance\" basis, meaning each source of damage is reduced to one point at a time. However, this protection can occur multiple times.",
+      "When the helmet is removed, regardless of how, the player is immediately healed."
+    ],
+    "NotableCombinations": [
+      "Generals Who Discard Equipment: Characters who can willfully discard equipment love the Silver Helmet since they can remove it when damaged to gain a health point while also benefiting from its use. These characters, like Xiahou Yuan, Xu Huang, Cai Wenji, Gan Ning, Da Qiao, Han Dang, Diao Chan, Zhang Jiao, Yuan Shu, and Chen Gong, often equip the helmet for later strategic use.",
+      "Healing Strategists: Wu Guo Tai uses the Silver Helmet to support her team, moving it between teammates to heal them every turn. Though this strategy may seem small in the short term, it adds up over time, enhancing her team’s endurance and outlasting the opposition.",
+      "Heavy Damage Dealers: The Silver Helmet can be a massive obstacle for generals who cause heavy damage in one blow. It limits their damage output to one point per instance, forcing them to adapt their strategy. Xu Chu and Zhang Jiao are notable examples of characters who suffer reduced efficiency against this armor."
+    ],
+    "FinalRemarks": [
+      "The Silver Helmet is a defensive piece of armor with limited utility while equipped. Though it can protect against things like Lightning, there are often better options available. Its real value comes when it is removed, effectively banking a health recovery for later use. Players will try to strip the helmet from an opponent before it can be used for healing, especially when the wearer is low on health. While not the most powerful equipment in the game, the Silver Helmet can be situationally beneficial, and players often use it to capitalize on its removal."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/silver-helmet.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/wood-armor",
+    "Name": "Wood Armor 藤甲",
+    "Expansion": "Army",
+    "Type": "Armor",
+    "Number": 2,
+    "Spade": ["2"],
+    "Club": ["2"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "While this is equipped, the wearer cannot be damaged by barbarians, hail of arrows, or non-elemental attacks. When receiving any fire damage however, the damage is increased by one.",
+    "Slug": "wood-armor",
+    "Clarifications": [
+      "When receiving fire-aligned damage, it can come from various sources such as Fire Attacks, Blazes, or damage received through Chains. The source of the fire damage is irrelevant; when any fire damage is received, it is increased.",
+      "Elemental attacks like Fire Attacks can still be responded to with an Escape. However, non-elemental attacks neither need to nor can be responded to with an Escape. If hit with a Lightning Attack, the wearer only takes the standard damage.",
+      "Abilities triggered by the delivery of an attack still occur. For example, the Gender Swords ability will activate with a normal Attack, but after that, the attack is discarded since the target is unaffected due to the Wood Armor."
+    ],
+    "NotableCombinations": [
+      "Zhuge Liang:Zhuge Liang pairs well with the Wood Armor, especially when using \"Empty City\". Having no cards makes him immune to Fire Attacks and Blazes, while the Wood Armor also protects him from Barbarians and Hail of Arrows. This combination shields Zhuge Liang from most battlefield threats.",
+      "Defensive characters:They appreciate the Wood Armor because it allows them to hunker down and avoid the fray for a while. The armor's protection against Barbarians and Hail of Arrows means attackers must single them out to deal damage. Given enough time to prepare, no attack can easily penetrate their defenses. Examples include Lu Meng and Cao Ren.",
+      "Fire Damage Dealers:Characters who can easily cause fire damage remain a significant threat to opponents wearing the Wood Armor. In fact, they can deal increased damage when using fire-based attacks, making it unwise to equip the Wood Armor against them. This includes characters like Fire Zhuge Liang and Cheng Pu.",
+      "Characters with Armor Abilities:Characters with innate armor abilities face a choice when presented with the Wood Armor. They must assess the situation and decide which armor is best suited for their current circumstances. Notable examples include Yu Jin and Fire Zhuge Liang."
+    ],
+    "FinalRemarks": [
+      "The Wood Armor is ideal for players who prefer to stay out of the main fight, as it shields them from collateral damage caused by Barbarians and Hail of Arrows. However, beware of Fire Attacks. Anyone capable of causing fire damage will likely target you first, and even if you’re not a direct target, opponents may use Chains to sacrifice you. Watch out for the Fire Fan in particular, and make sure it doesn’t remain in play. After neutralizing potential fire threats, focus on defense and let the other players wear each other down."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/wood-armor.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/axe",
+    "Name": "Axe 贯石斧",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 3,
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["5"],
+    "Heart": [],
+    "Description": "When the target of the player's attack escapes the attack, the player can then discard two other cards to cause the attack to hit.",
+    "Slug": "axe",
+    "Clarifications": [
+      "The player can only force an attack through with the Axe after the initial attack has been escaped. If the attack is voided by a defense card like Black Shield or Wood Armor, or by a character ability like Da Qiao's \"Displace,\" the attacker does not have the option to force the attack. However, the Eight Trigrams does count as generating an escape.",
+      "To force an attack through, the attacker may discard both hand cards and equipment, but the Axe itself cannot be discarded, as its ability is being used at that moment."
+    ],
+    "NotableCombinations": [
+      "Powerful  Attackers:Characters with powerful attacks benefit greatly from the Axe. A guaranteed hit can turn the tide of battle, especially when their attack is normally negated by an Escape. The stronger and more critical the attack, the more useful the Axe becomes. Examples: Xu Chu, Ma Dai, Xu Sheng.",
+      "Discarding  Characters:Characters looking to empty their hand will appreciate the Axe’s ability. Not only can they discard cards, but they can also deal damage in the process. Examples: Zhuge Liang, Lu Xun, Zhang Chun Hua.",
+      "Equipment  Discarding:Some characters activate special abilities when they lose equipment. Opponents may avoid triggering these effects by leaving the equipment alone. With the Axe, however, the attacker gains control—discarding their own equipment forces the attack through, dealing damage and activating the ability. Examples: Sun Shang Xiang, Ling Tong.",
+      "Fire Zhuge Liang:He is particularly vulnerable when facing opponents wielding the Axe. His primary defense, Eight Trigrams, counts as an Escape, making him susceptible to repeated attacks from determined opponents willing to discard cards to force damage through.",
+      "Wine:When you use Wine before attacking, ensuring that your attack lands is crucial to maximizing its damage boost. With the Axe, you can force the attack through, guaranteeing you get the full benefit from both cards.",
+      "Silver Lion Helmet:The Silver Lion Helmet is one of the best pieces of equipment to discard when using the Axe. Discarding it counts as one of the required cards, and losing the helmet allows you to regain health, making it a valuable trade-off."
+    ],
+    "FinalRemarks": [
+      "The Axe is a powerful weapon for ensuring damage gets through, allowing players to guarantee that Wine and other effects are used effectively. No matter how much a target resists, a determined attacker can force their way through.",
+      "However, the Axe comes with a price: it costs three cards to execute an attack and force it through defenses. Since players typically only draw two cards per turn, this results in a net loss. Over time, attackers may run out of cards and become vulnerable to counterattacks. While the Axe is highly effective in the short term, it can be difficult to sustain in longer battles."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/axe.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/black-pommel",
+    "Name": "Black Pommel 青釭剑",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 2,
+    "Number": 1,
+    "Spade": ["6"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "With this equipped, a player ignores the armor of the target.",
+    "Slug": "black-pommel",
+    "Clarifications": [
+      "The ability of Black Pommel is not optional; whenever it is used to attack a player with armor, the armor is rendered ineffective.",
+      "If a Fire Attack is used with the Black Pommel against Wood Armor, the attack will only deal one damage, as the Black Pommel negates the armor's special effect."
+    ],
+    "NotableCombinations": [
+      "Fire Zhuge Liang: He should be wary of Black Pommel falling into enemy hands. His \"Eight Arrays\" ability is considered armor, and the Black Pommel will bypass it, making him vulnerable.",
+      "Yu Jin: Unlike Fire Zhuge Liang, Yu Jin is protected from Black Pommel thanks to his \"Heavy Resolve.\" Although his ability is similar to Zhuge Liang's, \"Heavy Resolve\" is not considered armor, so as long as Yu Jin avoids equipping actual armor, he remains safe from Black Pommel's effect."
+    ],
+    "FinalRemarks": [
+      "The Black Pommel is an excellent weapon when your opponents rely on armor for protection. It cuts through any defense, allowing you to continuously wear down your enemies despite their best efforts to shield themselves. With decent range, it can reach across the battlefield, though you may need to clear a path to your ultimate target. However, if your opponent isn't using armor, the Black Pommel becomes less useful, and other weapons might be more advantageous. While not always the best weapon, in the right circumstances, it can be exactly what you need to break through defenses."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/black-pommel.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/crossbow",
+    "Name": "Crossbow 诸葛连弩",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 1,
+    "Number": 2,
+    "Spade": [],
+    "Club": ["A"],
+    "Diamond": ["A"],
+    "Heart": [],
+    "Description": "With this equipped, a player may attack as much as desired during their turn.",
+    "Slug": "crossbow",
+    "Clarifications": [
+      "If you have another weapon equipped and Crossbow in your hand, you can attack with your current weapon, then switch to Crossbow to continue attacking.",
+      "If you have no weapon equipped and multiple Attacks in your hand, you can attack without a weapon, then equip Crossbow to unleash additional Attacks."
+    ],
+    "NotableCombinations": [
+      "Attack Creators: Characters who generate Attacks from other cards become incredibly dangerous with Crossbow. They can overwhelm enemies by converting cards into relentless attacks. Examples: Guan Yu, Zhao Yun.",
+      "Card Drawers: Characters with the ability to draw more cards during their turn can turn Crossbow into a limitless barrage. After using their initial Attacks, they may draw more, keeping the assault going. Examples: Lu Xun, Zhang Chun Hua.",
+      "Large Hand Characters: When a character has a large hand, they’re always on the lookout for Crossbow. It allows them to bypass the single attack limit, unleashing their stockpile of Attacks. Examples: Lu Meng, Zhen Ji, Yuan Shu, Huang Gai, God Cao Cao.",
+      "Cao Pi: With Crossbow, Cao Pi becomes a deadly force. After gunning down an enemy, he can take their remaining Attacks. If the defeated character is a rebel, he gains even more, allowing him to continue his rampage.",
+      "Zhang Fei: Zhang Fei doesn’t need this weapon since his \"Roar\" ability provides the same benefit. Other weapons offer him more versatility and added effects."
+    ],
+    "FinalRemarks": [
+      "The Crossbow can deal the most damage in a single turn of any weapon. However, it can also quickly deplete the user’s supply of Attacks, leaving them vulnerable during other players' turns. Since it’s highly desirable, equipping it can make you a target, as other players may try to steal, destroy, or disable you before you can strike. This weapon often turns the tide in a game, allowing the wielder to clean up the competition if acquired at the right time."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/crossbow.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/da-yuan",
+    "Name": "Da Yuan 大宛",
+    "Expansion": "Base",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Minus",
+    "Number": 1,
+    "Spade": ["K"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Da Yuan 大宛",
+    "Slug": "da-yuan",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/da-yuan.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/di-lu",
+    "Name": "Di Lu 的卢",
+    "Expansion": "Base",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Plus",
+    "Number": 1,
+    "Spade": [],
+    "Club": ["5"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Di Lu 的卢",
+    "Slug": "di-lu",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/di-lu.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/eight-trigrams",
+    "Name": "Eight Trigrams 八卦阵",
+    "Expansion": "Base",
+    "Type": "Armor",
+    "Number": 2,
+    "Spade": ["2"],
+    "Club": ["2"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Whenever an escape is needed, the wearer can perform a judgment. If it is red, the escape is considered to be provided.",
+    "Slug": "eight-trigrams",
+    "Clarifications": [
+      "If the judgment card is black, the player can still play their own Escape card to avoid the attack.",
+      "The judgment can be influenced by any characters with judgment-altering abilities.",
+      "The Eight Trigrams armor is optional. The player is not obligated to perform a judgment, and if they choose not to, they are treated as though they do not have the armor equipped."
+    ],
+    "NotableCombinations": [
+      "Guo Jia: This armor is perfect for Guo Jia. Every time he is attacked, he performs a judgment and adds the card to his hand. Not only does he have a chance of getting a free Escape, but sometimes the judgment card is even a Peach. Even if the judgment fails, he still gains a card.",
+      "Zhang Jiao: Zhang Jiao becomes a terrifying presence when equipped with the Eight Trigrams. The rest of the table will think twice before attacking him because now he can trigger \"Lightning Strike\" without using his own Escapes. This allows him to save his spades for more \"Lightning Strikes\".",
+      "Judgment Manipulators: Characters who can influence judgments enjoy this armor’s presence. They can either protect their teammates or sabotage their enemies. When playing against these characters, it might be wise to forgo the judgment, as it could backfire. Key manipulators include Sima Yi, Zhang Jiao, Zhuge Liang, and Jiang Wei.",
+      "Wang Yi: When Wang Yi equips this armor, she becomes nearly untouchable. Her ability to retry judgments increases her chances of avoiding an attack significantly.",
+      "Xiao Qiao: Xiao Qiao becomes particularly hard to hit with this armor. Since all of her spades are considered hearts, she has around three-quarters of the deck available for red judgments.",
+      "Unblockable Attackers: Characters with unblockable attacks can bypass the Eight Trigrams armor, as the armor only generates an Escape card, which cannot stop these attacks. Notable characters include Ma Chao and Huang Zhong.",
+      "Lu Bu: When Lu Bu attacks a player with Eight Trigrams, he forces them to perform two judgments, but they do them one at a time. If the first judgment fails, they must use their own Escape before trying the second judgment. Players often let the first hit land to avoid discarding too many cards.",
+      "Pang De: Pang De can quickly neutralize the Eight Trigrams. If the target successfully uses the armor’s judgment or plays an Escape, Pang De can discard any card they own, usually targeting the armor itself. This reduces the armor's effectiveness to that of a single Escape.",
+      "Cao Cao and Wei Generals: When Cao Cao is the ruler, and a member of Wei has the Eight Trigrams equipped, they can perform a judgment to provide Cao Cao with an Escape. If the judgment fails, they do not have to use an Escape from their hand.",
+      "Fire Zhuge Liang: Zhuge Liang has this armor by default, so equipping it offers no additional benefit.",
+      "Yu Jin: Yu Jin has his own built-in defensive ability, \"Heavy Resolve,\" which usually outweighs the benefits of equipping the Eight Trigrams. However, there are exceptions, such as when facing a character like Guan Yu, where the Eight Trigrams might offer better protection."
+    ],
+    "FinalRemarks": [
+      "The Eight Trigrams armor is a valuable asset, offering significant protection against attacks. However, your opponents are well aware of its benefits and will likely target you to remove it as soon as possible. While it offers a chance to avoid attacks, remember that it relies on luck. There will be times when the judgment fails repeatedly, leaving you vulnerable. Although this armor can greatly extend your survivability, it makes no guarantees. Use it wisely, but don't over-rely on it."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/eight-trigrams.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/gender-swords",
+    "Name": "Gender Swords 雌雄双股剑",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 2,
+    "Number": 1,
+    "Spade": ["2"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "When a player attacks a target of the opposite gender, the player can force the target to make a choice. The target must either discard a hand card or the player to draw one.",
+    "Slug": "gender-swords",
+    "Clarifications": [
+      "The attacker forces the defender to make a choice (discard or draw) before the attack is resolved. This happens before the defender plays an Escape card or factors in any armor.",
+      "The gender that matters is the one chosen for each player's general, not the gender of the actual player."
+    ],
+    "NotableCombinations": [
+      "Zhang Fei: Zhang Fei has a unique advantage with the Gender Swords, as he can use them multiple times per turn. Repeated attacks can punish female characters, and if Zhang Fei draws more Attack cards, he can continue the onslaught.",
+      "Female Characters: Female characters benefit more from the Gender Swords since there are usually more male targets in play. This increases the effectiveness of the weapon.",
+      "Defensive Characters: Characters with abilities that trigger when targeted by an attack, like Da Qiao, Yu Jin, or Liu Shan, can lessen the Gender Swords' impact by negating the attack before needing an Escape card."
+    ],
+    "FinalRemarks": [
+      "The Gender Swords are highly effective when targeting characters of the opposite gender, but they have limited use otherwise. Their strength lies in consistent attacks over multiple turns, gradually depleting the opponent's hand while giving the attacker more cards. However, as the weapon becomes more effective, opponents will become more eager to destroy or steal it, so be sure to protect it well."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/gender-swords.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/green-dragon-blade",
+    "Name": "Green Dragon Blade 青龙偃月刀",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 3,
+    "Number": 1,
+    "Spade": ["5"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "When a player has this equipped and the target of their attack uses an escape, the attacker may attack the target again.",
+    "Slug": "green-dragon-blade",
+    "Clarifications": [
+      "The ability of the Green Dragon Blade can create a cycle where the attacker keeps playing an Attack until the target is hit or the attacker chooses to stop.",
+      "If Wine is used before attacking, only the first attack deals the increased damage. Subsequent attacks will deal standard damage.",
+      "An attacker can use a variety of attack types in succession.  They may start with an Attack, follow up with a Lightning Attack, continue with a Fire Attack, and then return to a normal Attack, all in the same sequence. "
+    ],
+    "NotableCombinations": [
+      "Attack Creators: Characters that can generate Attack cards excel with the Green Dragon Blade. They can repeatedly force their target to use Escapes, exhausting their defenses and setting up for an ally’s finishing blow. Examples: Guan Yu, Zhao Yun.",
+      "Large Hands: Characters with large hands full of expendable Attack cards benefit from this weapon, as it guarantees that one of their attacks will eventually hit. Examples: Lu Meng, Zhen Ji, Yuan Shu, Huang Gai, God Cao Cao.",
+      "Zhang Jiao: Zhang Jiao uses this weapon differently. When he plays an Escape, he triggers \"Lightning Strike\", and the attacker can try again. If Zhang Jiao escapes again, \"Lightning Strike\" reactivates. This continues until either the attacker stops or Zhang Jiao gets hit.",
+      "Zhang Fei: Zhang Fei has little use for this weapon aside from its range, as his \"Roar\" already grants him unlimited attacks, negating the blade’s primary advantage."
+    ],
+    "FinalRemarks": [
+      "The Green Dragon Blade shares some similarities with the Crossbow but is less deadly overall. Once the target is hit, the weapon can no longer punish them further. However, it is a powerful tool for draining Escapes, forcing defenders to either take damage or use their cards. Unlike the Crossbow, this weapon is often used more strategically, weakening opponents' defenses to create opportunities for others to strike."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/green-dragon-blade.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/longbow",
+    "Name": "Longbow 麒麟弓",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 5,
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": [],
+    "Heart": ["5"],
+    "Description": "When the player with this weapon damages another player with an attack, they can discard an equipped horse of the target.",
+    "Slug": "longbow",
+    "Clarifications": [
+      "If the target of an attack has more than one horse, the attacking player gets to choose which horse is discarded.",
+      "Once an attack causes damage, the attacker decides whether to remove a horse. They choose the horse to discard, then the damage is dealt."
+    ],
+    "NotableCombinations": [
+      "Huang Zhong: This weapon is ideal for Huang Zhong. Its massive reach ensures that his ability is always active, allowing him to consistently deal heavy damage. However, he must be cautious, as losing this weapon could turn the tide against him."
+    ],
+    "FinalRemarks": [
+      "The Longbow is a versatile weapon with a wide reach and a useful ability that costs nothing to activate. It allows you to damage your target while also discarding their horses, making it easier for others to engage them. The downside is that you must hit the target to discard their horse, and they must actually have a horse for this effect to work. Even with these limitations, the Longbow’s impressive reach makes it highly effective for sniping enemies across the table, especially when your target is far away."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/longbow.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/red-hare",
+    "Name": "Red Hare 赤兔",
+    "Expansion": "Base",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Minus",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": [],
+    "Heart": ["5"],
+    "Description": "Red Hare 赤兔",
+    "Slug": "red-hare",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/red-hare.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/serpent-spear",
+    "Name": "Serpent Spear丈八蛇矛",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 3,
+    "Number": 1,
+    "Spade": ["Q"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "When an attack is desired, the wearer can decide to discard two hand cards to generate the attack.",
+    "Slug": "serpent-spear",
+    "Clarifications": [
+      "The Serpent Spear's ability can be activated both during and outside of the player's turn. On their turn, the player can discard any two cards from their hand to launch an attack. Outside their turn, this ability can be used in response to tool cards such as Duel or Barbarians. ",
+      "Both cards must be discarded simultaneously, and if both cards share the same color, the attack inherits that color. If the cards are of different colors, the attack is colorless."
+    ],
+    "NotableCombinations": [
+      "Zhang Fei: Zhang Fei can maximize the potential of this weapon. With his ability to attack repeatedly during his turn, he can use almost his entire hand for continuous attacks. Regardless of the cards he holds, the Serpent Spear allows him to relentlessly punish his enemies.",
+      "Discarding Characters: Characters who want to empty their hand have a natural synergy with the Serpent Spear. This weapon grants them flexibility in discarding cards for attacks, helping them achieve their goals. Examples include Zhuge Liang, Lu Xun, and Zhang Chun Hua.",
+      "Attack Vulnerable Characters: Characters vulnerable to specific types of attacks need to be wary of this weapon. Enemies equipped with the Serpent Spear can generate attacks of the color most dangerous to them with ease. Examples include Hua Xiong and Yu Jin."
+    ],
+    "FinalRemarks": [
+      "The Serpent Spear shines both in favorable and challenging situations. It has excellent range and offers an ability that provides strategic options when you're in a pinch. Even if you're not drawing ideal cards, this weapon allows you to make progress by discarding less useful cards to fuel your attacks. When looking to use up cards in your hand, the Serpent Spear is a valuable asset, turning any two cards into an Attack."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/serpent-spear.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/shadow-runner",
+    "Name": "Shadow Runner 绝影",
+    "Expansion": "Base",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Plus",
+    "Number": 1,
+    "Spade": ["5"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Shadow Runner 绝影",
+    "Slug": "shadow-runner",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/shadow-runner.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/sky-scorcher",
+    "Name": "Sky Scorcher 方天画戟",
+    "Expansion": "Base",
+    "Type": "Weapon",
+    "Range": 4,
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["Q"],
+    "Heart": [],
+    "Description": "When the player with this equipped is using their last hand card to attack, they can target up to two additional players.",
+    "Slug": "sky-scorcher",
+    "Clarifications": [
+      "After this ability is used, the player should have no cards left in their hand.",
+      "Abilities like Ma Chao's \"Iron Cavalry,\" which trigger during an attack, apply separately to each target when using the Sky Scorcher. This means Ma Chao would perform a separate judgment for each target he attacks.",
+      "If the player with this weapon is targeted by Coerce and uses their last card to attack, they can choose two additional targets, including the original one.",
+      "If Wine is used before attacking with the final card, every target will suffer increased damage."
+    ],
+    "NotableCombinations": [
+      "Discarding Characters: Characters who benefit from using their final hand card, such as Zhuge Liang, Lu Xun, and Zhang Chun Hua, find this weapon particularly effective, as it offers additional benefits when attacking multiple targets.",
+      "Unblockable Attackers: Characters with abilities that make their attacks hard or costly to defend against can exploit the Sky Scorcher's multi-target capability. This allows them to deal significant damage across the board. Examples include Ma Chao, Huang Zhong, and Lu Bu.",
+      "High-Damage Attackers: Generals with powerful attacks that can devastate if they hit, like Xu Sheng, Xu Chu, and Ma Dai, can use the Sky Scorcher to maximize their chances of hitting at least one target among the three.",
+      "Card-Loss Characters: Characters who can easily lose cards, such as Liu Bei, Lu Su, Yu Ji, and Xu Shu, can consistently activate the Sky Scorcher's ability by emptying their hands and then attacking three opponents with their last card. This is even more effective when a teammate refills their hand afterward.",
+      "Tai Shi Ci: Tai Shi Ci stands out as the character who can target the most enemies with the Sky Scorcher. Thanks to his ability, \"Heaven's Justice,\" he can target an additional player. Combined with the Sky Scorcher, he can attack four enemies. Adding Wine into the mix can turn this into a devastating whirlwind of pain.",
+      "Huang Zhong: Huang Zhong's power allows him to attack without being blocked when his range is four or more. With the Sky Scorcher's range of four, Huang Zhong becomes a major threat, capable of delivering unblockable attacks to multiple opponents."
+    ],
+    "FinalRemarks": [
+      "The Sky Scorcher is a powerful but risky weapon. Its ability to target additional enemies can quickly swing the game in your favor. However, the cost of using it is steep, as you’ll be left vulnerable with no cards in hand. After you activate its ability, opponents are likely to take advantage of your weakened defense. The weapon is best suited for characters who can survive without cards. Additionally, setting up your hand so that your last card is an Attack can be tricky, making the Sky Scorcher's ability difficult to use consistently. Nevertheless, its large range makes it valuable for more straightforward purposes, such as attacking distant enemies."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/sky-scorcher.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/storm-runner",
+    "Name": "Storm Runner 爪黄飞电",
+    "Expansion": "Base",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Plus",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": [],
+    "Heart": ["K"],
+    "Description": "Storm Runner 爪黄飞电",
+    "Slug": "storm-runner",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/storm-runner.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/zi-xing",
+    "Name": "Zi Xing 紫骍",
+    "Expansion": "Base",
+    "Type": "Horse",
+    "Range": 1,
+    "Direction": "Minus",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["K"],
+    "Heart": [],
+    "Description": "Zi Xing 紫骍",
+    "Slug": "zi-xing",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/zi-xing.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/seven-star-sword",
+    "Name": "Seven Star Sword 七宝刀",
+    "Expansion": "Daemon",
+    "Type": "Weapon",
+    "Range": 2,
+    "Number": 1,
+    "Spade": ["2"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Outside of their turn, whenever someone within the wearer’s attacking range uses an Escape, the wearer can attack them. If the target avoids this attack, they take this weapon and place it into their hand.",
+    "Slug": "seven-star-sword",
+    "Clarifications": [
+      "If the second attack is avoided using armor or character abilities, the Seven Star Sword is still transferred to the target's hand.",
+      "The Escape that triggers the weapon’s ability can come from another player’s attack or a global effect like Hail of Arrows.",
+      "The ability can only be triggered by an Escape within the wearer’s attacking range at the time it is played.",
+      "The wearer cannot trigger this ability during their own turn, even if a target uses an Escape in response to their attacks.",
+      "If multiple Escape cards are played, the wearer may activate the ability multiple times, provided the target is within range."
+    ],
+    "NotableCombinations": [
+      "Global Attack Effects:Weapons like Seven Star Sword pair well with effects that force multiple players to use Escape. For example, Yuan Shao can force multiple players within range to play Escape, increasing the weapon's chances of triggering. The more players forced to defend, the more likely the weapon can attack and cause damage.",
+      "Target-Forced Escapes:Characters like Zhang Fei or Gao Shun, who can attack multiple players often, create opportunities for their targets to play Escapes. Since these characters naturally create scenarios where Escape cards are used, they synergize well with the Seven Star Sword.",
+      "Characters with Strong Attacks:Characters such as Lu Bu or Pang De, who specialize in attacks that are difficult to avoid will thrive on a card like this. The Seven Star Sword gives them more opportunities to attack and their fierceness helps to ensure that it connects."
+    ],
+    "FinalRemarks": [
+      "The Seven Star Sword offers a dynamic and high-risk, high-reward mechanic. Its ability to disrupt opponents by forcing them to either lose life or take the weapon creates strategic depth, especially when paired with effects that increase the frequency of attacks or Escape plays. However, its reliance on opponents being within range and using Escape limits its flexibility, making it less effective in scenarios where these conditions are not met. Players who use Seven Star Sword should be prepared to lose the weapon at some point and plan accordingly to regain or replace it."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/seven-star-sword.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/spiked-iron-mace",
+    "Name": "Spiked Iron Mace 铁蒺藜骨朵",
+    "Expansion": "Daemon",
+    "Type": "Weapon",
+    "Range": 3,
+    "Number": 1,
+    "Spade": ["J"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "In a Duel, any hand card can be used as an Attack.",
+    "Slug": "spiked-iron-mace",
+    "Clarifications": [
+      "Outside of a Duel, the weapon offers no additional benefits apart from its range of 3.",
+      "During a Duel, the weapon’s ability allows the wielder to treat any card in their hand as an Attack, significantly enhancing their flexibility and resilience in the encounter.",
+      "This ability works both when the wielder initiates a Duel or is targeted by one."
+    ],
+    "NotableCombinations": [
+      "Duel-Heavy Characters:Characters such as Yan Liang and Wen Chou and Xu Chu, who often rely on or benefit from frequent Duels, can make excellent use of the Spiked Iron Mace. The ability to turn any card into an Attack ensures these characters can maximize the pressure on their opponents during these encounters, even with a suboptimal hand.",
+      "Card-Rich Characters:",
+      "Characters like Cao Zhi, Lu Meng, and Zhen Ji, who tend to have large hand sizes or easy card acquisition, can fully exploit the flexibility offered by the weapon. These characters will often have enough resources to sustain a Duel even against a well-prepared opponent, ensuring their dominance.",
+      "Long Range Characters:Characters like Huang Zhong always seek out weapons to increase the effectiveness of the abilities. Although he ability of the Spiked Iron Mace does not play a large role in this strategy, but the range is the most desirable. "
+    ],
+    "FinalRemarks": [
+      "The Spiked Iron Mace is a niche weapon, excelling in Duel-focused strategies but offering little outside of this context. It shines when paired with characters who can reliably initiate or sustain Duels, especially those with large hands or resource management abilities. However, its situational nature means it may not be the best choice for every character or game scenario.",
+      "For players who favor aggressive, single-target playstyles and thrive on psychological and strategic manipulation in Duels, the Spiked Iron Mace can be an invaluable asset, turning even the most unexpected cards into deadly attacks. This weapon rewards careful planning and strong synergy with the wielder's abilities, embodying the spirit of high-stakes, decisive combat that defined the heroes of the Three Kingdoms era."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/spiked-iron-mace.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/berserker-mail",
+    "Name": "Berserker Mail 连环铠",
+    "Expansion": "Daemon",
+    "Type": "Armor",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["6"],
+    "Heart": [],
+    "Description": "During another player’s turn, they can only attack the wearer once. This restriction does not apply to Attacks made during a Duel.",
+    "Slug": "berserker-mail",
+    "Clarifications": [
+      "The wearer of Berserker Mail can still be targeted by Attack cards, but only once per turn, regardless of how many Attack cards the other player has or how many opportunities their weapon or abilities provide.",
+      "Duels are unaffected by the armor’s restriction. Players in a Duel with the wearer may still play multiple Attack cards as usual."
+    ],
+    "NotableCombinations": [
+      "Healing and Damage Mitigation Characters:Characters like Liu Bei and Hua Tuo can use the armor to survive extended engagements. They gain time to heal or shield themselves from other threats while benefiting from the reduced damage intake over time.",
+      "Counter to Multi-Attack Characters:The armor is an excellent defense against Zhang Fei, Gao Shun, and other characters reliant on spamming attacks. It reduces their effectiveness to just one attack per turn, forcing them to adapt their strategies.",
+      "Characters Vulnerable to Burst Damage:Characters with limited health like Diao Chan and Cai Wenji benefit greatly from this armor, as it prevents overwhelming damage from opponents equipped with Crossbows or multiple attack opportunities."
+    ],
+    "FinalRemarks": [
+      "The Berserker Mail is a powerful defensive tool that excels in countering aggressive, multi-attack strategies. Its ability to limit opponents to one attack per turn makes it particularly effective against characters and weapons that rely on burst damage or relentless pressure. However, its lack of protection against Duels and single-target attack effects requires careful consideration in its usage.",
+      "This armor is best suited for players aiming to stall, sustain, and outlast their opponents, particularly in games with heavy offensive characters. While not universally effective, its strategic value in the right situations can turn the tide of battle."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/berserker-mail.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/green-eyed-white-cow",
+    "Name": "Green Eyed White Cow 碧眼白水牛",
+    "Expansion": "Daemon",
+    "Type": "Horse",
+    "Range": 2,
+    "Direction": "Minus",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["K"],
+    "Heart": [],
+    "Description": "Green Eyed White Cow 碧眼白水牛",
+    "Slug": "green-eyed-white-cow",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/green-eyed-white-cow.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/nanman-elephant",
+    "Name": "Nanman Elephant 南蛮象",
+    "Expansion": "Daemon",
+    "Type": "Horse",
+    "Range": 2,
+    "Direction": "Plus",
+    "Number": 1,
+    "Spade": ["5"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Nanman Elephant 南蛮象",
+    "Slug": "nanman-elephant",
+    "Clarifications": [],
+    "NotableCombinations": [],
+    "FinalRemarks": [],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/nanman-elephant.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/almanac",
+    "Name": "Almanac 遁甲天书",
+    "Expansion": "Daemon",
+    "Type": "Treasure",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": [],
+    "Heart": ["9"],
+    "Description": "When equipped, the judgment criteria for Capture is modified for the wearer. If the judgment result is hearts, the action phase is skipped. For any other suit, the Capture card has no effect on the wearer.",
+    "Slug": "almanac",
+    "Clarifications": [
+      "Normally, Capture requires a anything except a heart for its effect to take place. With Almanac equipped, the wearer becomes more protected from Capture unless the judgment result is hearts.",
+      "The Almanac does not affect judgments from Starvation, Lightning, or any other judgments."
+    ],
+    "NotableCombinations": [
+      "Judgment Manipulators:Characters like Sima Yi and Zhang Jiao, who can manipulate judgment results, enhance the effectiveness of Almanac. By forcing non-hearts results or reshaping judgments, these characters help ensure the wearer avoids the treasure's drawback.",
+      "Capture Protection:Although it does not completely stop the threat of Capture, the Almanac does reduce the chances that it will affect its target. This is problematic for characters that utilize Capture in their strategies like Da Qiao."
+    ],
+    "FinalRemarks": [
+      "Almanac is a niche but powerful treasure for mitigating the effects of Capture. While its reliance on judgment results introduces an element of unpredictability, the overall statistical advantage leans in favor of the wearer. It synergizes particularly well with judgment-manipulating characters and those who depend heavily on their action phase. Careful consideration of the judgment deck and game state is crucial when equipping Almanac."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/almanac.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/atlas-of-shu",
+    "Name": "Atlas of Shu 蜀道图",
+    "Expansion": "Daemon",
+    "Type": "Treasure",
+    "Number": 1,
+    "Spade": [],
+    "Club": ["10"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "While equipped, the distance from you to any other player is considered to be 1.",
+    "Slug": "atlas-of-shu",
+    "Clarifications": [
+      "The effect applies only to the distance from you to other players. It does not affect the distance from others to you.",
+      "If other players have horses equipped, these are taken into acount after the Atlas of Shu. This means that the Atlas of Shu only reduces the distance for you across the table. ",
+      "The reduction of distance is not optional. This puts other characters into your range."
+    ],
+    "NotableCombinations": [
+      "Characters with Ranged Abilities:Characters like Dian Wei or Da Qiao, who rely on abilities requiring close range, benefit immensely from the Atlas of Shu. It ensures their abilities remain effective against all opponents, no matter their placement.",
+      "Range Reversal:Characters like Jiang Wei can use an opponent's range against them. If an opponent wants to be in your range, you need to be carful about equipping this.",
+      "Rebel Reach:The Atlas of Shu is a great tool for a Rebel that is across the table from the king. This allows them the ability to reach across and press then assault while they are safely out of range. "
+    ],
+    "FinalRemarks": [
+      "The Atlas of Shu is a powerful treasure that emphasizes offensive and supportive flexibility. It removes distance limitations, giving characters access to all players on the battlefield. Best suited for aggressive or highly interactive strategies, this treasure offers immense utility in the right hands. "
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/atlas-of-shu.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/bronze-bird-ode",
+    "Name": "Bronze Bird Ode 铜雀赋",
+    "Expansion": "Daemon",
+    "Type": "Treasure",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["7"],
+    "Heart": [],
+    "Description": "While equipped, attacks from characters of the opposite gender have no effect on you.",
+    "Slug": "bronze-bird-ode",
+    "Clarifications": [
+      "The Bronze Bird Ode prevents both damage and any negative effects from any attack played by a character of the opposite gender.",
+      "This treasure works independently of other armor or equipment effects."
+    ],
+    "NotableCombinations": [
+      "Works Well with Aggressive Female Characters:Characters such as Sun Shangxiang and Diaochan benefit greatly from equipping this treasure when facing male-dominated player pools. The immunity allows them to focus on offense while being shielded from counterattacks by male characters.",
+      "Complementary to Offensive Equipment:Pairing with tools such as Wood Armor lets the player focus on dealing damage without worrying about retaliation from the opposite gender."
+    ],
+    "FinalRemarks": [
+      "The Bronze Bird Ode is a situationally powerful treasure, especially in games with imbalanced gender representation. It provides a unique defensive advantage against many of the player pool, creating a strategic element of gender-specific immunity. While its utility depends on the opposing characters, it can create an effective shield in the right hands. However, its lack of offensive capabilities and situational nature make it less versatile than some other treasures."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/bronze-bird-ode.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/green-vesicle-book",
+    "Name": "Green Vesicle Book 青囊书",
+    "Expansion": "Daemon",
+    "Type": "Treasure",
+    "Number": 1,
+    "Spade": [],
+    "Club": [],
+    "Diamond": [],
+    "Heart": ["8"],
+    "Description": "At the beginning of your turn, you gain 1 health.",
+    "Slug": "green-vesicle-book",
+    "Clarifications": [
+      "The healing occurs at the start of your turn, before any other actions can be taken.",
+      "The healing does not exceed the character’s maximum health limit.",
+      "Gaining health is mandatory and not optional while it is equipped."
+    ],
+    "NotableCombinations": [
+      "Works Well with Self-Harming Abilities:Characters such as Zhou Tai and Huang Gai, who rely on sacrificing health to trigger their abilities, can use the Green Vesicle Book to mitigate the costs of their actions.",
+      "Complements Defensive Characters:Defensive characters like Cao Ren or Lu Meng benefit from the book's passive healing, allowing them to maintain their focus on supporting allies or enduring long battles.",
+      "Enhances Endurance Characters:Characters with high health, such as Dong Zhuo, gain added resilience by consistently recovering from the damage they take."
+    ],
+    "FinalRemarks": [
+      "The Green Vesicle Book is an excellent treasure for players who value consistent recovery and resilience. While it does not provide immediate or aggressive advantages, its passive healing effect allows characters to recover over time, making it a strong choice for endurance-based strategies. However, its lack of offensive or disruptive capabilities means it is most effective when paired with defensive or health-dependent characters."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/green-vesicle-book.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/robotic-ox",
+    "Name": "Robotic Ox 木牛流马",
+    "Expansion": "Daemon",
+    "Type": "Treasure",
+    "Number": 1,
+    "Spade": [],
+    "Club": ["A"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "While equipped, you may give all your discarded cards during the discard phase to any other player.",
+    "Slug": "robotic-ox",
+    "Clarifications": [
+      "The ability activates at the end of your turn during the discard phase.",
+      "You can choose to give your discarded cards to any other single player. You cannot give the cards to yourself.",
+      "Cards are revealed when they are given. ",
+      "You are not forced to give the cards to another player. You may discard them like normal.",
+      "This treasure does not negate the requirement to discard down to your hand limit; it only redirects the cards to another player instead of the discard pile."
+    ],
+    "NotableCombinations": [
+      "Supports Card-Hungry Allies:Characters like Zhang Fei or Liu Bei, who rely on large hands for their abilities, benefit greatly when you direct your discarded cards to them.",
+      "Full Hand Characters:Characters who discard cards frequently, such as Zhen Ji or Cao Ren, can use the Robotic Ox to funnel resources to allies while still managing their hand limits."
+    ],
+    "FinalRemarks": [
+      "The Robotic Ox is a highly strategic treasure that rewards thoughtful resource allocation. Its ability to redirect discarded cards makes it a versatile tool for both support and sabotage, but it requires careful planning to maximize its impact. Ideal for team-oriented players or those who thrive on creative problem-solving, the Robotic Ox adds a unique layer of tactical depth to any game."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/robotic-ox.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/black-shield",
+    "Name": "Black Shield 仁王盾",
+    "Expansion": "EX",
+    "Type": "Armor",
+    "Number": 1,
+    "Spade": [],
+    "Club": ["2"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Black attacks cannot hit the wearer.",
+    "Slug": "black-shield",
+    "Clarifications": [
+      "Black Attacks cannot be evaded when the Black Shield is equipped. They are automatically blocked without needing to play an Escape.",
+      "Colorless Attacks ignore the Black Shield and hit as normal.",
+      "Effects that occur before the Attack makes contact still happen. For instance, the Gender Swords can still trigger their ability, but after that, a black Attack is nullified.",
+      "If the player with the Black Shield is in Chains, they can be hit by an indirect black Attack. However, they cannot be the first person in the Chains to receive damage."
+    ],
+    "NotableCombinations": [
+      "Sun Ce: Sun Ce greatly benefits from the Black Shield. It forces opponents to use red Attacks against him, which triggers \"Passion\" more frequently, giving him extra cards and making him stronger.",
+      "Red Attack Users: Characters that can easily generate red Attacks are not hindered by the Black Shield. They simply switch their strategy to attacking with red cards. Key characters include Guan Yu, Zhao Yun, Guan Xing & Zhang Bao, and Xiao Qiao.",
+      "Colorless Attack Users: Generals who can produce colorless Attacks bypass the Black Shield entirely. While these Attacks are rare, they can shift the battle’s momentum. Notable characters include Xiahou Yuan and Chen Gong.",
+      "Unblockable Attackers: Characters with unblockable Attacks, like Ma Chao and Huang Zhong, are countered by the Black Shield. Since the shield blocks the entire Attack, the defender doesn’t even need to play an Escape.",
+      "Yu Ji: When Yu Ji attacks someone with the Black Shield, the color of the card he uses becomes the color of the Attack. If other players believe him, Yu Ji can bypass the shield using psychological tricks.",
+      "Yu Jin: Yu Jin’s ability provides a stronger form of protection than the Black Shield, so equipping it would actually weaken his defenses."
+    ],
+    "FinalRemarks": [
+      "The Black Shield is incredibly valuable because it blocks most Attacks, as black cards are more common than red. However, the downside is its vulnerability to red Attacks. If the opposing team has characters who can exploit this weakness, the shield becomes less effective. Additionally, having the Black Shield can attract attention, leading to opponents targeting or discarding it. Despite these risks, keeping the Black Shield in play offers solid defense against most threats."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/black-shield.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/ice-sword",
+    "Name": "Ice Sword 寒冰剑",
+    "Expansion": "EX",
+    "Type": "Weapon",
+    "Range": 2,
+    "Number": 1,
+    "Spade": ["2"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "When an attack hits its target, the player with the weapon has a choice. They can either damage the target or chose to remove two cards from the target.",
+    "Slug": "ice-sword",
+    "Clarifications": [
+      "The attacker decides whether to deal damage or force the target to discard cards after the target does not use an Escape.",
+      "If Wine is used with the Ice Sword, the effect is all or nothing: either the attack deals two damage, or the target discards two cards.",
+      "Cards are discarded one by one. If the target has only one card, they lose it; if they have more than one, they must discard two cards. If the target has no hand cards, they are forced to take the damage.",
+      "Both equipment and hand cards can be discarded. Pending cards (delayed tools in progress) cannot be discarded."
+    ],
+    "NotableCombinations": [
+      "Guaranteed Hit Characters: Characters like Ma Chao and Huang Zhong who have abilities that guarantee a hit can maximize the Ice Sword’s utility by forcing opponents to discard cards, even if the target has an Escape. This is especially useful for removing troublesome equipment.",
+      "Hua Tuo: Hua Tuo needs to be cautious with the Ice Sword. Normally, he only loses a single card when healing back damage. However, with the Ice Sword, he could lose two cards instead of just one, making it much harder for him to recover after being worn down.",
+      "Xiao Qiao: Xiao Qiao is particularly vulnerable to the Ice Sword. If she doesn’t use an Escape and the attacker opts to discard her cards instead of dealing damage, she cannot activate her ability, leaving her defenseless and out of two cards."
+    ],
+    "FinalRemarks": [
+      "The Ice Sword is a tactical weapon, best used for a few key turns to weaken an opponent. It excels at stripping away a target’s equipment piece by piece, especially armor and defenses. Once their defenses are down, the attacker can deal direct damage. However, the Ice Sword's usefulness fades in prolonged engagements—while you can continuously discard your opponent's cards, they'll eventually draw more, and you're not dealing any lasting damage. That said, it still has value, as you always retain the option to simply inflict damage when needed."
+    ],
+    "RelationToHistory": [],
+    "ImageUrl": "/equipments/ice-sword.jpg"
+  }
+]
