@@ -20,6 +20,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from './ui/accordion'
+import Image from 'next/image'
 
 interface CharacterCardWrapperProps {
   slug: string
@@ -42,25 +43,19 @@ export default function CharacterCardWrapper({
       <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 items-center md:items-stretch mb-4 md:mb-0">
         <div className="block md:hidden w-24">
           <div className="aspect-[7/10] relative">
-            <img
-              src={
-                character.ImageUrl
-                  ? `/sanguosha-assistant/import/${character.ImageUrl}`
-                  : '/placeholder.svg'
-              }
-              alt={character.Name}
+            <Image
+              src={`/sanguosha-assistant/import/${character.ImageUrl}`}
+              width={441}
+              height={645}
+              alt={character.Name.Original}
               className="object-cover rounded-md w-full h-full"
             />
           </div>
         </div>
         <div className="flex-1">
-          <h1 className="text-3xl">
-            {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
-          </h1>
+          <h1 className="text-3xl">{character.Name.English}</h1>
           {character.Description && (
-            <h2 className="text-lg">
-              {character.Description.replaceAll(/[^A-Za-z ]/g, '').trim()}
-            </h2>
+            <h2 className="text-lg">{character.Description.English}</h2>
           )}
           <div className="flex flex-row items-center mb-2">
             <Breadcrumb className="grow">
@@ -72,9 +67,7 @@ export default function CharacterCardWrapper({
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />
                 <BreadcrumbItem>
-                  <BreadcrumbPage>
-                    {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
-                  </BreadcrumbPage>
+                  <BreadcrumbPage>{character.Name.English}</BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
@@ -100,13 +93,11 @@ export default function CharacterCardWrapper({
       <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
         <div className="flex-1 md:flex-1">
           <div className="hidden md:block aspect-[7/10] relative mb-4">
-            <img
-              src={
-                character.ImageUrl
-                  ? `/sanguosha-assistant/import/${character.ImageUrl}`
-                  : '/placeholder.svg'
-              }
-              alt={character.Name}
+            <Image
+              src={`/sanguosha-assistant/import/${character.ImageUrl}`}
+              width={441}
+              height={645}
+              alt={character.Name.Original}
               className="object-cover rounded-md w-full h-full"
             />
           </div>

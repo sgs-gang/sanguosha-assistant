@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { parse } from 'async-csv'
+import { get, isEqual } from 'lodash'
 
 export async function getList<T>(
   url: string,
@@ -12,8 +13,23 @@ export async function getList<T>(
     },
   })
 
-  const data = await parse(await res.text(), { columns: true })
-  data.splice(-2)
+  const data = await parse(await res.text(), {
+    columns: true,
+    skip_empty_lines: true,
+  })
 
-  return schema.array().parse(data)
+  return schema.array().parse(
+    data.filter(
+      value =>
+        !isEqual(value, {
+          Link: '',
+          Name: '',
+          Expansion: '',
+          Alignment: '',
+          Ruler: 'FALSE',
+          Health: '',
+          Gender: '',
+        }) && get(value, 'Link') !== '',
+    ),
+  )
 }

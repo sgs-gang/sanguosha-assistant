@@ -29,19 +29,27 @@ export async function add(
   if (Description == null)
     throw new Error('Description not found', { cause: character.Link })
 
-  const Abilities: { Name: string; Description: string; King: boolean }[] = []
+  const Abilities: z.infer<typeof schema>['Abilities'] = []
   $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
     .eq(3)
     .find('ul li')
     .each((_i, li) => {
-      const Ability: {
-        Name: string
-        Description: string
-        King: boolean
-      } = { Name: '', Description: '', King: false }
+      const Ability: (typeof Abilities)[0] = {
+        Name: {
+          English: '',
+          Chinese: '',
+          Original: '',
+        },
+        Description: '',
+        King: false,
+      }
       const name = $(li).find('span.C9DxTc').first().text().trim()
       if (name == null) throw new Error('Ability name not found')
-      Ability.Name = name
+      Ability.Name = {
+        English: name.replaceAll(/[^A-Za-z ]/g, '').trim(),
+        Chinese: name.split(' ').at(-1) ?? '',
+        Original: name,
+      }
       $(li)
         .find('span.C9DxTc:not(:first-child)')
         .each((i, span) => {
@@ -73,8 +81,16 @@ export async function add(
 
   return {
     ...character,
-    Name,
-    Description,
+    Name: {
+      English: Name.replaceAll(/[^A-Za-z ]/g, '').trim(),
+      Chinese: Name.split(' ').at(-1) ?? '',
+      Original: Name,
+    },
+    Description: {
+      English: Description.replaceAll(/[^A-Za-z ]/g, '').trim(),
+      Chinese: Description.split(' ').at(-1) ?? '',
+      Original: Description,
+    },
     Slug,
     Clarifications,
     Strengths,

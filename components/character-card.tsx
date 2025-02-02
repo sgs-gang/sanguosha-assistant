@@ -36,22 +36,18 @@ export function CharacterCard({
       <Link href={`/characters/${character.Slug}`}>
         <CardHeader className="p-0">
           <Image
-            src={
-              character.ImageUrl
-                ? `/sanguosha-assistant/import/${character.ImageUrl}`
-                : '/placeholder.svg'
-            }
+            src={`/sanguosha-assistant/import/${character.ImageUrl}`}
             width={441}
             height={645}
-            alt={character.Name}
+            alt={character.Name.Original}
           />
         </CardHeader>
         <CardContent className="bg-white/50 p-0 md:p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg flex flex-col h-1/4 justify-center">
           <h4 className="md:font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">
-            {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
+            {character.Name.English}
           </h4>
           <h5 className="whitespace-nowrap text-ellipsis overflow-hidden text-center hidden md:block">
-            {character.Description.replaceAll(/[^A-Za-z ]/g, '').trim()}
+            {character.Description.English}
           </h5>
         </CardContent>
       </Link>

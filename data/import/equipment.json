@@ -876,5 +876,71 @@
       "In one notable instance, Zhuge Liang used the invention during the Northern Expeditions to deliver food and equipment across difficult terrain, ensuring his troops remained well-supplied despite enemy blockades. The ability of the Robotic Ox to transfer discarded cards mirrors the historical purpose of transporting valuable resources to those in need, embodying Zhuge Liang’s legacy of turning ingenuity into an advantage on the battlefield."
     ],
     "ImageUrl": "/character/robotic-ox.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/black-shield",
+    "Name": "Black Shield 仁王盾",
+    "Expansion": "EX",
+    "Type": "Armor",
+    "Number": 1,
+    "Spade": [],
+    "Club": ["2"],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "Black attacks cannot hit the wearer.",
+    "Slug": "black-shield",
+    "Clarifications": [
+      "Black Attacks cannot be evaded when the Black Shield is equipped. They are automatically blocked without needing to play an Escape.",
+      "Colorless Attacks ignore the Black Shield and hit as normal.",
+      "Effects that occur before the Attack makes contact still happen. For instance, the Gender Swords can still trigger their ability, but after that, a black Attack is nullified.",
+      "If the player with the Black Shield is in Chains, they can be hit by an indirect black Attack. However, they cannot be the first person in the Chains to receive damage."
+    ],
+    "NotableCombinations": [
+      "Sun Ce: Sun Ce greatly benefits from the Black Shield. It forces opponents to use red Attacks against him, which triggers \"Passion\" more frequently, giving him extra cards and making him stronger.",
+      "Red Attack Users: Characters that can easily generate red Attacks are not hindered by the Black Shield. They simply switch their strategy to attacking with red cards. Key characters include Guan Yu, Zhao Yun, Guan Xing & Zhang Bao, and Xiao Qiao.",
+      "Colorless Attack Users: Generals who can produce colorless Attacks bypass the Black Shield entirely. While these Attacks are rare, they can shift the battle’s momentum. Notable characters include Xiahou Yuan and Chen Gong.",
+      "Unblockable Attackers: Characters with unblockable Attacks, like Ma Chao and Huang Zhong, are countered by the Black Shield. Since the shield blocks the entire Attack, the defender doesn’t even need to play an Escape.",
+      "Yu Ji: When Yu Ji attacks someone with the Black Shield, the color of the card he uses becomes the color of the Attack. If other players believe him, Yu Ji can bypass the shield using psychological tricks.",
+      "Yu Jin: Yu Jin’s ability provides a stronger form of protection than the Black Shield, so equipping it would actually weaken his defenses."
+    ],
+    "FinalRemarks": [
+      "The Black Shield is incredibly valuable because it blocks most Attacks, as black cards are more common than red. However, the downside is its vulnerability to red Attacks. If the opposing team has characters who can exploit this weakness, the shield becomes less effective. Additionally, having the Black Shield can attract attention, leading to opponents targeting or discarding it. Despite these risks, keeping the Black Shield in play offers solid defense against most threats."
+    ],
+    "RelationToHistory": [
+      "While there is no direct reference to the Black Shield in the historical stories, it’s possible that the barbarian tribes of the south, the Nanman, used similar materials for their armor and shields. These shields were effective against conventional weapons like swords and arrows, forcing Zhuge Liang to employ alternative tactics during his campaign to pacify the southern tribes."
+    ],
+    "ImageUrl": "/character/black-shield.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/ice-sword",
+    "Name": "Ice Sword 寒冰剑",
+    "Expansion": "EX",
+    "Type": "Weapon",
+    "Range": 2,
+    "Number": 1,
+    "Spade": ["2"],
+    "Club": [],
+    "Diamond": [],
+    "Heart": [],
+    "Description": "When an attack hits its target, the player with the weapon has a choice. They can either damage the target or chose to remove two cards from the target.",
+    "Slug": "ice-sword",
+    "Clarifications": [
+      "The attacker decides whether to deal damage or force the target to discard cards after the target does not use an Escape.",
+      "If Wine is used with the Ice Sword, the effect is all or nothing: either the attack deals two damage, or the target discards two cards.",
+      "Cards are discarded one by one. If the target has only one card, they lose it; if they have more than one, they must discard two cards. If the target has no hand cards, they are forced to take the damage.",
+      "Both equipment and hand cards can be discarded. Pending cards (delayed tools in progress) cannot be discarded."
+    ],
+    "NotableCombinations": [
+      "Guaranteed Hit Characters: Characters like Ma Chao and Huang Zhong who have abilities that guarantee a hit can maximize the Ice Sword’s utility by forcing opponents to discard cards, even if the target has an Escape. This is especially useful for removing troublesome equipment.",
+      "Hua Tuo: Hua Tuo needs to be cautious with the Ice Sword. Normally, he only loses a single card when healing back damage. However, with the Ice Sword, he could lose two cards instead of just one, making it much harder for him to recover after being worn down.",
+      "Xiao Qiao: Xiao Qiao is particularly vulnerable to the Ice Sword. If she doesn’t use an Escape and the attacker opts to discard her cards instead of dealing damage, she cannot activate her ability, leaving her defenseless and out of two cards."
+    ],
+    "FinalRemarks": [
+      "The Ice Sword is a tactical weapon, best used for a few key turns to weaken an opponent. It excels at stripping away a target’s equipment piece by piece, especially armor and defenses. Once their defenses are down, the attacker can deal direct damage. However, the Ice Sword's usefulness fades in prolonged engagements—while you can continuously discard your opponent's cards, they'll eventually draw more, and you're not dealing any lasting damage. That said, it still has value, as you always retain the option to simply inflict damage when needed."
+    ],
+    "RelationToHistory": [
+      "The Ice Sword is a fictional creation for this game and has no basis in historical events or the novel."
+    ],
+    "ImageUrl": "/character/ice-sword.jpg"
   }
 ]

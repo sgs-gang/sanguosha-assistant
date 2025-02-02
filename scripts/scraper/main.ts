@@ -45,7 +45,7 @@ async function pull<T extends z.ZodTypeAny, R extends z.ZodTypeAny>(
   const items = await getList(listUrl, basicSchema)
 
   bar.start(items.length, 0)
-  const chunks = chunk(items, 1)
+  const chunks = chunk(items, 10)
   const writeableItems: R[] = []
   for await (const chunk of chunks) {
     const results = await Promise.all(

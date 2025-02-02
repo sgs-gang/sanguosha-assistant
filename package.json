@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "scrape": "npx tsx scripts/scraper/main.ts && npm run format",
+    "scrape": "npx tsx scripts/scraper/main.ts && npx prettier --write data/import",
     "lint": "eslint .",
     "type-check": "npx tsc -b tsconfig.json",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""

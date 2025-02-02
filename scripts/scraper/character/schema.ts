@@ -19,9 +19,18 @@ export const basicSchema = z.object({
 })
 
 export const schema = basicSchema.extend({
+  Name: z.object({
+    English: z.string(),
+    Chinese: z.string(),
+    Original: z.string(),
+  }),
   Slug: z.string(),
   ImageUrl: z.string(),
-  Description: z.string(),
+  Description: z.object({
+    English: z.string(),
+    Chinese: z.string(),
+    Original: z.string(),
+  }),
   Clarifications: z.array(z.string()),
   NotableCombinations: z.array(z.string()),
   FinalRemarks: z.array(z.string()),
@@ -31,6 +40,14 @@ export const schema = basicSchema.extend({
   Health: z.number(),
   Ruler: z.boolean(),
   Abilities: z.array(
-    z.object({ Name: z.string(), Description: z.string(), King: z.boolean() }),
+    z.object({
+      Name: z.object({
+        English: z.string(),
+        Chinese: z.string(),
+        Original: z.string(),
+      }),
+      Description: z.string(),
+      King: z.boolean(),
+    }),
   ),
 })

@@ -8,6 +8,7 @@ import { Label } from '@/components/ui/label'
 import { characters, alignments } from '@/data/character'
 import { useFavorites } from '@/hooks/useFavorites'
 import { ToggleGroup, ToggleGroupItem } from './ui/toggle-group'
+import Image from 'next/image'
 
 export default function CharacterGallery() {
   const [selectedAlignment, setSelectedAlignment] = useState('all')
@@ -64,7 +65,12 @@ export default function CharacterGallery() {
     <div className="container mx-auto p-4 max-w-6xl">
       <div className="flex flex-col items-center mb-8">
         <div className="w-64 pb-4">
-          <img src="/sanguosha-assistant/logo.png" />
+          <Image
+            src="/sanguosha-assistant/logo.png"
+            width={1855}
+            height={835}
+            alt="logo"
+          />
         </div>
         <div className="flex flex-col items-center gap-4 mb-4 ">
           <ToggleGroup
