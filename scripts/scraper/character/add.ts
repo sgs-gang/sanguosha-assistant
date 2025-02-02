@@ -29,14 +29,15 @@ export async function add(
   if (Description == null)
     throw new Error('Description not found', { cause: character.Link })
 
-  let abilitiesCount = $('n8H08c UVNKR ').eq(0).children().length
   let Abilities: { Name: string; Description: string }[] = []
   $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
     .eq(3)
     .find('ul li')
     .each((i, li) => {
       const name = $(li).find('span.C9DxTc').first().text().trim()
+      if (name == null) throw new Error('Ability name not found')
       const description = $(li).find('span.C9DxTc').last().text().trim()
+      if (description == null) throw new Error('Ability Description not found')
       Abilities.push({
         Name: name,
         Description: description,
