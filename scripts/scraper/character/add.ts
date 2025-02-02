@@ -46,7 +46,7 @@ export async function add(
       $(li)
         .find('span.C9DxTc:not(:first-child)')
         .each((i, span) => {
-          Ability.Description += $(span).text().trim()
+          Ability.Description += $(span).text()
         })
       if (Ability.Description == '')
         throw new Error('Ability Description not found')
