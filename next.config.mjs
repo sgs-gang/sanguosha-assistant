@@ -17,6 +17,21 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/sanguosha-assistant/characters',
+        permanent: true,
+        basePath: false,
+      },
+      {
+        source: '/',
+        destination: '/characters',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 mergeConfig(nextConfig, userConfig)

@@ -36,7 +36,7 @@ export function PlayingCard({
             src={`/sanguosha-assistant/import/${item.ImageUrl}`}
             width={441}
             height={645}
-            alt={item.Name}
+            alt={item.Name.Original}
           />
         </CardHeader>
       </Link>
