@@ -40,44 +40,67 @@ export default function CharacterCardWrapper({
 
   return (
     <div className="container mx-auto p-4 max-w-4xl">
-      <h1 className="text-3xl">{character.Name}</h1>
-      {character.Description && (
-        <h2 className="text-lg">{character.Description}</h2>
-      )}
-      <div className="flex flex-row items-center mb-2">
-        <Breadcrumb className="grow">
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/sanguosha-assistant">Home</BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbLink href="/sanguosha-assistant/characters">
-                Characters
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{character.Name}</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={() => toggleFavorite(character.Slug)}
-          aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-        >
-          <Star
-            className={
-              isFavorite ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'
-            }
-          />
-        </Button>
+      <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 items-center md:items-start mb-4 md:mb-0">
+        <div className="block md:hidden w-24">
+          <div className="aspect-[7/10] relative">
+            <img
+              src={
+                character.ImageUrl
+                  ? `/sanguosha-assistant/import/${character.ImageUrl}`
+                  : '/placeholder.svg'
+              }
+              alt={character.Name}
+              className="object-cover rounded-md w-full h-full"
+            />
+          </div>
+        </div>
+        <div>
+          <h1 className="text-3xl">
+            {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
+          </h1>
+          {character.Description && (
+            <h2 className="text-lg">
+              {character.Description.replaceAll(/[^A-Za-z ]/g, '').trim()}
+            </h2>
+          )}
+          <div className="flex flex-row items-center mb-2">
+            <Breadcrumb className="grow">
+              <BreadcrumbList>
+                <BreadcrumbItem>
+                  <BreadcrumbLink href="/sanguosha-assistant/characters">
+                    Characters
+                  </BreadcrumbLink>
+                </BreadcrumbItem>
+                <BreadcrumbSeparator />
+                <BreadcrumbItem>
+                  <BreadcrumbPage>
+                    {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
+                  </BreadcrumbPage>
+                </BreadcrumbItem>
+              </BreadcrumbList>
+            </Breadcrumb>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => toggleFavorite(character.Slug)}
+              aria-label={
+                isFavorite ? 'Remove from favorites' : 'Add to favorites'
+              }
+            >
+              <Star
+                className={
+                  isFavorite
+                    ? 'fill-yellow-400 text-yellow-400'
+                    : 'text-gray-400'
+                }
+              />
+            </Button>
+          </div>
+        </div>
       </div>
       <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
         <div className="flex-1 md:flex-1">
-          <div className="aspect-[7/10] relative mb-4">
+          <div className="hidden md:block aspect-[7/10] relative mb-4">
             <img
               src={
                 character.ImageUrl
