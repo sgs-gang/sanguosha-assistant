@@ -30,7 +30,7 @@ export async function add(
     throw new Error('Description not found', { cause: character.Link })
 
   let abilitiesCount = $('n8H08c UVNKR ').eq(0).children().length
-  let Abilities: { Name: string; Description: String }[] = []
+  let Abilities: { Name: string; Description: string }[] = []
   $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
     .eq(3)
     .find('ul li')
