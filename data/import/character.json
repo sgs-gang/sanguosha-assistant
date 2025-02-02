@@ -36,10 +36,12 @@
     "ImageUrl": "/character/mountain-cai-wenji.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Lament 悲歌",
         "Description": "If it is a spade, the source of the damage flips their character card."
       },
       {
+        "KingAbility": false,
         "Name": "Heartbroken 断肠",
         "Description": "When a player kills Cai Wenji, they lose all of their abilities for the rest of the game."
       }
@@ -85,10 +87,12 @@
     "ImageUrl": "/character/base-cao-cao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Evil Hero 奸雄",
         "Description": "When Cao Cao is damaged by a card, he can immediately put it into his hand."
       },
       {
+        "KingAbility": false,
         "Name": "Escort 护驾",
         "Description": "on his behalf."
       }
@@ -124,10 +128,12 @@
     "ImageUrl": "/character/forest-cao-cao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Tribute 归心",
         "Description": "For each unit of damage Cao Cao receives, he can draw one card from every character. He then flips his character card."
       },
       {
+        "KingAbility": false,
         "Name": "Flying Shadow 飞影",
         "Description": "Cao Cao always has a bonus +1 horse."
       }
@@ -163,14 +169,17 @@
     "ImageUrl": "/character/forest-cao-pi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Unnatural Death 行殇",
         "Description": "When another character dies, Cao Pi can choose to take all of their cards."
       },
       {
+        "KingAbility": false,
         "Name": "Exile 放逐",
         "Description": "When Cao Pi is damaged, he can choose any character (other than himself) and force them to flip their character card. The flipped character then draws X cards, where X is the difference between Cao Pi's maximum health level and his current health level after the damage was inflicted."
       },
       {
+        "KingAbility": true,
         "Name": "Exaltation 颂威",
         "Description": "King Ability: When a Wei character flips a black judgement card, they can allow Cao Pi to draw a card."
       }
@@ -203,6 +212,7 @@
     "ImageUrl": "/character/wind-cao-ren.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Entrench 据守",
         "Description": "After his discard phase, Cao Ren can choose to flip his character card and draw three cards."
       }
@@ -238,10 +248,12 @@
     "ImageUrl": "/character/okf2011-cao-zhi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Fallen Bloom 落英",
         "Description": "Whenever another character discards or flips a judgment card into the discard pile that is a club, Cao Zhi can immediately place this card into his hand."
       },
       {
+        "KingAbility": false,
         "Name": "Wine Poems 酒诗",
         "Description": "When Cao Zhi takes damage while face down, he can flip face up."
       }
@@ -279,10 +291,12 @@
     "ImageUrl": "/character/okf2011-chen-gong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Brilliant Scheme 明策",
         "Description": "or equipment card. The player can then choose to either draw one card or allow Chen Gong to choose one character in their attack range, who will then be attacked by the player receiving the card."
       },
       {
+        "KingAbility": false,
         "Name": "Delayed Wisdom 智迟",
         "Description": "and non-delayed tool cards for the rest of that turn."
       }
@@ -317,10 +331,12 @@
     "ImageUrl": "/character/base-da-qiao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Country Scene 国色",
         "Description": "During Da Qiao's turn, she can use any diamond-suited card as Capture."
       },
       {
+        "KingAbility": false,
         "Name": "Displace 流离",
         "Description": "When Da Qiao is the target of an attack, she can discard any card to redirect the attack to any other player within her attacking range other than the source."
       }
@@ -351,10 +367,12 @@
     "ImageUrl": "/character/awakened-deng-ai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Military Farm 屯田",
         "Description": "that Deng Ai has grants him a -1 horse."
       },
       {
+        "KingAbility": false,
         "Name": "Sneak Attack 急袭",
         "Description": "."
       }
@@ -392,10 +410,12 @@
     "ImageUrl": "/character/mountain-deng-ai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Military Farm 屯田",
         "Description": "Deng Ai has grants him a -1 horse."
       },
       {
+        "KingAbility": false,
         "Name": "Strategic Pass 凿险",
         "Description": "."
       }
@@ -428,6 +448,7 @@
     "ImageUrl": "/character/fire-dian-wei.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Assault 强袭",
         "Description": "Once during Dian Wei's turn, he can cause one unit of damage to any character within his attacking range by either discarding a weapon card or losing one health."
       }
@@ -459,10 +480,12 @@
     "ImageUrl": "/character/base-diao-chan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Sow Discord 离间",
         "Description": "Once during her turn, Diao Chan can discard any card and choose two male characters to undergo a duel."
       },
       {
+        "KingAbility": false,
         "Name": "Eclipse the Moon 闭月",
         "Description": "After her discard phase, Diao Chan draws one card."
       }
@@ -498,18 +521,22 @@
     "ImageUrl": "/character/forest-dong-zhuo.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Wine 酒池",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Garden of Lust 肉林",
         "Description": "to avoid damage."
       },
       {
+        "KingAbility": false,
         "Name": "Collapse 崩坏",
         "Description": "At the end of Dong Zhuo's turn, if he has more health than any other character, he must either lose one health or reduce his maximum health limit by one."
       },
       {
+        "KingAbility": false,
         "Name": "Violent Tyrant 暴虐",
         "Description": "If it is a spade, Dong Zhuo heals one health."
       }
@@ -548,10 +575,12 @@
     "ImageUrl": "/character/okf2011-fa-zheng.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Grudge 恩怨",
         "Description": "When someone damages Fa Zheng, they must give him a heart card from their hand. If they do not, they lose one health. When another character heals Fa Zheng, they draw a card."
       },
       {
+        "KingAbility": false,
         "Name": "Dazzle 眩惑",
         "Description": "Once during his turn, Fa Zheng can give another character one heart from his hand. Then, he can take any of their cards and give it to any character."
       }
@@ -584,6 +613,7 @@
     "ImageUrl": "/character/base-gan-ning.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Surprise 奇袭",
         "Description": "During his turn, Gan Ning can use any black card as Break."
       }
@@ -617,10 +647,12 @@
     "ImageUrl": "/character/okf2011-gao-shun.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Ambush 陷阵",
         "Description": "However, if he loses, Gao Shun cannot attack at all during this turn."
       },
       {
+        "KingAbility": false,
         "Name": "Forbid Drink 禁酒",
         "Description": "."
       }
@@ -651,6 +683,7 @@
     "ImageUrl": "/character/base-guan-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Fighting Saint 武圣",
         "Description": "Guan Yu can use any red card as an attack."
       }
@@ -688,10 +721,12 @@
     "ImageUrl": "/character/wind-guan-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "War God 武神",
         "Description": ", there are no range restrictions."
       },
       {
+        "KingAbility": false,
         "Name": "Fighting Soul 武魂",
         "Description": ", the target immediately dies."
       }
@@ -729,10 +764,12 @@
     "ImageUrl": "/character/base-guo-jia.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Heaven's Envy 天妒",
         "Description": "Whenever Guo Jia flips a judgement card, he places into his hand before it takes effect."
       },
       {
+        "KingAbility": false,
         "Name": "Bestowed Rouse 遣计",
         "Description": "For each unit of damage that Guo Jia receives, he draws two cards. He can then distribute these cards in any way that he sees fit among the characters in play."
       }
@@ -766,10 +803,12 @@
     "ImageUrl": "/character/base-hua-tuo.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "First Aid 急救",
         "Description": "Outside of his turn, Hua Tuo can use any red card as a peach."
       },
       {
+        "KingAbility": false,
         "Name": "Green Vesicle 青囊",
         "Description": "Once per turn, Hua Tuo can discard any hand card to heal any character one unit of health."
       }
@@ -802,6 +841,7 @@
     "ImageUrl": "/character/base-huang-gai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Battered Body 苦肉",
         "Description": "As many times as he would like during his turn, Huang Gai can choose to lose one unit of health to draw two cards."
       }
@@ -835,10 +875,12 @@
     "ImageUrl": "/character/base-huang-yueying.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Gathering Wisdom 集智",
         "Description": "Whenever Huang Yueying uses a non-delay tool card, she immediately draws a card."
       },
       {
+        "KingAbility": false,
         "Name": "Wondrous Talent 奇才",
         "Description": "Whenever Huang Yueying uses a tool card, she has no range restrictions."
       }
@@ -872,6 +914,7 @@
     "ImageUrl": "/character/wind-huang-zhong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Strong Bow 烈弓",
         "Description": "The amount of health that Huang Zhong has is less than or equal to the number of cards in the target's hand."
       }
@@ -909,14 +952,17 @@
     "ImageUrl": "/character/forest-jia-xu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Complete Kill 完杀",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Upheaval 乱武",
         "Description": "If a player does not, they lose one health."
       },
       {
+        "KingAbility": false,
         "Name": "Curtain 帷幕",
         "Description": "Jia Xu cannot be targeted by black tool cards."
       }
@@ -945,10 +991,12 @@
     "ImageUrl": "/character/awakened-jiang-wei.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Instigate 挑嚣",
         "Description": "If they do not, Jiang Wei may select one of their cards and discard it."
       },
       {
+        "KingAbility": false,
         "Name": "Astrology 观星",
         "Description": "Before his judgment phase, Jiang Wei can look at the top X cards of the deck, X either the number of characters in play or 5, whichever number is smaller. He can then rearrange the order of these cards and put as many on the bottom of the deck as he chooses."
       }
@@ -985,10 +1033,12 @@
     "ImageUrl": "/character/mountain-jiang-wei.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Instigate 挑嚣",
         "Description": "If they do not, Jiang Wei may select one of their cards and discard it."
       },
       {
+        "KingAbility": false,
         "Name": "Follow the Master 志继",
         "Description": "Awakened Ability: When Jiang Wei starts his turn with no hand cards, he must either regain one unit of health or draw two cards. Then, he decreases his maximum health by one and permanently acquires \"Astrology.\""
       }
@@ -1026,6 +1076,7 @@
     "ImageUrl": "/character/okf2011-ling-tong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Whirlwind 旋风",
         "Description": "Whenever Ling Tong loses equipment, he can either immediately attack someone or deal damage to a character within range."
       }
@@ -1064,10 +1115,12 @@
     "ImageUrl": "/character/base-liu-bei.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Kindness 仁德",
         "Description": "Liu Bei's can give any number of his hand cards to any players. If he gives away more than one card, he recovers one unit of health."
       },
       {
+        "KingAbility": true,
         "Name": "Fierce General 激将",
         "Description": "King Ability: If Liu Bei needs to use an attack, he can ask any member of Shu to provide him one."
       }
@@ -1098,14 +1151,17 @@
     "ImageUrl": "/character/awakened-liu-shan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Pleasure 享乐",
         "Description": "When someone attacks Liu Shan, they must immediately discard another basic card. Otherwise, the attack does nothing."
       },
       {
+        "KingAbility": false,
         "Name": "Decentralization 放权",
         "Description": "Liu Shan can choose to skip his action phase. At the end of his turn, he discards an additional hand card. He can then choose another character and allow them to immediately take a turn. After this, the player to Liu Shan’s right begins their turn."
       },
       {
+        "KingAbility": false,
         "Name": "Fierce General 激将",
         "Description": "needs to use an attack, he can ask any member of Shu to provide him one."
       }
@@ -1142,14 +1198,17 @@
     "ImageUrl": "/character/mountain-liu-shan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Pleasure 享乐",
         "Description": "When someone attacks Liu Shan, they must immediately discard another basic card. Otherwise, the attack does nothing."
       },
       {
+        "KingAbility": false,
         "Name": "Decentralization 放权",
         "Description": "Liu Shan can choose to skip his action phase. At the end of his turn, he discards an additional hand card. He can then choose another character and allow them to immediately take a turn. After this, the player to Liu Shan’s right begins their turn."
       },
       {
+        "KingAbility": true,
         "Name": "Seem Foolish 若愚",
         "Description": "King Ability: When Liu Shan has, or is tied for, the least amount of health at the beginning of his turn, he immediately increases his health limit by one, recovers one unit of health, and permanently gains \"Fierce General.\""
       }
@@ -1181,6 +1240,7 @@
     "ImageUrl": "/character/base-lu-bu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Matchless 无双",
         "Description": "When Lu Bu duels another player, they must use an additional Attack every round of the duel."
       }
@@ -1215,18 +1275,22 @@
     "ImageUrl": "/character/forest-lu-bu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Violence 狂暴",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "No Planning 无谋",
         "Description": "or lose one health."
       },
       {
+        "KingAbility": false,
         "Name": "Unprecedented 无前",
         "Description": "For the rest of the turn, that player's armor is ignored, and Lu Bu gains \"Matchless\" for the remainder of the turn."
       },
       {
+        "KingAbility": false,
         "Name": "Divine Anger 神愤",
         "Description": "Lu Bu then flips his character card."
       }
@@ -1263,6 +1327,7 @@
     "ImageUrl": "/character/base-lu-meng.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Self-Restraint 克己",
         "Description": "If Lu Meng does not use any Attack cards during his turn, he can skip his discard phase."
       }
@@ -1297,10 +1362,12 @@
     "ImageUrl": "/character/wind-lu-meng.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Study 涉猎",
         "Description": "During his drawing phase, Lu Meng can forgo drawing to flip over the top five cards of the deck and place one card from each suit into his hand. The rest are discarded."
       },
       {
+        "KingAbility": false,
         "Name": "Strike at the Heart 攻心",
         "Description": "Once per turn, Lu Meng can look at another player's hand. He can choose a heart card from their hand and display it. Lu Meng then either discards that card or puts it on the top of the deck."
       }
@@ -1333,10 +1400,12 @@
     "ImageUrl": "/character/forest-lu-su.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Charity 好施",
         "Description": "Lu Su can choose to draw an additional two cards. If he has more than five cards afterward, Lu Su must give half of his hand, rounded down, to a character with the least number of hand cards."
       },
       {
+        "KingAbility": false,
         "Name": "Alliance 缔盟",
         "Description": "Once per turn, Lu Su can discard X cards to force two characters to exchange hands, where X is the difference in the number of hand cards between the two characters."
       }
@@ -1370,10 +1439,12 @@
     "ImageUrl": "/character/base-lu-xun.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Humility 谦逊",
         "Description": "Lu Xun cannot be the target of Steal or Capture."
       },
       {
+        "KingAbility": false,
         "Name": "Linked Camps 连营",
         "Description": "Whenever Lu Xun uses or loses his last hand card, he immediately draws a card."
       }
@@ -1405,10 +1476,12 @@
     "ImageUrl": "/character/base-ma-chao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Horsemanship 马术",
         "Description": "Ma Chao always has a -1 bonus."
       },
       {
+        "KingAbility": false,
         "Name": "Iron Calvary 铁骑",
         "Description": "When Ma Chao attacks a player, he can flip a judgment card. If it is red, the attack cannot be escaped."
       }
@@ -1443,10 +1516,12 @@
     "ImageUrl": "/character/okf2011-ma-su.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Winning Hearts 心战",
         "Description": "Once per turn, if Ma Su has more cards in his hand than his maximum health, he can look at the top three cards of the deck. He may display any hearts and place them in his hand, then rearrange the remaining cards in any order."
       },
       {
+        "KingAbility": false,
         "Name": "Bottomless Tears 挥泪",
         "Description": "The player who kills Ma Su must discard all of their cards."
       }
@@ -1478,10 +1553,12 @@
     "ImageUrl": "/character/forest-meng-huo.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Culprit 祸首",
         "Description": "and is always considered the source of any damage it causes."
       },
       {
+        "KingAbility": false,
         "Name": "Resurgence 再起",
         "Description": "For each heart that is flipped, Meng Huo recovers one health. The heart cards are discarded, and the rest of the cards go into Meng Huo's hand."
       }
@@ -1513,10 +1590,12 @@
     "ImageUrl": "/character/fire-pang-de.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Horsemanship 马术",
         "Description": "Pang De always has a bonus -1 horse."
       },
       {
+        "KingAbility": false,
         "Name": "Sudden Attack 猛进",
         "Description": ", Pang De can choose a card from the target and discard it."
       }
@@ -1549,10 +1628,12 @@
     "ImageUrl": "/character/fire-pang-tong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Shackle 连环",
         "Description": "Pang Tong can use any club hand card to Chain two people together or activate the redraw function."
       },
       {
+        "KingAbility": false,
         "Name": "Nirvana 涅槃",
         "Description": "Once per game, when Pang Tong is on the brink of death, he may discard all of his cards, draw three new ones, and return with three units of health."
       }
@@ -1589,10 +1670,12 @@
     "ImageUrl": "/character/base-sima-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Feedback 反馈",
         "Description": "When a player damages Sima Yi, he can choose to take one of their cards and place it in his hand."
       },
       {
+        "KingAbility": false,
         "Name": "Devil 鬼才",
         "Description": "After a judgment card is flipped, Sima Yi can discard one of his hand cards. The hand card that Sima Yi discard then becomes the new judgment card."
       }
@@ -1632,14 +1715,17 @@
     "ImageUrl": "/character/mountain-sima-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Command to Endure 忍诫",
         "Description": "for each unit of damage he receives and each card he discards during his discard phase."
       },
       {
+        "KingAbility": false,
         "Name": "Promotion 拜印",
         "Description": "to use any of these abilities when applicable: \"Devil,\" \"Exile,\" \"Complete Kill,\" \"Reconsider,\" and \"Gathering Wisdom.\""
       },
       {
+        "KingAbility": false,
         "Name": "Breaking Links 连破",
         "Description": "If Sima Yi kills another player, he can take a turn after the current one."
       }
@@ -1672,14 +1758,17 @@
     "ImageUrl": "/character/awakened-sima-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Command to Endure 忍诫",
         "Description": "Sima Yi gains an Endurance Token for each unit of damage he receives and each card he discards during his discard phase."
       },
       {
+        "KingAbility": false,
         "Name": "Breaking Links 连破",
         "Description": "If Sima Yi kills another player, he can take a turn after the current one."
       },
       {
+        "KingAbility": false,
         "Name": "All Strategy 极略",
         "Description": "Whenever Sima Yi uses a non-delay tool card, he immediately draws a card."
       }
@@ -1712,18 +1801,22 @@
     "ImageUrl": "/character/awakened-sun-ce.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Passion 激昂",
         "Description": ", Sun Ce draws a card."
       },
       {
+        "KingAbility": false,
         "Name": "Brave Gesture 英姿",
         "Description": "can draw an additional card."
       },
       {
+        "KingAbility": false,
         "Name": "Brave Spirit 英魂",
         "Description": "is missing."
       },
       {
+        "KingAbility": false,
         "Name": "Takeover 制霸",
         "Description": "Sun Ce can refuse to compete."
       }
@@ -1762,14 +1855,17 @@
     "ImageUrl": "/character/mountain-sun-ce.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Passion 激昂",
         "Description": ", Sun Ce draws a card."
       },
       {
+        "KingAbility": false,
         "Name": "Soul Position 魂姿",
         "Description": "If, at the beginning of his turn, Sun Ce has one health, Sun Ce must immediately reduce his maximum health by one. Then, Sun Ce permanently gains \"Brave Gesture\" and \"Brave Spirit.\""
       },
       {
+        "KingAbility": true,
         "Name": "Takeover 制霸",
         "Description": "King Ability: Other Wu characters can compete with Sun Ce. If Sun Ce wins, he keeps both cards. After \"Soul Position,\" Sun Ce can refuse to compete."
       }
@@ -1808,6 +1904,7 @@
     "ImageUrl": "/character/forest-sun-jian.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Brave Spirit 英魂",
         "Description": "X equals the number of health units Sun Jian is missing."
       }
@@ -1839,10 +1936,12 @@
     "ImageUrl": "/character/base-sun-quan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Reconsider 制衡",
         "Description": "Once during his turn, Sun Quan can discard any number of cards to draw the same number."
       },
       {
+        "KingAbility": true,
         "Name": "Rescued 救援",
         "Description": "King Ability: Whenever another member of Wu uses a Peach to save Sun Quan from the brink of death, it provides him with two units of health."
       }
@@ -1875,10 +1974,12 @@
     "ImageUrl": "/character/base-sun-shangxiang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Marriage 结姻",
         "Description": "Once during Sun Shangxiang's turn, she can discard two hand cards and select a male character who is not at full health. By doing so, she heals herself and the male character by one unit of health each."
       },
       {
+        "KingAbility": false,
         "Name": "Armed Consorts 枭姬",
         "Description": "For each piece of equipment that leaves her equipment area, Sun Shangxiang draws two cards."
       }
@@ -1912,6 +2013,7 @@
     "ImageUrl": "/character/fire-taishi-ci.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Heaven's Justice 天义",
         "Description": "If Taishi Ci loses, he cannot attack that turn."
       }
@@ -1940,6 +2042,7 @@
     "ImageUrl": "/character/wind-wei-yan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Violent Spirit 狂骨",
         "Description": "For each unit of damage that Wei Yan causes to someone within his range, he regains one unit of health."
       }
@@ -1976,10 +2079,12 @@
     "ImageUrl": "/character/okf2011-wu-guotai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Exposure 甘露",
         "Description": "Once per turn, Wu Guotai can choose two characters and swap all their equipment. The difference in the number of equipped items must be less than the amount of health Wu Guotai is missing."
       },
       {
+        "KingAbility": false,
         "Name": "Amend 补益",
         "Description": "When any player is on the brink of death, Wu Guotai can reveal one of their hand cards. If it is not a basic card, it is discarded, and the target is healed for one health. Otherwise, the player keeps the card."
       }
@@ -2014,6 +2119,7 @@
     "ImageUrl": "/character/base-xiahou-dun.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Unyielding 刚烈",
         "Description": "When Xiahou Dun is damaged by another character, he can flip a judgment card. If the card is not a heart, the character that damaged him must either receive one unit of damage from Xiahou Dun or discard two hand cards."
       }
@@ -2050,6 +2156,7 @@
     "ImageUrl": "/character/wind-xiahou-yuan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Godspeed 神速",
         "Description": "Skip his action phase and discard any equipment card."
       }
@@ -2088,10 +2195,12 @@
     "ImageUrl": "/character/wind-xiao-qiao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Fantasy 天香",
         "Description": "When Xiao Qiao receives damage, she may discard a heart card and pass the damage to any other character. That character then draws X cards, where X is the number of health points they are missing after the damage is passed."
       },
       {
+        "KingAbility": false,
         "Name": "Beauty 红颜",
         "Description": "All of Xiao Qiao's spades are treated as hearts."
       }
@@ -2126,6 +2235,7 @@
     "ImageUrl": "/character/base-xu-chu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Bare the Chest 裸衣",
         "Description": "During Xu Chu's drawing phase, he can choose to draw one fewer card. During his action phase, all damage that he causes by using Attacks or Duels is increased by one."
       }
@@ -2163,6 +2273,7 @@
     "ImageUrl": "/character/forest-xu-huang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Blockade 断粮",
         "Description": "is increased by one."
       }
@@ -2196,6 +2307,7 @@
     "ImageUrl": "/character/okf2011-xu-sheng.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Broken Arms 破军",
         "Description": "When Xu Sheng damages a player with an attack, he can flip their character card, and they draw X cards, where X is how much health they have after the damage."
       }
@@ -2232,10 +2344,12 @@
     "ImageUrl": "/character/okf2011-xu-shu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Speechless 无言",
         "Description": "When other characters use non-delay tools, they have no effect on Xu Shu. When Xu Shu plays non-delay tools, they have no effect on other characters."
       },
       {
+        "KingAbility": false,
         "Name": "Recommendation 举荐",
         "Description": "During his turn, Xu Shu can discard up to three cards and choose another character. This character then draws the same number of cards that Xu Shu discarded. If Xu Shu discards three cards of the same type, he recovers one unit of health."
       }
@@ -2274,10 +2388,12 @@
     "ImageUrl": "/character/fire-xun-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Rouse the Tiger 驱虎",
         "Description": "Once during his action phase, Xun Yu can compete with any character with more health. If Xun Yu wins, he can select a player within the target's attacking range, and the target deals one unit of damage to that player. If Xun Yu loses, the target deals one unit of damage to Xun Yu."
       },
       {
+        "KingAbility": false,
         "Name": "Eternal Loyalty 节命",
         "Description": "For each unit of damage that Xun Yu receives, he can select one character. This character then draws cards until the number of cards in their hand is equal to their maximum health limit."
       }
@@ -2310,6 +2426,7 @@
     "ImageUrl": "/character/fire-yan-liang-and-wen-chou.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Dueling Heroes 双雄",
         "Description": "."
       }
@@ -2342,6 +2459,7 @@
     "ImageUrl": "/character/wind-yu-ji.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Bewilder 蛊惑",
         "Description": "If Yu Ji is telling the truth, all characters that doubted lose one health. If the card is also a heart, the card still goes into effect. Otherwise, the card is discarded."
       }
@@ -2373,6 +2491,7 @@
     "ImageUrl": "/character/okf2011-yu-jin.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Heavy Resolve 毅重",
         "Description": "have no effect on him."
       }
@@ -2404,10 +2523,12 @@
     "ImageUrl": "/character/fire-yuan-shao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Random Strike 乱击",
         "Description": "Yuan Shao can use two hand cards of the same suit to unleash a hail of arrows."
       },
       {
+        "KingAbility": true,
         "Name": "Bloodline 血裔",
         "Description": "King Ability: Yuan Shao's maximum hand limit is increased by two for every other living hero."
       }
@@ -2441,10 +2562,12 @@
     "ImageUrl": "/character/okf2011-zhang-chunhua.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Unfeeling 绝情",
         "Description": "All of Zhang Chunhua's damage is considered to be the target losing health."
       },
       {
+        "KingAbility": false,
         "Name": "Mourning 伤逝",
         "Description": "This ability does not activate during her discard phase."
       }
@@ -2476,6 +2599,7 @@
     "ImageUrl": "/character/base-zhang-fei.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Roar 咆哮",
         "Description": "Zhang Fei has no restrictions on how many times he can attack during his turn."
       }
@@ -2511,6 +2635,7 @@
     "ImageUrl": "/character/mountain-zhang-he.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Clever Change 巧变",
         "Description": "If Zhang He skips his action phase in this manner, he can select one piece of equipment or pending delay tool card on one character and place it in an identical location on another character. If he moves equipment in this manner, he cannot use it to replace another similar piece of equipment on another character."
       }
@@ -2554,14 +2679,17 @@
     "ImageUrl": "/character/wind-zhang-jiao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Lightning Strike 雷击",
         "Description": ", he can select any character to flip a judgment. If the card is a spade, they are dealt two units of lightning damage."
       },
       {
+        "KingAbility": false,
         "Name": "Dark Magic 鬼道",
         "Description": "After a judgment is flipped, Zhang Jiao can discard any black card to replace the judgment card. The original card that was flipped goes into Zhang Jiao's hand."
       },
       {
+        "KingAbility": false,
         "Name": "Amber Sky 黄天",
         "Description": "during their turn."
       }
@@ -2596,6 +2724,7 @@
     "ImageUrl": "/character/base-zhang-liao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Raid 突袭",
         "Description": "During Zhang Liao's drawing phase, he can choose to forego drawing two cards from the deck and instead select up to two characters with hand cards. Zhang Liao takes one hand card from each character and places them in his hand."
       }
@@ -2631,10 +2760,12 @@
     "ImageUrl": "/character/mountain-zhang-zhao-and-zhang-hong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Direct Instruction 直谏",
         "Description": "As many times as they would like during their turn, Zhang Zhao and Zhang Hong can place a piece of equipment from their hand in the equipment area of another character. They cannot replace a piece of equipment. For each piece of equipment that they place in another character's equipment area, Zhang Zhao and Zhang Hong draw one card."
       },
       {
+        "KingAbility": false,
         "Name": "Stubborn 固执",
         "Description": "At the end of another character's discard phase, Zhang Zhao and Zhang Hong can return one of the cards that they discarded into their hand. Zhang Zhao and Zhang Hong can then place all other discarded cards in their hand."
       }
@@ -2667,6 +2798,7 @@
     "ImageUrl": "/character/base-zhao-yun.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Dragon Courage 龙胆",
         "Description": "Zhao Yun can use attacks and escapes interchangeably."
       }
@@ -2701,10 +2833,12 @@
     "ImageUrl": "/character/mountain-zhao-yun.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Impasse 绝境",
         "Description": "Additionally, Zhao Yun's hand limit is increased by two."
       },
       {
+        "KingAbility": false,
         "Name": "Soul of the Dragon 龙魂",
         "Description": "X is always at least one."
       }
@@ -2741,10 +2875,12 @@
     "ImageUrl": "/character/base-zhen-ji.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Overturned Country 倾国",
         "Description": "Zhen Ji can use any black hand card as escape."
       },
       {
+        "KingAbility": false,
         "Name": "River Goddess 洛神",
         "Description": "Before her judgment phase, Zhen Ji can choose to flip a judgment card. If the card is black, she can continue flipping additional cards. This process repeats until a red card is flipped. The red card is discarded, while all black cards are added to her hand."
       }
@@ -2779,6 +2915,7 @@
     "ImageUrl": "/character/wind-zhou-tai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Refusing Death 不屈",
         "Description": "Whenever Zhou Tai is healed, he can discard one of these cards."
       }
@@ -2812,10 +2949,12 @@
     "ImageUrl": "/character/base-zhou-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Brave Gesture 英姿",
         "Description": "During his drawing phase, Zhou Yu can draw an additional card."
       },
       {
+        "KingAbility": false,
         "Name": "Sow Revolt 反间",
         "Description": "Once per turn, Zhou Yu can select a player and force them to choose a suit. Then, the target chooses one of Zhou Yu's hand cards. The card is then revealed and placed in the target's hand. If the target guessed the suit incorrectly, they receive one unit of damage."
       }
@@ -2850,10 +2989,12 @@
     "ImageUrl": "/character/fire-zhou-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Qin Music 琴音",
         "Description": "When Zhou Yu discards two or more cards, he can make all players regain or lose one unit of health."
       },
       {
+        "KingAbility": false,
         "Name": "Searing Flame 业炎",
         "Description": "If any player receives more than one, Zhou Yu must discard one card from every suit and lose three health."
       }
@@ -2884,10 +3025,12 @@
     "ImageUrl": "/character/forest-zhu-rong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Giant Elephant 巨象",
         "Description": ", Zhu Rong is not affected. After all other effects have concluded, Zhu Rong places the card in her hand."
       },
       {
+        "KingAbility": false,
         "Name": "Intense Edge 烈刃",
         "Description": "Whenever Zhu Rong damages another character with an attack, she can compete with the character. If she wins, she can take one of their cards and place it in her hand."
       }
@@ -2922,10 +3065,12 @@
     "ImageUrl": "/character/base-zhuge-liang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Astrology 观星",
         "Description": "Before his judgment phase, Zhuge Liang can look at the top X cards of the deck, X either the number of characters in play or 5, whichever number is smaller. He can then rearrange the order of these cards and put as many on the bottom of the deck as he chooses."
       },
       {
+        "KingAbility": false,
         "Name": "Empty City 空城",
         "Description": "When Zhuge Liang has no hand cards, he cannot be the target of an attack or duel."
       }
@@ -2958,14 +3103,17 @@
     "ImageUrl": "/character/fire-zhuge-liang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Eight Arrays 八阵",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Fire Strategy 火计",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "See Through 看破",
         "Description": "."
       }
@@ -3004,14 +3152,17 @@
     "ImageUrl": "/character/fire-zhuge-liang-god.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Seven Stars 七星",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Fierce Wind 狂风",
         "Description": "This effect lasts until the beginning of Zhuge Liang's next turn."
       },
       {
+        "KingAbility": false,
         "Name": "Heavy Fog 大雾",
         "Description": "This effect lasts until the beginning of Zhuge Liang's next turn."
       }
@@ -3044,10 +3195,12 @@
     "ImageUrl": "/character/mountain-zuo-ci.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Incarnation 化身",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "New Life 新生",
         "Description": "."
       }
@@ -3080,6 +3233,7 @@
     "ImageUrl": "/character/okf2012-cao-zhang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Galloping General 将驰",
         "Description": "have no range restrictions."
       }
@@ -3118,10 +3272,12 @@
     "ImageUrl": "/character/okf2012-xun-you.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Element of Surprise 奇策",
         "Description": "During his turn, if Xun You has at least one hand card, he can use his entire hand as any non-delay tool card."
       },
       {
+        "KingAbility": false,
         "Name": "Wisdom and Foolishness 智愚",
         "Description": "Whenever Xun You is damaged, he can draw a card and then show his hand. If all the cards are the same color, the source of damage must discard a hand card."
       }
@@ -3157,10 +3313,12 @@
     "ImageUrl": "/character/okf2012-wang-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Chastity 贞烈",
         "Description": "Whenever Wang Yi flips a judgment card, she can choose to flip a second judgment card. The second flipped card is the judgment that goes into effect."
       },
       {
+        "KingAbility": false,
         "Name": "Secret Plan 秘计",
         "Description": "At the beginning and end of her turn, if she is not at full health, Wang Yi can flip a judgment card. If it is black, she draws X cards from the deck, X being the difference between her current and maximum health. Wang Yi then gives these cards to any character."
       }
@@ -3196,6 +3354,7 @@
     "ImageUrl": "/character/okf2012-guan-xing-and-zhang-bao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Paternal Souls 父魂",
         "Description": "Regardless of the result, they keep the cards they revealed."
       }
@@ -3232,10 +3391,12 @@
     "ImageUrl": "/character/okf2012-liao-hua.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Vanguard 当先:",
         "Description": "At the beginning of his turn, Liao Hua has an additional action phase."
       },
       {
+        "KingAbility": false,
         "Name": "Aspiration 伏枥:",
         "Description": "Single-Use Ability: When Liao Hua is on the brink of death, he can choose to flip his character card and return with X units of health, where X is the number of countries still represented in the game."
       }
@@ -3274,10 +3435,12 @@
     "ImageUrl": "/character/okf2012-ma-dai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Sneak Attack 潜袭",
         "Description": "Whenever Ma Dai damages someone in range with an attack, he can flip a judgment card. If it is not a heart, the target's maximum health level is reduced by one rather than being damaged."
       },
       {
+        "KingAbility": false,
         "Name": "Horsemanship 马术",
         "Description": "Ma Dai always has a bonus -1, increasing his attack range by one."
       }
@@ -3309,10 +3472,12 @@
     "ImageUrl": "/character/okf2012-bu-lianshi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Pity 安恤",
         "Description": "Once per turn, Bu Lianshi can choose two other characters with different numbers of hand cards. The character with fewer hand cards displays and takes a hand card from the character with more hand cards. If it is not a spade, Bu Lianshi draws one card."
       },
       {
+        "KingAbility": false,
         "Name": "Memory 追忆",
         "Description": "When Bu Lianshi dies, she can choose any player that did not kill her. This player recovers one health and draws three cards."
       }
@@ -3347,10 +3512,12 @@
     "ImageUrl": "/character/okf2012-cheng-pu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Fierce Fire 疠火",
         "Description": "Cheng Pu can target an additional player with a Fire Attack."
       },
       {
+        "KingAbility": false,
         "Name": "Strong Wine 醇醪",
         "Description": "."
       }
@@ -3391,10 +3558,12 @@
     "ImageUrl": "/character/okf2012-han-dang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Horsebow 弓骑",
         "Description": "has unlimited range."
       },
       {
+        "KingAbility": false,
         "Name": "Relief 解烦",
         "Description": "on the dying character. This ability can only be activated outside of Han Dang's turn."
       }
@@ -3426,6 +3595,7 @@
     "ImageUrl": "/character/okf2012-hua-xiong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Reliant on Valor 恃勇",
         "Description": "Whenever Hua Xiong is damaged by either a red attack or an attack with wine, he must reduce his maximum health level by one unit."
       }
@@ -3457,10 +3627,12 @@
     "ImageUrl": "/character/okf2012-liu-biao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Self Defense 自守",
         "Description": "Liu Biao can draw X additional cards, where X is the difference between his current and maximum health. He then skips his action phase."
       },
       {
+        "KingAbility": false,
         "Name": "Imperial Clan 宗室",
         "Description": "Liu Biao’s hand limit is increased by the number of countries represented by the living players."
       }
@@ -3486,10 +3658,12 @@
     "ImageUrl": "/character/okf2012-zhang-chunhua.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Unfeeling 绝情",
         "Description": "All of Zhang Chunhua's damage is considered to be the target losing health."
       },
       {
+        "KingAbility": false,
         "Name": "Mourning 伤逝",
         "Description": "This ability does not activate during her discard phase."
       }
@@ -3524,10 +3698,12 @@
     "ImageUrl": "/character/okf2012-fa-zheng.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Grudge 恩怨",
         "Description": "Whenever Fa Zheng receives two or more cards from another person, he can let them draw one card. For each unit of damage that another character causes Fa Zheng, he can force the source to give him one of their hand cards or lose one health."
       },
       {
+        "KingAbility": false,
         "Name": "Dazzle 眩惑",
         "Description": "If they do not, Fa Zheng can select two of their cards and place them in his hand."
       }
@@ -3563,10 +3739,12 @@
     "ImageUrl": "/character/okf2012-xu-shu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Speechless 无言",
         "Description": "All damage that Xu Shu receives from tool cards is prevented."
       },
       {
+        "KingAbility": false,
         "Name": "Recommendation 举荐",
         "Description": "Draw two cards"
       }
@@ -3601,6 +3779,7 @@
     "ImageUrl": "/character/okf2012-ling-tong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Whirlwind 旋风",
         "Description": "For each instance in which Ling Tong discards equipment cards in his equipment area or discards two or more hand cards during his discard phase, he can select up to two cards owned by other characters and discard them."
       }
@@ -3634,10 +3813,12 @@
     "ImageUrl": "/character/okf2012-cheng-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Coercion 强谋",
         "Description": "If you give them a card of a different color, you may either take the revealed card from that player or one non-armor card from their equipment area."
       },
       {
+        "KingAbility": false,
         "Name": "Foresight 远见",
         "Description": "At the end of your turn, you may draw cards until the number of cards in your hand equals your current health."
       }
@@ -3675,10 +3856,12 @@
     "ImageUrl": "/character/okf2012-zhong-hui.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Plotting for Power 权计",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Insurrection 自立",
         "Description": "and force any character to draw two cards. If this character then has more hand cards than Zhong Hui, Zhong Hui deals one damage to them."
       }
@@ -3715,6 +3898,7 @@
     "ImageUrl": "/character/okf2012-wang-ping.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Tactics 兵道",
         "Description": "from other players."
       }
@@ -3746,10 +3930,12 @@
     "ImageUrl": "/character/okf2012-kong-rong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Give and Take 让谋",
         "Description": "Once per turn, you may discard a card to select another player. Both you and that player will each draw a card."
       },
       {
+        "KingAbility": false,
         "Name": "Blunt Speech 芒辞",
         "Description": "Outside of your turn, whenever a player takes damage from an attack, if the number of cards in your hand is less than your maximum health, you may draw a card."
       }
@@ -3777,10 +3963,12 @@
     "ImageUrl": "/character/okf2012-zhu-rong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Giant Elephant 巨象",
         "Description": ", Zhu Rong is not affected. After all other effects have concluded, Zhu Rong places the card in her hand."
       },
       {
+        "KingAbility": false,
         "Name": "Intense Edge 烈刃",
         "Description": "Whenever Zhu Rong damages another character with an attack, she can compete with the character. If she wins, she can take one of their cards and place it in her hand."
       }
@@ -3812,10 +4000,12 @@
     "ImageUrl": "/character/okf2013-cao-chong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Weigh the Elephant 称象",
         "Description": "Whenever Cao Chong is damaged, he can reveal the top four cards of the deck. He may then choose any combination of these cards, as long as the sum of their numerical values is less than thirteen."
       },
       {
+        "KingAbility": false,
         "Name": "Benevolence 仁心",
         "Description": "When another character is on the brink of death, Cao Chong can give them his entire hand, provided he has at least one card. If he does, he flips his character card and allows the other player to recover one unit of health."
       }
@@ -3848,6 +4038,7 @@
     "ImageUrl": "/character/okf2013-guo-huai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Refined Strategy 精策",
         "Description": "At the beginning of his discard phase, Guo Huai draws two cards if he has used at least X cards during his turn, X being his health level at the beginning of his discard phase."
       }
@@ -3884,10 +4075,12 @@
     "ImageUrl": "/character/okf2013-man-chong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Corporal Punishment 峻刑",
         "Description": "If they fail to do so, they flip their character card and draw X cards, where X is the number of cards discarded by Man Chong."
       },
       {
+        "KingAbility": false,
         "Name": "Defense Strategy 御策",
         "Description": "When Man Chong is damaged, he may reveal one of his hand cards. The source of the damage must discard a card of a different type, or Man Chong recovers one unit of health."
       }
@@ -3920,6 +4113,7 @@
     "ImageUrl": "/character/okf2013-guan-ping.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Dragon Roar 龙吟",
         "Description": ", he draws one card."
       }
@@ -3959,10 +4153,12 @@
     "ImageUrl": "/character/okf2013-jian-yong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Persuade 巧说",
         "Description": "If he loses, he cannot use any tool cards for the rest of his turn."
       },
       {
+        "KingAbility": false,
         "Name": "Ignore Formalities 纵适",
         "Description": "Whenever Jian Yong competes, he can keep the loser's competition card."
       }
@@ -3998,6 +4194,7 @@
     "ImageUrl": "/character/okf2013-liu-feng.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Fallen Heir 陷嗣",
         "Description": "to attack Liu Feng."
       }
@@ -4031,10 +4228,12 @@
     "ImageUrl": "/character/okf2013-pan-zhang-and-ma-zhong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Seize Weapon 夺刀",
         "Description": "When Pan Zhang and Ma Zhong are damaged by an attack, they may discard a card to take the weapon of the attacker and place it in their hand."
       },
       {
+        "KingAbility": false,
         "Name": "Silent Arrow 暗箭",
         "Description": "When Pan Zhang and Ma Zhong deal damage to a character who does not have them in their attack range, the damage is increased by one."
       }
@@ -4069,10 +4268,12 @@
     "ImageUrl": "/character/okf2013-yu-fan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Release Into Abyss 纵玄",
         "Description": "Whenever Yu Fan discards cards, he may place them on the top of the deck instead of discarding them."
       },
       {
+        "KingAbility": false,
         "Name": "Blunt Words 直言",
         "Description": "At the end of his turn, Yu Fan may choose any character. That character reveals the top card of the deck. If it is an equipment card, they equip it and recover one unit of health. Otherwise, the card is placed in their hand."
       }
@@ -4107,6 +4308,7 @@
     "ImageUrl": "/character/okf2013-zhu-ran.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Nerves of Steel 胆守",
         "Description": "Whenever Zhu Ran deals damage, he may immediately draw one card and end the current turn. All remaining effects are ignored when this ability is activated."
       }
@@ -4140,10 +4342,12 @@
     "ImageUrl": "/character/okf2013-empress-fu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Anxious Fear 惴恐",
         "Description": "If she loses, she is considered one distance away from the target for the duration of that turn."
       },
       {
+        "KingAbility": false,
         "Name": "Plead 求援",
         "Description": ", this character also becomes a target of the attack."
       }
@@ -4178,14 +4382,17 @@
     "ImageUrl": "/character/okf2013-li-ru.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Vanishing Act 绝策",
         "Description": "During Li Ru's turn, if a character loses their last hand card, Li Ru can deal 1 damage to them."
       },
       {
+        "KingAbility": false,
         "Name": "Extermination 灭计",
         "Description": "When Li Ru plays a black-suited tool card that targets only one character, he can target an additional character with the same card."
       },
       {
+        "KingAbility": false,
         "Name": "Burn the City 焚城",
         "Description": "X is equal to the number of cards the target has in their equipment area, with a minimum value of 1."
       }
@@ -4218,10 +4425,12 @@
     "ImageUrl": "/character/okf2013-wang-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Chastity 贞烈",
         "Description": "Whenever Wang Yi is targeted by an attack or non-delay tool card, she can choose to lose one health. The card has no effect on her, and she discards one of the cards owned by the character who played it."
       },
       {
+        "KingAbility": false,
         "Name": "Secret Plan 秘计",
         "Description": "At the end of her turn, Wang Yi can draw up to X cards. She must then give X cards from her hand to other players. X can be up to the difference between Wang Yi’s current and maximum health."
       }
@@ -4257,6 +4466,7 @@
     "ImageUrl": "/character/okf2013-guan-xing-and-zhang-bao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Paternal Souls 父魂",
         "Description": "produced by this ability during their turn, they gain \"Roar\" and \"Fighting Saint\" until the end of the turn."
       }
@@ -4291,10 +4501,12 @@
     "ImageUrl": "/character/okf2013-ma-dai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Sneak Attack 潜袭",
         "Description": "At the beginning of Ma Dai's turn, he flips a judgment card and selects any character within his range. The target cannot use cards of the flipped color for the rest of Ma Dai's turn."
       },
       {
+        "KingAbility": false,
         "Name": "Horsemanship 马术",
         "Description": "Ma Dai always has a -1 bonus to his range."
       }
@@ -4328,10 +4540,12 @@
     "ImageUrl": "/character/okf2013-han-dang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Horsebow 弓骑",
         "Description": "Once per turn, Han Dang can discard a card to make his attack range unlimited for that turn. If the discarded card is a piece of equipment, Han Dang can also discard a card from another player."
       },
       {
+        "KingAbility": false,
         "Name": "Relief 解烦",
         "Description": "Once per game, Han Dang can select any character. Every character who has the target within their attack range must either discard a weapon card or allow the target to draw one card."
       }
@@ -4364,6 +4578,7 @@
     "ImageUrl": "/character/okf2014-cao-zhen.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Enemy Foresight 司敵",
         "Description": "during Cao Zhen's turn, he places the top card of the deck on his general card. At the beginning of any other player’s action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one."
       }
@@ -4399,10 +4614,12 @@
     "ImageUrl": "/character/okf2014-chen-qun.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Production 定品",
         "Description": "If the judgment is red, Chen Qun flips his general card."
       },
       {
+        "KingAbility": false,
         "Name": "Justice and Mercy 法恩",
         "Description": "When any player flips their general card or enters chains, Chen Qun can allow that player to draw a card."
       }
@@ -4439,10 +4656,12 @@
     "ImageUrl": "/character/okf2014-han-hao-and-shi-huan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Reckless Abandon 慎断",
         "Description": "card."
       },
       {
+        "KingAbility": false,
         "Name": "Bold Strategy 勇略",
         "Description": "Before another player within Han Hao and Shi Huan's attacking range performs a judgment for a pending card, they can discard that card. This action counts as Han Hao and Shi Huan attacking the player. If the target is not hurt by this attack, Han Hao and Shi Huan draw a card."
       }
@@ -4479,6 +4698,7 @@
     "ImageUrl": "/character/okf2014-wu-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Distant Charge 奔袭",
         "Description": "During his turn, whenever Wu Yi uses a card, he gains a temporary -1 Horse until the end of the turn. When all players are within his range, other players' armor becomes ineffective, and Wu Yi can target an additional player with each attack."
       }
@@ -4514,10 +4734,12 @@
     "ImageUrl": "/character/okf2014-zhang-song.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Keen Insight 强识",
         "Description": "At the beginning of his action phase, Zhang Song may reveal one card from another player’s hand. For the rest of his turn, each time he uses a card of the same type as the revealed card, he may draw one card."
       },
       {
+        "KingAbility": false,
         "Name": "Image Offering 献图",
         "Description": "At the beginning of another player's turn, Zhang Song may draw two cards and then give two cards to that player. If he does so, at the end of their turn, if that player has not killed any character, Zhang Song loses 1 health."
       }
@@ -4551,6 +4773,7 @@
     "ImageUrl": "/character/okf2014-zhou-cang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Loyal Bravery 忠勇",
         "Description": "goes to someone other than yourself, you may attack the same target again."
       }
@@ -4583,10 +4806,12 @@
     "ImageUrl": "/character/okf2014-gu-yong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Cautious Action 慎行",
         "Description": "During your turn, you may discard two cards to draw one card."
       },
       {
+        "KingAbility": false,
         "Name": "Uphold Unity 秉壹",
         "Description": "At the end of your turn, you may reveal all the cards in your hand. If all cards are of the same color, you may choose up to X players to each draw a card, where X equals the number of cards in your hand."
       }
@@ -4619,10 +4844,12 @@
     "ImageUrl": "/character/okf2014-sun-luban.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Ruin with Slander 谮毁",
         "Description": "This new player then chooses to either become an additional target of the card or give Sun Luban a card and become the card's new source instead."
       },
       {
+        "KingAbility": false,
         "Name": "Pride 骄矜",
         "Description": "Whenever Sun Luban takes damage from a male character, she can discard an equipment card to reduce the damage by one."
       }
@@ -4654,6 +4881,7 @@
     "ImageUrl": "/character/okf2014-zhu-huan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Lure 诱敵",
         "Description": ", Zhu Huan takes a card from the target."
       }
@@ -4688,10 +4916,12 @@
     "ImageUrl": "/character/okf2014-ju-shou.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Progressive Strategy 渐营",
         "Description": "When Ju Shou uses a card that matches the color or number of the previous card he used during the same turn, he can draw one card."
       },
       {
+        "KingAbility": false,
         "Name": "Arrow of the North 矢北",
         "Description": ", Ju Shou loses 1 health instead."
       }
@@ -4725,10 +4955,12 @@
     "ImageUrl": "/character/okf2014-lady-cai.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Eavesdrop 窃听",
         "Description": "If another player does not target anyone with any cards during their turn, Lady Cai can either draw one card or take one of their equipped cards and equip it on herself."
       },
       {
+        "KingAbility": false,
         "Name": "Surrender 献州",
         "Description": "The target then decides whether to let Lady Cai recover X health points or to damage up to X players within their attack range, where X is the number of cards she gave."
       }
@@ -4762,10 +4994,12 @@
     "ImageUrl": "/character/okf2014-cao-chong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Weigh the Elephant 称象",
         "Description": "Whenever Cao Chong is damaged, he can show the top four cards of the deck. He then takes any combination of them so that the total of all the numbers is less than fourteen."
       },
       {
+        "KingAbility": false,
         "Name": "Benevolence 仁心",
         "Description": "When another player with one health is damaged, Cao Chong can flip his general card and discard an equipment card.  All the damage is then prevented."
       }
@@ -4798,6 +5032,7 @@
     "ImageUrl": "/character/okf2014-zhu-ran.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Nerves of Steel 胆守",
         "Description": "If X is four or more, both Zhu Ran and the target both draw two cards."
       }
@@ -4833,10 +5068,12 @@
     "ImageUrl": "/character/okf2014-empress-fu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Anxious Fear 惴恐",
         "Description": "If she loses, the distance from the target to her is reduced to one until the end of the turn."
       },
       {
+        "KingAbility": false,
         "Name": "Plead 求援",
         "Description": "or become an additional target of the attack."
       }
@@ -4872,14 +5109,17 @@
     "ImageUrl": "/character/okf2014-li-ru.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Vanishing Act 绝策",
         "Description": "At the end of his turn, Li Ru can damage any player that does not have any hand cards."
       },
       {
+        "KingAbility": false,
         "Name": "Extermination 灭计",
         "Description": "That player must discard either one tool card or two non-tool cards."
       },
       {
+        "KingAbility": false,
         "Name": "Burn the City 焚城",
         "Description": "X is one more than the number of cards discarded by the previous player."
       }
@@ -4918,14 +5158,17 @@
     "ImageUrl": "/character/okf2015-cao-rui.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Expand and Recover 恢拓",
         "Description": "If the result is black, the target draws X cards, where X equals the amount of damage you received."
       },
       {
+        "KingAbility": false,
         "Name": "Clear Insight 明鉴",
         "Description": "You can skip your Action Phase and give all your hand cards to another character. If you do this, your turn ends, and the chosen character takes an Action Phase."
       },
       {
+        "KingAbility": false,
         "Name": "Rise and Decline 兴衰",
         "Description": "Once per game when you are on the brink of death, you can allow all other Wei characters to heal you by one. Afterward, each of these characters takes 1 damage."
       }
@@ -4961,6 +5204,7 @@
     "ImageUrl": "/character/okf2015-cao-xiu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Trap",
         "Description": "If the revealed card remains in the target's hand at the end of the current turn, you lose one health."
       }
@@ -4999,10 +5243,12 @@
     "ImageUrl": "/character/okf2015-zhong-yao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Living Ink",
         "Description": "Zhong Yao can place a black non-basic card on top of the deck to use a basic card, if he hasn’t already used that type of basic card during this turn."
       },
       {
+        "KingAbility": false,
         "Name": "Secure 佐定",
         "Description": "If no character has taken damage during this Action Phase, Zhong Yao can let any character targeted by a spade card draw one card."
       }
@@ -5038,10 +5284,12 @@
     "ImageUrl": "/character/okf2015-lady-xiahou.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Collect Firewood 樵拾",
         "Description": "At the end of another player's turn, if the number of cards in your hand equals theirs, both you and that player may draw one card."
       },
       {
+        "KingAbility": false,
         "Name": "Bird Song 燕语",
         "Description": "card to draw another card. If you do this twice in one turn, at the end of your Action Phase, you may choose a male character to draw two cards."
       }
@@ -5079,10 +5327,12 @@
     "ImageUrl": "/character/okf2015-liu-chen.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Battle's End 战绝",
         "Description": ". Both you and the damaged character draw a card. If you draw two or more cards in this way during the turn, this ability becomes disabled for the rest of the turn."
       },
       {
+        "KingAbility": false,
         "Name": "Rally to the King 勤王",
         "Description": "You may discard a card to activate \"Fierce General\". If any character responds, they draw a card."
       }
@@ -5118,10 +5368,12 @@
     "ImageUrl": "/character/okf2015-zhang-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Warrior's Regret 怃戎",
         "Description": ", discard your card and take one card from them."
       },
       {
+        "KingAbility": false,
         "Name": "Determination 矢志",
         "Description": "cards."
       }
@@ -5154,6 +5406,7 @@
     "ImageUrl": "/character/okf2015-quan-cong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Inspire Courage",
         "Description": "Whenever you need to play a basic card, you may exchange hands with a character who has fewer cards in their hand. If you do, it is considered that you have played the required card. Limited to once per turn for each character."
       }
@@ -5187,14 +5440,17 @@
     "ImageUrl": "/character/okf2015-sun-xiu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Banquet of Treachery",
         "Description": "Give you all their equipment. If they choose this, you lose “Banquet of Treachery” for the rest of the game."
       },
       {
+        "KingAbility": false,
         "Name": "Promote Learning 兴学",
         "Description": "If you have lost the skill “Banquet of Treachery,” X equals your maximum health instead."
       },
       {
+        "KingAbility": false,
         "Name": "Imperial Command” (诏缚",
         "Description": "Characters within a distance of 1 from you are considered to be within the attack range of other Wu characters."
       }
@@ -5230,6 +5486,7 @@
     "ImageUrl": "/character/okf2015-zhu-zhi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Stabilize the Nation",
         "Description": "Once per turn, you may select an equipped card from another character and return it to their hand. If the number of characters within that character's attack range decreases, you draw one card."
       }
@@ -5264,6 +5521,7 @@
     "ImageUrl": "/character/okf2015-gongsun-yuan.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Harbor Suspicion",
         "Description": "If you obtain two or more cards using this ability, you lose 1 health."
       }
@@ -5301,10 +5559,12 @@
     "ImageUrl": "/character/okf2015-guo-tu-and-pang-ji.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Fierce Assault",
         "Description": "At the beginning of your turn, you may draw two cards. If you do, your hand card limit for this turn is changed to X, where X equals the total damage you deal during this turn."
       },
       {
+        "KingAbility": false,
         "Name": "Feign Innocence 饰非",
         "Description": "."
       }
@@ -5337,10 +5597,12 @@
     "ImageUrl": "/character/daemon-cao-cao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Suspicion 多疑",
         "Description": "If it is black, that person cannot play any card to respond to the tool card."
       },
       {
+        "KingAbility": true,
         "Name": "Offer 献计",
         "Description": "King Ability: Any player can give Cao Cao a tool card during their turn."
       }
@@ -5372,14 +5634,17 @@
     "ImageUrl": "/character/daemon-cao-jie.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Weep 涕泣",
         "Description": "Once per turn, Cao Jie can lose one health and discard X cards.  She then chooses X players and each takes one damage."
       },
       {
+        "KingAbility": false,
         "Name": "Throw the Seal 掷玺",
         "Description": ", she draws a card."
       },
       {
+        "KingAbility": false,
         "Name": "Royal Father 父王",
         "Description": "If the king is a male, abilities from other females will not affect the king."
       }
@@ -5412,10 +5677,12 @@
     "ImageUrl": "/character/daemon-guan-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Demon of War 武魔",
         "Description": "during an Action Phase, he can draw a card."
       },
       {
+        "KingAbility": false,
         "Name": "Dragging Blade 拖刀",
         "Description": "any player within his attacking range."
       }
@@ -5447,6 +5714,7 @@
     "ImageUrl": "/character/daemon-hua-xiong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Decapitate 枭首",
         "Description": "Whenever Hua Xiong takes damage, he can take an equipped card from the player who dealt the damage. He can then give the card to any player, either placing it in their hand or equipping it to them."
       }
@@ -5479,10 +5747,12 @@
     "ImageUrl": "/character/daemon-lu-bu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Strike the Halberd 射戟",
         "Description": "When Lu Bu attacks, if he is also within the target’s attacking range, the attack is unavoidable."
       },
       {
+        "KingAbility": false,
         "Name": "Final Assault 绝戮",
         "Description": "When Lu Bu uses his last hand card to attack, the attack has no range limitations and can target up to two additional players."
       }
@@ -5516,10 +5786,12 @@
     "ImageUrl": "/character/daemon-zhang-fei.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Dragon Bellow 龙吟",
         "Description": "have no range restrictions."
       },
       {
+        "KingAbility": false,
         "Name": "Tiger Roar 虎啸",
         "Description": "can target an additional player."
       }
@@ -5553,10 +5825,12 @@
     "ImageUrl": "/character/daemon-zhuge-liang.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Playing God 装神",
         "Description": "At the beginning of his turn, Zhuge Liang can perform a judgment. If the result is black, Zhuge Liang may choose any other character in play and acquire all of their abilities until the beginning of his next turn."
       },
       {
+        "KingAbility": false,
         "Name": "Oracle 奇门",
         "Description": "Zhuge Liang cannot be targeted by any delay tool cards."
       }
@@ -5589,6 +5863,7 @@
     "ImageUrl": "/character/daemon-shamoke.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Loyal King 勤王",
         "Description": "is increased by one."
       }
@@ -5624,10 +5899,12 @@
     "ImageUrl": "/character/daemon-sima-hui.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Enlighten 授业",
         "Description": "Once per turn, Sima Hui can discard any hand card to allow any player to draw two cards."
       },
       {
+        "KingAbility": false,
         "Name": "Allay 解惑",
         "Description": "Once per game, if a player died after Sima Hui's previous turn, Sima Hui can discard one hand card from every suit to revive the deceased player. The revived player returns with three health and draws three cards."
       }
@@ -5662,14 +5939,17 @@
     "ImageUrl": "/character/wraith-bian-shi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Blame 嫁祸",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Mother of Thunder 电母",
         "Description": "All damage caused by you is treated as lightning damage."
       },
       {
+        "KingAbility": false,
         "Name": "Wraith Queen 妖后",
         "Description": "Draw one card."
       }
@@ -5702,14 +5982,17 @@
     "ImageUrl": "/character/wraith-ji-ping.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Poisoning 施毒",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Cure 攻毒",
         "Description": "."
       },
       {
+        "KingAbility": false,
         "Name": "Refined Medicine 炼毒",
         "Description": "Whenever Ji Ping receives damage, the amount of damage is reduced to one."
       }
@@ -5743,10 +6026,12 @@
     "ImageUrl": "/character/wraith-sima-yi.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Feign Illness 诈病",
         "Description": "At the end of your turn, you can choose to lose one health. Then, you become immune to all damage until the start of your next turn."
       },
       {
+        "KingAbility": false,
         "Name": "Ghost Schemes 鬼谋",
         "Description": "X is the total amount of health you are missing."
       }
@@ -5780,14 +6065,17 @@
     "ImageUrl": "/character/wraith-xiao-qiao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Mistake 曲误",
         "Description": "During their next turn, they will draw one card fewer, and you will draw one card during their drawing phase."
       },
       {
+        "KingAbility": false,
         "Name": "Bronze Bird 铜雀",
         "Description": "to have no effect on you."
       },
       {
+        "KingAbility": false,
         "Name": "Mourn 冢殇",
         "Description": "For every player that has died, your hand limit increases by 1."
       }
@@ -5821,14 +6109,17 @@
     "ImageUrl": "/character/wraith-zhang-jiao.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Peace 太平",
         "Description": "Peach Garden"
       },
       {
+        "KingAbility": false,
         "Name": "Cycle of Heaven 甲子",
         "Description": "At the end of your turn, draw cards until your hand size equals your current health."
       },
       {
+        "KingAbility": false,
         "Name": "Disciples 徒众",
         "Description": "You can skip your drawing phase to allow any player to gain 1 health."
       }
@@ -5863,6 +6154,7 @@
     "ImageUrl": "/character/wraith-zhou-tai-1.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "No Regret 不悔",
         "Description": "."
       }
@@ -5899,6 +6191,7 @@
     "ImageUrl": "/character/wraith-zhou-tai-2.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "No Regret 不悔",
         "Description": "."
       }
@@ -5933,10 +6226,12 @@
     "ImageUrl": "/character/wraith-cheng-yu.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Hostage 挟亲",
         "Description": "Once per turn, when you cause 1 damage, you can immediately discard 1 card from any other character."
       },
       {
+        "KingAbility": false,
         "Name": "See Through 认伪",
         "Description": "Before any character performs a judgment, you can predict the color. If your prediction is correct and the judgment card takes effect, you draw 1 card."
       }
@@ -5969,6 +6264,7 @@
     "ImageUrl": "/character/wraith-ling-tong.jpg",
     "Abilities": [
       {
+        "KingAbility": false,
         "Name": "Heavy Justice 重义",
         "Description": "When Ling Tong loses his last hand card, he draws as many cards as he has health."
       }

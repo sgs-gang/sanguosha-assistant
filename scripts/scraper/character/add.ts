@@ -29,19 +29,28 @@ export async function add(
   if (Description == null)
     throw new Error('Description not found', { cause: character.Link })
 
-  let Abilities: { Name: string; Description: string }[] = []
+  let Abilities: { Name: string; Description: string; KingAbility: boolean }[] =
+    []
   $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
     .eq(3)
     .find('ul li')
     .each((i, li) => {
+      let Ability: {
+        Name?: string
+        Description?: string | null
+        KingAbility: boolean
+      } = { KingAbility: false }
       const name = $(li).find('span.C9DxTc').first().text().trim()
       if (name == null) throw new Error('Ability name not found')
+      Ability.Name = name
       const description = $(li).find('span.C9DxTc').last().text().trim()
       if (description == null) throw new Error('Ability Description not found')
-      Abilities.push({
-        Name: name,
-        Description: description,
-      })
+      Ability.Description = description
+      if (description.includes('King Ability')) {
+        Ability.KingAbility = true
+      }
+
+      Abilities.push(Ability)
     })
 
   const Clarifications: string[] = extractBulletList($, 'Clarification')
