@@ -91,6 +91,7 @@ export default function CharacterGallery() {
                       ? `2px solid ${alignment.color}`
                       : 'none',
                     outlineOffset: isSelected ? '2px' : '0',
+                    transition: 'outline-color 0.5s ease-in',
                   }}
                 >
                   {alignment.label}
