@@ -46,7 +46,7 @@ export function CharacterCard({
             />
           </div>
         </CardHeader>
-        <CardContent className="bg-white/50 p-0 md:p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg flex flex-col h-[40px] md:h-[110px] justify-center">
+        <CardContent className="bg-white/50 p-0 md:p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg flex flex-col h-1/4 justify-center">
           <h4 className="md:font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">
             {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
           </h4>
