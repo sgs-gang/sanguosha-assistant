@@ -31,5 +31,4 @@ export const schema = basicSchema.extend({
   RelationToHistory: z.array(z.string()),
   Health: z.number(),
   Ruler: z.boolean(),
-  Abilities: z.array(z.object({ Name: z.string(), Description: z.string() })),
 })
