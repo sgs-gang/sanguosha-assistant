@@ -1,4 +1,3 @@
-import { metadata } from '@/app/layout'
 import Character from '@/components/character'
 import { characters } from '@/data/character'
 import { Metadata } from 'next'
@@ -17,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const character = characters.find(character => character.Slug === Slug)!
 
   return {
-    title: `${character.Name} | ${metadata.title}`,
+    title: `${character.Name} | San Guo Sha Assistant`,
     openGraph: {
       images: [character.ImageUrl],
     },

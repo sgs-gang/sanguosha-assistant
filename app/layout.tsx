@@ -3,17 +3,14 @@ import './globals.css'
 import '@radix-ui/themes/styles.css'
 import { Theme } from '@radix-ui/themes'
 
-import { TabNav } from '@radix-ui/themes'
-import NextLink from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { useRouter } from 'next/navigation'
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const pathname = usePathname()
   const router = useRouter()
   function handleClick(value: string) {
     router.push(`/${value}`)
