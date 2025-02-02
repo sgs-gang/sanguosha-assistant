@@ -70,9 +70,9 @@ export default function CharacterCardWrapper({
             <Link href="/">Back to Gallery</Link>
           </Button>
           <Button asChild>
-            {/* <Link href={character.sourceUrl} target="_blank">
+            <Link href={character.Link} target="_blank">
               Open Source
-            </Link> */}
+            </Link>
           </Button>
         </CardContent>
       </Card>
