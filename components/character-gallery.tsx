@@ -5,22 +5,22 @@ import { CharacterCard } from './character-card'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
-import { characters, factions } from '@/data/character'
+import { characters, alignments } from '@/data/character'
 import { useFavorites } from '@/hooks/useFavorites'
 import { ToggleGroup, ToggleGroupItem } from './ui/toggle-group'
 
 export default function CharacterGallery() {
-  const [selectedFaction, setSelectedFaction] = useState('all')
+  const [selectedAlignment, setSelectedAlignment] = useState('all')
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false)
   const { favorites, toggleFavorite } = useFavorites()
   const searchParams = useSearchParams()
   const router = useRouter()
 
   useEffect(() => {
-    const faction = searchParams.get('faction')
+    const alignment = searchParams.get('alignment')
     const favoritesOnly = searchParams.get('favoritesOnly')
-    if (faction) {
-      setSelectedFaction(faction)
+    if (alignment) {
+      setSelectedAlignment(alignment)
     }
     if (favoritesOnly) {
       setShowOnlyFavorites(favoritesOnly === 'true')
@@ -29,7 +29,8 @@ export default function CharacterGallery() {
 
   const filteredCharacters = characters.filter(
     character =>
-      (selectedFaction === 'all' || character.Alignment === selectedFaction) &&
+      (selectedAlignment === 'all' ||
+        character.Alignment === selectedAlignment) &&
       (!showOnlyFavorites || favorites.includes(character.Slug)),
   )
 
@@ -39,19 +40,19 @@ export default function CharacterGallery() {
     return 0
   })
 
-  const handleFactionChange = (value: string) => {
-    setSelectedFaction(value)
+  const handleAlignmentChange = (value: string) => {
+    setSelectedAlignment(value)
     updateURL(value, showOnlyFavorites)
   }
 
   const handleFavoritesToggle = (checked: boolean) => {
     setShowOnlyFavorites(checked)
-    updateURL(selectedFaction, checked)
+    updateURL(selectedAlignment, checked)
   }
 
-  const updateURL = (faction: string, favoritesOnly: boolean) => {
+  const updateURL = (alignment: string, favoritesOnly: boolean) => {
     const params = new URLSearchParams()
-    if (faction !== 'all') params.set('faction', faction)
+    if (alignment !== 'all') params.set('alignment', alignment)
     if (favoritesOnly) params.set('favoritesOnly', 'true')
     router.push(`/?${params.toString()}`)
   }
@@ -65,17 +66,17 @@ export default function CharacterGallery() {
         <div className="flex flex-col items-center gap-4 mb-4 ">
           <ToggleGroup
             type="single"
-            value={selectedFaction}
-            onValueChange={value => handleFactionChange(value || 'all')}
+            value={selectedAlignment}
+            onValueChange={value => handleAlignmentChange(value || 'all')}
             className="flex gap-2 bg-white z-10 p-2"
           >
-            {factions.map(faction => {
-              const isSelected = selectedFaction === faction.value
+            {alignments.map(alignment => {
+              const isSelected = selectedAlignment === alignment.value
 
               return (
                 <ToggleGroupItem
-                  key={faction.value}
-                  value={faction.value}
+                  key={alignment.value}
+                  value={alignment.value}
                   className={`
              py-2 flex flex-1 items-center justify-center text-center
               transition-transform duration-200 ease-in
@@ -83,11 +84,11 @@ export default function CharacterGallery() {
               ${isSelected ? 'scale-110' : 'scale-100'}
             `}
                   style={{
-                    backgroundColor: faction.color,
+                    backgroundColor: alignment.color,
                     color: isSelected ? 'white' : 'white',
                   }}
                 >
-                  {faction.label}
+                  {alignment.label}
                 </ToggleGroupItem>
               )
             })}

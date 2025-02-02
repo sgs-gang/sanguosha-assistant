@@ -6,7 +6,7 @@ export type Character = z.infer<typeof schema>
 
 export const characters = schema.array().parse(data)
 
-export const factions = [
+export const alignments = [
   { value: 'all', label: 'All', color: '#000000' },
   { value: 'Shu', label: 'Shu', color: '#A7614A' },
   { value: 'Wei', label: 'Wei', color: '#444F7F' },
