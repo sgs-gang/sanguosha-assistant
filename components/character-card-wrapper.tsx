@@ -10,31 +10,31 @@ import { characters } from '@/data/character'
 import CharacterAbility from './character-ability'
 
 interface CharacterCardWrapperProps {
-  id: string
+  slug: string
 }
 
 export default function CharacterCardWrapper({
-  id,
+  slug,
 }: CharacterCardWrapperProps) {
-  const character = characters.find(c => c.id === id)
+  const character = characters.find(c => c.Slug === slug)
   const { favorites, toggleFavorite } = useFavorites()
 
   if (!character) {
     notFound()
   }
 
-  const isFavorite = favorites.includes(character.id)
+  const isFavorite = favorites.includes(character.Slug)
 
   return (
     <div className="container mx-auto p-4">
       <Card className="max-w-2xl mx-auto">
         <CardHeader className="flex flex-row items-center justify-between">
-          <CardTitle className="text-3xl">{character.name}</CardTitle>
+          <CardTitle className="text-3xl">{character.Name}</CardTitle>
 
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => toggleFavorite(character.id)}
+            onClick={() => toggleFavorite(character.Slug)}
             aria-label={
               isFavorite ? 'Remove from favorites' : 'Add to favorites'
             }
@@ -50,29 +50,29 @@ export default function CharacterCardWrapper({
           <div className="aspect-[7/10] relative mb-4">
             <img
               src={
-                character.imageUrl
-                  ? `/sanguosha-assistant/characters/${character.imageUrl}`
+                character.ImageUrl
+                  ? `/sanguosha-assistant/import/${character.ImageUrl}`
                   : '/placeholder.svg'
               }
-              alt={character.name}
+              alt={character.Name}
               className="object-cover rounded-md w-full h-full"
             />
           </div>
-          {character.description && (
-            <p className="text-lg mb-4">{character.description}</p>
+          {character.Description && (
+            <p className="text-lg mb-4">{character.Description}</p>
           )}
 
-          {character.abilities.map((ability, index) => (
+          {/* {character.abilities.map((ability, index) => (
             <CharacterAbility key={index} ability={ability} />
-          ))}
+          ))} */}
 
           <Button asChild>
             <Link href="/">Back to Gallery</Link>
           </Button>
           <Button asChild>
-            <Link href={character.sourceUrl} target="_blank">
+            {/* <Link href={character.sourceUrl} target="_blank">
               Open Source
-            </Link>
+            </Link> */}
           </Button>
         </CardContent>
       </Card>
