@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { CharacterCard } from './character-card'
-import { useSearchParams, useRouter } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
 import { characters, alignments } from '@/data/character'
@@ -14,7 +14,6 @@ export default function CharacterGallery() {
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false)
   const { favorites, toggleFavorite } = useFavorites()
   const searchParams = useSearchParams()
-  const router = useRouter()
 
   useEffect(() => {
     const alignment = searchParams.get('alignment')
@@ -54,7 +53,11 @@ export default function CharacterGallery() {
     const params = new URLSearchParams()
     if (alignment !== 'all') params.set('alignment', alignment)
     if (favoritesOnly) params.set('favoritesOnly', 'true')
-    router.push(`/?${params.toString()}`)
+    window.history.pushState(
+      {},
+      '',
+      `${window.location.pathname}?${params.toString()}`,
+    )
   }
 
   return (
