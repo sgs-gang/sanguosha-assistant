@@ -62,9 +62,9 @@ export default function CharacterCardWrapper({
             <p className="text-lg mb-4">{character.Description}</p>
           )}
 
-          {/* {character.abilities.map((ability, index) => (
+          {character.Abilities.map((ability, index) => (
             <CharacterAbility key={index} ability={ability} />
-          ))} */}
+          ))}
 
           <Button asChild>
             <Link href="/">Back to Gallery</Link>
