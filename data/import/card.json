@@ -18,7 +18,7 @@
       "After seeing the card, the player decides whether to discard a matching card to deal damage.",
       "A player can target themselves with Blaze, but only if they have another card to discard."
     ],
-    "ImageUrl": "card/blaze.jpg"
+    "ImageUrl": "/card/blaze.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/chains",
@@ -42,7 +42,7 @@
       "Negate can only affect one player at a time. Other players must still enter the chain.",
       "If a player trades in their Chains, this action cannot be negated, as it is not considered using the Chains."
     ],
-    "ImageUrl": "card/chains.jpg"
+    "ImageUrl": "/card/chains.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/escape",
@@ -60,7 +60,7 @@
     "Clarifications": [
       "This card is not used during a players turn under most circumstances."
     ],
-    "ImageUrl": "card/escape.jpg"
+    "ImageUrl": "/card/escape.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/fire-attack",
@@ -81,7 +81,7 @@
       "Using an Fire Attack as part of another card, like Duel, does not count towards this limit and does not count as the player's attack for that turn.",
       "There is no limit to the number of attacks a player can make outside of their own turn."
     ],
-    "ImageUrl": "card/fire-attack.jpg"
+    "ImageUrl": "/card/fire-attack.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/lightning-attack",
@@ -102,7 +102,7 @@
       "Using an Lightning Attack as part of another card, like Duel, does not count towards this limit and does not count as the player's attack for that turn.",
       "There is no limit to the number of attacks a player can make outside of their own turn."
     ],
-    "ImageUrl": "card/lightning-attack.jpg"
+    "ImageUrl": "/card/lightning-attack.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
@@ -124,7 +124,7 @@
       "Negate can be used to counter another Negate. A second Negate can counter the first, and a third can counter the second, continuing this chain indefinitely.",
       "To negate a delay tool card, Negate must be used at the time of judgment, not when the delay card is placed."
     ],
-    "ImageUrl": "card/negate.jpg"
+    "ImageUrl": "/card/negate.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/peach",
@@ -142,7 +142,7 @@
     "Clarifications": [
       "A player cannot use a Peach to heal another player unless they're on the brink of death."
     ],
-    "ImageUrl": "card/peach.jpg"
+    "ImageUrl": "/card/peach.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/starvation",
@@ -163,7 +163,7 @@
       "Any abilities that are activated during the drawing phase are lost if Starvation works, and they cannot be performed this turn.",
       "A player cannot be targeted with Starvation if they already have one. Players can only have one of each pending card on them at any time."
     ],
-    "ImageUrl": "card/starvation.jpg"
+    "ImageUrl": "/card/starvation.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/wine",
@@ -183,7 +183,7 @@
       "Only the player on the brink of death can use Wine to restore their health.",
       "If a player plays Wine and then ends their turn, the effects end. Their next attack will not deal increased damage."
     ],
-    "ImageUrl": "card/wine.jpg"
+    "ImageUrl": "/card/wine.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/attack",
@@ -218,7 +218,7 @@
       "Using an Attack as part of another card, like Duel, does not count towards this limit and does not count as the player's attack for that turn.",
       "There is no limit to the number of attacks a player can make outside of their own turn."
     ],
-    "ImageUrl": "card/attack.jpg"
+    "ImageUrl": "/card/attack.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/barbarians",
@@ -238,7 +238,7 @@
       "All cards involved are discarded afterward.",
       "When players use a Negate, it only affects one player. The other players must still participate."
     ],
-    "ImageUrl": "card/barbarians.jpg"
+    "ImageUrl": "/card/barbarians.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/break",
@@ -258,7 +258,7 @@
       "Break can target hand cards, equipment, and pending cards. When targeting a hand card, the player does not see the target’s hand; they simply select a random card to discard.",
       "A player cannot use Break on themselves."
     ],
-    "ImageUrl": "card/break.jpg"
+    "ImageUrl": "/card/break.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/capture",
@@ -279,7 +279,7 @@
       "If Capture succeeds, any abilities that the player would normally perform during the action phase are lost and cannot be used for that turn.",
       "A player cannot be targeted with another Capture if they already have one on them. They can only have one of each pending card at any time."
     ],
-    "ImageUrl": "card/capture.jpg"
+    "ImageUrl": "/card/capture.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/coerce",
@@ -300,7 +300,7 @@
       "The target and victim are declared as soon as the card is played. The target then decides whether to attack.",
       "Attacking abilities and weapon abilities can both be activated when the target attacks the victim."
     ],
-    "ImageUrl": "card/coerce.jpg"
+    "ImageUrl": "/card/coerce.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/draw-two",
@@ -316,7 +316,7 @@
     "Description": "The player that plays this draws two cards from the deck.",
     "Slug": "draw-two",
     "Clarifications": ["Other players can use Negate to stop the drawing."],
-    "ImageUrl": "card/draw-two.jpg"
+    "ImageUrl": "/card/draw-two.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/duel",
@@ -335,7 +335,7 @@
       "After a Duel, all attacks used are discarded.",
       "There is no limit to the number of rounds in a Duel."
     ],
-    "ImageUrl": "card/duel.jpg"
+    "ImageUrl": "/card/duel.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/escape",
@@ -353,7 +353,7 @@
     "Clarifications": [
       "This card is not used during a players turn under most circumstances."
     ],
-    "ImageUrl": "card/escape.jpg"
+    "ImageUrl": "/card/escape.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/hail-of-arrows",
@@ -372,7 +372,7 @@
       "The player who played the card does not need to use Escape.",
       "When a player uses Negate, it only applies to one player. The other players must still participate."
     ],
-    "ImageUrl": "card/hail-of-arrows.jpg"
+    "ImageUrl": "/card/hail-of-arrows.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/harvest",
@@ -393,7 +393,7 @@
       "The chosen card goes immediately into each player's hand, and they cannot use any cards until their turn.",
       "Any leftover cards are discarded after one round of selection."
     ],
-    "ImageUrl": "card/harvest.jpg"
+    "ImageUrl": "/card/harvest.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/lightning",
@@ -415,7 +415,7 @@
       "A player cannot play a Lightning if they already have one on them. They can only have one of each pending card on them at any time.",
       "If the Lightning moves to a player that already has one on them, it skips them and moves to the next player without a Lightning."
     ],
-    "ImageUrl": "card/lightning.jpg"
+    "ImageUrl": "/card/lightning.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
@@ -437,7 +437,7 @@
       "Negate can be used to counter another Negate. A second Negate can counter the first, and a third can counter the second, continuing this chain indefinitely.",
       "To negate a delay tool card, Negate must be used at the time of judgment, not when the delay card is placed."
     ],
-    "ImageUrl": "card/negate.jpg"
+    "ImageUrl": "/card/negate.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/peach",
@@ -455,7 +455,7 @@
     "Clarifications": [
       "A player cannot use a Peach to heal another player unless they're on the brink of death."
     ],
-    "ImageUrl": "card/peach.jpg"
+    "ImageUrl": "/card/peach.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/peach-garden",
@@ -473,7 +473,7 @@
     "Clarifications": [
       "This cannot be used to save a player on the brink of death."
     ],
-    "ImageUrl": "card/peach-garden.jpg"
+    "ImageUrl": "/card/peach-garden.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/steal",
@@ -494,7 +494,7 @@
       "When stealing a hand card, the player does not get to see the opponent's hand. They randomly select one card to add to their own hand.",
       "A player cannot use Steal on themselves."
     ],
-    "ImageUrl": "card/steal.jpg"
+    "ImageUrl": "/card/steal.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/lightning",
@@ -516,7 +516,7 @@
       "A player cannot play a Lightning if they already have one on them. They can only have one of each pending card on them at any time.",
       "If the Lightning moves to a player that already has one on them, it skips them and moves to the next player without a Lightning."
     ],
-    "ImageUrl": "card/lightning.jpg"
+    "ImageUrl": "/card/lightning.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
@@ -538,7 +538,7 @@
       "Negate can be used to counter another Negate. A second Negate can counter the first, and a third can counter the second, continuing this chain indefinitely.",
       "To negate a delay tool card, Negate must be used at the time of judgment, not when the delay card is placed."
     ],
-    "ImageUrl": "card/negate.jpg"
+    "ImageUrl": "/card/negate.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/borrow-arrows-using-straw-boats",
@@ -557,7 +557,7 @@
       "The target has the option to not play an Attack, but they will suffer 1 damage from you as a consequence.",
       "A Fire Attack played by the target does not go into the your hand."
     ],
-    "ImageUrl": "card/borrow-arrows-using-straw-boats.jpg"
+    "ImageUrl": "/card/borrow-arrows-using-straw-boats.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/flooding-seven-armies",
@@ -578,7 +578,7 @@
       "The damage is sourced from the player who uses this card.",
       "The user cannot target themselves or only one person. Therefore, this card cannot be used when only two players remain in the game."
     ],
-    "ImageUrl": "card/flooding-seven-armies.jpg"
+    "ImageUrl": "/card/flooding-seven-armies.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/scrape-the-bone-to-cure-poison",
@@ -601,7 +601,7 @@
       "It cannot be used to save a player from the brink of death.",
       "The health loss caused by this card is not considered damage. As a result, abilities triggered by damage are not activated."
     ],
-    "ImageUrl": "card/scrape-the-bone-to-cure-poison.jpg"
+    "ImageUrl": "/card/scrape-the-bone-to-cure-poison.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/travel-alone-but-armed",
@@ -620,6 +620,6 @@
       "This card cannot be used during the user's own turn.",
       "If the damage consists of multiple units dealt simultaneously, this card reduces the damage by 1 unit."
     ],
-    "ImageUrl": "card/travel-alone-but-armed.jpg"
+    "ImageUrl": "/card/travel-alone-but-armed.jpg"
   }
 ]
