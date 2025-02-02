@@ -18,7 +18,7 @@ export async function getImageUrl(
   const stream = createWriteStream(dirPath)
   const { body } = await fetch(url)
   if (body == null) throw new Error('Failed to fetch image')
-  await finished(Readable.fromWeb(body as ReadableStream<any>).pipe(stream))
+  await finished(Readable.fromWeb(body as ReadableStream).pipe(stream))
 
   return path
 }

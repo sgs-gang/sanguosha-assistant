@@ -8,6 +8,7 @@
     "start": "next start",
     "scrape": "npx tsx scripts/scraper/main.ts && npm run format",
     "lint": "eslint .",
+    "type-check": "npx tsc -b tsconfig.json",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "dependencies": {
@@ -77,6 +78,8 @@
     "@typescript-eslint/eslint-plugin": "^8.21.0",
     "@typescript-eslint/parser": "^8.21.0",
     "eslint": "^9.18.0",
+    "eslint-config-next": "^15.1.6",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-react": "^7.37.4",
     "playwright": "^1.49.1",
     "postcss": "^8",
