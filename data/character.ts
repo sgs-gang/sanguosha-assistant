@@ -1,10 +1,10 @@
 import z from 'zod'
 import data from './import/character.json'
-import { extendedSchema } from '@/scripts/scraper/character'
+import { schema } from '@/scripts/scraper/character/schema'
 
-export type Character = z.infer<typeof extendedSchema>
+export type Character = z.infer<typeof schema>
 
-export const characters = extendedSchema.array().parse(data)
+export const characters = schema.array().parse(data)
 
 export const factions = [
   { value: 'all', label: 'All', color: '#000000' },

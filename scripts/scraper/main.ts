@@ -3,30 +3,33 @@ import { SingleBar } from 'cli-progress'
 import { chunk } from 'lodash'
 import { writeFile } from 'node:fs'
 import {
-  LIST_URL as CHARACTER_LIST_URL,
+  basicSchema as characterBasicSchema,
   schema as characterSchema,
-  extendedSchema as characterExtendedSchema,
+} from './character/schema'
+import {
+  LIST_URL as CHARACTER_LIST_URL,
   add as addCharacter,
-} from './character'
+} from './character/add'
+import {
+  basicSchema as equipmentBasicSchema,
+  schema as equipmentSchema,
+} from './equipment/schema'
 import {
   LIST_URL as EQUIPMENT_LIST_URL,
-  schema as equipmentSchema,
-  extendedSchema as equipmentExtendedSchema,
   add as addEquipment,
-} from './equipment'
+} from './equipment/add'
 import {
-  LIST_URL as CARD_LIST_URL,
+  basicSchema as cardBasicSchema,
   schema as cardSchema,
-  extendedSchema as cardExtendedSchema,
-  add as addCards,
-} from './card'
+} from './card/schema'
+import { LIST_URL as CARD_LIST_URL, add as addCards } from './card/add'
 import { z } from 'zod'
 import { getList } from './lib/getList'
 
 async function pull<T, R>(
   name: string,
   listUrl: string,
-  schema: z.ZodType<T>,
+  basicSchema: z.ZodType<T>,
   _extendedSchema: z.ZodType<R>,
   addItem: (item: T) => Promise<R>,
 ): Promise<void> {
@@ -37,7 +40,7 @@ async function pull<T, R>(
     barCompleteChar: '\u2588',
     barIncompleteChar: '\u2591',
   })
-  const items = await getList(listUrl, schema)
+  const items = await getList(listUrl, basicSchema)
 
   bar.start(items.length, 0)
   const chunks = chunk(items, 1)
@@ -67,18 +70,18 @@ async function main(): Promise<void> {
   await pull(
     'character',
     CHARACTER_LIST_URL,
+    characterBasicSchema,
     characterSchema,
-    characterExtendedSchema,
     addCharacter,
   )
   await pull(
     'equipment',
     EQUIPMENT_LIST_URL,
+    equipmentBasicSchema,
     equipmentSchema,
-    equipmentExtendedSchema,
     addEquipment,
   )
-  await pull('card', CARD_LIST_URL, cardSchema, cardExtendedSchema, addCards)
+  await pull('card', CARD_LIST_URL, cardBasicSchema, cardSchema, addCards)
 }
 
 main()

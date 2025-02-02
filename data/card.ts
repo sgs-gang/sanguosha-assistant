@@ -1,7 +1,7 @@
 import z from 'zod'
 import data from './import/card.json'
-import { extendedSchema } from '@/scripts/scraper/card'
+import { schema } from '@/scripts/scraper/card/schema'
 
-export type Card = z.infer<typeof extendedSchema>
+export type Card = z.infer<typeof schema>
 
-export const cards = extendedSchema.array().parse(data)
+export const cards = schema.array().parse(data)
