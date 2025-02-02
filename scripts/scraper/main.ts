@@ -1,6 +1,6 @@
 import colors from 'ansi-colors'
 import { SingleBar } from 'cli-progress'
-import { chunk } from 'lodash'
+import { chunk, sortBy } from 'lodash'
 import { writeFile } from 'node:fs'
 import {
   basicSchema as characterBasicSchema,
@@ -10,6 +10,7 @@ import {
   LIST_URL as CHARACTER_LIST_URL,
   add as addCharacter,
 } from './character/add'
+import { sort as sortCharacter } from './character/sort'
 import {
   basicSchema as equipmentBasicSchema,
   schema as equipmentSchema,
@@ -32,6 +33,7 @@ async function pull<T extends z.ZodTypeAny, R extends z.ZodTypeAny>(
   basicSchema: T,
   schema: R,
   addItem: (item: z.infer<T>) => Promise<z.infer<R>>,
+  sort?: (item: z.infer<R>) => string,
 ): Promise<void> {
   const bar = new SingleBar({
     format: `${colors.cyan(
@@ -59,7 +61,11 @@ async function pull<T extends z.ZodTypeAny, R extends z.ZodTypeAny>(
 
   writeFile(
     `data/import/${name}.json`,
-    JSON.stringify(writeableItems, null, 2),
+    JSON.stringify(
+      sort != null ? sortBy(writeableItems, sort) : writeableItems,
+      null,
+      2,
+    ),
     function (err) {
       if (err) throw err
     },
@@ -74,6 +80,7 @@ async function main(): Promise<void> {
     characterBasicSchema,
     characterSchema,
     addCharacter,
+    sortCharacter,
   )
   await pull(
     'equipment',
