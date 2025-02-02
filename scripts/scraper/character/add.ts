@@ -29,8 +29,7 @@ export async function add(
   if (Description == null)
     throw new Error('Description not found', { cause: character.Link })
 
-  let Abilities: { Name: string; Description: string; KingAbility: boolean }[] =
-    []
+  let Abilities: { Name: string; Description: string; King: boolean }[] = []
   $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
     .eq(3)
     .find('ul li')
@@ -38,8 +37,8 @@ export async function add(
       let Ability: {
         Name?: string
         Description?: string | null
-        KingAbility: boolean
-      } = { KingAbility: false }
+        King: boolean
+      } = { King: false }
       const name = $(li).find('span.C9DxTc').first().text().trim()
       if (name == null) throw new Error('Ability name not found')
       Ability.Name = name
@@ -47,7 +46,7 @@ export async function add(
       if (description == null) throw new Error('Ability Description not found')
       Ability.Description = description
       if (description.includes('King Ability')) {
-        Ability.KingAbility = true
+        Ability.King = true
       }
 
       Abilities.push(Ability)
