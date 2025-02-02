@@ -4,6 +4,7 @@ import { extractBulletList } from '../lib/extractBulletList'
 import { extractParagraphs } from '../lib/extractParagraphs'
 import { getImageUrl } from '../lib/getImageUrl'
 import { basicSchema, schema } from './schema'
+import { each } from 'lodash'
 
 export const LIST_URL =
   'https://docs.google.com/spreadsheets/d/1TpJgrXqAixnPKwR9oWuEgY3FnMNCtVImLQ5rDpYmRYY/export?format=csv'
@@ -35,18 +36,24 @@ export async function add(
     .find('ul li')
     .each((i, li) => {
       let Ability: {
-        Name?: string
-        Description?: string | null
+        Name: string
+        Description: string
         King: boolean
-      } = { King: false }
+      } = { Name: '', Description: '', King: false }
       const name = $(li).find('span.C9DxTc').first().text().trim()
       if (name == null) throw new Error('Ability name not found')
       Ability.Name = name
-      const description = $(li).find('span.C9DxTc').last().text().trim()
-      if (description == null) throw new Error('Ability Description not found')
-      Ability.Description = description
-      if (description.includes('King Ability')) {
+      $(li)
+        .find('span.C9DxTc:not(:first-child)')
+        .each((i, span) => {
+          Ability.Description += $(span).text().trim()
+        })
+      if (Ability.Description == '')
+        throw new Error('Ability Description not found')
+
+      if (Ability.Description.includes('King Ability')) {
         Ability.King = true
+        Ability.Description.replace('King Ability: ', '')
       }
 
       Abilities.push(Ability)
