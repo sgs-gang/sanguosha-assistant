@@ -26,12 +26,12 @@ import { LIST_URL as CARD_LIST_URL, add as addCards } from './card/add'
 import { z } from 'zod'
 import { getList } from './lib/getList'
 
-async function pull<T, R>(
+async function pull<T extends z.ZodTypeAny, R extends z.ZodTypeAny>(
   name: string,
   listUrl: string,
-  basicSchema: z.ZodType<T>,
-  _extendedSchema: z.ZodType<R>,
-  addItem: (item: T) => Promise<R>,
+  basicSchema: T,
+  _extendedSchema: R,
+  addItem: (item: z.infer<T>) => Promise<z.infer<R>>,
 ): Promise<void> {
   const bar = new SingleBar({
     format: `${colors.cyan(
