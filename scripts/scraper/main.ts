@@ -30,7 +30,7 @@ async function pull<T extends z.ZodTypeAny, R extends z.ZodTypeAny>(
   name: string,
   listUrl: string,
   basicSchema: T,
-  _extendedSchema: R,
+  schema: R,
   addItem: (item: z.infer<T>) => Promise<z.infer<R>>,
 ): Promise<void> {
   const bar = new SingleBar({
@@ -49,6 +49,7 @@ async function pull<T extends z.ZodTypeAny, R extends z.ZodTypeAny>(
     const results = await Promise.all(
       chunk.map(async item => {
         const extendedItem = await addItem(item)
+        schema.parse(extendedItem)
         bar.increment()
         return extendedItem
       }),

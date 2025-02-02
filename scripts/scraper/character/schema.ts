@@ -26,4 +26,6 @@ export const schema = basicSchema.extend({
   NotableCombinations: z.array(z.string()),
   FinalRemarks: z.array(z.string()),
   RelationToHistory: z.array(z.string()),
+  Health: z.number(),
+  Ruler: z.boolean(),
 })

@@ -17,8 +17,14 @@ export const basicSchema = z.object({
     val => (val === '' ? undefined : val),
     z.enum(['Minus', 'Plus']).optional(),
   ),
-  Total: z.string().transform(value => parseInt(value)),
-  Number: z.string().transform(value => parseInt(value)),
+  Total: z
+    .string()
+    .optional()
+    .transform(value => (value ? parseInt(value) : undefined)),
+  Number: z
+    .string()
+    .optional()
+    .transform(value => (value ? parseInt(value) : undefined)),
   Spade: z.string().transform(value => (value != '' ? value.split(', ') : [])),
   Club: z.string().transform(value => (value != '' ? value.split(', ') : [])),
   Diamond: z
@@ -32,4 +38,12 @@ export const schema = basicSchema.extend({
   ImageUrl: z.string(),
   Description: z.string(),
   Clarifications: z.array(z.string()),
+  Range: z.number().optional(),
+  Direction: z.enum(['Minus', 'Plus']).optional(),
+  Total: z.number().optional(),
+  Number: z.number().optional(),
+  Spade: z.array(z.string()),
+  Club: z.array(z.string()),
+  Diamond: z.array(z.string()),
+  Heart: z.array(z.string()),
 })
