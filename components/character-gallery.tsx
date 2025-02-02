@@ -61,7 +61,7 @@ export default function CharacterGallery() {
   }
 
   return (
-    <div className="container mx-auto p-4 ">
+    <div className="container p-4">
       <div className="flex flex-col items-center mb-8">
         <div className="w-64 pb-4">
           <img src="/sanguosha-assistant/logo.png" />
@@ -81,14 +81,16 @@ export default function CharacterGallery() {
                   key={alignment.value}
                   value={alignment.value}
                   className={`
-             py-2 flex flex-1 items-center justify-center text-center
-              transition-transform duration-200 ease-in
-              rounded-full w-[50px] h-[50px]
-              ${isSelected ? 'scale-110' : 'scale-100'}
-            `}
+                  py-2 flex items-center justify-center text-center
+                  rounded-full w-[50px] h-[50px]
+                  `}
                   style={{
                     backgroundColor: alignment.color,
-                    color: isSelected ? 'white' : 'white',
+                    color: '#fff',
+                    outline: isSelected
+                      ? `2px solid ${alignment.color}`
+                      : 'none',
+                    outlineOffset: isSelected ? '2px' : '0',
                   }}
                 >
                   {alignment.label}
