@@ -9,7 +9,6 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb'
-import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Star } from 'lucide-react'
 import { useFavorites } from '@/hooks/useFavorites'
@@ -40,7 +39,7 @@ export default function CharacterCardWrapper({
 
   return (
     <div className="container mx-auto p-4 max-w-4xl">
-      <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 items-center md:items-start mb-4 md:mb-0">
+      <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 items-center md:items-stretch mb-4 md:mb-0">
         <div className="block md:hidden w-24">
           <div className="aspect-[7/10] relative">
             <img
@@ -54,7 +53,7 @@ export default function CharacterCardWrapper({
             />
           </div>
         </div>
-        <div>
+        <div className="flex-1">
           <h1 className="text-3xl">
             {character.Name.replaceAll(/[^A-Za-z ]/g, '').trim()}
           </h1>
@@ -120,7 +119,7 @@ export default function CharacterCardWrapper({
             <AccordionItem value="Clarifications">
               <AccordionTrigger>Clarifications</AccordionTrigger>
               <AccordionContent>
-                <ul className="list-disc list-outside ml-3 flex flex-col space-y-2">
+                <ul className="list-disc list-outside ml-5 flex flex-col space-y-2">
                   {character.Clarifications.map(item => (
                     <li key={item}>{item}</li>
                   ))}
@@ -130,7 +129,7 @@ export default function CharacterCardWrapper({
             <AccordionItem value="Strengths">
               <AccordionTrigger>Strengths</AccordionTrigger>
               <AccordionContent>
-                <ul className="list-disc list-outside ml-3 flex flex-col space-y-2">
+                <ul className="list-disc list-outside ml-5 flex flex-col space-y-2">
                   {character.Strengths.map(item => (
                     <li key={item}>{item}</li>
                   ))}
@@ -140,7 +139,7 @@ export default function CharacterCardWrapper({
             <AccordionItem value="Weaknesses">
               <AccordionTrigger>Weaknesses</AccordionTrigger>
               <AccordionContent>
-                <ul className="list-disc list-outside ml-3 flex flex-col space-y-2">
+                <ul className="list-disc list-outside ml-5 flex flex-col space-y-2">
                   {character.Weaknesses.map(item => (
                     <li key={item}>{item}</li>
                   ))}
@@ -150,7 +149,7 @@ export default function CharacterCardWrapper({
             <AccordionItem value="NotableCombinations">
               <AccordionTrigger>Notable Combinations</AccordionTrigger>
               <AccordionContent>
-                <ul className="list-disc list-outside ml-3 flex flex-col space-y-2">
+                <ul className="list-disc list-outside ml-5 flex flex-col space-y-2">
                   {character.NotableCombinations.map(item => (
                     <li key={item}>{item}</li>
                   ))}
@@ -174,11 +173,6 @@ export default function CharacterCardWrapper({
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-          <Button asChild className="mt-5">
-            <Link href={character.Link} target="_blank">
-              Open Source
-            </Link>
-          </Button>
         </div>
       </div>
     </div>

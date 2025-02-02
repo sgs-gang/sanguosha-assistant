@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import Link from 'next/link'
 import { Star } from 'lucide-react'
 import { Character } from '@/data/character'
+import Image from 'next/image'
 
 interface CharacterCardProps {
   character: Character
@@ -34,17 +35,16 @@ export function CharacterCard({
       </button>
       <Link href={`/characters/${character.Slug}`}>
         <CardHeader className="p-0">
-          <div className="aspect-[7/10] relative">
-            <img
-              src={
-                character.ImageUrl
-                  ? `/sanguosha-assistant/import/${character.ImageUrl}`
-                  : '/placeholder.svg'
-              }
-              alt={character.Name}
-              className="object-cover w-full h-full"
-            />
-          </div>
+          <Image
+            src={
+              character.ImageUrl
+                ? `/sanguosha-assistant/import/${character.ImageUrl}`
+                : '/placeholder.svg'
+            }
+            width={441}
+            height={645}
+            alt={character.Name}
+          />
         </CardHeader>
         <CardContent className="bg-white/50 p-0 md:p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg flex flex-col h-1/4 justify-center">
           <h4 className="md:font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">

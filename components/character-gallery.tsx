@@ -89,9 +89,9 @@ export default function CharacterGallery() {
                     color: '#fff',
                     outline: isSelected
                       ? `2px solid ${alignment.color}`
-                      : 'none',
-                    outlineOffset: isSelected ? '2px' : '0',
-                    transition: 'outline-color 0.5s ease-in',
+                      : '2px solid transparent',
+                    outlineOffset: '2px',
+                    transition: 'outline-color 0.2s ease-in-out',
                   }}
                 >
                   {alignment.label}
