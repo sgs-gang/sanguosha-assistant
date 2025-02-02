@@ -1,9 +1,9 @@
 import Show from '@/components/show'
-import { characters } from '@/data/character'
+import { equipments } from '@/data/equipment'
 import { Metadata } from 'next'
 
 export async function generateStaticParams() {
-  return characters.map(({ Slug }) => ({ Slug }))
+  return equipments.map(({ Slug }) => ({ Slug }))
 }
 
 interface Props {
@@ -13,20 +13,20 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const Slug = (await params).Slug
 
-  const character = characters.find(character => character.Slug === Slug)!
+  const equipment = equipments.find(equipment => equipment.Slug === Slug)!
 
   return {
-    title: `${character.Name} | San Guo Sha Assistant`,
+    title: `${equipment.Name} | San Guo Sha Assistant`,
     openGraph: {
-      images: [character.ImageUrl],
+      images: [equipment.ImageUrl],
     },
   }
 }
 
-export default function CharacterPage({ params }: Props) {
+export default function EquipmentPage({ params }: Props) {
   const Slug = params.Slug
 
-  const item = characters.find(character => character.Slug === Slug)
+  const item = equipments.find(equipment => equipment.Slug === Slug)
 
   if (!item) {
     return <div>404</div>

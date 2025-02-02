@@ -1,20 +1,21 @@
 'use client'
 
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
+import { Card as UiCard, CardHeader } from '@/components/ui/card'
 import Link from 'next/link'
 import { Star } from 'lucide-react'
-import { Character } from '@/data/character'
 import Image from 'next/image'
+import { Equipment } from '@/data/equipment'
 import { CardProps } from './gallery'
+import { Card } from '@/data/card'
 
-export function CharacterCard({
+export function PlayingCard({
   basePath,
   item,
   isFavorite,
   onToggleFavorite,
-}: CardProps<Character>) {
+}: CardProps<Equipment | Card>) {
   return (
-    <Card className="overflow-hidden transition-transform hover:scale-105 relative">
+    <UiCard className="overflow-hidden transition-transform hover:scale-105 relative">
       <button
         className="absolute top-2 right-2 z-10 p-1 bg-white rounded-full shadow-md"
         onClick={e => {
@@ -35,18 +36,10 @@ export function CharacterCard({
             src={`/sanguosha-assistant/import/${item.ImageUrl}`}
             width={441}
             height={645}
-            alt={item.Name.Original}
+            alt={item.Name}
           />
         </CardHeader>
-        <CardContent className="bg-white/50 p-0 md:p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg flex flex-col h-1/4 justify-center">
-          <h4 className="md:font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">
-            {item.Name.English}
-          </h4>
-          <h5 className="whitespace-nowrap text-ellipsis overflow-hidden text-center hidden md:block">
-            {item.Description.English}
-          </h5>
-        </CardContent>
       </Link>
-    </Card>
+    </UiCard>
   )
 }

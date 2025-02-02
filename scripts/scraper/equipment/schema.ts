@@ -28,6 +28,11 @@ export const basicSchema = z.object({
 })
 
 export const schema = basicSchema.extend({
+  Name: z.object({
+    English: z.string(),
+    Chinese: z.string(),
+    Original: z.string(),
+  }),
   Slug: z.string(),
   ImageUrl: z.string(),
   Description: z.string(),

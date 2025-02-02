@@ -1,7 +1,11 @@
 [
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/blaze",
-    "Name": "Blaze 火攻",
+    "Name": {
+      "English": "Blaze",
+      "Chinese": "火攻",
+      "Original": "Blaze 火攻"
+    },
     "Expansion": "Army",
     "Type": "Tool",
     "Total": 3,
@@ -22,7 +26,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/chains",
-    "Name": "Chains 铁索连环",
+    "Name": {
+      "English": "Chains",
+      "Chinese": "铁索连环",
+      "Original": "Chains 铁索连环"
+    },
     "Expansion": "Army",
     "Type": "Tool",
     "Total": 6,
@@ -46,7 +54,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/escape",
-    "Name": "Escape 闪",
+    "Name": {
+      "English": "Escape",
+      "Chinese": "闪",
+      "Original": "Escape 闪"
+    },
     "Expansion": "Army",
     "Type": "Basic",
     "Total": 24,
@@ -64,7 +76,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/fire-attack",
-    "Name": "Fire Attack 火杀",
+    "Name": {
+      "English": "Fire Attack",
+      "Chinese": "火杀",
+      "Original": "Fire Attack 火杀"
+    },
     "Expansion": "Army",
     "Type": "Basic",
     "Total": 5,
@@ -85,7 +101,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/lightning-attack",
-    "Name": "Lightning Attack 雷杀",
+    "Name": {
+      "English": "Lightning Attack",
+      "Chinese": "雷杀",
+      "Original": "Lightning Attack 雷杀"
+    },
     "Expansion": "Army",
     "Type": "Basic",
     "Total": 9,
@@ -106,10 +126,14 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
-    "Name": "Negate 无懈可击",
+    "Name": {
+      "English": "Negate",
+      "Chinese": "无懈可击",
+      "Original": "Negate 无懈可击"
+    },
     "Expansion": "Army",
     "Type": "Tool",
-    "Total": 7,
+    "Total": 8,
     "Number": 3,
     "Spade": ["K"],
     "Club": [],
@@ -128,7 +152,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/peach",
-    "Name": "Peach 桃",
+    "Name": {
+      "English": "Peach",
+      "Chinese": "桃",
+      "Original": "Peach 桃"
+    },
     "Expansion": "Army",
     "Type": "Basic",
     "Total": 12,
@@ -146,7 +174,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/starvation",
-    "Name": "Starvation 兵粮寸断",
+    "Name": {
+      "English": "Starvation",
+      "Chinese": "兵粮寸断",
+      "Original": "Starvation 兵粮寸断"
+    },
     "Expansion": "Army",
     "Type": "Delay Tool",
     "Total": 2,
@@ -167,7 +199,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/wine",
-    "Name": "Wine 酒",
+    "Name": {
+      "English": "Wine",
+      "Chinese": "酒",
+      "Original": "Wine 酒"
+    },
     "Expansion": "Army",
     "Type": "Basic",
     "Total": 5,
@@ -187,7 +223,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/attack",
-    "Name": "Attack 杀",
+    "Name": {
+      "English": "Attack",
+      "Chinese": "杀",
+      "Original": "Attack 杀"
+    },
     "Expansion": "Base",
     "Type": "Basic",
     "Total": 30,
@@ -222,7 +262,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/barbarians",
-    "Name": "Barbarians 南蛮入侵",
+    "Name": {
+      "English": "Barbarians",
+      "Chinese": "南蛮入侵",
+      "Original": "Barbarians 南蛮入侵"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 3,
@@ -242,7 +286,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/break",
-    "Name": "Break 过河拆桥",
+    "Name": {
+      "English": "Break",
+      "Chinese": "过河拆桥",
+      "Original": "Break 过河拆桥"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 8,
@@ -262,7 +310,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/capture",
-    "Name": "Capture 乐不思蜀",
+    "Name": {
+      "English": "Capture",
+      "Chinese": "乐不思蜀",
+      "Original": "Capture 乐不思蜀"
+    },
     "Expansion": "Base",
     "Type": "Delay Tool",
     "Total": 3,
@@ -283,7 +335,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/coerce",
-    "Name": "Coerce 借刀杀人",
+    "Name": {
+      "English": "Coerce",
+      "Chinese": "借刀杀人",
+      "Original": "Coerce 借刀杀人"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 2,
@@ -304,7 +360,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/draw-two",
-    "Name": "Draw Two 无中生有",
+    "Name": {
+      "English": "Draw Two",
+      "Chinese": "无中生有",
+      "Original": "Draw Two 无中生有"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 4,
@@ -320,7 +380,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/duel",
-    "Name": "Duel 决斗",
+    "Name": {
+      "English": "Duel",
+      "Chinese": "决斗",
+      "Original": "Duel 决斗"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 3,
@@ -339,7 +403,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/escape",
-    "Name": "Escape 闪",
+    "Name": {
+      "English": "Escape",
+      "Chinese": "闪",
+      "Original": "Escape 闪"
+    },
     "Expansion": "Base",
     "Type": "Basic",
     "Total": 24,
@@ -357,7 +425,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/hail-of-arrows",
-    "Name": "Hail of Arrows 万箭齐发",
+    "Name": {
+      "English": "Hail of Arrows",
+      "Chinese": "万箭齐发",
+      "Original": "Hail of Arrows 万箭齐发"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 1,
@@ -376,7 +448,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/harvest",
-    "Name": "Harvest 五谷丰登",
+    "Name": {
+      "English": "Harvest",
+      "Chinese": "五谷丰登",
+      "Original": "Harvest 五谷丰登"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 2,
@@ -397,7 +473,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/lightning",
-    "Name": "Lightning 闪电",
+    "Name": {
+      "English": "Lightning",
+      "Chinese": "闪电",
+      "Original": "Lightning 闪电"
+    },
     "Expansion": "Base",
     "Type": "Delay Tool",
     "Total": 2,
@@ -419,10 +499,14 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
-    "Name": "Negate 无懈可击",
+    "Name": {
+      "English": "Negate",
+      "Chinese": "无懈可击",
+      "Original": "Negate 无懈可击"
+    },
     "Expansion": "Base",
     "Type": "Tool",
-    "Total": 7,
+    "Total": 8,
     "Number": 3,
     "Spade": ["J"],
     "Club": ["Q", "K"],
@@ -441,7 +525,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/peach",
-    "Name": "Peach 桃",
+    "Name": {
+      "English": "Peach",
+      "Chinese": "桃",
+      "Original": "Peach 桃"
+    },
     "Expansion": "Base",
     "Type": "Basic",
     "Total": 12,
@@ -459,7 +547,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/peach-garden",
-    "Name": "Peach Garden 桃园结义",
+    "Name": {
+      "English": "Peach Garden",
+      "Chinese": "桃园结义",
+      "Original": "Peach Garden 桃园结义"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 1,
@@ -477,7 +569,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/steal",
-    "Name": "Steal 顺手牵羊",
+    "Name": {
+      "English": "Steal",
+      "Chinese": "顺手牵羊",
+      "Original": "Steal 顺手牵羊"
+    },
     "Expansion": "Base",
     "Type": "Tool",
     "Total": 6,
@@ -498,7 +594,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/break",
-    "Name": "Break 过河拆桥",
+    "Name": {
+      "English": "Break",
+      "Chinese": "过河拆桥",
+      "Original": "Break 过河拆桥"
+    },
     "Expansion": "Daemon",
     "Type": "Tool",
     "Total": 8,
@@ -518,7 +618,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/steal",
-    "Name": "Steal 顺手牵羊",
+    "Name": {
+      "English": "Steal",
+      "Chinese": "顺手牵羊",
+      "Original": "Steal 顺手牵羊"
+    },
     "Expansion": "Daemon",
     "Type": "Tool",
     "Total": 6,
@@ -539,7 +643,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/lightning",
-    "Name": "Lightning 闪电",
+    "Name": {
+      "English": "Lightning",
+      "Chinese": "闪电",
+      "Original": "Lightning 闪电"
+    },
     "Expansion": "EX",
     "Type": "Delay Tool",
     "Total": 2,
@@ -561,10 +669,14 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
-    "Name": "Negate 无懈可击",
+    "Name": {
+      "English": "Negate",
+      "Chinese": "无懈可击",
+      "Original": "Negate 无懈可击"
+    },
     "Expansion": "EX",
     "Type": "Tool",
-    "Total": 7,
+    "Total": 8,
     "Number": 1,
     "Spade": [],
     "Club": [],
@@ -583,14 +695,19 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/borrow-arrows-using-straw-boats",
-    "Name": "Borrow Arrows Using Straw Boats 草船借剑",
+    "Name": {
+      "English": "Borrow Arrows Using Straw Boats",
+      "Chinese": "草船借剑",
+      "Original": "Borrow Arrows Using Straw Boats 草船借剑"
+    },
     "Expansion": "Wraith",
     "Type": "Tool",
-    "Total": 0,
-    "Spade": [],
+    "Total": 3,
+    "Number": 3,
+    "Spade": ["A"],
     "Club": [],
-    "Diamond": [],
-    "Heart": [],
+    "Diamond": ["(6)", "9"],
+    "Heart": ["(6)"],
     "Description": "This card targets a player with cards in their hand. The target may play an Attack.If it is a Fire Attack, the you take 1 fire damage.If the Attack is not a Fire Attack, the Attack is added to your hand.If the target does not play an Attack, they receive 1 damage.",
     "Slug": "borrow-arrows-using-straw-boats",
     "Clarifications": [
@@ -600,15 +717,46 @@
     "ImageUrl": "/card/borrow-arrows-using-straw-boats.jpg"
   },
   {
-    "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/eight-golden-doors",
-    "Name": "Eight Golden Doors 八门金锁",
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/negate",
+    "Name": {
+      "English": "Negate",
+      "Chinese": "无懈可击",
+      "Original": "Negate 无懈可击"
+    },
     "Expansion": "Wraith",
-    "Type": "Delay Tool",
-    "Total": 0,
+    "Type": "Tool",
+    "Total": 8,
+    "Number": 1,
     "Spade": [],
     "Club": [],
-    "Diamond": [],
+    "Diamond": ["Q"],
     "Heart": [],
+    "Description": "Any player can play this in response to any tool card being played.  The tool card then no longer works.",
+    "Slug": "negate",
+    "Clarifications": [
+      "When Negate is used against a tool card with multiple targets, it only cancels the effect for one specific target.",
+      "Negate can be used both during and outside a player's turn. It can counter any tool card regardless of who played it or who the target is.",
+      "A player can use Negate on their own tool cards.",
+      "Negate can be used to counter another Negate. A second Negate can counter the first, and a third can counter the second, continuing this chain indefinitely.",
+      "To negate a delay tool card, Negate must be used at the time of judgment, not when the delay card is placed."
+    ],
+    "ImageUrl": "/card/negate.jpg"
+  },
+  {
+    "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/eight-golden-doors",
+    "Name": {
+      "English": "Eight Golden Doors",
+      "Chinese": "八门金锁",
+      "Original": "Eight Golden Doors 八门金锁"
+    },
+    "Expansion": "Wraith",
+    "Type": "Delay Tool",
+    "Total": 3,
+    "Number": 3,
+    "Spade": [],
+    "Club": [],
+    "Diamond": ["(8)"],
+    "Heart": ["4", "7", "(8)"],
     "Description": "Eight Golden Doors",
     "Slug": "eight-golden-doors",
     "Clarifications": [
@@ -620,11 +768,16 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/flooding-seven-armies",
-    "Name": "Flooding Seven Armies 水淹七军",
+    "Name": {
+      "English": "Flooding Seven Armies",
+      "Chinese": "水淹七军",
+      "Original": "Flooding Seven Armies 水淹七军"
+    },
     "Expansion": "Wraith",
     "Type": "Tool",
-    "Total": 0,
-    "Spade": [],
+    "Total": 2,
+    "Number": 2,
+    "Spade": ["3", "10"],
     "Club": [],
     "Diamond": [],
     "Heart": [],
@@ -640,13 +793,18 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/scrape-the-bone-to-cure-poison",
-    "Name": "Scrape the Bone to Cure Poison 刮骨疗毒",
+    "Name": {
+      "English": "Scrape the Bone to Cure Poison",
+      "Chinese": "刮骨疗毒",
+      "Original": "Scrape the Bone to Cure Poison 刮骨疗毒"
+    },
     "Expansion": "Wraith",
     "Type": "Tool",
-    "Total": 0,
+    "Total": 1,
+    "Number": 1,
     "Spade": [],
     "Club": [],
-    "Diamond": [],
+    "Diamond": ["8"],
     "Heart": [],
     "Description": "Any player may target another damaged player with this card. The target player is healed by 1, and the player using this card loses 1 health.",
     "Slug": "scrape-the-bone-to-cure-poison",
@@ -662,12 +820,17 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/toxin",
-    "Name": "Toxin 施毒",
+    "Name": {
+      "English": "Toxin",
+      "Chinese": "施毒",
+      "Original": "Toxin 施毒"
+    },
     "Expansion": "Wraith",
     "Type": "Delay Tool",
-    "Total": 0,
+    "Total": 3,
+    "Number": 3,
     "Spade": [],
-    "Club": [],
+    "Club": ["2", "5", "J"],
     "Diamond": [],
     "Heart": [],
     "Description": "Toxin",
@@ -681,14 +844,19 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/wraith/travel-alone-but-armed",
-    "Name": "Travel Alone, but Armed 单刀赴会",
+    "Name": {
+      "English": "Travel Alone but Armed",
+      "Chinese": "单刀赴会",
+      "Original": "Travel Alone, but Armed 单刀赴会"
+    },
     "Expansion": "Wraith",
     "Type": "Tool",
-    "Total": 0,
+    "Total": 2,
+    "Number": 2,
     "Spade": [],
-    "Club": [],
+    "Club": ["J"],
     "Diamond": [],
-    "Heart": [],
+    "Heart": ["Q"],
     "Description": "This card can be used outside of a player's turn to nullify 1 unit of damage for any player within the user's attacking range.",
     "Slug": "travel-alone-but-armed",
     "Clarifications": [

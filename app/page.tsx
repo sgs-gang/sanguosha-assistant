@@ -1,4 +1,4 @@
-import CharacterGallery from '@/components/character-gallery'
+import CharacterGallery from '@/components/gallery'
 
 import { Suspense } from 'react'
 

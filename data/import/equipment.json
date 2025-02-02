@@ -1,7 +1,11 @@
 [
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/ancient-scimitar",
-    "Name": "Ancient Scimitar 古锭刀",
+    "Name": {
+      "English": "Ancient Scimitar",
+      "Chinese": "古锭刀",
+      "Original": "Ancient Scimitar 古锭刀"
+    },
     "Expansion": "Army",
     "Type": "Weapon",
     "Range": 2,
@@ -32,7 +36,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/fire-fan",
-    "Name": "Fire Fan 朱雀羽扇",
+    "Name": {
+      "English": "Fire Fan",
+      "Chinese": "朱雀羽扇",
+      "Original": "Fire Fan 朱雀羽扇"
+    },
     "Expansion": "Army",
     "Type": "Weapon",
     "Range": 4,
@@ -62,7 +70,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/hua-liu",
-    "Name": "Hua Liu 骅骝",
+    "Name": {
+      "English": "Hua Liu",
+      "Chinese": "骅骝",
+      "Original": "Hua Liu 骅骝"
+    },
     "Expansion": "Army",
     "Type": "Horse",
     "Range": 1,
@@ -85,7 +97,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/silver-helmet",
-    "Name": "Silver Helmet 白银狮子",
+    "Name": {
+      "English": "Silver Helmet",
+      "Chinese": "白银狮子",
+      "Original": "Silver Helmet 白银狮子"
+    },
     "Expansion": "Army",
     "Type": "Armor",
     "Number": 1,
@@ -114,7 +130,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/wood-armor",
-    "Name": "Wood Armor 藤甲",
+    "Name": {
+      "English": "Wood Armor",
+      "Chinese": "藤甲",
+      "Original": "Wood Armor 藤甲"
+    },
     "Expansion": "Army",
     "Type": "Armor",
     "Number": 2,
@@ -145,7 +165,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/axe",
-    "Name": "Axe 贯石斧",
+    "Name": {
+      "English": "Axe",
+      "Chinese": "贯石斧",
+      "Original": "Axe 贯石斧"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 3,
@@ -179,7 +203,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/black-pommel",
-    "Name": "Black Pommel 青釭剑",
+    "Name": {
+      "English": "Black Pommel",
+      "Chinese": "青釭剑",
+      "Original": "Black Pommel 青釭剑"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 2,
@@ -208,7 +236,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/crossbow",
-    "Name": "Crossbow 诸葛连弩",
+    "Name": {
+      "English": "Crossbow",
+      "Chinese": "诸葛连弩",
+      "Original": "Crossbow 诸葛连弩"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 1,
@@ -240,7 +272,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/da-yuan",
-    "Name": "Da Yuan 大宛",
+    "Name": {
+      "English": "Da Yuan",
+      "Chinese": "大宛",
+      "Original": "Da Yuan 大宛"
+    },
     "Expansion": "Base",
     "Type": "Horse",
     "Range": 1,
@@ -264,7 +300,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/di-lu",
-    "Name": "Di Lu 的卢",
+    "Name": {
+      "English": "Di Lu",
+      "Chinese": "的卢",
+      "Original": "Di Lu 的卢"
+    },
     "Expansion": "Base",
     "Type": "Horse",
     "Range": 1,
@@ -288,7 +328,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/eight-trigrams",
-    "Name": "Eight Trigrams 八卦阵",
+    "Name": {
+      "English": "Eight Trigrams",
+      "Chinese": "八卦阵",
+      "Original": "Eight Trigrams 八卦阵"
+    },
     "Expansion": "Base",
     "Type": "Armor",
     "Number": 2,
@@ -326,7 +370,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/gender-swords",
-    "Name": "Gender Swords 雌雄双股剑",
+    "Name": {
+      "English": "Gender Swords",
+      "Chinese": "雌雄双股剑",
+      "Original": "Gender Swords 雌雄双股剑"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 2,
@@ -356,7 +404,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/green-dragon-blade",
-    "Name": "Green Dragon Blade 青龙偃月刀",
+    "Name": {
+      "English": "Green Dragon Blade",
+      "Chinese": "青龙偃月刀",
+      "Original": "Green Dragon Blade 青龙偃月刀"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 3,
@@ -388,7 +440,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/longbow",
-    "Name": "Longbow 麒麟弓",
+    "Name": {
+      "English": "Longbow",
+      "Chinese": "麒麟弓",
+      "Original": "Longbow 麒麟弓"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 5,
@@ -416,7 +472,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/red-hare",
-    "Name": "Red Hare 赤兔",
+    "Name": {
+      "English": "Red Hare",
+      "Chinese": "赤兔",
+      "Original": "Red Hare 赤兔"
+    },
     "Expansion": "Base",
     "Type": "Horse",
     "Range": 1,
@@ -439,7 +499,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/serpent-spear",
-    "Name": "Serpent Spear丈八蛇矛",
+    "Name": {
+      "English": "Serpent Spear",
+      "Chinese": "Spear丈八蛇矛",
+      "Original": "Serpent Spear丈八蛇矛"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 3,
@@ -469,7 +533,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/shadow-runner",
-    "Name": "Shadow Runner 绝影",
+    "Name": {
+      "English": "Shadow Runner",
+      "Chinese": "绝影",
+      "Original": "Shadow Runner 绝影"
+    },
     "Expansion": "Base",
     "Type": "Horse",
     "Range": 1,
@@ -493,7 +561,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/sky-scorcher",
-    "Name": "Sky Scorcher 方天画戟",
+    "Name": {
+      "English": "Sky Scorcher",
+      "Chinese": "方天画戟",
+      "Original": "Sky Scorcher 方天画戟"
+    },
     "Expansion": "Base",
     "Type": "Weapon",
     "Range": 4,
@@ -528,7 +600,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/storm-runner",
-    "Name": "Storm Runner 爪黄飞电",
+    "Name": {
+      "English": "Storm Runner",
+      "Chinese": "爪黄飞电",
+      "Original": "Storm Runner 爪黄飞电"
+    },
     "Expansion": "Base",
     "Type": "Horse",
     "Range": 1,
@@ -551,7 +627,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/zi-xing",
-    "Name": "Zi Xing 紫骍",
+    "Name": {
+      "English": "Zi Xing",
+      "Chinese": "紫骍",
+      "Original": "Zi Xing 紫骍"
+    },
     "Expansion": "Base",
     "Type": "Horse",
     "Range": 1,
@@ -574,7 +654,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/seven-star-sword",
-    "Name": "Seven Star Sword 七宝刀",
+    "Name": {
+      "English": "Seven Star Sword",
+      "Chinese": "七宝刀",
+      "Original": "Seven Star Sword 七宝刀"
+    },
     "Expansion": "Daemon",
     "Type": "Weapon",
     "Range": 2,
@@ -611,7 +695,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/spiked-iron-mace",
-    "Name": "Spiked Iron Mace 铁蒺藜骨朵",
+    "Name": {
+      "English": "Spiked Iron Mace",
+      "Chinese": "铁蒺藜骨朵",
+      "Original": "Spiked Iron Mace 铁蒺藜骨朵"
+    },
     "Expansion": "Daemon",
     "Type": "Weapon",
     "Range": 3,
@@ -647,7 +735,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/berserker-mail",
-    "Name": "Berserker Mail 连环铠",
+    "Name": {
+      "English": "Berserker Mail",
+      "Chinese": "连环铠",
+      "Original": "Berserker Mail 连环铠"
+    },
     "Expansion": "Daemon",
     "Type": "Armor",
     "Number": 1,
@@ -679,7 +771,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/green-eyed-white-cow",
-    "Name": "Green Eyed White Cow 碧眼白水牛",
+    "Name": {
+      "English": "Green Eyed White Cow",
+      "Chinese": "碧眼白水牛",
+      "Original": "Green Eyed White Cow 碧眼白水牛"
+    },
     "Expansion": "Daemon",
     "Type": "Horse",
     "Range": 2,
@@ -702,7 +798,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/nanman-elephant",
-    "Name": "Nanman Elephant 南蛮象",
+    "Name": {
+      "English": "Nanman Elephant",
+      "Chinese": "南蛮象",
+      "Original": "Nanman Elephant 南蛮象"
+    },
     "Expansion": "Daemon",
     "Type": "Horse",
     "Range": 2,
@@ -725,7 +825,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/almanac",
-    "Name": "Almanac 遁甲天书",
+    "Name": {
+      "English": "Almanac",
+      "Chinese": "遁甲天书",
+      "Original": "Almanac 遁甲天书"
+    },
     "Expansion": "Daemon",
     "Type": "Treasure",
     "Number": 1,
@@ -754,7 +858,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/atlas-of-shu",
-    "Name": "Atlas of Shu 蜀道图",
+    "Name": {
+      "English": "Atlas of Shu",
+      "Chinese": "蜀道图",
+      "Original": "Atlas of Shu 蜀道图"
+    },
     "Expansion": "Daemon",
     "Type": "Treasure",
     "Number": 1,
@@ -786,7 +894,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/bronze-bird-ode",
-    "Name": "Bronze Bird Ode 铜雀赋",
+    "Name": {
+      "English": "Bronze Bird Ode",
+      "Chinese": "铜雀赋",
+      "Original": "Bronze Bird Ode 铜雀赋"
+    },
     "Expansion": "Daemon",
     "Type": "Treasure",
     "Number": 1,
@@ -815,7 +927,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/green-vesicle-book",
-    "Name": "Green Vesicle Book 青囊书",
+    "Name": {
+      "English": "Green Vesicle Book",
+      "Chinese": "青囊书",
+      "Original": "Green Vesicle Book 青囊书"
+    },
     "Expansion": "Daemon",
     "Type": "Treasure",
     "Number": 1,
@@ -847,7 +963,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/robotic-ox",
-    "Name": "Robotic Ox 木牛流马",
+    "Name": {
+      "English": "Robotic Ox",
+      "Chinese": "木牛流马",
+      "Original": "Robotic Ox 木牛流马"
+    },
     "Expansion": "Daemon",
     "Type": "Treasure",
     "Number": 1,
@@ -879,7 +999,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/black-shield",
-    "Name": "Black Shield 仁王盾",
+    "Name": {
+      "English": "Black Shield",
+      "Chinese": "仁王盾",
+      "Original": "Black Shield 仁王盾"
+    },
     "Expansion": "EX",
     "Type": "Armor",
     "Number": 1,
@@ -913,7 +1037,11 @@
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/ice-sword",
-    "Name": "Ice Sword 寒冰剑",
+    "Name": {
+      "English": "Ice Sword",
+      "Chinese": "寒冰剑",
+      "Original": "Ice Sword 寒冰剑"
+    },
     "Expansion": "EX",
     "Type": "Weapon",
     "Range": 2,

@@ -35,7 +35,11 @@ export async function add(
 
   return {
     ...card,
-    Name,
+    Name: {
+      English: Name.replaceAll(/[^A-Za-z ]/g, '').trim(),
+      Chinese: Name.split(' ').at(-1) ?? '',
+      Original: Name,
+    },
     Description,
     Slug,
     Clarifications,

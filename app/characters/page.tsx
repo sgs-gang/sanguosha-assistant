@@ -1,4 +1,6 @@
-import CharacterGallery from '@/components/character-gallery'
+import { CharacterCard } from '@/components/character-card'
+import Gallery from '@/components/gallery'
+import { characters, filters } from '@/data/character'
 import { Metadata } from 'next'
 import { Suspense } from 'react'
 
@@ -9,7 +11,12 @@ export const metadata: Metadata = {
 export default function CharacterPage() {
   return (
     <Suspense fallback={<p>Loading feed...</p>}>
-      <CharacterGallery />
+      <Gallery
+        basePath="characters"
+        list={characters}
+        filters={filters}
+        Card={CharacterCard}
+      />
     </Suspense>
   )
 }
