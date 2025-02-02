@@ -35,4 +35,11 @@ export const schema = basicSchema.extend({
   NotableCombinations: z.array(z.string()),
   FinalRemarks: z.array(z.string()),
   RelationToHistory: z.array(z.string()),
+  Range: z.number().optional(),
+  Direction: z.enum(['Minus', 'Plus']).optional(),
+  Number: z.number(),
+  Spade: z.array(z.string()),
+  Club: z.array(z.string()),
+  Diamond: z.array(z.string()),
+  Heart: z.array(z.string()),
 })
