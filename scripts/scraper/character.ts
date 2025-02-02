@@ -4,7 +4,6 @@ import { Character } from '@/data/character'
 import { Readable } from 'node:stream'
 import { finished } from 'node:stream/promises'
 import { ReadableStream } from 'node:stream/web'
-import { parse } from 'async-csv'
 import { z } from 'zod'
 
 async function saveImage(url: string, filename: string) {
@@ -34,7 +33,7 @@ export const schema = z.object({
   Ruler: z
     .union([z.literal('FALSE'), z.literal('TRUE')])
     .transform(value => (value === 'TRUE' ? true : false)),
-  Health: z.string().transform(value => value.replace(/,/g, '')),
+  Health: z.string().transform(value => Number(value)),
   Gender: z
     .union([z.literal('Male'), z.literal('Female')])
     .transform(value => value.toLowerCase()),
@@ -46,78 +45,31 @@ export const LIST_URL =
 export async function add(
   character: z.infer<typeof schema>,
 ): Promise<Character> {
+  const name = character.Name
+  const slug = character.Name.toLowerCase().replace(/\s+/g, '-')
+  const gender = character.Gender
+
   const body = await (await fetch(character.Link)).text()
   const $ = cheerio.load(body)
-  const name = $('h2.post-title').text().replace(/\n+/g, '').trim()
 
-  const imageUrl = $('div.post-body img').first().attr('src')
-  if (imageUrl == null) throw new Error('Image not found')
+  const description = $('div.tyJCtd.mGzaTb.Depvyb.baZpAe').text()
 
-  const slug = character.Name.toLowerCase().replace(/\s+/g, '-')
+  console.log(description)
 
-  const description = $('div.post-body')
-    .text()
-    .trim()
-    .replace(/\n+/g, '\n')
-    .match(/Translated [Dd]escription:?\s*\n[“"]?(?<description>[^"”\n]*)["”]?/)
-    ?.groups?.description
-  if (description == null)
-    throw new Error('Description not found', { cause: character.Link })
-
-  const abilities: Character['abilities'] = $('b')
-    .filter(function () {
-      return $(this).text().trim().startsWith('Character ability')
-    })
-    .map((_, element) => {
-      const heading = $(element).text()
-      const name =
-        heading.match(/[“"](?<name>.*)["”]/)?.groups?.name?.trim() ??
-        heading.split(/[“"]/)[1]?.trim() ??
-        heading.split(/:/)[1]?.trim()
-      if (name == null)
-        throw new Error('Ability name not found', { cause: heading })
-
-      // const [description, explanation] = $(element)
-      //   .parent()
-      //   .clone() //clone the element
-      //   .children() //select all the children
-      //   .remove() //remove all the children
-      //   .end() //again go back to selected element
-      //   .text()
-      //   .trim()
-      //   .replace(/\n+/g, '\n')
-      //   .split('\n', 2)
-
-      const [description, ...explanations] = $(element)
-        .nextUntil('b:not(:has(> *)):not(:empty)')
-        .text()
-        .trim()
-        .replace(/\n+/g, '\n')
-        .split('\n')
-
-      const enforced = heading.includes('[Enforced ability]')
-      const ruler = heading.includes('[Ruler ability]')
-
-      return {
-        name,
-        description,
-        explanation: explanations.join('\n'),
-        enforced,
-        ruler,
-      }
-    })
-    .toArray()
+  const imageUrl = $('img.CENy8b').attr('src')
+  // if (imageUrl == null) throw new Error('Image not found')
 
   const filename = `${slug}.jpg`
-  await saveImage(imageUrl, filename)
+  // await saveImage(imageUrl, filename)
 
   return {
     id: slug,
     name,
+    gender,
     description,
-    faction,
+    // faction,
     imageUrl: filename,
-    abilities,
+    // abilities,
     sourceUrl: character.Link,
   }
 }

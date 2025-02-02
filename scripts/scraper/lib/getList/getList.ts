@@ -13,6 +13,7 @@ export async function getList<T>(
   })
 
   const data = await parse(await res.text(), { columns: true })
+  data.splice(-2)
 
   return schema.array().parse(data)
 }
