@@ -6,6 +6,7 @@ import { Star } from 'lucide-react'
 import { Character } from '@/data/character'
 import Image from 'next/image'
 import { CardProps } from './gallery'
+import { useSearchParams } from 'next/navigation'
 
 export function CharacterCard({
   basePath,
@@ -13,6 +14,9 @@ export function CharacterCard({
   isFavorite,
   onToggleFavorite,
 }: CardProps<Character>) {
+  const searchParams = useSearchParams()
+  const params = searchParams.toString()
+
   return (
     <Card className="overflow-hidden transition-transform hover:scale-105 relative">
       <button
@@ -29,7 +33,7 @@ export function CharacterCard({
           }
         />
       </button>
-      <Link href={`/${basePath}/${item.Slug}`}>
+      <Link href={`/${basePath}/${item.Slug}/?${params}`}>
         <CardHeader className="p-0">
           <Image
             src={`/sanguosha-assistant/import/${item.ImageUrl}`}

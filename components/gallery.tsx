@@ -42,7 +42,7 @@ export default function Gallery<T extends { Slug: string }>({
 
   useEffect(() => {
     filters.forEach(({ name }) => {
-      const value = searchParams.get(name.toLowerCase())
+      const value = searchParams.get(name)
       if (value) {
         setSelectedFilters(prev => ({ ...prev, [name]: value }))
       }
