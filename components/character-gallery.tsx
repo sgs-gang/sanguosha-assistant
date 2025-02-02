@@ -29,13 +29,13 @@ export default function CharacterGallery() {
 
   const filteredCharacters = characters.filter(
     character =>
-      (selectedFaction === 'all' || character.faction === selectedFaction) &&
-      (!showOnlyFavorites || favorites.includes(character.id)),
+      (selectedFaction === 'all' || character.Alignment === selectedFaction) &&
+      (!showOnlyFavorites || favorites.includes(character.Slug)),
   )
 
   const sortedCharacters = [...filteredCharacters].sort((a, b) => {
-    if (favorites.includes(a.id) && !favorites.includes(b.id)) return -1
-    if (!favorites.includes(a.id) && favorites.includes(b.id)) return 1
+    if (favorites.includes(a.Slug) && !favorites.includes(b.Slug)) return -1
+    if (!favorites.includes(a.Slug) && favorites.includes(b.Slug)) return 1
     return 0
   })
 
@@ -106,9 +106,9 @@ export default function CharacterGallery() {
       <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {sortedCharacters.map(character => (
           <CharacterCard
-            key={character.id}
+            key={character.Slug}
             character={character}
-            isFavorite={favorites.includes(character.id)}
+            isFavorite={favorites.includes(character.Slug)}
             onToggleFavorite={toggleFavorite}
           />
         ))}

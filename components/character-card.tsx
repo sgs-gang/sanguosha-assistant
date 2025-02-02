@@ -22,7 +22,7 @@ export function CharacterCard({
         className="absolute top-2 right-2 z-10 p-1 bg-white rounded-full shadow-md"
         onClick={e => {
           e.preventDefault()
-          onToggleFavorite(character.id)
+          onToggleFavorite(character.Slug)
         }}
         aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
       >
@@ -32,23 +32,23 @@ export function CharacterCard({
           }
         />
       </button>
-      <Link href={`/characters/${character.id}`}>
+      <Link href={`/characters/${character.Slug}`}>
         <CardHeader className="p-0">
           <div className="aspect-[7/10] relative">
             <img
               src={
-                character.imageUrl
-                  ? `/sanguosha-assistant/characters/${character.imageUrl}`
+                character.ImageUrl
+                  ? `/sanguosha-assistant/import/${character.ImageUrl}`
                   : '/placeholder.svg'
               }
-              alt={character.name}
+              alt={character.Name}
               className="object-cover w-full h-full"
             />
           </div>
         </CardHeader>
         <CardContent className="bg-white/50 p-4 absolute bottom-0 right-0 left-0 backdrop-blur-lg hidden md:flex">
           <h4 className="font-bold whitespace-nowrap text-ellipsis overflow-hidden text-center">
-            {character.name}
+            {character.Name}
           </h4>
         </CardContent>
       </Link>
