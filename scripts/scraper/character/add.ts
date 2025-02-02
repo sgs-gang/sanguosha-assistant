@@ -25,15 +25,23 @@ export async function add(
   const Slug = character.Link.split('/').slice(-1)[0]
   if (Slug == null) throw new Error('Slug not found')
 
-  const Description = $(
-    '.hJDwNd-AhqUyc-OiUrBf.Ft7HRd-AhqUyc-OiUrBf.jXK9ad.D2fZ2.zu5uec.wHaque.g5GTcb',
-  )
-    .last()
-    .text()
-    .trim()
-    .replace(/\n+/g, '\n')
+  const Description = $('div.tyJCtd.mGzaTb.Depvyb.baZpAe').eq(2).text()
   if (Description == null)
     throw new Error('Description not found', { cause: character.Link })
+
+  let abilitiesCount = $('n8H08c UVNKR ').eq(0).children().length
+  let Abilities: { Name: string; Description: String }[] = []
+  $('div.tyJCtd.mGzaTb.Depvyb.baZpAe')
+    .eq(3)
+    .find('ul li')
+    .each((i, li) => {
+      const name = $(li).find('span.C9DxTc').first().text().trim()
+      const description = $(li).find('span.C9DxTc').last().text().trim()
+      Abilities.push({
+        Name: name,
+        Description: description,
+      })
+    })
 
   const Clarifications: string[] = extractBulletList($, 'Clarification')
   const NotableCombinations: string[] = extractBulletList(
@@ -56,5 +64,6 @@ export async function add(
     FinalRemarks,
     RelationToHistory,
     ImageUrl: await getImageUrl($, 'character', Slug),
+    Abilities,
   }
 }

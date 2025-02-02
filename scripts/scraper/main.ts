@@ -75,14 +75,14 @@ async function main(): Promise<void> {
     characterSchema,
     addCharacter,
   )
-  await pull(
-    'equipment',
-    EQUIPMENT_LIST_URL,
-    equipmentBasicSchema,
-    equipmentSchema,
-    addEquipment,
-  )
-  await pull('card', CARD_LIST_URL, cardBasicSchema, cardSchema, addCards)
+  // await pull(
+  //   'equipment',
+  //   EQUIPMENT_LIST_URL,
+  //   equipmentBasicSchema,
+  //   equipmentSchema,
+  //   addEquipment,
+  // )
+  // await pull('card', CARD_LIST_URL, cardBasicSchema, cardSchema, addCards)
 }
 
 main()
