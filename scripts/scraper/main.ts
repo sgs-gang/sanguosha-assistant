@@ -27,7 +27,7 @@ async function pull<T, R>(
   name: string,
   listUrl: string,
   schema: z.ZodType<T>,
-  extendedSchema: z.ZodType<R>,
+  _extendedSchema: z.ZodType<R>,
   addItem: (item: T) => Promise<R>,
 ): Promise<void> {
   const bar = new SingleBar({
@@ -64,7 +64,13 @@ async function pull<T, R>(
 }
 
 async function main(): Promise<void> {
-  // await pull('character', CHARACTER_LIST_URL, characterSchema, characterExtendedSchema, addCharacter)
+  await pull(
+    'character',
+    CHARACTER_LIST_URL,
+    characterSchema,
+    characterExtendedSchema,
+    addCharacter,
+  )
   await pull(
     'equipment',
     EQUIPMENT_LIST_URL,

@@ -1,10 +1,11 @@
 import * as cheerio from 'cheerio'
 import { createWriteStream, existsSync } from 'node:fs'
-import { Character } from '@/data/character'
 import { Readable } from 'node:stream'
 import { finished } from 'node:stream/promises'
 import { ReadableStream } from 'node:stream/web'
 import { z } from 'zod'
+import { extractBulletList } from './lib/extractBulletList'
+import { extractParagraphs } from './lib/extractParagraphs'
 
 async function saveImage(url: string, filename: string) {
   const path = `public/characters/${filename}`
@@ -30,13 +31,19 @@ export const schema = z.object({
     z.literal('Wraith'),
     z.literal('Demon'),
   ]),
-  Ruler: z
-    .union([z.literal('FALSE'), z.literal('TRUE')])
-    .transform(value => (value === 'TRUE' ? true : false)),
-  Health: z.string().transform(value => Number(value)),
-  Gender: z
-    .union([z.literal('Male'), z.literal('Female')])
-    .transform(value => value.toLowerCase()),
+  Ruler: z.string().transform(value => (value === 'TRUE' ? true : false)),
+  Health: z.string().transform(value => parseInt(value)),
+  Gender: z.union([z.literal('Male'), z.literal('Female')]),
+})
+
+export const extendedSchema = schema.extend({
+  Slug: z.string(),
+  ImageUrl: z.string(),
+  Description: z.string(),
+  Clarifications: z.array(z.string()),
+  NotableCombinations: z.array(z.string()),
+  FinalRemarks: z.array(z.string()),
+  RelationToHistory: z.array(z.string()),
 })
 
 export const LIST_URL =
@@ -44,32 +51,54 @@ export const LIST_URL =
 
 export async function add(
   character: z.infer<typeof schema>,
-): Promise<Character> {
-  const name = character.Name
-  const slug = character.Name.toLowerCase().replace(/\s+/g, '-')
-  const gender = character.Gender
-
+): Promise<z.infer<typeof extendedSchema>> {
   const body = await (await fetch(character.Link)).text()
   const $ = cheerio.load(body)
+  const Name = $('.zfr3Q.duRjpb.CDt4Ke')
+    .last()
+    .text()
+    .replace(/\n+/g, '')
+    .trim()
 
-  const description = $('div.tyJCtd.mGzaTb.Depvyb.baZpAe').text()
+  const RemoteImageUrl = $('img.CENy8b').attr('src')
+  if (RemoteImageUrl == null) throw new Error('Image not found')
 
-  console.log(description)
+  const Slug = character.Link.split('/').slice(-1)[0]
+  if (Slug == null) throw new Error('Slug not found')
 
-  const imageUrl = $('img.CENy8b').attr('src')
-  // if (imageUrl == null) throw new Error('Image not found')
+  const Description = $(
+    '.hJDwNd-AhqUyc-OiUrBf.Ft7HRd-AhqUyc-OiUrBf.jXK9ad.D2fZ2.zu5uec.wHaque.g5GTcb',
+  )
+    .last()
+    .text()
+    .trim()
+    .replace(/\n+/g, '\n')
+  if (Description == null)
+    throw new Error('Description not found', { cause: character.Link })
 
-  const filename = `${slug}.jpg`
-  // await saveImage(imageUrl, filename)
+  const Clarifications: string[] = extractBulletList($, 'Clarification')
+  const NotableCombinations: string[] = extractBulletList(
+    $,
+    'Notable Combinations',
+  )
+  const FinalRemarks: string[] = extractParagraphs($, 'Final Remarks')
+  const RelationToHistory: string[] = extractParagraphs(
+    $,
+    'Relation To History',
+  )
+
+  const Filename = `${Slug}.jpg`
+  await saveImage(RemoteImageUrl, Filename)
 
   return {
-    id: slug,
-    name,
-    gender,
-    description,
-    // faction,
-    imageUrl: filename,
-    // abilities,
-    sourceUrl: character.Link,
+    ...character,
+    Name,
+    Description,
+    Slug,
+    Clarifications,
+    NotableCombinations,
+    FinalRemarks,
+    RelationToHistory,
+    ImageUrl: `/characters/${Filename}`,
   }
 }
