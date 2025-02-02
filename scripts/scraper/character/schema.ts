@@ -16,6 +16,7 @@ export const basicSchema = z.object({
   Ruler: z.string().transform(value => (value === 'TRUE' ? true : false)),
   Health: z.string().transform(value => parseInt(value)),
   Gender: z.union([z.literal('Male'), z.literal('Female')]),
+  Abilities: z.array(z.object({ Name: z.string(), Description: z.string() })),
 })
 
 export const schema = basicSchema.extend({

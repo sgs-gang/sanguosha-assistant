@@ -9,12 +9,6 @@ try {
 const nextConfig = {
   basePath: '/sanguosha-assistant',
   output: 'export',
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   images: {
     unoptimized: true,
   },
