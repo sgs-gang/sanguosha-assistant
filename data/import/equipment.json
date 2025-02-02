@@ -26,7 +26,7 @@
       "Affectionately known as 'The Punisher,' the Ancient Scimitar is best saved for the right moment. Keeping it in hand until an opponent is vulnerable allows you to catch them off guard and deal devastating damage. If you equip it too early, opponents will be cautious and make sure to hold onto cards. Without the element of surprise, it can be challenging to catch someone without cards. This weapon is most effective later in the game when players are running low on resources—this is when the Ancient Scimitar can put a definitive end to the game."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/ancient-scimitar.jpg"
+    "ImageUrl": "character/ancient-scimitar.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/fire-fan",
@@ -54,7 +54,7 @@
       "The Fire Fan is a nightmare for anyone equipped with Wood Armor. It is the perfect tool to bypass the strong defense that Wood Armor provides. However, its specialization is somewhat limited. Throughout most of the game, the Fire Fan simply offers a large attack range to its user. While it’s possible to pull off strategies involving Chains, most players won’t risk equipping Wood Armor if this weapon is in play. Therefore, when you draw the Fire Fan, you gain the upper hand in pursuing an opponent. The Fire Fan carries no drawbacks, so there’s no reason not to use it to deal fire damage instead of regular damage."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/fire-fan.jpg"
+    "ImageUrl": "character/fire-fan.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/hua-liu",
@@ -74,7 +74,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/hua-liu.jpg"
+    "ImageUrl": "character/hua-liu.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/silver-helmet",
@@ -101,7 +101,7 @@
       "The Silver Helmet is a defensive piece of armor with limited utility while equipped. Though it can protect against things like Lightning, there are often better options available. Its real value comes when it is removed, effectively banking a health recovery for later use. Players will try to strip the helmet from an opponent before it can be used for healing, especially when the wearer is low on health. While not the most powerful equipment in the game, the Silver Helmet can be situationally beneficial, and players often use it to capitalize on its removal."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/silver-helmet.jpg"
+    "ImageUrl": "character/silver-helmet.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/army/wood-armor",
@@ -130,7 +130,7 @@
       "The Wood Armor is ideal for players who prefer to stay out of the main fight, as it shields them from collateral damage caused by Barbarians and Hail of Arrows. However, beware of Fire Attacks. Anyone capable of causing fire damage will likely target you first, and even if you’re not a direct target, opponents may use Chains to sacrifice you. Watch out for the Fire Fan in particular, and make sure it doesn’t remain in play. After neutralizing potential fire threats, focus on defense and let the other players wear each other down."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/wood-armor.jpg"
+    "ImageUrl": "character/wood-armor.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/axe",
@@ -162,7 +162,7 @@
       "However, the Axe comes with a price: it costs three cards to execute an attack and force it through defenses. Since players typically only draw two cards per turn, this results in a net loss. Over time, attackers may run out of cards and become vulnerable to counterattacks. While the Axe is highly effective in the short term, it can be difficult to sustain in longer battles."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/axe.jpg"
+    "ImageUrl": "character/axe.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/black-pommel",
@@ -189,7 +189,7 @@
       "The Black Pommel is an excellent weapon when your opponents rely on armor for protection. It cuts through any defense, allowing you to continuously wear down your enemies despite their best efforts to shield themselves. With decent range, it can reach across the battlefield, though you may need to clear a path to your ultimate target. However, if your opponent isn't using armor, the Black Pommel becomes less useful, and other weapons might be more advantageous. While not always the best weapon, in the right circumstances, it can be exactly what you need to break through defenses."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/black-pommel.jpg"
+    "ImageUrl": "character/black-pommel.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/crossbow",
@@ -219,7 +219,7 @@
       "The Crossbow can deal the most damage in a single turn of any weapon. However, it can also quickly deplete the user’s supply of Attacks, leaving them vulnerable during other players' turns. Since it’s highly desirable, equipping it can make you a target, as other players may try to steal, destroy, or disable you before you can strike. This weapon often turns the tide in a game, allowing the wielder to clean up the competition if acquired at the right time."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/crossbow.jpg"
+    "ImageUrl": "character/crossbow.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/da-yuan",
@@ -239,7 +239,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/da-yuan.jpg"
+    "ImageUrl": "character/da-yuan.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/di-lu",
@@ -259,7 +259,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/di-lu.jpg"
+    "ImageUrl": "character/di-lu.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/eight-trigrams",
@@ -295,7 +295,7 @@
       "The Eight Trigrams armor is a valuable asset, offering significant protection against attacks. However, your opponents are well aware of its benefits and will likely target you to remove it as soon as possible. While it offers a chance to avoid attacks, remember that it relies on luck. There will be times when the judgment fails repeatedly, leaving you vulnerable. Although this armor can greatly extend your survivability, it makes no guarantees. Use it wisely, but don't over-rely on it."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/eight-trigrams.jpg"
+    "ImageUrl": "character/eight-trigrams.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/gender-swords",
@@ -323,7 +323,7 @@
       "The Gender Swords are highly effective when targeting characters of the opposite gender, but they have limited use otherwise. Their strength lies in consistent attacks over multiple turns, gradually depleting the opponent's hand while giving the attacker more cards. However, as the weapon becomes more effective, opponents will become more eager to destroy or steal it, so be sure to protect it well."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/gender-swords.jpg"
+    "ImageUrl": "character/gender-swords.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/green-dragon-blade",
@@ -353,7 +353,7 @@
       "The Green Dragon Blade shares some similarities with the Crossbow but is less deadly overall. Once the target is hit, the weapon can no longer punish them further. However, it is a powerful tool for draining Escapes, forcing defenders to either take damage or use their cards. Unlike the Crossbow, this weapon is often used more strategically, weakening opponents' defenses to create opportunities for others to strike."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/green-dragon-blade.jpg"
+    "ImageUrl": "character/green-dragon-blade.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/longbow",
@@ -379,7 +379,7 @@
       "The Longbow is a versatile weapon with a wide reach and a useful ability that costs nothing to activate. It allows you to damage your target while also discarding their horses, making it easier for others to engage them. The downside is that you must hit the target to discard their horse, and they must actually have a horse for this effect to work. Even with these limitations, the Longbow’s impressive reach makes it highly effective for sniping enemies across the table, especially when your target is far away."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/longbow.jpg"
+    "ImageUrl": "character/longbow.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/red-hare",
@@ -399,7 +399,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/red-hare.jpg"
+    "ImageUrl": "character/red-hare.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/serpent-spear",
@@ -427,7 +427,7 @@
       "The Serpent Spear shines both in favorable and challenging situations. It has excellent range and offers an ability that provides strategic options when you're in a pinch. Even if you're not drawing ideal cards, this weapon allows you to make progress by discarding less useful cards to fuel your attacks. When looking to use up cards in your hand, the Serpent Spear is a valuable asset, turning any two cards into an Attack."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/serpent-spear.jpg"
+    "ImageUrl": "character/serpent-spear.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/shadow-runner",
@@ -447,7 +447,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/shadow-runner.jpg"
+    "ImageUrl": "character/shadow-runner.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/sky-scorcher",
@@ -480,7 +480,7 @@
       "The Sky Scorcher is a powerful but risky weapon. Its ability to target additional enemies can quickly swing the game in your favor. However, the cost of using it is steep, as you’ll be left vulnerable with no cards in hand. After you activate its ability, opponents are likely to take advantage of your weakened defense. The weapon is best suited for characters who can survive without cards. Additionally, setting up your hand so that your last card is an Attack can be tricky, making the Sky Scorcher's ability difficult to use consistently. Nevertheless, its large range makes it valuable for more straightforward purposes, such as attacking distant enemies."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/sky-scorcher.jpg"
+    "ImageUrl": "character/sky-scorcher.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/storm-runner",
@@ -500,7 +500,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/storm-runner.jpg"
+    "ImageUrl": "character/storm-runner.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/base/zi-xing",
@@ -520,7 +520,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/zi-xing.jpg"
+    "ImageUrl": "character/zi-xing.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/seven-star-sword",
@@ -551,7 +551,7 @@
       "The Seven Star Sword offers a dynamic and high-risk, high-reward mechanic. Its ability to disrupt opponents by forcing them to either lose life or take the weapon creates strategic depth, especially when paired with effects that increase the frequency of attacks or Escape plays. However, its reliance on opponents being within range and using Escape limits its flexibility, making it less effective in scenarios where these conditions are not met. Players who use Seven Star Sword should be prepared to lose the weapon at some point and plan accordingly to regain or replace it."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/seven-star-sword.jpg"
+    "ImageUrl": "character/seven-star-sword.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/spiked-iron-mace",
@@ -582,7 +582,7 @@
       "For players who favor aggressive, single-target playstyles and thrive on psychological and strategic manipulation in Duels, the Spiked Iron Mace can be an invaluable asset, turning even the most unexpected cards into deadly attacks. This weapon rewards careful planning and strong synergy with the wielder's abilities, embodying the spirit of high-stakes, decisive combat that defined the heroes of the Three Kingdoms era."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/spiked-iron-mace.jpg"
+    "ImageUrl": "character/spiked-iron-mace.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/berserker-mail",
@@ -610,7 +610,7 @@
       "This armor is best suited for players aiming to stall, sustain, and outlast their opponents, particularly in games with heavy offensive characters. While not universally effective, its strategic value in the right situations can turn the tide of battle."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/berserker-mail.jpg"
+    "ImageUrl": "character/berserker-mail.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/green-eyed-white-cow",
@@ -630,7 +630,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/green-eyed-white-cow.jpg"
+    "ImageUrl": "character/green-eyed-white-cow.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/nanman-elephant",
@@ -650,7 +650,7 @@
     "NotableCombinations": [],
     "FinalRemarks": [],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/nanman-elephant.jpg"
+    "ImageUrl": "character/nanman-elephant.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/almanac",
@@ -676,7 +676,7 @@
       "Almanac is a niche but powerful treasure for mitigating the effects of Capture. While its reliance on judgment results introduces an element of unpredictability, the overall statistical advantage leans in favor of the wearer. It synergizes particularly well with judgment-manipulating characters and those who depend heavily on their action phase. Careful consideration of the judgment deck and game state is crucial when equipping Almanac."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/almanac.jpg"
+    "ImageUrl": "character/almanac.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/atlas-of-shu",
@@ -704,7 +704,7 @@
       "The Atlas of Shu is a powerful treasure that emphasizes offensive and supportive flexibility. It removes distance limitations, giving characters access to all players on the battlefield. Best suited for aggressive or highly interactive strategies, this treasure offers immense utility in the right hands. "
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/atlas-of-shu.jpg"
+    "ImageUrl": "character/atlas-of-shu.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/bronze-bird-ode",
@@ -730,7 +730,7 @@
       "The Bronze Bird Ode is a situationally powerful treasure, especially in games with imbalanced gender representation. It provides a unique defensive advantage against many of the player pool, creating a strategic element of gender-specific immunity. While its utility depends on the opposing characters, it can create an effective shield in the right hands. However, its lack of offensive capabilities and situational nature make it less versatile than some other treasures."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/bronze-bird-ode.jpg"
+    "ImageUrl": "character/bronze-bird-ode.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/green-vesicle-book",
@@ -758,7 +758,7 @@
       "The Green Vesicle Book is an excellent treasure for players who value consistent recovery and resilience. While it does not provide immediate or aggressive advantages, its passive healing effect allows characters to recover over time, making it a strong choice for endurance-based strategies. However, its lack of offensive or disruptive capabilities means it is most effective when paired with defensive or health-dependent characters."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/green-vesicle-book.jpg"
+    "ImageUrl": "character/green-vesicle-book.jpg"
   },
   {
     "Link": "https://sites.google.com/site/englishsanguosha/expansions/daemon/robotic-ox",
@@ -787,68 +787,6 @@
       "The Robotic Ox is a highly strategic treasure that rewards thoughtful resource allocation. Its ability to redirect discarded cards makes it a versatile tool for both support and sabotage, but it requires careful planning to maximize its impact. Ideal for team-oriented players or those who thrive on creative problem-solving, the Robotic Ox adds a unique layer of tactical depth to any game."
     ],
     "RelationToHistory": [],
-    "ImageUrl": "/equipments/robotic-ox.jpg"
-  },
-  {
-    "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/black-shield",
-    "Name": "Black Shield 仁王盾",
-    "Expansion": "EX",
-    "Type": "Armor",
-    "Number": 1,
-    "Spade": [],
-    "Club": ["2"],
-    "Diamond": [],
-    "Heart": [],
-    "Description": "Black attacks cannot hit the wearer.",
-    "Slug": "black-shield",
-    "Clarifications": [
-      "Black Attacks cannot be evaded when the Black Shield is equipped. They are automatically blocked without needing to play an Escape.",
-      "Colorless Attacks ignore the Black Shield and hit as normal.",
-      "Effects that occur before the Attack makes contact still happen. For instance, the Gender Swords can still trigger their ability, but after that, a black Attack is nullified.",
-      "If the player with the Black Shield is in Chains, they can be hit by an indirect black Attack. However, they cannot be the first person in the Chains to receive damage."
-    ],
-    "NotableCombinations": [
-      "Sun Ce: Sun Ce greatly benefits from the Black Shield. It forces opponents to use red Attacks against him, which triggers \"Passion\" more frequently, giving him extra cards and making him stronger.",
-      "Red Attack Users: Characters that can easily generate red Attacks are not hindered by the Black Shield. They simply switch their strategy to attacking with red cards. Key characters include Guan Yu, Zhao Yun, Guan Xing & Zhang Bao, and Xiao Qiao.",
-      "Colorless Attack Users: Generals who can produce colorless Attacks bypass the Black Shield entirely. While these Attacks are rare, they can shift the battle’s momentum. Notable characters include Xiahou Yuan and Chen Gong.",
-      "Unblockable Attackers: Characters with unblockable Attacks, like Ma Chao and Huang Zhong, are countered by the Black Shield. Since the shield blocks the entire Attack, the defender doesn’t even need to play an Escape.",
-      "Yu Ji: When Yu Ji attacks someone with the Black Shield, the color of the card he uses becomes the color of the Attack. If other players believe him, Yu Ji can bypass the shield using psychological tricks.",
-      "Yu Jin: Yu Jin’s ability provides a stronger form of protection than the Black Shield, so equipping it would actually weaken his defenses."
-    ],
-    "FinalRemarks": [
-      "The Black Shield is incredibly valuable because it blocks most Attacks, as black cards are more common than red. However, the downside is its vulnerability to red Attacks. If the opposing team has characters who can exploit this weakness, the shield becomes less effective. Additionally, having the Black Shield can attract attention, leading to opponents targeting or discarding it. Despite these risks, keeping the Black Shield in play offers solid defense against most threats."
-    ],
-    "RelationToHistory": [],
-    "ImageUrl": "/equipments/black-shield.jpg"
-  },
-  {
-    "Link": "https://sites.google.com/site/englishsanguosha/expansions/ex/ice-sword",
-    "Name": "Ice Sword 寒冰剑",
-    "Expansion": "EX",
-    "Type": "Weapon",
-    "Range": 2,
-    "Number": 1,
-    "Spade": ["2"],
-    "Club": [],
-    "Diamond": [],
-    "Heart": [],
-    "Description": "When an attack hits its target, the player with the weapon has a choice. They can either damage the target or chose to remove two cards from the target.",
-    "Slug": "ice-sword",
-    "Clarifications": [
-      "The attacker decides whether to deal damage or force the target to discard cards after the target does not use an Escape.",
-      "If Wine is used with the Ice Sword, the effect is all or nothing: either the attack deals two damage, or the target discards two cards.",
-      "Cards are discarded one by one. If the target has only one card, they lose it; if they have more than one, they must discard two cards. If the target has no hand cards, they are forced to take the damage.",
-      "Both equipment and hand cards can be discarded. Pending cards (delayed tools in progress) cannot be discarded."
-    ],
-    "NotableCombinations": [
-      "Guaranteed Hit Characters: Characters like Ma Chao and Huang Zhong who have abilities that guarantee a hit can maximize the Ice Sword’s utility by forcing opponents to discard cards, even if the target has an Escape. This is especially useful for removing troublesome equipment.",
-      "Hua Tuo: Hua Tuo needs to be cautious with the Ice Sword. Normally, he only loses a single card when healing back damage. However, with the Ice Sword, he could lose two cards instead of just one, making it much harder for him to recover after being worn down.",
-      "Xiao Qiao: Xiao Qiao is particularly vulnerable to the Ice Sword. If she doesn’t use an Escape and the attacker opts to discard her cards instead of dealing damage, she cannot activate her ability, leaving her defenseless and out of two cards."
-    ],
-    "FinalRemarks": [
-      "The Ice Sword is a tactical weapon, best used for a few key turns to weaken an opponent. It excels at stripping away a target’s equipment piece by piece, especially armor and defenses. Once their defenses are down, the attacker can deal direct damage. However, the Ice Sword's usefulness fades in prolonged engagements—while you can continuously discard your opponent's cards, they'll eventually draw more, and you're not dealing any lasting damage. That said, it still has value, as you always retain the option to simply inflict damage when needed."
-    ],
-    "RelationToHistory": [],
-    "ImageUrl": "/equipments/ice-sword.jpg"
+    "ImageUrl": "character/robotic-ox.jpg"
   }
 ]

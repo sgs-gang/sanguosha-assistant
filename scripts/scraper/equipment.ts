@@ -1,22 +1,8 @@
 import * as cheerio from 'cheerio'
-import { createWriteStream, existsSync } from 'node:fs'
-import { Readable } from 'node:stream'
-import { finished } from 'node:stream/promises'
-import { ReadableStream } from 'node:stream/web'
 import { z } from 'zod'
 import { extractBulletList } from './lib/extractBulletList'
 import { extractParagraphs } from './lib/extractParagraphs'
-
-async function saveImage(url: string, filename: string) {
-  const path = `public/equipments/${filename}`
-  if (existsSync(path)) return
-  const stream = createWriteStream(path)
-  const { body } = await fetch(url)
-  if (body == null) throw new Error('Failed to fetch image')
-  await finished(Readable.fromWeb(body as ReadableStream<any>).pipe(stream))
-
-  return
-}
+import { getImageUrl } from './lib/getImageUrl'
 
 export const schema = z.object({
   Link: z.string().url(),
@@ -69,9 +55,6 @@ export async function add(
     .replace(/\n+/g, '')
     .trim()
 
-  const RemoteImageUrl = $('img.CENy8b').attr('src')
-  if (RemoteImageUrl == null) throw new Error('Image not found')
-
   const Slug = equipment.Link.split('/').slice(-1)[0]
   if (Slug == null) throw new Error('Slug not found')
 
@@ -96,9 +79,6 @@ export async function add(
     'Relation To History',
   )
 
-  const Filename = `${Slug}.jpg`
-  await saveImage(RemoteImageUrl, Filename)
-
   return {
     ...equipment,
     Name,
@@ -108,6 +88,6 @@ export async function add(
     NotableCombinations,
     FinalRemarks,
     RelationToHistory,
-    ImageUrl: `/equipments/${Filename}`,
+    ImageUrl: await getImageUrl($, 'character', Slug),
   }
 }
