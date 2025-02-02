@@ -107,7 +107,7 @@ export default function CharacterGallery() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 md:gap-4">
         {sortedCharacters.map(character => (
           <CharacterCard
             key={character.Slug}
