@@ -3,6 +3,7 @@ import '@radix-ui/themes/styles.css'
 import { Theme } from '@radix-ui/themes'
 
 import { TabNavigation } from '@/components/tab-navigation'
+import { Suspense } from 'react'
 
 export default function RootLayout({
   children,
@@ -13,7 +14,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Theme>
-          <TabNavigation />
+          <Suspense>
+            <TabNavigation />
+          </Suspense>
           {children}
         </Theme>
       </body>
