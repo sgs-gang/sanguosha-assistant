@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Switch } from '@/components/ui/switch'
 import { Label } from '@/components/ui/label'
@@ -149,18 +149,19 @@ export default function Gallery<T extends { Slug: string }>({
         </div>
       </div>
 
-      <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 md:gap-4">
-        {filteredList.map(item => (
-          <Card
-            basePath={basePath}
-            key={item.Slug}
-            item={item}
-            isFavorite={favorites.includes(item.Slug)}
-            onToggleFavorite={toggleFavorite}
-          />
-        ))}
-      </div>
-
+      <Suspense>
+        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 md:gap-4">
+          {filteredList.map(item => (
+            <Card
+              basePath={basePath}
+              key={item.Slug}
+              item={item}
+              isFavorite={favorites.includes(item.Slug)}
+              onToggleFavorite={toggleFavorite}
+            />
+          ))}
+        </div>
+      </Suspense>
       {filteredList.length === 0 && (
         <p className="text-center text-muted-foreground mt-8">
           {showOnlyFavorites
